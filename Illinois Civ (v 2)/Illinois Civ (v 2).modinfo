@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="63ff965d-2c81-41a8-b54a-9a4dddd058d8" version="2">
+  <Properties>
+    <Name>Illinois Civ</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Illinois civilization</Teaser>
+    <Description>Welcome to the State of Illinois! Land of great people and great challenges. 
+
+Trait: +20% Great People (reflecting the numbers of impactful people born or shaped in Illinois), and +10% unit maintenance (reflecting the problems with corruption in public office that have plagued this wonderful state)
+
+UB: The Stockyard, +2  Food, +1 Gold, +10% growth
+UB: The Willis Tower (replaces the National Visitors Center, adds +12 Tourism with no maintenance cost)
+UU: The Union Worker (ignores terrain cost, +20% build rate)
+
+Requires BNW
+
+Some icon updates
+
+"Chicago" by Frank Sinatra; "When Johnny Comes Marching Home Again" by the West Point band</Description>
+    <Authors>calcul8or</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="E96689E4DDA5BD2596760035E2D1B1CA" import="1">Art/Chicago.mp3</File>
+    <File md5="708FF2B0BD76221C2DFA048A2D416BFF" import="1">Art/DOM_Lincoln.dds</File>
+    <File md5="EC0EA62B29D2E8E5DBD14221FB81DD00" import="1">Art/IconAtlas/IL_icons128.dds</File>
+    <File md5="79F5CC440E7F351C0BCF99EB4AF0A370" import="1">Art/IconAtlas/IL_icons16.dds</File>
+    <File md5="A14A9EE1320B7ED9EBCDBC820505C391" import="1">Art/IconAtlas/IL_icons24.dds</File>
+    <File md5="47B8106E15A20832B33D12F7F08C257D" import="1">Art/IconAtlas/IL_icons256.dds</File>
+    <File md5="D38C5CEB746762DACF0F78DD9EBCC79E" import="1">Art/IconAtlas/IL_icons32.dds</File>
+    <File md5="868A57C2630C4520D48FEFA867EE1DC5" import="1">Art/IconAtlas/IL_icons45.dds</File>
+    <File md5="07B3A9AC5820997D5E1DB8D301DE0563" import="1">Art/IconAtlas/IL_icons48.dds</File>
+    <File md5="7D7C08D4EB533DB6DE367684E2117D81" import="1">Art/IconAtlas/IL_icons64.dds</File>
+    <File md5="3142907598BD640D56DAC60826F7D4DA" import="1">Art/IconAtlas/IL_icons80.dds</File>
+    <File md5="85B318EF27090F9DB49F241B37386F9C" import="1">Art/IL_map.dds</File>
+    <File md5="19D345EF2F5132C72F34F13D2CE7F1C2" import="1">Art/Johnny_Comes_Marching.mp3</File>
+    <File md5="8227AAFB85D407027F71C7E59500AF1E" import="1">Art/Lincoln_scene.dds</File>
+    <File md5="BFE0ED38697126B828248DBE3D5F0D19" import="0">Code/Buildings.xml</File>
+    <File md5="ACB304B499C74B4396329DCD0979E866" import="0">Code/Civilization.xml</File>
+    <File md5="4EB80BD0A5437BA351FF548CB9B5093E" import="0">Code/IconAtlas.xml</File>
+    <File md5="58BD483FFB422D487BB06765DB9BCE04" import="0">Code/Leader.xml</File>
+    <File md5="597001A4C2618168C4BE532204ACC362" import="0">Code/IL_Sounds.xml</File>
+    <File md5="9A8CC7A5C8EF99186F248F84564C7401" import="0">Code/Politician.xml</File>
+    <File md5="3E56D232120546D1E95DEFAA88A25BDB" import="0">Code/Trait.xml</File>
+    <File md5="478ECA1122F42E7F121FFA9C52AB3F86" import="0">Code/Worker.xml</File>
+    <File md5="06267952068BDF008D53CBF027C67DA3" import="1">Code/Lincoln_scene.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Code/Civilization.xml</UpdateDatabase>
+      <UpdateDatabase>Code/Leader.xml</UpdateDatabase>
+      <UpdateDatabase>Code/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Code/Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>Code/Worker.xml</UpdateDatabase>
+      <UpdateDatabase>Code/IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Code/IL_Sounds.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

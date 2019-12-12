@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/27/2016 11:16:41 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<!-- Adding a new CityState entry. -->
+	<MinorCivilizations>
+		<Row>
+			<Type>MINOR_CIV_QUITO</Type>
+			<Description>TXT_KEY_CITYSTATE_QUITO</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_QUITO</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_QUITO_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CITYSTATE_QUITO_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_YELLOW</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN</ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_RELIGIOUS</MinorCivTrait>
+		</Row>
+	</MinorCivilizations>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_QUITO</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_QUITO</CityName>
+		</Row>
+	</MinorCivilization_CityNames>
+	<MinorCivilization_Flavors>
+		<Row>
+			<MinorCivType>MINOR_CIV_QUITO</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_QUITO</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_QUITO</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_QUITO</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+	</MinorCivilization_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITYSTATE_QUITO">
+			<Text>Quito</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_QUITO_ADJ">
+			<Text>Quitonian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_QUITO_PEDIA">
+			<Text>Quito is the capital city of Ecuador, and at an elevation of 2,850 metres (9,350 ft) above sea level, it is the second-highest official capital city in the world, after La Paz, and the one which is closest to the equator. It is located in the Guayllabamba river basin, on the eastern slopes of Pichincha, an active stratovolcano in the Andes mountains. Quito is the second most populous city in Ecuador, after Guayaquil. It is also the capital of the Pichincha province and the seat of the Metropolitan District of Quito. In 2008, the city was designated as the headquarters of the Union of South American Nations. The historic center of Quito has one of the largest, least-altered and best-preserved historic centers in the Americas.Quito was among the first World Cultural Heritage Sites declared by UNESCO in 1978. The central square of Quito is located about 16 mi south of the equator; the city itself extends to within about 0.62 mi of zero latitude. A monument and museum marking the general location of the equator is known locally as la mitad del mundo (the middle of the world), to avoid confusion, as the word ecuador is Spanish for equator.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
+  

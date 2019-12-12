@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/2/2014 12:42:04 AM -->
+<GameData>
+
+	<Civilizations>
+		
+		<Row>
+			<Type>CIVILIZATION_CALCTEXAS</Type>
+			<Description>TXT_KEY_CIV_CALCTEXAS_DESC</Description>
+			<Civilopedia>TXT_KEY_CIV5_CALCTEXAS_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIV5_CALCTEXAS</CivilopediaTag>
+			<ShortDescription>TXT_KEY_CIV_CALCTEXAS_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_CALCTEXAS_ADJECTIVE</Adjective>
+			<DefaultPlayerColor>PLAYERCOLOR_CALCTEXAS</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ENGLAND</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+			<IconAtlas>TX_COLOR_ATLAS</IconAtlas>
+			<AlphaIconAtlas>TX_ALPHA_ATLAS</AlphaIconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<MapImage>TX_map.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_CALCTEXAS_TEXT</DawnOfManQuote>
+			<DawnOfManImage>TX_DOM.dds</DawnOfManImage>
+			<DawnOfManAudio></DawnOfManAudio>
+			<SoundtrackTag>America</SoundtrackTag>
+
+		</Row>
+
+	</Civilizations>
+
+
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TXGROWTH</BuildingClassType>
+		</Row>-->
+	</Civilization_FreeBuildingClasses>
+
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<TechType>TECH_ANIMAL_HUSBANDRY</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+			<Count>1</Count>
+		</Row>
+	</Civilization_FreeUnits>
+
+
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<LeaderheadType>LEADER_CALCHOUSTON</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<ReligionType>RELIGION_PROTESTANTISM</ReligionType>
+		</Row>
+	</Civilization_Religions>
+	
+	
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+			<UnitType>UNIT_CALC_COWBOY</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingType>BUILDING_THEALAMO</BuildingType>
+		</Row>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_STABLE</BuildingClassType>
+			<BuildingType>BUILDING_TXRANCH</BuildingType>
+		</Row>-->
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+			<BuildingType>BUILDING_TXCASTLE</BuildingType>
+		</Row>-->
+	</Civilization_BuildingClassOverrides>
+	
+	
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CALCTEXAS_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CALCTEXAS_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CALCTEXAS_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CALCTEXAS_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CALCTEXAS_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CALCTEXAS_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CALCTEXAS_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CALCTEXAS_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CALCTEXAS_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_CALCTEXAS_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+
+
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_CALCTEXAS</Type>
+			<PrimaryColor>COLOR_PLAYER_CALCTEXAS_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_CALCTEXAS_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_CALCTEXAS_ICON</Type>
+			<Red>0.0</Red>
+			<Green>0.15686</Green>
+			<Blue>0.40784</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_CALCTEXAS_BACKGROUND</Type>
+			<Red>0.50</Red>
+			<Green>0.50</Green>
+			<Blue>0.50</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+
+	<!--<Civilization_Start_Along_Ocean>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<StartAlongOcean>true</StartAlongOcean>
+		</Row>
+	</Civilization_Start_Along_Ocean>-->
+
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<RegionType>REGION_PLAINS</RegionType>
+		</Row>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<RegionType>REGION_TUNDRA</RegionType>
+		</Row>-->
+	</Civilization_Start_Region_Priority>
+
+	<Civilization_Start_Region_Avoid>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<RegionType>REGION_JUNGLE</RegionType>
+		</Row>
+	</Civilization_Start_Region_Avoid>
+
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CALCTEXAS_0</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CALCTEXAS_1</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CALCTEXAS_2</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CALCTEXAS_3</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CALCTEXAS_4</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CALCTEXAS_5</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CALCTEXAS_6</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CALCTEXAS_7</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CALCTEXAS_8</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CALCTEXAS_9</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CALCTEXAS_10</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CALCTEXAS_11</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CALCTEXAS_12</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CALCTEXAS_13</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CALCTEXAS_14</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CALCTEXAS_15</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CALCTEXAS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CALCTEXAS_16</CityName>
+		</Row>
+	</Civilization_CityNames>
+
+	<Language_en_US>
+
+		<Row Tag="TXT_KEY_CIV_CALCTEXAS_DESC">
+			<Text>Texas</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV_CALCTEXAS_SHORT_DESC">
+			<Text>Texas</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV_CALCTEXAS_ADJECTIVE">
+			<Text>Texan</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_DAWN_CALCTEXAS_TEXT">
+			<Text>Welcome, Sam Houston. Of all the figures in American political history, you stand tall as a unique figure. Governor of two states, foreign head of state, revolutionary leader, and soldier - your path to greatness is like no other's.[NEWLINE] [NEWLINE]Your people are proud and independent, having been an independent nation before joining the US. Your lands are sprawling and support cotton, cattle, and horses. It was here that the cowbot tradition formed an integral part of your culture. In later years, the discovery of oil has driven new prosperity to your people. [NEWLINE] [NEWLINE]When you refused secession from the United States, your people rejected you. Now they call upon you to lead them once again. Can you bring glory to Texas? Can you build a civilization to stand the test of time?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_CALCTEXAS_PEDIA">
+			<Text>This tag is TXT_KEY_CIV_CALCTEXAS_PEDIA</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_CALCTEXAS_TITLE">
+			<Text>The State of Texas</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_CALCTEXAS_HEADING_1">
+			<Text>Heading 1</Text>
+		</Row>
+			 
+		<Row Tag="TXT_KEY_CIV5_CALCTEXAS_TEXT_1">
+			<Text>Texas is the second most populous (after California) and the second largest of the 50 U.S. states (after Alaska) in the United States of America. Geographically located in the south central part of the country, Texas shares an international border with the Mexican states of Chihuahua, Coahuila, Nuevo León, and Tamaulipas to the south and borders the U.S. states of New Mexico to the west, Oklahoma to the north, Arkansas to the northeast, and Louisiana to the east. Texas has an area of 268,820 square miles (696,200 km2) and a growing population of over 26.9 million residents (July 2014)[NEWLINE]en.wikipedia.org/wiki/Texas</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_CALCTEXAS_HEADING_2">
+			<Text>Another Heading</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_CALCTEXAS_TEXT_2">
+			<Text>One Texas industry that thrived after the Civil War was cattle. Due to its long history as a center of the industry, Texas is associated with the image of the cowboy. The state's economic fortunes changed in the early 20th century, when oil discoveries initiated an economic boom in the state. With strong investments in universities, Texas developed a diversified economy and high tech industry in the mid-20th century. As of 2010 it shares the top of the list of the most Fortune 500 companies with California at 57. With a growing base of industry, the state leads in many industries, including agriculture, petrochemicals, energy, computers and electronics, aerospace, and biomedical sciences. Texas has led the nation in export revenue since 2002 and has the second-highest gross state product.[NEWLINE]en.wikipedia.org/wiki/Texas</Text>
+		</Row>
+		
+
+		<Row Tag="TXT_KEY_CITY_NAME_CALCTEXAS_0">
+			<Text>Austin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CALCTEXAS_1">
+			<Text>Dallas</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_CITY_NAME_CALCTEXAS_2">
+			<Text>San Antonio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CALCTEXAS_3">
+			<Text>Fort Worth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CALCTEXAS_4">
+			<Text>El Paso</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CALCTEXAS_5">
+			<Text>Houston</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_CITY_NAME_CALCTEXAS_6">
+			<Text>Arlington</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CALCTEXAS_7">
+			<Text>Corpus Christi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CALCTEXAS_8">
+			<Text>Plano</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CALCTEXAS_9">
+			<Text>Laredo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CALCTEXAS_10">
+			<Text>Lubbock</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CALCTEXAS_11">
+			<Text>Garland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CALCTEXAS_12">
+			<Text>Irving</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CALCTEXAS_13">
+			<Text>Amarillo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CALCTEXAS_14">
+			<Text>Grand Prairie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CALCTEXAS_15">
+			<Text>Brownsville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_CALCTEXAS_16">
+			<Text>Pasaddena</Text>
+		</Row>
+
+		
+		<Row Tag="TXT_KEY_SPY_NAME_CALCTEXAS_0">
+			<Text>Austin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CALCTEXAS_1">
+			<Text>Bowie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CALCTEXAS_2">
+			<Text>Crockett</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CALCTEXAS_3">
+			<Text>Heidi</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CALCTEXAS_4">
+			<Text>Rusk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CALCTEXAS_5">
+			<Text>Tyler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CALCTEXAS_6">
+			<Text>de Zavala</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CALCTEXAS_7">
+			<Text>Emily Morgan</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CALCTEXAS_8">
+			<Text>Murphy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_CALCTEXAS_9">
+			<Text>Nimitz</Text>
+		</Row>
+		
+	</Language_en_US>
+
+
+</GameData>

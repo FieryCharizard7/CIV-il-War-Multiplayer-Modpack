@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/10/2016 1:16:14 PM -->
+<GameData>
+	<Traits>
+		<Row>
+			<Type>TRAIT_SPOILS_SYSTEM</Type>
+			<Description>TXT_KEY_TRAIT_SPOILS_SYSTEM</Description>
+			<ShortDescription>TXT_KEY_TRAIT_SPOILS_SYSTEM_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+</GameData>

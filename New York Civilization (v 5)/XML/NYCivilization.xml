@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/2/2014 12:42:04 AM -->
+<GameData>
+
+	<Civilizations>
+
+		<!--<Update>
+			<Where Type="CIVILIZATION_AMERICA"></Where>
+			<Set>
+				<Playable>0</Playable>
+				<AIPlayable>0</AIPlayable>
+			</Set>
+		</Update>-->
+		
+		<Row>
+			<Type>CIVILIZATION_NEW_YORK</Type>
+			<Description>TXT_KEY_CIV_NEW_YORK_DESC</Description>
+
+			<Civilopedia>TXT_KEY_CIV5_NEW_YORK_PEDIA</Civilopedia>
+
+			<CivilopediaTag>TXT_KEY_CIV5_NEW_YORK</CivilopediaTag>
+
+			<Strategy/>
+
+			<Playable>1</Playable>
+
+			<AIPlayable>1</AIPlayable>
+
+			<ShortDescription>TXT_KEY_CIV_NEW_YORK_SHORT_DESC</ShortDescription>
+
+			<Adjective>TXT_KEY_CIV_NEW_YORK_ADJECTIVE</Adjective>
+
+			<DefaultPlayerColor>PLAYERCOLOR_NEW_YORK</DefaultPlayerColor>
+
+			<ArtDefineTag>ART_DEF_CIVILIZATION_AMERICA</ArtDefineTag>
+
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+
+			<ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+
+			<PortraitIndex>1</PortraitIndex>
+
+			<IconAtlas>NY_COLOR_ATLAS</IconAtlas>
+
+			<AlphaIconAtlas>NY_ALPHA_ATLAS</AlphaIconAtlas>
+
+			<MapImage>NY_map.dds</MapImage>
+
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_NEW_YORK_TEXT</DawnOfManQuote>
+
+			<DawnOfManImage>NY_DOM.dds</DawnOfManImage>
+
+			<DawnOfManAudio></DawnOfManAudio>
+
+			<SoundtrackTag>America</SoundtrackTag>
+
+		</Row>
+
+	</Civilizations>
+
+
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+			<Count>1</Count>
+		</Row>
+	</Civilization_FreeUnits>
+
+
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<LeaderheadType>LEADER_ROCKEFELLER</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<ReligionType>RELIGION_CHRISTIANITY</ReligionType>
+		</Row>
+	</Civilization_Religions>
+
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEW_YORK_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEW_YORK_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEW_YORK_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEW_YORK_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEW_YORK_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEW_YORK_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEW_YORK_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEW_YORK_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEW_YORK_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEW_YORK_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+
+
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_NEW_YORK</Type>
+			<PrimaryColor>COLOR_PLAYER_NEW_YORK_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_NEW_YORK_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_NEW_YORK_ICON</Type>
+			<Red>0.051</Red>
+			<Green>0.106</Green>
+			<Blue>0.204</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_NEW_YORK_BACKGROUND</Type>
+			<Red>0.275</Red>
+			<Green>0.718</Green>
+			<Blue>0.910</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+
+	<Civilization_Start_Along_Ocean>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<StartAlongOcean>true</StartAlongOcean>
+		</Row>
+	</Civilization_Start_Along_Ocean>
+
+	<!--<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<RegionType>REGION_GRASS</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>-->
+
+	<!--<Civilization_Start_Region_Avoid>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<RegionType>REGION_JUNGLE</RegionType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<RegionType>REGION_TUNDRA</RegionType>
+		</Row>
+	</Civilization_Start_Region_Avoid>-->
+
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_YORK_0</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_YORK_1</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_YORK_2</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_YORK_3</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_YORK_4</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_YORK_5</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_YORK_6</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_YORK_7</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_YORK_8</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_YORK_9</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_YORK_10</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_YORK_11</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_YORK_12</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_YORK_13</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_YORK_14</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_YORK_15</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_YORK</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_YORK_16</CityName>
+		</Row>
+	</Civilization_CityNames>
+
+	<Language_en_US>
+
+		<Row Tag="TXT_KEY_CIV_NEW_YORK_DESC">
+			<Text>State of New York</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV_NEW_YORK_SHORT_DESC">
+			<Text>New York</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV_NEW_YORK_ADJECTIVE">
+			<Text>New York</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_DAWN_NEW_YORK_TEXT">
+			<Text>Greetings, Mr. Rockefeller. You were one of the most successful businessmen in history, building a massive enterprise around Standard Oil and its related companies. One of the wealthiest people of all time, you also donated millions of dollars to philanthropic causes, focusing on education and the arts. Now you step in to lead the New York people. Your financial prowess will certainly impact your people and spur the development of powerful merchants. [NEWLINE] [NEWLINE]New York is an immigrant community. For many years, Ellis Island was the gateway to the United States for immigrants from Europe and other parts of the world. It's estimated that over 12 million people passed through Ellis Island over a 50 year span. Today, New York is still one of the largest cities in the world with a population of over 8 million people.[NEWLINE] [NEWLINE]Mr. Rockefeller, can you apply the skills that built Standard Oil into a monopoly to building a great nation? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_NEW_YORK_PEDIA">
+			<Text>This tag is TXT_KEY_CIV_NEW_YORK_PEDIA</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_NEW_YORK_TITLE">
+			<Text>New York</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_NEW_YORK_HEADING_1">
+			<Text>Heading 1</Text>
+		</Row>
+			 
+		<Row Tag="TXT_KEY_CIV5_NEW_YORK_TEXT_1">
+			<Text>New York was inhabited by various tribes of Algonquian and Iroquoian speaking Native Americans at the time Dutch settlers moved into the region in the early 17th century.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_NEW_YORK_HEADING_2">
+			<Text>Another Heading</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_NEW_YORK_TEXT_2">
+			<Text>New York became the 11th state to ratify the United States Constitution, on July 26, 1788.</Text>
+		</Row>
+		
+
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_YORK_0">
+			<Text>Albany</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_YORK_1">
+			<Text>New York</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_YORK_2">
+			<Text>Buffalo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_YORK_3">
+			<Text>Rochester</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_YORK_4">
+			<Text>Syracuse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_YORK_5">
+			<Text>New Rochelle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_YORK_6">
+			<Text>Schenectady</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_YORK_7">
+			<Text>Mount Vernon</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_YORK_8">
+			<Text>Utica</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_YORK_9">
+			<Text>White Plains</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_YORK_10">
+			<Text>Troy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_YORK_11">
+			<Text>Niagara Falls</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_YORK_12">
+			<Text>Binghamton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_YORK_13">
+			<Text>Rome</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_YORK_14">
+			<Text>Long Beach</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_YORK_15">
+			<Text>Poughkeepsie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_YORK_16">
+			<Text>Ithaca</Text>
+		</Row>
+
+		
+		<Row Tag="TXT_KEY_SPY_NAME_NEW_YORK_0">
+			<Text>Van Buren</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEW_YORK_1">
+			<Text>Fillmore</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEW_YORK_2">
+			<Text>Arthur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEW_YORK_3">
+			<Text>Heidi</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEW_YORK_4">
+			<Text>Cleveland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEW_YORK_5">
+			<Text>Teddy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEW_YORK_6">
+			<Text>Franklin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEW_YORK_7">
+			<Text>La Guardia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEW_YORK_8">
+			<Text>Capone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEW_YORK_9">
+			<Text>Sojourner</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		
+	</Language_en_US>
+
+	<!--wvuemu: So UA - double coal production and all units get hills defense wvuemu: UU would be the mountaineer - replaces muskets and gets attack bonus in hills and no movement penalty in hills wvuemu: UB could be the golden palace-->
+
+
+</GameData>

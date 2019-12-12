@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/7/2015 12:40:12 PM -->
+<GameData>
+
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_VATRAIT</Type>
+			<DefaultBuilding>BUILDING_VATRAIT</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_VATRAIT</Description>
+		</Row>
+	</BuildingClasses>
+	
+	<Buildings>
+		<Row>
+			<Type>BUILDING_PLANTATIONHOUSE</Type>
+			<BuildingClass>BUILDINGCLASS_BANK</BuildingClass>
+			<FreeStartEra>ERA_FUTURE</FreeStartEra>
+			<Cost>200</Cost>
+			<PrereqTech>TECH_BANKING</PrereqTech>
+			<Help>TXT_KEY_BUILDING_PLANTATIONHOUSE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_PLANTATIONHOUSE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_PLANTATIONHOUSE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_PLANTATIONHOUSE_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_PLANTATIONHOUSE</ArtDefineTag>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<TradeRouteRecipientBonus>1</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>1</TradeRouteTargetBonus>
+			<HurryCostModifier>15</HurryCostModifier>
+			<IconAtlas>VA_COLOR_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_VATRAIT</Type>
+			<BuildingClass>BUILDINGCLASS_VATRAIT</BuildingClass>
+			<Description>TXT_KEY_BUILDING_VATRAIT</Description>
+			<!--<Civilopedia>TXT_KEY_CIV5_BUILDINGS_VATRAIT_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_VATRAIT_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_VATRAIT_HELP</Help>-->
+			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<GoldMaintenance>0</GoldMaintenance>
+			<MutuallyExclusiveGroup>-1</MutuallyExclusiveGroup>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<NeverCapture>true</NeverCapture>
+			<!--<DisplayPosition>8</DisplayPosition>-->
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>VA_COLOR_ATLAS</IconAtlas>
+		</Row>
+	</Buildings>
+
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_PLANTATIONHOUSE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_PLANTATIONHOUSE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PLANTATIONHOUSE</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PLANTATIONHOUSE</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_DESTINATION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PLANTATIONHOUSE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_PLANTATIONHOUSE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_PLANTATIONHOUSE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>25</Yield>
+		</Row>
+	</Building_YieldModifiers>
+
+	<Building_ResourceQuantity>
+		<Row>
+			<BuildingType>BUILDING_PLANTATIONHOUSE</BuildingType>
+			<ResourceType>RESOURCE_CALCTOBACCO</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+	</Building_ResourceQuantity>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_PLANTATIONHOUSE">
+			<Text>Plantation House</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_PLANTATIONHOUSE_TEXT">
+			<Text>Plantation Houses were the center of farm life in colonial Virginia and much of the US south. The Plantation House served as both farmhouse the command center of sprawling plantations. Southern plantations were generally self-sufficient settlements that relied on the forced labor of slaves, similar to the way that a medieval manorial estate relied upon the forced labor of serfs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PLANTATIONHOUSE_STRATEGY">
+			<Text>The Plantation House is a Renaissance-era building which increases the city's output of [ICON_GOLD] Gold and provides 2 copies of [ICON_RES_CALCTOBACCO] Tobacco. A city must possess a Market or Bazaar before a Plantation House may be constructed. Trade routes other players make to a city with a Plantation House will generate an extra 1 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 1 [ICON_GOLD] Gold for the trade route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PLANTATIONHOUSE_HELP">
+			<Text>City must have a Market.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_VATRAIT">
+			<Text>VA Trait</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/19/2015 1:13:16 PM -->
+<GameData>
+
+	<Language_en_US>
+
+		<Row Tag="TXT_KEY_COLONY_NAME_NOCAROLINA_01">
+			<Text>Myrtle Beach</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_NOCAROLINA_02">
+			<Text>Hilton Head</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_NOCAROLINA_03">
+			<Text>Spartanburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_NOCAROLINA_04">
+			<Text>Gaffney</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_NOCAROLINA_05">
+			<Text>Greenville</Text>
+		</Row>
+
+		<!-- RYOGA's UNIQUE CULTURAL INFLUENCE 01c131ef-2162-4a7b-b845-763a4e675940-->
+		<Row Tag="TXT_KEY_GENERIC_NOCAROLINA_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now watching your basketball and listening to country music. I worry the rest of the world will also succumb to the influence of your culture.</Text>
+		</Row>
+		
+	</Language_en_US>
+  
+</GameData>

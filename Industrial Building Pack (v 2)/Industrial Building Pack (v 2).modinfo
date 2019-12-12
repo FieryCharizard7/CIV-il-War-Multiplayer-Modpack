@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0b0186fb-f697-4fe6-8981-8f82e56c5c52" version="2">
+  <Properties>
+    <Name>Industrial Building Pack</Name>
+    <Teaser>This mod adds 6 buildings to the Industrial era.</Teaser>
+    <Description>This mod adds several new buildings to the Industrial era, including buildings which further improve local resources or provide strategic resources.
+-------------------------------
+Textile Mill
++3 Production 
++1 Production on Sheep, Silk, and Cotton 
++2 Gold on Dye.
+City must have an improved source of Sheep, Silk, or Cotton
+Requires Industrialization
+
+Grocer
++2 Food 
++5% Growth 
++1 Food on Bananas and Citrus.
+City must have a Market.
+Requires Biology
+		
+Chemist
++2 Science 
++10% Science
+City must have a University
+Requires Fertilizer
+
+Ranch
++2 Production
++1 Food and Gold on Sheep, Cows, and Horses
+City must have a Stable
+Requires Steam Power
+
+Industrial Mine
++3 Production
++3 Coal
+Maximum of 3 can be built
+Requires nearby Mountain
+Requires Dynamite
+
+Coastal Battery
++8 City Defense
++25 City HP
+Must be built on Coast
+City must have an Arsenal
+Requires Dynamite</Description>
+    <Authors>thecrazyscotsman</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="45ABC1D4CAC1D2FFC6AADFC2909FB069" import="1">Art/Industrial_IconAtlas128.dds</File>
+    <File md5="D5D9DC17560BCBFB5844696910039898" import="1">Art/Industrial_IconAtlas256.dds</File>
+    <File md5="C349A0265D6E7A3F5147B792674D6BEA" import="1">Art/Industrial_IconAtlas45.dds</File>
+    <File md5="A193E026299194D63FCF2D4A2EB48A3D" import="1">Art/Industrial_IconAtlas64.dds</File>
+    <File md5="5CD9CCE607B1750036D907F756AB5618" import="1">Art/Industrial_IconAtlas80.dds</File>
+    <File md5="B12D6CA8868942F2A9AD881DC11FF8AC" import="0">XML/Industrial_BuildingClasses.xml</File>
+    <File md5="506339604485DC9B6ACD903211A96CF4" import="0">XML/Industrial_Buildings.xml</File>
+    <File md5="0AA4AD736E9F4E57E2C4D621C83B6018" import="0">XML/Industrial_IconAtlas.xml</File>
+    <File md5="291012831F1AFBE0ED61837297E49133" import="0">XML/Industrial_Text.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Industrial_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Industrial_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Industrial_IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Industrial_Text.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

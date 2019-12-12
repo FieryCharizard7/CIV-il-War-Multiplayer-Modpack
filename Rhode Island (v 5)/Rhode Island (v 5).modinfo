@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a2b924ba-b39a-4ef8-ae60-b40df6b42a84" version="5">
+  <Properties>
+    <Name>Rhode Island</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Adds [COLOR_YELLOW]Rhode Island[ENDCOLOR] as a playable civ</Teaser>
+    <Description>Adds the State of Rhode Island as a playable civ.
+
+Leader: Roger Williams
+
+UA: The Ocean State: Unhappiness per city increases with each city. Each coastal city is automatically [ICON_CONNECTED] connected to the capital and opens one additional trade route slot; +1 [ICON_PEACE] Faith in each city.
+
+UB: Stone Ender: Temple replacement, adds 2 slots for Great Works of Music
+
+UB: Textile Mill: Does not require coal, and has the same bonuses as the regular Factory it replaces.
+		
+Rhode Island is designed as a Tall civ, reflective of its status as the smallest state in the US. You experience no Unhappiness from number of cities when you settle your capital; 1 per city with 2 cities; 2 per city with 3 cities, and so on. The UA's city connection bonus and extra trade routes for coastal cities beef up Gold production. The Stone Ender UB supports extra culture with 2 GW of Music slots (and a theming bonus). The Textile Mill doesn't need Coal, meaning that the late game won't be stunted by a lack of Coal in your Tall empire.
+
+Supports:
+Unique Cultural Influence
+Bingle's Civ IV Leader Traits in Civ V
+JFDs Cultural Diversity
+JFDs Piety
+JFDs and Puakai's Mercenaries
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Credits:
+PawelS for the Happiness script
+Kyte and Lockstep for their development of the Dynamic Culture Overview incorporated into this mod
+"Simple Gifts and Quiet Songs" by Peter Schaffter
+"Fantasia and Fugue in G Minor" (JS Bach) performed by Hans-Andre Stamm
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</Description>
+    <Authors>calcul8or</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="01c131ef-2162-4a7b-b845-763a4e675940" minversion="0" maxversion="999" title="Unique Cultural Influence" />
+    <Mod id="a19351c5-c0b3-4b07-8695-4affaa199949" minversion="0" maxversion="999" title="JFD's and Pouakai's Mercenaries" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFD's Piety" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits in Civ V" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="49D431B7D308F272533EDE8AE3923DEA" import="1">Art/Atlases/RI_IconAtlas128.dds</File>
+    <File md5="CC0756BF7053278819813EC7BDA7F9A8" import="1">Art/Atlases/RI_IconAtlas16.dds</File>
+    <File md5="90571D2BFE43CF3951CBC3B4D8D03801" import="1">Art/Atlases/RI_IconAtlas24.dds</File>
+    <File md5="2241B2AF1924A8EDC644479C6D7C6BA0" import="1">Art/Atlases/RI_IconAtlas256.dds</File>
+    <File md5="93B52CB1C1425DEFCEA2EB64C6AC8665" import="1">Art/Atlases/RI_IconAtlas32.dds</File>
+    <File md5="1565CAA35181AA4005470B80D3FF1D13" import="1">Art/Atlases/RI_IconAtlas45.dds</File>
+    <File md5="BF7E8D9D0A8A5F6246C435DBD56AC9AE" import="1">Art/Atlases/RI_IconAtlas48.dds</File>
+    <File md5="331DADB43CFBED1B1896407253DD62B6" import="1">Art/Atlases/RI_IconAtlas64.dds</File>
+    <File md5="4F5C3559E83982FFD01A96DFE2CF3AF3" import="1">Art/Atlases/RI_IconAtlas80.dds</File>
+    <File md5="141275897C7EBC6924A608E1EB1CC81E" import="1">Art/Fantasia_and_Fugue.mp3</File>
+    <File md5="F4AE99A6E867B44713A393A68B50D8A9" import="1">Art/RI_DOM_new_again.dds</File>
+    <File md5="F5629658DFCF36A661C7C5294117D074" import="1">Art/RI_map.dds</File>
+    <File md5="9F5E13D721E8B54651AB14EDCA1A077D" import="1">Art/RI_scene.dds</File>
+    <File md5="7A346CEF61506B4F9BC115D1E0EFB117" import="1">Art/SimpleGifts.mp3</File>
+    <File md5="4486E05E92C6A1829D1BD4FC8EAB80DE" import="1">Lua/CultureOverview.lua</File>
+    <File md5="BF85D174CA9D4F2EC2AD7E3FBB6C0D6D" import="1">Lua/CultureOverview.xml</File>
+    <File md5="B9D0EDEEFF6DE6D58CDE21DFF34C761A" import="0">Lua/HappinessScript.lua</File>
+    <File md5="70DC9C1EAA91B94096741A810B3F7A62" import="0">Lua/HappinessUA.lua</File>
+    <File md5="856D3F33E9A80E0C97BF2A24A8E34923" import="0">Lua/SettlerCheck.lua</File>
+    <File md5="E264EF4C4E91A1C8F41E9E6225FECE81" import="0">Support/ModSupport.sql</File>
+    <File md5="A99B65C050662BEEB50E97277536374B" import="0">Support/SupportText.xml</File>
+    <File md5="2E2FF374823E5405E44847CAB9B0A98E" import="0">XML/RI_Sound.xml</File>
+    <File md5="E11F5F2E2F4DD968C6F673FA9CF8423D" import="0">XML/StoneEnder.xml</File>
+    <File md5="024A28F153CCC9FD75F7C56BF68B2D35" import="1">XML/RI_scene.xml</File>
+    <File md5="0CCBE4707C278F58103AF9946753119E" import="0">XML/RI_IconAtlas.xml</File>
+    <File md5="38FA5D73FC0E2EEE79F8387DAA2C927C" import="0">XML/RI_Civilization.xml</File>
+    <File md5="63317AE49A94FFB1DC6482701770B433" import="0">XML/RI_Leader.xml</File>
+    <File md5="0C87723AE6CC4B48239C7C5B4407DAFB" import="0">XML/RI_Lighthouse.xml</File>
+    <File md5="48199E307AB8A9BDD9FB87919D552B0A" import="0">XML/RI_Mill.xml</File>
+    <File md5="6FB39ADDDA9D738855BD4E38BF17CC30" import="0">XML/RI_Trait.xml</File>
+    <File md5="316DED47E38F534BBA1D362F52237C88" import="0">XML/Settler.xml</File>
+    <File md5="FB918CBF59840B22108F2E22D40374F8" import="0">XML/RI_Missionary.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/RI_Civilization.xml</UpdateDatabase>
+      <UpdateDatabase>XML/RI_Leader.xml</UpdateDatabase>
+      <UpdateDatabase>XML/RI_Trait.xml</UpdateDatabase>
+      <UpdateDatabase>XML/RI_IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/RI_Mill.xml</UpdateDatabase>
+      <UpdateDatabase>XML/RI_Lighthouse.xml</UpdateDatabase>
+      <UpdateDatabase>XML/StoneEnder.xml</UpdateDatabase>
+      <UpdateDatabase>XML/RI_Sound.xml</UpdateDatabase>
+      <UpdateDatabase>Support/ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Support/SupportText.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/HappinessUA.lua">
+      <Name>HappinessUA</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

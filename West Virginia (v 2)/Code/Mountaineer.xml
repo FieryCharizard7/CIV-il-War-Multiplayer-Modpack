@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/16/2014 5:30:01 PM -->
+<GameData>
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_MUSKETMAN</Class>
+			<Type>UNIT_CALC_MOUNTAINEER</Type>
+			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
+			<Combat>24</Combat>
+			<Cost>130</Cost>
+			<FaithCost>260</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_CALC_MOUNTAINEER</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MEDIEVAL_MUSKETMAN_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_CALC_MOUNTAINEER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_CALC_MOUNTAINEER</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_RIFLEMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>25</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>4</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_CALC_MOUNTAINEER</UnitArtInfo>
+			<UnitFlagAtlas>WV_ALPHA_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
+			<IconAtlas>WV_COLOR_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_CALC_MOUNTAINEER</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CALC_MOUNTAINEER</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CALC_MOUNTAINEER</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_CALC_MOUNTAINEER</UnitType>
+			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_CALC_MOUNTAINEER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CALC_MOUNTAINEER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CALC_MOUNTAINEER</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_CALC_MOUNTAINEER</UnitType>
+			<PromotionType>PROMOTION_MOUNTAINEER_2</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_CALC_MOUNTAINEER">
+			<Text>Mountaineer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CALC_MOUNTAINEER_STRATEGY">
+			<Text>The Mountaineer replaces the Musketman, and starts with the Mountaineer 2 promotion (+20% attack in hills).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CALC_MOUNTAINEER">
+			<Text>The Mountaineer replaces the Musketman, and starts with the unique promotion Mountaineer 2 (+20% attack in hills).</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

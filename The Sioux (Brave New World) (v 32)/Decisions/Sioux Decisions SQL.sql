@@ -1,0 +1,26 @@
+--Decisions
+CREATE TABLE IF NOT EXISTS DecisionsAddin_Support(FileName);
+INSERT INTO DecisionsAddin_Support (FileName) VALUES ('TomatekhSiouxDecisions.lua');
+
+--Events
+CREATE TABLE IF NOT EXISTS EventsAddin_Support(FileName);
+INSERT INTO EventsAddin_Support (FileName) VALUES ('TomatekhSiouxEvents.lua');
+
+--Other
+UPDATE UnitPromotions SET PediaType = 
+	( CASE WHEN EXISTS(SELECT Type FROM Buildings WHERE Type = 'BUILDING_DECISIONS_ROMANCONCRETE' )
+		THEN 'PEDIA_ATTRIBUTES'
+		ELSE NULL END 
+	) WHERE Type = 'PROMOTION_BUFFALO_HERDER';
+
+CREATE TRIGGER SiouxEDPromotionVisible
+AFTER INSERT ON Buildings WHEN 'BUILDING_DECISIONS_ROMANCONCRETE' = NEW.Type
+BEGIN
+
+	UPDATE UnitPromotions SET PediaType = 
+		( CASE WHEN EXISTS(SELECT Type FROM Buildings WHERE Type = 'BUILDING_DECISIONS_ROMANCONCRETE' )
+			THEN 'PEDIA_ATTRIBUTES'
+			ELSE NULL END 
+		) WHERE Type = 'PROMOTION_BUFFALO_HERDER';
+
+END;

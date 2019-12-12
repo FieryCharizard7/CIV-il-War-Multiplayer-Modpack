@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/19/2015 1:13:16 PM -->
+<GameData>
+
+	<Language_en_US>
+
+		<Row Tag="TXT_KEY_COLONY_NAME_WEST_VIRGINIA_01">
+			<Text>Montgomery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_WEST_VIRGINIA_02">
+			<Text>Salem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_WEST_VIRGINIA_03">
+			<Text>Mullens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_WEST_VIRGINIA_04">
+			<Text>Glen Dale</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_WEST_VIRGINIA_05">
+			<Text>Marmet</Text>
+		</Row>
+
+		<!-- RYOGA's UNIQUE CULTURAL INFLUENCE 01c131ef-2162-4a7b-b845-763a4e675940-->
+		<Row Tag="TXT_KEY_GENERIC_WEST_VIRGINIA_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now riding country roads and listening to Coal Miners Daughter. I worry the rest of the world will also succumb to the influence of your culture.</Text>
+		</Row>
+		
+	</Language_en_US>
+  
+</GameData>

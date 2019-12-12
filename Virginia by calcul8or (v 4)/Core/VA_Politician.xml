@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/7/2015 2:48:43 PM -->
+<GameData>
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_WRITER</Class>
+			<Type>UNIT_VAPOLITICIAN</Type>
+			<Cost>-1</Cost>
+			<Moves>2</Moves>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
+			<Special>SPECIALUNIT_PEOPLE</Special>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_WRITER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_GREAT_VAPOLITICIAN</Description>
+			<Civilopedia>TXT_KEY_CIV5_GREATVAPOLITICIAN_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_GREAT_VAPOLITICIAN_STRATEGY</Strategy>
+			<AdvancedStartCost>-1</AdvancedStartCost>
+			<WorkRate>1</WorkRate>
+			<CombatLimit>0</CombatLimit>
+			<BaseCultureTurnsToCount>8</BaseCultureTurnsToCount>
+			<OneShotTourism>10</OneShotTourism>
+			<OneShotTourismPercentOthers>20</OneShotTourismPercentOthers>
+			<UnitArtInfo>ART_DEF_UNIT_GREAT_WRITER</UnitArtInfo>
+			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
+			<UnitFlagAtlas>VA_ALPHA_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
+			<IconAtlas>VA_COLOR_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<MoveRate>GREAT_PERSON</MoveRate>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UnitAIType>UNITAI_WRITER</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<PromotionType>PROMOTION_RIVAL_TERRITORY</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<!--<Unit_UniqueNames>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_HOMER</UniqueName>
+			<GreatWorkType>GREAT_WORK_ODYSSEY</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_AESOP</UniqueName>
+			<GreatWorkType>GREAT_WORK_FABLES</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_SOPHOCLES</UniqueName>
+			<GreatWorkType>GREAT_WORK_OEDIPUS</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_ARISTOPHANES</UniqueName>
+			<GreatWorkType>GREAT_WORK_LYSISTRATA</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_VIRGIL</UniqueName>
+			<GreatWorkType>GREAT_WORK_AENEID</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_OVID</UniqueName>
+			<GreatWorkType>GREAT_WORK_METAMORPHOSES</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_LUCIAN_SAMOSATA</UniqueName>
+			<GreatWorkType>GREAT_WORK_TRUE_STORY</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_OMAR_KHAYYAM</UniqueName>
+			<GreatWorkType>GREAT_WORK_RUBAIYAT</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_RUMI</UniqueName>
+			<GreatWorkType>GREAT_WORK_MASNAVI</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_VALMIKI</UniqueName>
+			<GreatWorkType>GREAT_WORK_RAMAYAMA</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_VYASA</UniqueName>
+			<GreatWorkType>GREAT_WORK_MAHABHARATA</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_BHASA</UniqueName>
+			<GreatWorkType>GREAT_WORK_URUBHANGA</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_KALIDASA</UniqueName>
+			<GreatWorkType>GREAT_WORK_ABHIJNANASAKUTALAM</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_QU_YUAN</UniqueName>
+			<GreatWorkType>GREAT_WORK_CHU_CI</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_SHI_NAIAN</UniqueName>
+			<GreatWorkType>GREAT_WORK_SHUIHU_ZHUAN</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_LANLING_XIAOXIAO_SHENG</UniqueName>
+			<GreatWorkType>GREAT_WORK_JIN_PING_MEI</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_CAO_XUEQIN</UniqueName>
+			<GreatWorkType>GREAT_WORK_HONG_LOU_MENG</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_KI_NO_TSURAYUKI</UniqueName>
+			<GreatWorkType>GREAT_WORK_KOKIN_WAKASHU</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_MURASAKI_SHIKIBU</UniqueName>
+			<GreatWorkType>GREAT_WORK_GENJI_MONOGATARI</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_YOSHIDA_KENKO</UniqueName>
+			<GreatWorkType>GREAT_WORK_TSUREZUREGUSA</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_CHIKAMATSU_MONZAEMON</UniqueName>
+			<GreatWorkType>GREAT_WORK_SHINJUTEN_NO_AMIJIMA</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_UEDA_AKINARI</UniqueName>
+			<GreatWorkType>GREAT_WORK_UGETSU_MONOGATARI</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_NATSUME_SOSEKI</UniqueName>
+			<GreatWorkType>GREAT_WORK_WAGAHAI_WA_NEKO</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_MIGUEL_DE_CERVANTES</UniqueName>
+			<GreatWorkType>GREAT_WORK_EL_INGENIOSO</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_JORGE_ISAACS</UniqueName>
+			<GreatWorkType>GREAT_WORK_MARIA</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_JOSE_HERNANDEZ</UniqueName>
+			<GreatWorkType>GREAT_WORK_MARTIN_FIERRO</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_RUBEN_DARIO</UniqueName>
+			<GreatWorkType>GREAT_WORK_AZUL</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_BERTRAND_DE_BAR_SUR_AUBE</UniqueName>
+			<GreatWorkType>GREAT_WORK_GIRART_DE_VIENNE</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_FRANCOIS_RABELAIS</UniqueName>
+			<GreatWorkType>GREAT_WORK_LA_VIE_DE_GARGANTUA</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_VOLTAIRE</UniqueName>
+			<GreatWorkType>GREAT_WORK_CANDIDE_OU_LOPTIMISME</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_ALEXANDRE_DUMAS</UniqueName>
+			<GreatWorkType>GREAT_WORK_LES_TROIS_MOUSQUETAIRES</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_VICTOR_HUGO</UniqueName>
+			<GreatWorkType>GREAT_WORK_LES_MISERABLES</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_JULES_VERNE</UniqueName>
+			<GreatWorkType>GREAT_WORK_VIGNT_MILLE_LIEUES</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_MARCUS_PROUST</UniqueName>
+			<GreatWorkType>GREAT_WORK_A_LA_RECHERCHE</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_DANTE_ALIGHIERI</UniqueName>
+			<GreatWorkType>GREAT_WORK_DIVINA_COMMEDIA</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_PETRARCH</UniqueName>
+			<GreatWorkType>GREAT_WORK_IL_CANZONIERE</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_LUDOVICO_ARIOSTO</UniqueName>
+			<GreatWorkType>GREAT_WORK_ORLANDO_FURIOSO</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_VITTORIO_ALFIERI</UniqueName>
+			<GreatWorkType>GREAT_WORK_SAUL</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_JOHANN_FRIEDRICH_VON_SCHILLER</UniqueName>
+			<GreatWorkType>GREAT_WORK_DIE_RAUBER</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_JOHANN_WOLFGANG_VON_GOETHE</UniqueName>
+			<GreatWorkType>GREAT_WORK_FAUST</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_NIKOLAI_GOGOL</UniqueName>
+			<GreatWorkType>GREAT_WORK_REVIZOR</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_FYODOR_DOSTOYEVSKY</UniqueName>
+			<GreatWorkType>GREAT_WORK_PRESTIPLENIYE</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_LEO_TOLSTOY</UniqueName>
+			<GreatWorkType>GREAT_WORK_VOYNA_I_MIR</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_ANTON_CHEKHOV</UniqueName>
+			<GreatWorkType>GREAT_WORK_CHAYKA</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_MAXIM_GORKY</UniqueName>
+			<GreatWorkType>GREAT_WORK_NA_DNE</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_GEOFFREY_CHAUCER</UniqueName>
+			<GreatWorkType>GREAT_WORK_CANTERBURY_TALES</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_THOMAS_MALORY</UniqueName>
+			<GreatWorkType>GREAT_WORK_LE_MORTE_DARTHUR</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_EDMUND_SPENSER</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_FAERIE_QUEENE</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_WILLIAM_SHAKESPEARE</UniqueName>
+			<GreatWorkType>GREAT_WORK_MACBETH</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_JANE_AUSTIN</UniqueName>
+			<GreatWorkType>GREAT_WORK_PRIDE_AND_PREJUDICE</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_MARY_SHELLEY</UniqueName>
+			<GreatWorkType>GREAT_WORK_FRANKENSTEIN</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_CHARLES_DICKENS</UniqueName>
+			<GreatWorkType>GREAT_WORK_A_CHRISTMAS_CAROL</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_LEWIS_CARROLL</UniqueName>
+			<GreatWorkType>GREAT_WORK_ALICES_ADVANTURES</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_RUDYARD_KIPLING</UniqueName>
+			<GreatWorkType>GREAT_WORK_BARRACK_ROOM_BALLADS</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_H_G_WELLS</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_TIME_MACHINE</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_ARTHUR_CONAN_DOYLE</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_SIGN_OF_THE_FOUR</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_D_H_LAWRENCE</UniqueName>
+			<GreatWorkType>GREAT_WORK_LADY_CHATTERLEYS_LOVER</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_WASHINGTON_IRVING</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_SKETCH_BOOK</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_JAMES_FENIMORE_COOPER</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_LAST_OF_THE_MOHICANS</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_EDGAR_ALLEN_POE</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_RAVEN</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_NATHANIEL_HAWTHORNE</UniqueName>
+			<GreatWorkType>GREAT_WORK_TWICE_TOLD_TALE</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_HERMAN_MELVILLE</UniqueName>
+			<GreatWorkType>GREAT_WORK_MOBY_DICK</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_HARRIET_BEECHER_STOWE</UniqueName>
+			<GreatWorkType>GREAT_WORK_UNCLE_TOMS_CABIN</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_HENRY_DAVID_THOREAU</UniqueName>
+			<GreatWorkType>GREAT_WORK_WALDEN</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_WALT_WHITMAN</UniqueName>
+			<GreatWorkType>GREAT_WORK_LEAVES_OF_GRASS</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_MARK_TWAIN</UniqueName>
+			<GreatWorkType>GREAT_WORK_ADVENTURES_OF_HUCKLEBERRY</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_EMILY_DICKENSON</UniqueName>
+			<GreatWorkType>GREAT_WORK_POEMS</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_STEPHEN_CRANE</UniqueName>
+			<GreatWorkType>GREAT_WORK_RED_BADGE_OF_COURAGE</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_L_FRANK_BAUM</UniqueName>
+			<GreatWorkType>GREAT_WORK_WONDERFUL_WIZARD_OF_OZ</GreatWorkType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<UniqueName>TXT_KEY_GREAT_PERSON_F_SCOTT_FITZGERALD</UniqueName>
+			<GreatWorkType>GREAT_WORK_THE_GREAT_GATSBY</GreatWorkType>
+		</Row>
+	</Unit_UniqueNames>-->
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_VAPOLITICIAN</UnitType>
+			<SelectionSound>AS2D_BUILD_UNIT</SelectionSound>
+			<FirstSelectionSound>AS2D_BUILD_UNIT</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_GREAT_VAPOLITICIAN">
+			<Text>Great VAPOLITICIAN</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GREATVAPOLITICIAN_TEXT">
+			<Text>Add Civilopedia text here</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_VAPOLITICIAN_STRATEGY">
+			<Text>A Great VAPOLITICIAN can create a Great Work of Writing (generates both [ICON_CULTURE] Culture and [ICON_TOURISM] Tourism) that is placed in the nearest city that has an appropriate building with an empty slot (like an Amphitheater, National Epic, Heroic Epic, or Royal Library). A Great VAPOLITICIAN can also write a Political Treatise, which grants the player a large amount of Culture. Great Writers are expended when used either of these ways.</Text>
+		</Row>
+		<!--<Row Tag="TXT_KEY_GREAT_PERSON_HOMER">
+			<Text>Homer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AESOP">
+			<Text>Aesop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SOPHOCLES">
+			<Text>Sophocles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ARISTOPHANES">
+			<Text>Aristophanes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_VIRGIL">
+			<Text>Virgil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_OVID">
+			<Text>Ovid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LUCIAN_SAMOSATA">
+			<Text>Lucian of Samosata</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_OMAR_KHAYYAM">
+			<Text>Omar Khayyam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_RUMI">
+			<Text>Rumi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_VALMIKI">
+			<Text>Valmiki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_VYASA">
+			<Text>Vyasa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_BHASA">
+			<Text>Bhasa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_KALIDASA">
+			<Text>Kalidasa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_QU_YUAN">
+			<Text>Qu Yuan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SHI_NAIAN">
+			<Text>Shi Nai'an</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LANLING_XIAOXIAO_SHENG">
+			<Text>Lanling Xiaoxiao Sheng</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CAO_XUEQIN">
+			<Text>Cao Xueqin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_KI_NO_TSURAYUKI">
+			<Text>Ki no Tsurayuki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MURASAKI_SHIKIBU">
+			<Text>Murasaki Shikibu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_YOSHIDA_KENKO">
+			<Text>Yoshida Kenko</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CHIKAMATSU_MONZAEMON">
+			<Text>Chikamatsu Monzaemon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_UEDA_AKINARI">
+			<Text>Ueda Akinari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_NATSUME_SOSEKI">
+			<Text>Natsume Soseki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MIGUEL_DE_CERVANTES">
+			<Text>Miguel de Cervantes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JORGE_ISAACS">
+			<Text>Jorge Isaacs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JOSE_HERNANDEZ">
+			<Text>Jose Hernandez</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_RUBEN_DARIO">
+			<Text>Ruben Dario</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_BERTRAND_DE_BAR_SUR_AUBE">
+			<Text>Bertrand de Bar-sur-Aube</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_FRANCOIS_RABELAIS">
+			<Text>Francois Rabelais</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_VOLTAIRE">
+			<Text>Voltaire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ALEXANDRE_DUMAS">
+			<Text>Alexandre Dumas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_VICTOR_HUGO">
+			<Text>Victor Hugo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JULES_VERNE">
+			<Text>Jules Verne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MARCUS_PROUST">
+			<Text>Marcel Proust</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_DANTE_ALIGHIERI">
+			<Text>Dante Alighieri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PETRARCH">
+			<Text>Petrarch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LUDOVICO_ARIOSTO">
+			<Text>Ludovico Ariosto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_VITTORIO_ALFIERI">
+			<Text>Vittorio Alfieri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JOHANN_FRIEDRICH_VON_SCHILLER">
+			<Text>Johann Friedrich von Schiller</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JOHANN_WOLFGANG_VON_GOETHE">
+			<Text>Johann Wolfgang von Goethe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_NIKOLAI_GOGOL">
+			<Text>Nikolai Gogol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_FYODOR_DOSTOYEVSKY">
+			<Text>Fyodor Dostoyevsky</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LEO_TOLSTOY">
+			<Text>Leo Tolstoy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ANTON_CHEKHOV">
+			<Text>Anton Chekhov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MAXIM_GORKY">
+			<Text>Maxim Gorky</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GEOFFREY_CHAUCER">
+			<Text>Geoffrey Chaucer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_THOMAS_MALORY">
+			<Text>Thomas Malory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_EDMUND_SPENSER">
+			<Text>Edmund Spenser</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WILLIAM_SHAKESPEARE">
+			<Text>William Shakespeare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JANE_AUSTIN">
+			<Text>Jane Austen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MARY_SHELLEY">
+			<Text>Mary Shelley</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CHARLES_DICKENS">
+			<Text>Charles Dickens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LEWIS_CARROLL">
+			<Text>Lewis Carroll</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_RUDYARD_KIPLING">
+			<Text>Rudyard Kipling</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_H_G_WELLS">
+			<Text>H.G. Wells</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ARTHUR_CONAN_DOYLE">
+			<Text>Arthur Conan Doyle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_D_H_LAWRENCE">
+			<Text>D.H. Lawrence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WASHINGTON_IRVING">
+			<Text>Washington Irving</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JAMES_FENIMORE_COOPER">
+			<Text>James Fenimore Cooper</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_EDGAR_ALLEN_POE">
+			<Text>Edgar Allan Poe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_NATHANIEL_HAWTHORNE">
+			<Text>Nathaniel Hawthorne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_HERMAN_MELVILLE">
+			<Text>Herman Melville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_HARRIET_BEECHER_STOWE">
+			<Text>Harriet Beecher Stowe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_HENRY_DAVID_THOREAU">
+			<Text>Henry David Thoreau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WALT_WHITMAN">
+			<Text>Walt Whitman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MARK_TWAIN">
+			<Text>Mark Twain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_EMILY_DICKENSON">
+			<Text>Emily Dickinson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_STEPHEN_CRANE">
+			<Text>Stephen Crane</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_L_FRANK_BAUM">
+			<Text>L. Frank Baum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_F_SCOTT_FITZGERALD">
+			<Text>F. Scott Fitzgerald</Text>
+		</Row>-->
+	</Language_en_US>
+  
+</GameData>

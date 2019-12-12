@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/12/2014 3:36:57 PM -->
+<GameData>
+
+	<Units>
+		<Row>
+			<Type>UNIT_MASCHOONER</Type>
+			<Description>TXT_KEY_UNIT_MASCHOONER</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_MASCHOONER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_MASCHOONER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_MASCHOONER</Help>
+			<Combat>20</Combat>
+			<Cost>120</Cost>
+			<Moves>5</Moves>
+			
+			<BaseSightRange>2</BaseSightRange>
+
+			<Class>UNITCLASS_CARAVEL</Class>
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_EXPLORE_SEA</DefaultUnitAI>
+			<MilitarySupport>1</MilitarySupport>
+			<MilitaryProduction>1</MilitaryProduction>
+			<Pillage>1</Pillage>
+			<Mechanized>1</Mechanized>
+			<PrereqTech>TECH_ASTRONOMY</PrereqTech>
+			<ObsoleteTech>TECH_STEAM_POWER</ObsoleteTech>
+			<HurryCostModifier>30</HurryCostModifier>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<MinAreaSize>10</MinAreaSize>
+			<NukeDamageLevel>-1</NukeDamageLevel>
+			
+			<WorkRate>100</WorkRate>
+			<CombatLimit>100</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>0</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_U_MASCHOONER</UnitArtInfo>
+			<ShowInPedia>1</ShowInPedia>
+			<MoveRate>BOAT</MoveRate>
+
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
+
+			<PortraitIndex>2</PortraitIndex>
+
+			<IconAtlas>MA_COLOR_ATLAS</IconAtlas>
+
+			<UnitFlagAtlas>MA_ALPHA_ATLAS</UnitFlagAtlas>
+
+		</Row>
+	</Units>
+
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_MASCHOONER</UnitType>
+			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MASCHOONER</UnitType>
+			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MASCHOONER</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MASCHOONER</UnitType>
+			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MASCHOONER</UnitType>
+			<UnitAIType>UNITAI_WORKER_SEA</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_MASCHOONER</UnitType>
+			<UnitClassType>UNITCLASS_IRONCLAD</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_MASCHOONER</UnitType>
+			<PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MASCHOONER</UnitType>
+			<PromotionType>PROMOTION_WITHDRAW_BEFORE_MELEE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_MASCHOONER</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MASCHOONER</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_MASCHOONER</UnitType>
+			<BuildType>BUILD_FISHING_BOATS_NO_KILL</BuildType>
+		</Row>
+	</Unit_Builds>
+
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_MASCHOONER</UnitType>
+			<SelectionSound>AS2D_SELECT_CARAVEL</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_CARAVEL</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_MASCHOONER">
+			<Text>Schooner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_MASCHOONER_TEXT">
+			<Text>Schooners were developed in North America from the early 18th century, and came into extensive use in New England. The most common type of schooners, with two masts, were popular in trades that required speed and windward ability, such as slaving, privateering, and blockade running. They were also traditional fishing boats, used for offshore fishing.(en.wikipedia.org/wiki/Schooner)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MASCHOONER_STRATEGY">
+			<Text>The Schooner is faster than the Caravel it replaces, and can build fishing boats. A Melee unit, it is stronger and faster than a Trireme, and it can enter Deep Ocean hexes. It is quick, giving it a promotion that gives it a good chance to withdraw to the rear before an enemy naval melee attack can occur. The Schooner has an enhanced sight radius, making it the eyes and ears of the mid-game navy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MASCHOONER">
+			<Text>Fast Renaissance exploration Unit with an enhanced sight radius that can enter Ocean and build fishing boats. Fights as a naval melee unit.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

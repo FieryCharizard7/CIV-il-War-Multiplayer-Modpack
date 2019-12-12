@@ -1,0 +1,21 @@
+-- All queries created, modified, and tested by Azzer
+UPDATE Building_YieldModifiers SET Yield=(Yield * 0.5) WHERE YieldType = 'YIELD_SCIENCE';
+UPDATE Building_YieldChanges SET Yield=(Yield - 1) WHERE YieldType = 'YIELD_SCIENCE' AND Yield>1;
+UPDATE Building_YieldChangesPerPop SET Yield=(Yield * 0.5) WHERE YieldType = 'YIELD_SCIENCE';
+UPDATE Building_FeatureYieldChanges SET Yield=(Yield * 0.5) WHERE YieldType = 'YIELD_SCIENCE';
+UPDATE Improvement_Yields SET Yield=(Yield * 0.5) WHERE YieldType = 'YIELD_SCIENCE';
+UPDATE GameSpeeds SET ResearchPercent=(ResearchPercent * 1.33);
+UPDATE GameSpeeds SET TrainPercent=(TrainPercent * 0.66);
+UPDATE GameSpeed_Turns SET MonthIncrement=(MonthIncrement*0.8);
+UPDATE Units SET BaseBeakersTurnsToCount=(BaseBeakersTurnsToCount*0.25) WHERE BaseBeakersTurnsToCount>0;
+UPDATE Eras SET ResearchPercent=(200-ResearchPercent);
+UPDATE Technologies SET Cost=(Cost*1.15) WHERE Era='ERA_ANCIENT';
+UPDATE Technologies SET Cost=(Cost*1.3) WHERE Era='ERA_CLASSICAL';
+UPDATE Technologies SET Cost=(Cost*1.45) WHERE Era='ERA_MEDIEVAL';
+UPDATE Technologies SET Cost=(Cost*1.6) WHERE Era='ERA_RENAISSANCE';
+UPDATE Technologies SET Cost=(Cost*1.75) WHERE Era='ERA_INDUSTRIAL';
+UPDATE Technologies SET Cost=(Cost*1.9) WHERE Era='ERA_MODERN';
+UPDATE Technologies SET Cost=(Cost*2.05) WHERE Era='ERA_POSTMODERN';
+UPDATE Technologies SET Cost=(Cost*2.2) WHERE Era='ERA_FUTURE';
+UPDATE Processes SET TechPrereq='TECH_AGRICULTURE' WHERE Type='PROCESS_WEALTH';
+UPDATE Worlds SET NumCitiesTechCostMod=5 WHERE NumCitiesTechCostMod<5;

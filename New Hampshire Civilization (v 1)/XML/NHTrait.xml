@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/1/2014 11:53:20 AM -->
+<GameData>
+
+	<Traits>
+		<Row>
+			<Type>TRAIT_GRANITE_STATE</Type>
+			<Description>TXT_KEY_TRAIT_GRANITE_STATE</Description>
+			<ShortDescription>TXT_KEY_TRAIT_GRANITE_STATE_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+
+	
+	<Leader_Traits>
+		<Row>
+			<LeaderType>LEADER_MASON</LeaderType>
+			<TraitType>TRAIT_GRANITE_STATE</TraitType>
+		</Row>
+	</Leader_Traits>
+
+	<Trait_FreePromotionUnitCombats>
+		<Row>
+			<TraitType>TRAIT_GRANITE_STATE</TraitType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+			<PromotionType>PROMOTION_BOARDING_PARTY_1</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_GRANITE_STATE</TraitType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+			<PromotionType>PROMOTION_TARGETING_1</PromotionType>
+		</Row>
+	</Trait_FreePromotionUnitCombats>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_GRANITE_STATE">
+			<Text>Granite Works provide extra [ICON_GOLD] Gold. Naval units start with Targeting 1 or Boarding Party 1.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_GRANITE_STATE_SHORT">
+			<Text>The Granite State</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

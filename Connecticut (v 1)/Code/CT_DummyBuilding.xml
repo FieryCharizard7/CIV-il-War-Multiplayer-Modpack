@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/9/2016 9:50:49 AM -->
+<GameData>
+
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_CT_MIL_TRAIT</Type>
+			<DefaultBuilding>BUILDING_CT_MIL_TRAIT</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CT_MIL_TRAIT</Description>
+			<NoLimit>true</NoLimit>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_CT_GOLD_TRAIT</Type>
+			<DefaultBuilding>BUILDING_CT_GOLD_TRAIT</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CT_GOLD_TRAIT</Description>
+			<NoLimit>true</NoLimit>
+		</Row>
+		<!--<Row>
+			<Type>BUILDINGCLASS_AZ_FOLK_MUSEUM</Type>
+			<DefaultBuilding>BUILDING_AZ_FOLK_MUSEUM</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_AZ_FOLK_MUSEUM</Description>
+		</Row>-->
+	</BuildingClasses>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_CT_MIL_TRAIT</Type>
+			<BuildingClass>BUILDINGCLASS_CT_MIL_TRAIT</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<!--<GreatWorkCount>-1</GreatWorkCount>-->
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>CT_COLOR_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<Description>TXT_KEY_BUILDING_CT_MIL_TRAIT</Description>
+			<Help>TXT_KEY_BUILDING_CT_MIL_TRAIT_HELP</Help>
+		</Row>
+		<Row>
+			<Type>BUILDING_CT_GOLD_TRAIT</Type>
+			<BuildingClass>BUILDINGCLASS_CT_GOLD_TRAIT</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<!--<GreatWorkCount>-1</GreatWorkCount>-->
+			<PrereqTech>NULL</PrereqTech>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>CT_COLOR_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<Description>TXT_KEY_BUILDING_CT_GOLD_TRAIT</Description>
+			<Help>TXT_KEY_BUILDING_CT_GOLD_TRAIT_HELP</Help>
+		</Row>
+		<!--<Row>
+			<Type>BUILDING_AZ_FOLK_MUSEUM</Type>
+			<BuildingClass>BUILDINGCLASS_AZ_FOLK_MUSEUM</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<MinAreaSize>-1</MinAreaSize>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<FreeGreatWork>GREAT_WORK_AZ_PUEBLO</FreeGreatWork>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>AZ_DEC_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<Description>TXT_KEY_BUILDING_AZ_FOLK_MUSEUM</Description>
+			<Help>TXT_KEY_BUILDING_AZ_FOLK_MUSEUM_HELP</Help>
+		</Row>-->
+	</Buildings>
+
+	<!--<GreatWorks>
+		<Row>
+			<Type>GREAT_WORK_AZ_PUEBLO</Type>
+			<GreatWorkClassType>GREAT_WORK_ART</GreatWorkClassType>
+			<Description>TXT_KEY_GREAT_WORK_AZ_PUEBLO</Description>
+			<Audio>AS2D_GREAT_ARTIST_ARTWORK</Audio>
+			<Image>AZ_Pueblo.dds</Image>
+		</Row>
+	</GreatWorks>-->
+
+	<Building_DomainProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_CT_MIL_TRAIT</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Modifier>5</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CT_MIL_TRAIT</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Modifier>5</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CT_MIL_TRAIT</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Modifier>5</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CT_MIL_TRAIT</BuildingType>
+			<DomainType>DOMAIN_IMMOBILE</DomainType>
+			<Modifier>5</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CT_MIL_TRAIT</BuildingType>
+			<DomainType>DOMAIN_HOVER</DomainType>
+			<Modifier>5</Modifier>
+		</Row>
+	</Building_DomainProductionModifiers>
+
+	<Building_YieldChanges>
+		<!--<Row>
+			<BuildingType>BUILDING_CT_MIL_TRAIT</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>4</Yield>
+		</Row>-->
+		<Row>
+			<BuildingType>BUILDING_CT_GOLD_TRAIT</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_CT_MIL_TRAIT">
+			<Text>Military Production Building</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CT_MIL_TRAIT_HELP">
+			<Text>Adds production of military units per DOF with other players</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_BUILDING_CT_GOLD_TRAIT">
+			<Text>Gold Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CT_GOLD_TRAIT_HELP">
+			<Text>Adds gold per trade deal with other players</Text>
+		</Row>
+		
+		<!--<Row Tag="TXT_KEY_BUILDING_AZ_FOLK_MUSEUM">
+			<Text>Folk Museum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AZ_FOLK_MUSEUM_HELP">
+			<Text>Only available through an Arizona decision, the Folk Museum comes with a pre-built work of art.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GREAT_WORK_AZ_PUEBLO">
+			<Text>Pueblo Memorial</Text>
+		</Row>-->
+	</Language_en_US>
+  
+</GameData>

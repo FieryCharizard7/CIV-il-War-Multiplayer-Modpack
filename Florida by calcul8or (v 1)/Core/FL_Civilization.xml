@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/2/2014 12:42:04 AM -->
+<GameData>
+
+	<Civilizations>
+		
+		<Row>
+			<Type>CIVILIZATION_FLORIDA</Type>
+			<Description>TXT_KEY_CIV_FLORIDA_DESC</Description>
+			<!--<Civilopedia>TXT_KEY_CIV5_FLORIDA_PEDIA</Civilopedia>-->
+			<CivilopediaTag>TXT_KEY_CIV5_FLORIDA</CivilopediaTag>
+			<ShortDescription>TXT_KEY_CIV_FLORIDA_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_FLORIDA_ADJECTIVE</Adjective>
+			<DefaultPlayerColor>PLAYERCOLOR_FLORIDA</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_ENGLAND</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+			<IconAtlas>FL_COLOR_ATLAS</IconAtlas>
+			<AlphaIconAtlas>FL_ALPHA_ATLAS</AlphaIconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<MapImage>FL_map.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_FLORIDA_TEXT</DawnOfManQuote>
+			<DawnOfManImage>FL_DOM.dds</DawnOfManImage>
+			<DawnOfManAudio></DawnOfManAudio>
+			<SoundtrackTag>America</SoundtrackTag>
+
+		</Row>
+
+	</Civilizations>
+
+
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TXGROWTH</BuildingClassType>
+		</Row>-->
+	</Civilization_FreeBuildingClasses>
+
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+			<Count>1</Count>
+		</Row>
+	</Civilization_FreeUnits>
+
+
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<LeaderheadType>LEADER_REUBINASKEW</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<ReligionType>RELIGION_PROTESTANTISM</ReligionType>
+		</Row>
+	</Civilization_Religions>
+	
+	
+	<!--<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<UnitClassType>UNITCLASS_ENGINEER</UnitClassType>
+			<UnitType>UNIT_IMAGINEER</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>-->
+
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_STADIUM</BuildingClassType>
+			<BuildingType>BUILDING_FANTASYLAND</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_FUTURELAND</BuildingClassType>
+			<BuildingType>BUILDING_FUTURELAND</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_SEALAND</BuildingClassType>
+			<BuildingType>BUILDING_SEALAND</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	
+	
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FLORIDA_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FLORIDA_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FLORIDA_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FLORIDA_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FLORIDA_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FLORIDA_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FLORIDA_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FLORIDA_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FLORIDA_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_FLORIDA_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+
+
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_FLORIDA</Type>
+			<PrimaryColor>COLOR_PLAYER_FLORIDA_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_FLORIDA_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_FLORIDA_ICON</Type>
+			<Red>0.14118</Red>
+			<Green>0.59216</Green>
+			<Blue>0.87843</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_FLORIDA_BACKGROUND</Type>
+			<Red>0.63529</Red>
+			<Green>0.91765</Green>
+			<Blue>0.59255</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+
+	<!--<Civilization_Start_Along_Ocean>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<StartAlongOcean>true</StartAlongOcean>
+		</Row>
+	</Civilization_Start_Along_Ocean>-->
+
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<RegionType>REGION_GRASS</RegionType>
+		</Row>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<RegionType>REGION_JUNGLE</RegionType>
+		</Row>-->
+	</Civilization_Start_Region_Priority>
+
+	<Civilization_Start_Region_Avoid>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<RegionType>REGION_TUNDRA</RegionType>
+		</Row>
+	</Civilization_Start_Region_Avoid>
+
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLORIDA_0</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLORIDA_1</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLORIDA_2</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLORIDA_3</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLORIDA_4</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLORIDA_5</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLORIDA_6</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLORIDA_7</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLORIDA_8</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLORIDA_9</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLORIDA_10</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLORIDA_11</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLORIDA_12</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLORIDA_13</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLORIDA_14</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLORIDA_15</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_FLORIDA_16</CityName>
+		</Row>
+	</Civilization_CityNames>
+
+	<Language_en_US>
+
+		<Row Tag="TXT_KEY_CIV_FLORIDA_DESC">
+			<Text>Florida</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV_FLORIDA_SHORT_DESC">
+			<Text>Florida</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV_FLORIDA_ADJECTIVE">
+			<Text>Floridian</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_DAWN_FLORIDA_TEXT">
+			<Text>Welcome, Reubin Askew. You have been feted as one of Florida's greatest governors. You are called on now to lead Florida again, to bring glory to your people. [NEWLINE] [NEWLINE]You rose to prominence during the tumultuous 60s and led Florida during the turbulent 70s. Civil rights, capital punishment, taxation, and segregation were contentious issues of your time, and you led Florida steadily through them. You were even a legitimate presidential candidate.[NEWLINE] [NEWLINE]It was during your governorship that that Walt Disney World opened, an event that would come to define Florida for the future. Tourism blossomed from this point forward, and Florida became a destination for vacationers from around the world. Other theme parks soon followed, and Florida sealed its place as a prime place to visit.[NEWLINE] [NEWLINE]Your people ask you to lead them again. You will need to start from scratch, building your civilization from the ground up. Can you once more make Florida a destination? Can you build a civilization to stand the test of time?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_FLORIDA_TITLE">
+			<Text>The State of Florida</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_FLORIDA_HEADING_1">
+			<Text>Heading 1</Text>
+		</Row>
+			 
+		<Row Tag="TXT_KEY_CIV5_FLORIDA_TEXT_1">
+			<Text>Florida (Spanish for "flowery land") is a state located in the southeastern region of the United States. The state is bordered to the west by the Gulf of Mexico, to the north by Alabama and Georgia, to the east by the Atlantic Ocean, and to the south by the Straits of Florida and the sovereign state of Cuba. Florida is the 22nd most extensive, the 3rd most populous, and the 8th most densely populated of the United States. Jacksonville is the most populous city in Florida, and the largest city by area in the contiguous United States. The Miami metropolitan area is the eighth-largest metropolitan area in the United States. Tallahassee is the state capital.[NEWLINE] [NEWLINE]A peninsula between the Gulf of Mexico, the Atlantic Ocean, and the Straits of Florida, it has the longest coastline in the contiguous United States, approximately 1,350 miles (2,170 km), and is the only state that borders both the Gulf of Mexico and the Atlantic Ocean. Much of the state is at or near sea level and is characterized by sedimentary soil. The climate varies from subtropical in the north to tropical in the south. The American alligator, American crocodile, Florida panther, and manatee can be found in the Everglades National Park.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_FLORIDA_HEADING_2">
+			<Text>Another Heading</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_FLORIDA_TEXT_2">
+			<Text>Tourism makes up one of the largest sectors of the state economy, with nearly 1.2 million persons employed in the tourism industry in 2015 (a record for the state). In 2015, Florida hosted a record 105 million visitors, the fifth consecutive year that a record was set.[NEWLINE] [NEWLINE]Many beach towns are popular tourist destinations, particularly during winter and spring break. Twenty-three million tourists visited Florida beaches in 2000, spending $22 billion. The public has a right to beach access under the public trust doctrine, but some areas have access effectively blocked by private owners for a long distance. 100 million tourists visited Florida in 2015, a record for the nation. [NEWLINE] [NEWLINE]Amusement parks, especially in the Greater Orlando area, make up a significant portion of tourism. The Walt Disney World Resort is the most visited vacation resort in the world with over 50 million annual visitors, consisting of four theme parks, 27 themed resort hotels, 9 non–Disney hotels, two water parks, four golf courses and other recreational venues. Other major theme parks in the area include Universal Orlando Resort, SeaWorld Orlando and Busch Gardens Tampa.
+				[NEWLINE] [NEWLINE]en.wikipedia.org/wiki/Florida
+			</Text>
+		</Row>
+		
+
+		<Row Tag="TXT_KEY_CITY_NAME_FLORIDA_0">
+			<Text>Tallahassee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FLORIDA_1">
+			<Text>Miami</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_CITY_NAME_FLORIDA_2">
+			<Text>Tampa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FLORIDA_3">
+			<Text>Orlando</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FLORIDA_4">
+			<Text>Jacksonville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FLORIDA_5">
+			<Text>St Augustine</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_CITY_NAME_FLORIDA_6">
+			<Text>Cocoa Beach</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FLORIDA_7">
+			<Text>Fort Lauderdale</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FLORIDA_8">
+			<Text>Naples</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_CITY_NAME_FLORIDA_9">
+			<Text>St Petersburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FLORIDA_10">
+			<Text>Hialeah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FLORIDA_11">
+			<Text>Port St Lucie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FLORIDA_12">
+			<Text>Cape Coral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FLORIDA_13">
+			<Text>Pembroke Pines</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FLORIDA_14">
+			<Text>Hollywood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FLORIDA_15">
+			<Text>Miramar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FLORIDA_16">
+			<Text>Gainesville</Text>
+		</Row>
+
+		
+		<Row Tag="TXT_KEY_SPY_NAME_FLORIDA_0">
+			<Text>Andrew Jackson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FLORIDA_1">
+			<Text>Dave Barry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FLORIDA_2">
+			<Text>Tom Petty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FLORIDA_3">
+			<Text>Heidi</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FLORIDA_4">
+			<Text>Hiaasen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FLORIDA_5">
+			<Text>Jeb Bush</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FLORIDA_6">
+			<Text>A. Philip Randolph</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FLORIDA_7">
+			<Text>Pam Tillis</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FLORIDA_8">
+			<Text>Charles E. Merrill</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_FLORIDA_9">
+			<Text>George Smoot</Text>
+		</Row>
+		
+	</Language_en_US>
+
+
+</GameData>

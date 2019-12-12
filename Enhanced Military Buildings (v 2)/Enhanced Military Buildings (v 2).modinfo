@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1afdc54b-97a2-48a7-baf7-47e5c8e7262f" version="2">
+  <Properties>
+    <Name>Enhanced Military Buildings</Name>
+    <Teaser>This mod enhances Military and Defensive buildings.</Teaser>
+    <Description>This mod is designed to better reflect several aspects of Military and Defensive structures.
+
+Military buildings have been revamped. The Barracks now adds City Hit Points and Defense, reflecting its crucial role in city defense. The Armory now does not supply XP, but provides a free promotion. The Military Academy now provides +30 XP and a free promotion, but only 3 may be built.
+
+Defensive buildings have also been revamped, with City Hit Points generally receiving an increase to better reflect the difficulty Urban Warfare has provided throughout the ages.
+
+In addition, maintenance costs have been increased for Military buildings and added for Defensive buildings to better reflect the cost of militarization.
+
+Below are the new building yields.
+-------------------------------------------------------
+Barracks:
+  +15 XP all units
+  +25 City Hit Points
+  +1 Defense
+  2 Maintenance
+
+Krepost and Ikanda do not have increased maintenance.
+
+Armory:
+  Free Cover I Promotion
+  +10% Production of Melee Units
+  1 Maintenance
+  Requires 1 Iron
+
+Military Academy:
+  +30 XP all units
+  +2 Culture
+  Free Great Generals I Promotion
+  2 Maintenance
+  Only 3 may be built
+
+Walls:
+  +50 City Hit Points
+  +5 Defense
+  1 Maintenance
+
+No changes to Wall of Babylon.
+
+Castle:
+  +50 City Hit Points
+  +7 Defense
+  +1 Tourism after researching Dynamite
+  1 Maintenance
+
+Mughal Fort reflects increased City Hit Points, but no other changes.
+
+Arsenal:
+  +50 City Hit Points
+  +9 Defense
+  +10% Production of Gunpowder Units
+  2 Maintenance
+
+Military Base:
+  +15 XP all units
+  +50 City Hit Points
+  +15 Defense
+  3 Maintenance
+  Requires 1 Oil
+
+Bomb Shelter:
+  +100 City Hit Points
+  -75% Population Loss from Nuclear Bombs
+  1 Maintenance</Description>
+    <Authors>thecrazyscotsman</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="811450338A9C9E0F15A3BD42F6CEFA1D" import="0">Enhanced Military Buildings.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Enhanced Military Buildings.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

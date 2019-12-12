@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="28aeac9f-2d08-439a-9c3f-24787407cb83" version="1">
+  <Properties>
+    <Name>City States - Native American Only</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Only Native American City States</Teaser>
+    <Description>Only want to play with native american city states? Use this mod to deavtivate all other city states from being used in game.</Description>
+    <Authors>matthewc</Authors>
+    <SpecialThanks>Almgren</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="08B5BE5CD25D518F1BA789CB879C9187" import="0">CityStateSelection-NativeAmerican.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>CityStateSelection-NativeAmerican.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

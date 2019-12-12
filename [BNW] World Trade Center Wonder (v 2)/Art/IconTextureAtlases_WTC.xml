@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/26/2014 11:14:34 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>WTC_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>WTC256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WTC_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>WTC128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WTC_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>WTC64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WTC_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>WTC80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WTC_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>WTC45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

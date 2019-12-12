@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6cc94c16-f4a0-4ae9-babb-3725bc8d3121" version="1">
+  <Properties>
+    <Name>Iowa by calcul8or</Name>
+    <Stability>Beta</Stability>
+    <Teaser>[COLOR_YIELD_GOLD]Adds the state of Iowa[ENDCOLOR]</Teaser>
+    <Description>Adds the state of Iowa, led by Norman Borlaug
+
+UA: Earn Great Farmers separate from other Great People. Merchant Specialists yield +1 Food
+
+UU: Great Farmer, a Great Merchant replacement. The Great Farmer can construct the special Great Farm improvement which, when worked, produces Gold and Food; trade routes from cities with a Great Farm increase influence by +1 per turn. The Great Farmer can also perform a "trade mission". The Great Farmer is expended when used in either of these ways.
+
+Improvement taken from Horem's new resources.</Description>
+    <Authors>calcul8or</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFDs CULTURAL DIVERSITY (CORE)" />
+    <Mod id="cae0781c-556f-4c97-8fba-4d6eb612533f" minversion="0" maxversion="999" title="JFDs CULTURAL DIVERSITY SOUNDTRACK" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="JFDs CITIES IN DEVELOPMENT" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFDs RISE TO POWER" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="CIV IV LEADER TRAITS" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="YnAEMP" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="EVENTS AND DECISIONS" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="C08065EAB0C840169F6BAC256C4D584D" import="1">Assets/76_Trombones.mp3</File>
+    <File md5="DCA4FFF0059D845E316143D6E118043F" import="1">Assets/Atlas/GrtFarmAtlas256.dds</File>
+    <File md5="6DF2877E4DF2862C55B6DA18D8E2BB59" import="1">Assets/Atlas/GrtFarmAtlas45.dds</File>
+    <File md5="2FC3FFD56C6B072D2351D94993F3F219" import="1">Assets/Atlas/GrtFarmAtlas64.dds</File>
+    <File md5="7F5B8A3A9485B74571F36E7230ADA6AE" import="1">Assets/Atlas/IA_IconAtlas128.dds</File>
+    <File md5="334E110D219BB93BA3484BFDE7CEACEC" import="1">Assets/Atlas/IA_IconAtlas16.dds</File>
+    <File md5="B2562709DD8B10B00E608068E0592529" import="1">Assets/Atlas/IA_IconAtlas24.dds</File>
+    <File md5="EECD79C8097C6F84DEF5FA5E3E5E6D5E" import="1">Assets/Atlas/IA_IconAtlas256.dds</File>
+    <File md5="E7739405ECB729CFFEEBD8506E5553BE" import="1">Assets/Atlas/IA_IconAtlas32.dds</File>
+    <File md5="BE8192D06972CB1CBBFCC4FAF391487B" import="1">Assets/Atlas/IA_IconAtlas45.dds</File>
+    <File md5="CBE85D1B41737A1704F8CA4D9D05961F" import="1">Assets/Atlas/IA_IconAtlas48.dds</File>
+    <File md5="F4DDB1B27B4D742878AA7925C7538E3E" import="1">Assets/Atlas/IA_IconAtlas64.dds</File>
+    <File md5="1046377D00843979C2BB028CD40BF69C" import="1">Assets/Atlas/IA_IconAtlas80.dds</File>
+    <File md5="11B4E78A6B5D4EC545CB9AFA84C23159" import="1">Assets/DecAtlas/IA_DecAtlas128.dds</File>
+    <File md5="B9BB7F38BDEA90C16950CE040F21B8A8" import="1">Assets/DecAtlas/IA_DecAtlas256.dds</File>
+    <File md5="F99C8145E6476F6BAD6FEF4BFE04C282" import="1">Assets/DecAtlas/IA_DecAtlas45.dds</File>
+    <File md5="C3D85C4AEDBF6AC314E17F2583FC83D8" import="1">Assets/DecAtlas/IA_DecAtlas64.dds</File>
+    <File md5="6018054BD1BDC26484892A99280FFB71" import="1">Assets/DecAtlas/IA_DecAtlas80.dds</File>
+    <File md5="F912C56674104E84977EC4AB66E53988" import="1">Assets/IA_DOM.dds</File>
+    <File md5="736E1AA625E113FFDD0EE4D977E7F7E2" import="1">Assets/IA_map.dds</File>
+    <File md5="DC20F1BC2720DDE5F2583074E2B74088" import="1">Assets/IA_scene.dds</File>
+    <File md5="8D70804C20B553C6684F4BAE2F119DEE" import="1">Assets/Overture.mp3</File>
+    <File md5="12B7ED1587D8499F1569B9C1E01FDF30" import="1">Assets/SV_Farmer.dds</File>
+    <File md5="55B898B7BCA75C3A8EB42EBF836088A4" import="1">Assets/SV_GrtFarm.dds</File>
+    <File md5="71A1B22CC8D629F510BFAF8BD85E8381" import="0">Code/IA_Buildings.xml</File>
+    <File md5="1A9892157433DEEA2370B20FD070B211" import="0">Code/IA_Civilization.xml</File>
+    <File md5="D6A326E6232E8528879857808E37EFE1" import="0">Code/IA_Diplomacy.sql</File>
+    <File md5="ABD83494414C30371FB2B92164506F3E" import="0">Code/IA_DiploReplies.xml</File>
+    <File md5="9D2570C37089E466A8DF6EBCEE1A30FA" import="0">Code/IA_DummyBuildings.xml</File>
+    <File md5="94C4BD024DA794F672BF258E43D4BC96" import="0">Code/IA_IconAtlas.xml</File>
+    <File md5="26841D106FF491F9DE151CA6FA234E54" import="0">Code/IA_Leader.xml</File>
+    <File md5="ED84D0E95D6DE741C5F4315CD2396D51" import="1">Code/IA_scene.xml</File>
+    <File md5="50A01CE2D1535FA600F5485464EB110D" import="0">Code/IA_Sound.xml</File>
+    <File md5="93C461BF0DA05BD64D022A49C4FDB367" import="0">Code/IA_Trait.xml</File>
+    <File md5="37217D957C42F4FFC5982194E5004C9D" import="0">Code/IA_Units.xml</File>
+    <File md5="82048C721BA3D105E8EF465CA901AEB4" import="0">Code/IA_Unit_Defines.sql</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Improvement/Art/fx_triggers_pl_plantation_mid_mango.ftsxml</File>
+    <File md5="D2608A70847DCA918B356CD82B801471" import="1">Improvement/Art/mango_diff.dds</File>
+    <File md5="B27A2B6D05261F9AC58DCB266F5EBBFF" import="1">Improvement/Art/mango_sref.dds</File>
+    <File md5="BDB3CCB15B5E98D6660CAE9E58D78D1E" import="1">Improvement/Art/plantation_mid_corn.fxsxml</File>
+    <File md5="D608CA534A1AA20B31C982B847A31F91" import="1">Improvement/Art/plantation_mid_corn.gr2</File>
+    <File md5="940456EC8B0BC747773B03945F029B0F" import="1">Improvement/Art/plantation_mid_mango.fxsxml</File>
+    <File md5="953AD375F7D6F1DF92F3EF5891D50B3D" import="1">Improvement/Art/plantation_mid_mango.gr2</File>
+    <File md5="96D2464E1B6FE8636F2E498C8175F897" import="1">Improvement/Art/pl_mango_diff.dds</File>
+    <File md5="C03CAD88A4F452AA0B5C2A5250921CC1" import="1">Improvement/Art/pl_plantation_mid_mango.fxsxml</File>
+    <File md5="8E8952A63F8A4BC34B997F9C11F061F7" import="1">Improvement/Art/pl_plantation_mid_mango.gr2</File>
+    <File md5="CB2FEFC733D2E4EA1325B978FA56E9B2" import="1">Improvement/Art/resource_corn_diff.dds</File>
+    <File md5="C8D92A47936A0B2B7E5947FE8F02058D" import="1">Improvement/Art/resource_corn_sref.dds</File>
+    <File md5="4AF38FC3ED0D6F549E73E4850004182B" import="0">Improvement/GrtFarm.xml</File>
+    <File md5="83C66CF733AD68A1524902FC89D31F99" import="0">Improvement/ImprovementFarmReplacement.sql</File>
+    <File md5="1E7C79D1ED2A0CDE7EFC50A6EF7F7575" import="0">Lua/IA_functions.lua</File>
+    <File md5="2BF649C76A1685527B9EC6BC56A3EB1D" import="0">Lua/Promotion_Created.xml</File>
+    <File md5="29E48D14B307325D50948095B83003C2" import="0">Lua/SeparateGreatPeopleCounters.lua</File>
+    <File md5="E3AB73844886B35F4B78A604FA2D13D2" import="0">Lua/SerialEventUnitCreatedGood.lua</File>
+    <File md5="1BF3DE6BEF363CC7435CF562D304E265" import="1">Support/IA_Decisions.lua</File>
+    <File md5="C1322FDA5BBA79494F54CA5639DB80E0" import="0">Support/IA_ModSupport.sql</File>
+    <File md5="E4F8F44316EB0916FD7D4CF69537657C" import="0">Support/IA_SupportText.xml</File>
+    <File md5="7DACC6AD59026D55480AD11BF6B65DF4" import="0">Support/IA_TSL.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Code/IA_Civilization.xml</UpdateDatabase>
+      <UpdateDatabase>Code/IA_Leader.xml</UpdateDatabase>
+      <UpdateDatabase>Code/IA_Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Code/IA_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>Code/IA_DummyBuildings.xml</UpdateDatabase>
+      <UpdateDatabase>Code/IA_Units.xml</UpdateDatabase>
+      <UpdateDatabase>Code/IA_IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Code/IA_Sound.xml</UpdateDatabase>
+      <UpdateDatabase>Code/IA_Unit_Defines.sql</UpdateDatabase>
+      <UpdateDatabase>Improvement/GrtFarm.xml</UpdateDatabase>
+      <UpdateDatabase>Improvement/ImprovementFarmReplacement.sql</UpdateDatabase>
+      <UpdateDatabase>Code/IA_Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Code/IA_DiploReplies.xml</UpdateDatabase>
+      <UpdateDatabase>Lua/Promotion_Created.xml</UpdateDatabase>
+      <UpdateDatabase>Support/IA_ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Support/IA_TSL.sql</UpdateDatabase>
+      <UpdateDatabase>Support/IA_SupportText.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/SeparateGreatPeopleCounters.lua">
+      <Name>SeparateGreatPeopleCounters</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/SerialEventUnitCreatedGood.lua">
+      <Name>SerialEventUnitCreatedGood</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/IA_functions.lua">
+      <Name>IA_functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/28/2016 12:41:26 PM -->
+<GameData>
+
+	<Units>
+		<Row>
+			<Type>UNIT_KY_FRONTIERSMAN</Type>
+			<Description>TXT_KEY_UNIT_KY_FRONTIERSMAN</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_KY_FRONTIERSMAN_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_KY_FRONTIERSMAN_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_KY_FRONTIERSMAN</Help>
+			<Combat>8</Combat>
+			<Cost>25</Cost>
+			<FaithCost>50</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<BaseSightRange>2</BaseSightRange>
+			<Class>UNITCLASS_SCOUT</Class>
+			<CombatClass>UNITCOMBAT_RECON</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
+			<NoBadGoodies>true</NoBadGoodies>
+			<!--<RivalTerritory>0</RivalTerritory>-->
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_SCIENTIFIC_THEORY</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_SPEARMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>10</AdvancedStartCost>
+			<MinAreaSize>-1</MinAreaSize>
+			<NukeDamageLevel>-1</NukeDamageLevel>
+			<CombatLimit>100</CombatLimit>
+			<UnitArtInfo>ART_DEF_UNIT_KY_FRONTIERSMAN</UnitArtInfo>
+			<MoveRate>BIPED</MoveRate>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>KY_COLOR_ATLAS</IconAtlas>
+			<UnitFlagAtlas>KY_ALPHA_ATLAS</UnitFlagAtlas>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_KY_FRONTIERSMAN</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_FreePromotions>
+		<!--<Row>
+			<UnitType>UNIT_KY_FRONTIERSMAN</UnitType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>-->
+		<Row>
+			<UnitType>UNIT_KY_FRONTIERSMAN</UnitType>
+			<PromotionType>PROMOTION_SURVIVALISM_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KY_FRONTIERSMAN</UnitType>
+			<PromotionType>PROMOTION_WOODSMAN</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_KY_FRONTIERSMAN</UnitType>
+			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_KY_FRONTIERSMAN</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_KY_FRONTIERSMAN</UnitType>
+			<SelectionSound>AS2D_SELECT_SCOUT</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_SCOUT</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_KY_FRONTIERSMAN">
+			<Text>Frontiersman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ANTIQUITY_KY_FRONTIERSMAN_TEXT">
+			<Text>The frontiersmen were a remarkable breed of men. They were often rough and illiterate, sometimes brutal and vicious, often seeking an escape in the wilderness of mid-America from crimes committed back east. In the beautiful but deadly country which would one day come to be known as West Virginia, Kentucky, Michigan, Ohio, Indiana, and Illinois, more often than not they left their bones to bleach beside forest paths or on the banks of the Ohio River.[NEWLINE]amazon.com/Frontiersmen-Narrative-Allan-W-Eckert/dp/0945084919
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_KY_FRONTIERSMAN_STRATEGY">
+			<Text>This early unit replaces the Scout. However, instead of the Scout's movement bonus it starts with Woodsman and Survivalism I and a Warrior's strength. It can be upgraded to a Musketman once you research Gunpowder.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_KY_FRONTIERSMAN">
+			<Text>Frontiersmen replace the Scout, and start with the Woodsman and Survivalism I promotions and a Warrior's combat strength. They can be upgraded to Musketmen once you research Gunpowder.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/24/2014 8:59:37 AM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_TEXTILE_MILL</Type>
+			<DefaultBuilding>BUILDING_TEXTILE_MILL</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TEXTILE_MILL</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TCS_GROCER</Type>
+			<DefaultBuilding>BUILDING_TCS_GROCER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TCS_GROCER</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_CHEMIST</Type>
+			<DefaultBuilding>BUILDING_CHEMIST</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CHEMIST</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_RANCH</Type>
+			<DefaultBuilding>BUILDING_RANCH</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_RANCH</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_INDUSTRIAL_MINE</Type>
+			<DefaultBuilding>BUILDING_INDUSTRIAL_MINE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_INDUSTRIAL_MINE</Description>
+			<MaxPlayerInstances>3</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_COASTAL_BATTERY</Type>
+			<DefaultBuilding>BUILDING_COASTAL_BATTERY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_COASTAL_BATTERY</Description>
+		</Row>
+	</BuildingClasses>
+</GameData>

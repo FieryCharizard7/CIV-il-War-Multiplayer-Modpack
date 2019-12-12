@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/18/2014 6:28:13 AM -->
+<GameData>
+
+	<Policies>
+		<Row>
+			<Type>POLICY_NCUA</Type>
+			<Description>TXT_KEY_POLICY_NCUA</Description>
+		</Row>
+	</Policies>
+
+	<Policy_UnitCombatProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_NCUA</PolicyType>
+			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
+			<ProductionModifier>15</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NCUA</PolicyType>
+			<UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
+			<ProductionModifier>15</ProductionModifier>
+		</Row>
+	</Policy_UnitCombatProductionModifiers>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_NCUA">
+			<Text>North Carolina UA</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d04ade5f-19f4-4312-8b89-2b32ee4dcbe6" version="1">
+  <Properties>
+    <Name>American City States</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Contains 30 American city states</Teaser>
+    <Description>Contains 30 American city states:
+
+North America:
+Ottawa (Canada)
+
+Central America:
+Belmopan (Belize)
+Guatemala City (Guatemala)
+Managua (Nicaragua)
+Mexico City (Mexico)
+San Jose (Costa Rica)
+San Salvador (El Salvador)
+Tegucigalpa (Honduras)
+
+Caribbean:
+Bridgetown (Barbados)
+Castries (Saint Lucia)
+Havana (Cuba)
+Kingston (Jamaica)
+Kingstown (Saint Vincent and the Grenadines)
+Nassau (Bahamas)
+Port-au-Prince (Haiti)
+Port-of-Spain (Trinidad and Tobago)
+Roseau (Dominica)
+San Juan (Puerto Rico)
+Santo Domingo (Dominican Republic)
+St George's (Grenada)
+St John's (Antigua and Barbuda)
+
+South America:
+Asuncion (Paraguay)
+Caracas (Venezuela)
+Cayenne (French Guyana)
+Georgetown (Guyana)
+La Paz (Bolivia)
+Montevideo (Uruguay)
+Paramaribo (Suriname)
+Quito (Ecuador)
+Santiago (Chile)</Description>
+    <Authors>tomas</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="F3E028FB4C7FCD1208DD87BB3B77F6DB" import="0">Asuncion.xml</File>
+    <File md5="5FB19E61D727C56923A6F371D51B6E32" import="0">Belmopan.xml</File>
+    <File md5="5B9D25C677A0AD60B43911F915C2289D" import="0">Bridgetown.xml</File>
+    <File md5="F6F45A74264D1E39FB8F484187C5FFC8" import="0">Caracas.xml</File>
+    <File md5="EBA4FB1471A89845D1FE6A07263FD116" import="0">Castries.xml</File>
+    <File md5="A67006374A16D2675D35583248BC6650" import="0">Cayenne.xml</File>
+    <File md5="42A77858F0600C7D60ABDED36358306A" import="0">Georgetown.xml</File>
+    <File md5="43156DBCBEFDB7C72DF1E6AA786380AC" import="0">Guatemala City.xml</File>
+    <File md5="8D26D53838066DB9025BF1CBDD1CA024" import="0">Havana.xml</File>
+    <File md5="FCD91B538A23D11CF0BE01491D3FEA1D" import="0">Kingston.xml</File>
+    <File md5="08EC3344D2731B120BAC042385FF8740" import="0">Kingstown.xml</File>
+    <File md5="CD7C876FCBD409F534DEB765751BB646" import="0">La Paz.xml</File>
+    <File md5="6B41D3DAEDC82F915B87C1E07997B4CC" import="0">Managua.xml</File>
+    <File md5="43388C49746306060FA4485F58C68B06" import="0">Mexico City.xml</File>
+    <File md5="475DACD97210DD462BD28AD6FC7216B8" import="0">Montevideo.xml</File>
+    <File md5="64D7BEDFA898822966C9C6A3CBEAA786" import="0">Nassau.xml</File>
+    <File md5="42CBF61730E108C7AAD1041D3B220AF0" import="0">Nuuk.xml</File>
+    <File md5="C44AE51407B8E2B1975BC6E7A28D6CE6" import="0">Ottawa.xml</File>
+    <File md5="6678D38CEFE853992B52750B7E6C90DB" import="0">Paramaribo.xml</File>
+    <File md5="4FE4B0334942B4BA1C656816E92C62AE" import="0">Port of Spain.xml</File>
+    <File md5="E3C2B332EE7CBF6CE189356023D91F33" import="0">Port-au-Prince.xml</File>
+    <File md5="21B2A48ACEB33E2CE3783B5715848F36" import="0">Quito.xml</File>
+    <File md5="7E289491D925BD32A1A1CC487009B500" import="0">Roseau.xml</File>
+    <File md5="7141FE7BEAC44623C9CD56A50ADC75BD" import="0">San Jose.xml</File>
+    <File md5="2CFEAACB56410D31D4CE3D3A7F499909" import="0">San Juan.xml</File>
+    <File md5="41D18C6719AB075B46E5E4D685C269E2" import="0">San Salvador.xml</File>
+    <File md5="EA21D5F71CD561C1B0D66C68895D3D03" import="0">Santiago.xml</File>
+    <File md5="58FB31102AB55450F8D60BFBC269A95E" import="0">Santo Domingo.xml</File>
+    <File md5="E7C56B93D7C7272AF934334DCC84CFB3" import="0">St George's.xml</File>
+    <File md5="F57C213D7182D88C4C2778EF44A7B6B5" import="0">St John's.xml</File>
+    <File md5="CDC7C94FE9C53C1115F5F64FAED7A40F" import="0">Tegucigalpa.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Asuncion.xml</UpdateDatabase>
+      <UpdateDatabase>Belmopan.xml</UpdateDatabase>
+      <UpdateDatabase>Bridgetown.xml</UpdateDatabase>
+      <UpdateDatabase>Caracas.xml</UpdateDatabase>
+      <UpdateDatabase>Castries.xml</UpdateDatabase>
+      <UpdateDatabase>Cayenne.xml</UpdateDatabase>
+      <UpdateDatabase>Georgetown.xml</UpdateDatabase>
+      <UpdateDatabase>Guatemala City.xml</UpdateDatabase>
+      <UpdateDatabase>Havana.xml</UpdateDatabase>
+      <UpdateDatabase>Kingston.xml</UpdateDatabase>
+      <UpdateDatabase>Kingstown.xml</UpdateDatabase>
+      <UpdateDatabase>La Paz.xml</UpdateDatabase>
+      <UpdateDatabase>Managua.xml</UpdateDatabase>
+      <UpdateDatabase>Mexico City.xml</UpdateDatabase>
+      <UpdateDatabase>Montevideo.xml</UpdateDatabase>
+      <UpdateDatabase>Nassau.xml</UpdateDatabase>
+      <UpdateDatabase>Nuuk.xml</UpdateDatabase>
+      <UpdateDatabase>Ottawa.xml</UpdateDatabase>
+      <UpdateDatabase>Paramaribo.xml</UpdateDatabase>
+      <UpdateDatabase>Port of Spain.xml</UpdateDatabase>
+      <UpdateDatabase>Port-au-Prince.xml</UpdateDatabase>
+      <UpdateDatabase>Quito.xml</UpdateDatabase>
+      <UpdateDatabase>Roseau.xml</UpdateDatabase>
+      <UpdateDatabase>San Jose.xml</UpdateDatabase>
+      <UpdateDatabase>San Juan.xml</UpdateDatabase>
+      <UpdateDatabase>San Salvador.xml</UpdateDatabase>
+      <UpdateDatabase>Santiago.xml</UpdateDatabase>
+      <UpdateDatabase>Santo Domingo.xml</UpdateDatabase>
+      <UpdateDatabase>St George's.xml</UpdateDatabase>
+      <UpdateDatabase>St John's.xml</UpdateDatabase>
+      <UpdateDatabase>Tegucigalpa.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

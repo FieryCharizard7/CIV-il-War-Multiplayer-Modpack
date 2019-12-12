@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="281d62a7-cea4-46ec-8da7-51578d1449ad" version="1">
+  <Properties>
+    <Name>Florida by calcul8or</Name>
+    <Stability>Beta</Stability>
+    <Teaser>[COLOR_ALT_HIGHLIGHT_TEXT]Adds the state of Florida[ENDCOLOR]</Teaser>
+    <Description>Adds the state of Florida, led by Reubin Askew
+
+UA: Military units receive double movement and +15% defense in Marshes; Workers can plant Citrus in Marshes.
+
+UBs: A series of Theme Parks. The first is Fantasy Kingdom, a Stadium replacement unique to Florida, the Fantasy Theme Park does not requires a Zoo to be built. It yields 2 [ICON_HAPPINESS_1] Happiness and 4 [ICON_TOURISM] Tourism, and allows the construction of add-on theme parks. The others are Fturue World and Sea Land.</Description>
+    <Authors>calcul8or</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="JFDs Cities in Development" />
+    <Mod id="6676902b-b907-45f1-8db5-32dcb2135eee" minversion="0" maxversion="999" title="JFDs Exploration Continued Expanded" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFDs Cultural Diversity" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFDs Rise to Power" />
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="YnAEMP" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Events and Decisions" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="484A1E5B76754FFAF49B8C13AFC6B851" import="1">Assets/Atlas/FL_IconAtlas128.dds</File>
+    <File md5="D0C2E498A1E16D65169A9BFEFDCD0933" import="1">Assets/Atlas/FL_IconAtlas16.dds</File>
+    <File md5="F81E799B3BAC1DD812079CCA6F7C3068" import="1">Assets/Atlas/FL_IconAtlas24.dds</File>
+    <File md5="9F706C6711C310097BC21B195A52F0FA" import="1">Assets/Atlas/FL_IconAtlas256.dds</File>
+    <File md5="268D2EEFBD90A2C2C0E4A2AD9A33325D" import="1">Assets/Atlas/FL_IconAtlas32.dds</File>
+    <File md5="97939543F20DF7186E2E07D61AB459B4" import="1">Assets/Atlas/FL_IconAtlas45.dds</File>
+    <File md5="D64982403687EE27B230A9198299A4F9" import="1">Assets/Atlas/FL_IconAtlas48.dds</File>
+    <File md5="AC4C31D1505D6FB1A63696A62456308F" import="1">Assets/Atlas/FL_IconAtlas64.dds</File>
+    <File md5="A91A1515960D65C911B56169C3760777" import="1">Assets/Atlas/FL_IconAtlas80.dds</File>
+    <File md5="782E22E74FDC92CEFB0F6B229C7FD37D" import="1">Assets/BldgAtlas/FL_Building_IconAtlas128.dds</File>
+    <File md5="7E2D6869A8E7E2E9A61D15B3492BAE18" import="1">Assets/BldgAtlas/FL_Building_IconAtlas256.dds</File>
+    <File md5="7FBB866ED078B2070B1D3C460E86A9DD" import="1">Assets/BldgAtlas/FL_Building_IconAtlas45.dds</File>
+    <File md5="972B48F5FEC58C4788912EE9BB1FAB5C" import="1">Assets/BldgAtlas/FL_Building_IconAtlas64.dds</File>
+    <File md5="9B680DED2D821F17E0F3A98A01E9FEF3" import="1">Assets/BldgAtlas/FL_Building_IconAtlas80.dds</File>
+    <File md5="8649E21C4FDE640965ED2CE0264154B4" import="1">Assets/FL_DOM.dds</File>
+    <File md5="F9A4F7B4BFB2ACB9E76EBBF1D1E795BD" import="1">Assets/FL_map.dds</File>
+    <File md5="7AA672CC38C5D8543B5BB650DB912F9A" import="1">Assets/FL_scene3.dds</File>
+    <File md5="7D7E30B9F029282C3193802BC7E466CA" import="1">Assets/Showdown_Potter.mp3</File>
+    <File md5="E83580ED78C2C1EC08C388147D61E703" import="1">Assets/Swanee_River.mp3</File>
+    <File md5="31FF29D025E8872899C7CE2609C39743" import="1">Assets/Wish_Upon_Star.mp3</File>
+    <File md5="E53BF25D7372F18A8E79FE4405C5C192" import="0">Core/DiploReplies.xml</File>
+    <File md5="B44D7844D6BD308D09C49357BF33C124" import="0">Core/FL_Buildings.xml</File>
+    <File md5="45957423C2F3A4680301E88EECD9E8C8" import="0">Core/FL_Civilization.xml</File>
+    <File md5="4A4A20B4F94353DB3A3679770B074649" import="0">Core/FL_Diplomacy.sql</File>
+    <File md5="20ED8270CC6A103CC8EA4C1A5529F71F" import="0">Core/FL_IconAtlas.xml</File>
+    <File md5="F83ADAE9B855DB29D817DDA0FC0B7960" import="0">Core/FL_Leader.xml</File>
+    <File md5="9087FE1537162E65AE81DDD4B2F266D3" import="1">Core/FL_scene3.xml</File>
+    <File md5="593628450618B83D4EDA28C38D32198A" import="0">Core/FL_Sound.xml</File>
+    <File md5="601632A96270862E80EB4AD816032537" import="0">Core/FL_Trait.xml</File>
+    <File md5="19443EE68AA3A9E3BA43856D35A4AD3E" import="0">Improvement/Assets/ArtDefines.xml</File>
+    <File md5="BFF31D2EC67A36C4DAF827BB600ED9A2" import="1">Improvement/Assets/OrangeAtlas256.dds</File>
+    <File md5="95C7843DF46785A2BC162C2A3343DE0E" import="1">Improvement/Assets/OrangeAtlas45.dds</File>
+    <File md5="10FEF3BE49FF8CB5A3E89C6A52EA5EA6" import="1">Improvement/Assets/OrangeAtlas64.dds</File>
+    <File md5="973B3298C4D519E868F935DA95937EC2" import="0">Improvement/CitrusGrove.lua</File>
+    <File md5="4D9E6A4F8EF00816A8B2183067095902" import="0">Improvement/NewCitrusGrove.lua</File>
+    <File md5="EA112AE6D8294942C8BE65CE6034742D" import="0">Improvement/OrangeAtlas.xml</File>
+    <File md5="D710EAB12F00EEAE82BC430A8C13DD46" import="0">Improvement/PlantCitrus.xml</File>
+    <File md5="E6478B515EA46939511808F0D8BC17F6" import="1">Support/FL_Decisions.lua</File>
+    <File md5="9A7CF9CFFC6C7CC17538EC4B30F2749F" import="0">Support/MiscSupport.sql</File>
+    <File md5="C507CCC7189D1179726065788D9C3EF4" import="0">Support/SupportText.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/FL_Civilization.xml</UpdateDatabase>
+      <UpdateDatabase>Core/FL_Leader.xml</UpdateDatabase>
+      <UpdateDatabase>Core/FL_Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Core/DiploReplies.xml</UpdateDatabase>
+      <UpdateDatabase>Core/FL_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>Core/FL_Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Core/FL_IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Core/FL_Sound.xml</UpdateDatabase>
+      <UpdateDatabase>Improvement/OrangeAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Improvement/PlantCitrus.xml</UpdateDatabase>
+      <UpdateDatabase>Support/MiscSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Support/SupportText.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Improvement/NewCitrusGrove.lua">
+      <Name>NewCitrusGrove</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

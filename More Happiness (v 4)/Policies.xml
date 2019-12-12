@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/21/2015 2:31:14 PM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Where Type="POLICY_MILITARY_CASTE"/>
+			<Set>
+				<Description>TXT_KEY_POLICY_MILITARY_CASTE</Description>
+				<Civilopedia>TXT_KEY_POLICY_MILITARYCASTE_TEXT</Civilopedia>
+				<Help>TXT_KEY_POLICY_MILITARY_CASTE_HELP</Help>
+				<PolicyBranchType>POLICY_BRANCH_HONOR</PolicyBranchType>
+				<CultureCost>10</CultureCost>
+				<GridX>4</GridX>
+				<GridY>2</GridY>
+				<Happiness>1</Happiness>
+				<HappinessPerGarrisonedUnit>2</HappinessPerGarrisonedUnit>
+				<CulturePerGarrisonedUnit>2</CulturePerGarrisonedUnit>
+				<PortraitIndex>22</PortraitIndex>
+				<IconAtlas>POLICY_ATLAS</IconAtlas>
+				<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="POLICY_MERITOCRACY"/>
+			<Set>
+				<Description>TXT_KEY_POLICY_MERITOCRACY</Description>
+				<Civilopedia>TXT_KEY_CIV5_POLICY_MERITOCRACY_TEXT</Civilopedia>
+				<Help>TXT_KEY_POLICY_MERITOCRACY_HELP</Help>
+				<PolicyBranchType>POLICY_BRANCH_LIBERTY</PolicyBranchType>
+				<CultureCost>10</CultureCost>
+				<GridX>5</GridX>
+				<GridY>2</GridY>
+				<HappinessPerTradeRoute>100</HappinessPerTradeRoute>
+				<UnhappinessMod>-15</UnhappinessMod>
+				<PortraitIndex>29</PortraitIndex>
+				<IconAtlas>POLICY_ATLAS</IconAtlas>
+				<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="POLICY_ARISTOCRACY"/>
+			<Set>
+				<Description>TXT_KEY_POLICY_ARISTOCRACY</Description>
+				<Civilopedia>TXT_KEY_POLICY_ARISTOCRACY_TEXT</Civilopedia>
+				<Help>TXT_KEY_POLICY_ARISTOCRACY_HELP</Help>
+				<PolicyBranchType>POLICY_BRANCH_TRADITION</PolicyBranchType>
+				<CultureCost>10</CultureCost>
+				<GridX>1</GridX>
+				<GridY>1</GridY>
+				<WonderProductionModifier>15</WonderProductionModifier>
+				<HappinessPerXPopulation>8</HappinessPerXPopulation>
+				<PortraitIndex>55</PortraitIndex>
+				<IconAtlas>POLICY_ATLAS</IconAtlas>
+				<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+			</Set>
+		</Update>
+	</Policies>
+	<Policy_BuildingClassHappiness>
+		<Update>
+			<Where PolicyType="POLICY_NAVAL_TRADITION"/>
+			<Set>
+				<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
+				<Happiness>1</Happiness>
+			</Set>
+		
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_NAVAL_TRADITION"/>
+			<Set>
+				<BuildingClassType>BUILDINGCLASS_SEAPORT</BuildingClassType>
+				<Happiness>2</Happiness>
+			</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_NAVAL_TRADITION"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_CAPITALISM"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_MINT</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_CAPITALISM"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_CAPITALISM"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_STOCK_EXCHANGE</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_URBANIZATION"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_WATERMILL</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_URBANIZATION"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_HOSPITAL</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_URBANIZATION"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_MEDICAL_LAB</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_SOCIALIST_REALISM"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_ACADEMY_SCIENCES"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_OBSERVATORY</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_ACADEMY_SCIENCES"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_PUBLIC_SCHOOL</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_ACADEMY_SCIENCES"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_YOUNG_PIONEERS"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_YOUNG_PIONEERS"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_YOUNG_PIONEERS"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_SOLAR_PLANT</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_YOUNG_PIONEERS"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_NUCLEAR_PLANT</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_YOUNG_PIONEERS"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_HYDRO_PLANT</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_MILITARISM"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_MILITARISM"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_MILITARISM"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_FORTIFIED_BORDERS"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set></Update>
+		<Update>
+			<Where PolicyType="POLICY_FORTIFIED_BORDERS"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_FORTIFIED_BORDERS"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_POLICE_STATE"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+			<Happiness>3</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_F"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_F"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_HEROIC_EPIC</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_F"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_EPIC</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_F"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_CIRCUS_MAXIMUS</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_F"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_TREASURY</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_F"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_COLLEGE</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_F"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_IRONWORKS</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_F"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_OXFORD_UNIVERSITY</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_F"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_HERMITAGE</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_F"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_INTELLIGENCE_AGENCY</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_F"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_F"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_TOURIST_CENTER</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_O"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_O"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_HEROIC_EPIC</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_O"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_EPIC</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_O"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_CIRCUS_MAXIMUS</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_O"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_TREASURY</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_O"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_COLLEGE</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_O"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_IRONWORKS</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_O"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_OXFORD_UNIVERSITY</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_O"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_HERMITAGE</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_O"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_INTELLIGENCE_AGENCY</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_O"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_O"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_TOURIST_CENTER</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_A"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_A"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_HEROIC_EPIC</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_A"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_EPIC</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_A"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_CIRCUS_MAXIMUS</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_A"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_TREASURY</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_A"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_COLLEGE</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_A"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_IRONWORKS</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_A"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_OXFORD_UNIVERSITY</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_A"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_HERMITAGE</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_A"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_INTELLIGENCE_AGENCY</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_A"/> <Set>
+			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+		<Update>
+			<Where PolicyType="POLICY_UNIVERSAL_HEALTHCARE_A"/> 
+		<Set>
+			<BuildingClassType>BUILDINGCLASS_TOURIST_CENTER</BuildingClassType>
+			<Happiness>2</Happiness>
+		</Set>
+		</Update>
+	</Policy_BuildingClassHappiness>
+</GameData>

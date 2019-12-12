@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1bcfa467-3569-4160-bdda-0e4d18913654" version="1">
+  <Properties>
+    <Name>Tennessee</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Add president Andrew Jackson as the leader of Tennessee to the game</Teaser>
+    <Description>Add president Andrew Jackson as the leader of Tennessee to the game
+
+UA: Spoils System
+Upon entering a new Era, recieve a new unique Specialist. Gold building yield -1 and +2  Happiness.
+
+UU: Frontiersman
+May learn an Unique skill while visiting City States. May build roads and Forts. Have a combat bonus outside Friendly Territory.
+
+UNW: West Point
+A Great General appears near the [ICON_CAPITAL] Capital and +15 experience for all new units built in this city, 2 [ICON_GREAT_PEOPLE] Great People Point towards Great general, 1 Sergeant specialists slots.  Requires a Military Academy in all cities.
+
+credits:
+Mayor S: Design, Coding, Art
+zwei833: Frontiersman Model
+
+Music
+Peace: Hail Columbia US Marine Band
+War: Hail Columbia Canadian Brass</Description>
+    <Authors>Mayor S</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="4AAA86C3E77695ED6383AB94ACBC9206" import="1">Art/Frontiersman/holyromanmusketman_gloss.dds</File>
+    <File md5="B2491231B875050C5F89DEEF11A98CA0" import="1">Art/Frontiersman/hremm-tc.fxsxml</File>
+    <File md5="46CD13CC51F0D1B22F0AD71F85CC8C31" import="1">Art/Frontiersman/hremm-tc.gr2</File>
+    <File md5="8117A426FA6CB4A378519D40BABB3D7D" import="1">Art/Frontiersman/hremm128-tc.dds</File>
+    <File md5="54FFFA0FEB87F0AC8AF52E994CE3EDA1" import="1">Art/Frontiersman/Streltsy_Black_Cap_diff.dds</File>
+    <File md5="3308998185E87E3CD4C60A0E039B0EF3" import="1">Art/Frontiersman/Streltsy_sref.dds</File>
+    <File md5="044706F164C32457890E1405576EFB61" import="1">Art/Icon/FrontiersmanFlag_32.dds</File>
+    <File md5="AF507B5CDD268F49153F07A3A218F22C" import="1">Art/Icon/Jackson_Alpha_128.dds</File>
+    <File md5="C42D8EE9428FA9058982A58710972ECA" import="1">Art/Icon/Jackson_Alpha_16.dds</File>
+    <File md5="3FAD4C86AB023115A5455A0686A4EC6B" import="1">Art/Icon/Jackson_Alpha_24.dds</File>
+    <File md5="F687CAC2E720C19D6503F20D36D30CA9" import="1">Art/Icon/Jackson_Alpha_256.dds</File>
+    <File md5="87A807EFBC66E79E4497AB84E5984F61" import="1">Art/Icon/Jackson_Alpha_32.dds</File>
+    <File md5="B6BBC47955C34A426081B1096BAD578B" import="1">Art/Icon/Jackson_Alpha_45.dds</File>
+    <File md5="A53877ED84F0E81D53A8D19D7A39AAB4" import="1">Art/Icon/Jackson_Alpha_48.dds</File>
+    <File md5="850B81BF99B1CB18E7AC976EF3EE6CC9" import="1">Art/Icon/Jackson_Alpha_64.dds</File>
+    <File md5="A6862286B7D121C29F6557B4ECC08676" import="1">Art/Icon/Jackson_Alpha_80.dds</File>
+    <File md5="F339EB57BDF3AFE4144D8BE5850F39BD" import="1">Art/Icon/Jackson_Atlas_128.dds</File>
+    <File md5="E9F76B10ADB01721465BF53135293E34" import="1">Art/Icon/Jackson_Atlas_256.dds</File>
+    <File md5="3BCC011072529F1FF85797F48E5C3A22" import="1">Art/Icon/Jackson_Atlas_32.dds</File>
+    <File md5="4260A0EA937A911432884FC84227D98A" import="1">Art/Icon/Jackson_Atlas_45.dds</File>
+    <File md5="F8B051FC8913970D0B893EAF316C5C39" import="1">Art/Icon/Jackson_Atlas_64.dds</File>
+    <File md5="646F7F9C3F1878DEFA8CCF5E5BE15C6B" import="1">Art/Icon/Jackson_Atlas_80.dds</File>
+    <File md5="0C958CDE88ABFA8E4A3F051B64889C6E" import="1">Art/JacksonDOM.dds</File>
+    <File md5="C8CC2A9931FC52DCB00ECDC0788302EF" import="1">Art/JacksonMap.dds</File>
+    <File md5="AC556D3C06BF46134303704AD9A53C96" import="1">Art/Jackson_Scene.dds</File>
+    <File md5="AA5A25156E0C430FDF659DD6E8FCFAFD" import="1">Art/Music/Jackson_War.mp3</File>
+    <File md5="CEAD7D3E479B9200CF3C2CC592F44227" import="1">Art/Music/Jackson_Peace.mp3</File>
+    <File md5="07D6D6854E72E0983EA26F57B920AF5A" import="0">Core/Frontiersman_Art_Define.xml</File>
+    <File md5="A9609D99412EE19B2085AE9D4B0D9121" import="0">Core/Jackson_Buildings.xml</File>
+    <File md5="700BAE7BA5674E629E4DC3BB0B4E5EAB" import="0">Core/Jackson_Civilization.xml</File>
+    <File md5="A2D15F678F222CCA8B2ED733E34C93C5" import="0">Core/Jackson_Icon_Atlas.xml</File>
+    <File md5="53985F41008EC543C7227C3518CE75D4" import="0">Core/Jackson_Leader.xml</File>
+    <File md5="3A6A78DB5767F080FCEF621866E4DE60" import="0">Core/Jackson_Mod_Support.sql</File>
+    <File md5="94C9C588C97FBF4EA0BD503DB500EBAD" import="0">Core/Jackson_Mod_Support_Text.xml</File>
+    <File md5="205F648ADCCA9D7CE236ABEDB4935780" import="0">Core/Jackson_Music.xml</File>
+    <File md5="96C822C523C8BA3E7093AB473347CF61" import="0">Core/Jackson_Policies.xml</File>
+    <File md5="7D536CCCB46D4AEA12BF6DF82B47FE4E" import="1">Core/Jackson_Scene.xml</File>
+    <File md5="EBB8061D7349C03A6B813D2C124F585F" import="0">Core/Jackson_Text.xml</File>
+    <File md5="888D7BE7D59C7F2C760A8A10BE8E1592" import="0">Core/Jackson_Traits.xml</File>
+    <File md5="E88C59E18A0CE85494FAB81138415FD0" import="0">Core/Jackson_Units.xml</File>
+    <File md5="48F7588364E9AFBFDB7D347DC26B5424" import="1">LUA/Frontiersmen_Function.lua</File>
+    <File md5="5EA92BF58668E030AAF3D69D788BFDAC" import="0">LUA/Jackson_Unique_Diplomacy.lua</File>
+    <File md5="5754B1BE6E37A2F9D04D9D4149E5CDDF" import="1">LUA/SaveUtils.lua</File>
+    <File md5="86F9ABE86CCBD4E123029A7B59943633" import="1">LUA/Spoils_System_Function.lua</File>
+    <File md5="CAF1631B151947B6546C5E2ECEABED63" import="0">LUA/UniqueDiplomacyUtilsV3.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Core/Jackson_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Jackson_Civilization.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Jackson_Icon_Atlas.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Jackson_Leader.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Jackson_Music.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Jackson_Text.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Jackson_Traits.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Jackson_Units.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Jackson_Policies.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Frontiersman_Art_Define.xml</UpdateDatabase>
+      <UpdateDatabase>Core/Jackson_Mod_Support.sql</UpdateDatabase>
+      <UpdateDatabase>Core/Jackson_Mod_Support_Text.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="LUA/Frontiersmen_Function.lua">
+      <Name>Frontiersmen Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="LUA/SaveUtils.lua">
+      <Name>Save Utils</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="LUA/Spoils_System_Function.lua">
+      <Name>Spoils System Functions</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="LUA/Jackson_Unique_Diplomacy.lua">
+      <Name>Jackson_Unique_Diplomacy</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="LUA/UniqueDiplomacyUtilsV3.lua">
+      <Name>UniqueDiplomacyUtilsV3</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

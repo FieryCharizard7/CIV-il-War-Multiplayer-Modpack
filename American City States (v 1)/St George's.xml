@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/27/2016 11:16:41 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<!-- Adding a new CityState entry. -->
+	<MinorCivilizations>
+		<Row>
+			<Type>MINOR_CIV_ST_GEORGES</Type>
+			<Description>TXT_KEY_CITYSTATE_ST_GEORGES</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_ST_GEORGES</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_ST_GEORGES_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CITYSTATE_ST_GEORGES_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_PURPLE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN</ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+	</MinorCivilizations>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_ST_GEORGES</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_ST_GEORGES</CityName>
+		</Row>
+	</MinorCivilization_CityNames>
+	<MinorCivilization_Flavors>
+		<Row>
+			<MinorCivType>MINOR_CIV_ST_GEORGES</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ST_GEORGES</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ST_GEORGES</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ST_GEORGES</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+	</MinorCivilization_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITYSTATE_ST_GEORGES">
+			<Text>St George's</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_ST_GEORGES_ADJ">
+			<Text>Grenadine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_ST_GEORGES_PEDIA">
+			<Text>St. George's was founded by the French in 1650 when Grenada was purchased by Jacques Dyel du Parquet, the governor of Martinique. The French began their colonization with a series of skirmishes that virtually exterminated the island's native Carib population. In 1666, a wooden fortification was constructed by French colonists on a promontory overlooking Grenada's natural harbour and named Fort Royale. In 1705, work started on a new star fort on the same site, with four stone-built bastions, to the design of Jean de Giou de Caylus, the Chief Engineer of the "Islands of America" the French West Indies. It was completed in 1710. Meanwhile, the original colonial settlement at the eastern edge of the harbour called Saint Louis after King Louis IX of France, later known as Port Louis, was found to be subject to flooding and malaria, so a new town was constructed called Ville de Fort Royal. When the island was ceded to Great Britain by the Treaty of Paris in 1763, the new administration renamed it Saint George's Town, after the patron saint of England and Fort Royal was renamed Fort George, after King George III. Following the withdrawal of Bridgetown, Barbados, in the mid-1880s, St. George's went on to become the replacement capital of the former colony of the British Windward Islands. The Tikal was the first art cater shop in Grenada and it was opened in December 1959. Grenada achieved independence from Britain in 1974. Following a leftist coup in 1983, the island was invaded by U. S. troops and a pro USA government was reinstated. In 2004, St. George's and the rest of Grenada was severely battered by Hurricane Ivan. The hurricane left significant destruction across the island and crippled much of the island's infrastructure. It was estimated that some 90 percent of the island's homes had sustained damage and the nutmeg trees, which are key to Grenada's economy, were devastated. A year later with the help of international donors Grenada had experienced a significant turn around in rebuilding efforts.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
+  

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/26/2016 11:41:45 AM -->
+<GameData>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_DECISIONS_IOWA_STATE_FAIR">
+			<Text>Found the State Fair</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_IOWA_STATE_FAIR_DESC">
+			<Text>
+				Our people wish to gather to celebrate their harvests and crafts...
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Iowa
+				[NEWLINE][ICON_BULLET]Player must be in the Renaissance Era or later
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Gold} [ICON_GOLD] Gold
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrate
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]A State Fair is built in the capital
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_IOWA_STATE_FAIR_ENACTED_DESC">
+			<Text>
+				We have founded a State Fair...
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]A State Fair is built in the capital
+			</Text>
+		</Row>
+
+	
+		<Row Tag="TXT_KEY_DECISIONS_IOWA_AMANA_COLONY">
+			<Text>Build the Amana Colonies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_IOWA_AMANA_COLONY_DESC">
+			<Text>
+				Religious refugees want to establish a colony in our lands...
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Iowa
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Gold} [ICON_GOLD] Gold
+				[NEWLINE][ICON_BULLET]{2_Cul} [ICON_CULTURE] Culture
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]The capital adds +2 population
+				[NEWLINE][ICON_BULLET]The capital gets a border growth boost
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_IOWA_AMANA_COLONY_ENACTED_DESC">
+			<Text>
+				We have allowed refugees to settle in our lands...
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]The capital adds +2 population
+				[NEWLINE][ICON_BULLET]The capital gets a border growth boost
+			</Text>
+		</Row>
+	</Language_en_US>
+		
+</GameData>

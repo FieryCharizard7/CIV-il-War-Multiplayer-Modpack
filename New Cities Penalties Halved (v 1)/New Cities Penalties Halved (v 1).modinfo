@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="bc8c171e-257c-49ca-873a-92c1b18a8139" version="1">
+  <Properties>
+    <Name>New Cities Penalties Halved</Name>
+    <Teaser>Science penalty for founding new cities on all map sizes is halved.</Teaser>
+    <Description>Science penalty for founding new cities on all map sizes is halved.</Description>
+    <Authors>Krajzen</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="A6AFE3A5AAA190FD3ED5559CF170A020" import="0">Worlds.xml</File>
+    <File md5="C67FC7C10115FDC1A13A6A320ED86355" import="0">Worlds2.xml</File>
+    <File md5="6B17CDFCB44367CA3F4D3551238219A6" import="0">Worlds3.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Worlds.xml</UpdateDatabase>
+      <UpdateDatabase>Worlds2.xml</UpdateDatabase>
+      <UpdateDatabase>Worlds3.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

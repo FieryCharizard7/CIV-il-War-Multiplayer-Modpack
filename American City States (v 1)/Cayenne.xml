@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/27/2016 11:16:41 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<!-- Adding a new CityState entry. -->
+	<MinorCivilizations>
+		<Row>
+			<Type>MINOR_CIV_CAYENNE</Type>
+			<Description>TXT_KEY_CITYSTATE_CAYENNE</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_CAYENNE</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_CAYENNE_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CITYSTATE_CAYENNE_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_GREEN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN</ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MERCANTILE</MinorCivTrait>
+		</Row>
+	</MinorCivilizations>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_CAYENNE</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_CAYENNE</CityName>
+		</Row>
+	</MinorCivilization_CityNames>
+	<MinorCivilization_Flavors>
+		<Row>
+			<MinorCivType>MINOR_CIV_CAYENNE</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CAYENNE</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CAYENNE</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CAYENNE</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+	</MinorCivilization_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITYSTATE_CAYENNE">
+			<Text>Cayenne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_CAYENNE_ADJ">
+			<Text>Cayenne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_CAYENNE_PEDIA">
+			<Text>Ignored by Spanish explorers, who found the region too hot and poor to be claimed, the region was not colonized until 1604, when a French settlement was founded. However, it was soon destroyed by the Portuguese, who were determined to enforce the provisions of the Treaty of Tordesillas. French colonists returned in 1643 and founded Cayenne, but they were forced to leave once more following Amerindian attacks. In 1664, France finally succeeded at establishing a permanent settlement at Cayenne. Over the next decade the colony changed hands between the French, Dutch, and English, before being restored to France. It was captured by an Anglo-Portuguese force at the invasion of Cayenne in 1809 and administered from Brazil until 1814, when it was returned to French control. It was used as a French penal colony from 1854 to 1938. The city's population has recently grown dramatically, owing to high levels of immigration (chiefly from the West Indies and Brazil) as well as a high birthrate.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
+  

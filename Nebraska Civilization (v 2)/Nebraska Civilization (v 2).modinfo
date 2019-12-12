@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b01d621f-0fb2-4eb3-a404-ba6201f36402" version="2">
+  <Properties>
+    <Name>Nebraska Civilization</Name>
+    <Teaser>Add the State of Nebraska, under the leadership of J. S. Morton to the game.</Teaser>
+    <Description>Add the state of Nebraska, under the leadership of J. S. Morton to the game.
+
+UA: Arbor Day: +1 culture per Forests tiles.
+
+UB: Grain Elevator: Replaces the Hospital. +5 Food  and +1 Food +1 Gold from Wheat.
+
+UI: Homestead: +2 Food, +1 Production and Adds every tile around it to your territory. Must be built on flat terrain, and can not be adjacent to another Homestead.
+
+Mods Supports: JFD's cultural diversity, YNAEMP, CIV IV leader traits, unique cultural influence, piety and prestige.
+
+Music:
+Peace: from Nebraska (Movie)
+War: from Red Dead Redemption</Description>
+    <Authors>Steve</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="EF52087DC95B151E5AC7D65A1DB14550" import="1">Art/Icon/Nebraska_Alpha_128.dds</File>
+    <File md5="D94AE1CCFFB71781707EE88DA4DAA40F" import="1">Art/Icon/Nebraska_Alpha_16.dds</File>
+    <File md5="CFC99C42FF60BA65826574AA380E4F87" import="1">Art/Icon/Nebraska_Alpha_22.dds</File>
+    <File md5="D791F77ACC7D78C9D19B1ACED42C293D" import="1">Art/Icon/Nebraska_Alpha_24.dds</File>
+    <File md5="B18D929474056759A2C19E087B9AB1DE" import="1">Art/Icon/Nebraska_Alpha_256.dds</File>
+    <File md5="439A547D0F9D3A2B31579962D7BB5121" import="1">Art/Icon/Nebraska_Alpha_32.dds</File>
+    <File md5="44CA0C0EE08E2AA27C32C37B3A804E5D" import="1">Art/Icon/Nebraska_Alpha_45.dds</File>
+    <File md5="B1F83CBAA7981122423B791547836131" import="1">Art/Icon/Nebraska_Alpha_48.dds</File>
+    <File md5="0F53111C8D47F745ED93AA28ACEA227E" import="1">Art/Icon/Nebraska_Alpha_64.dds</File>
+    <File md5="59B4B06F045278B232155473394A6527" import="1">Art/Icon/Nebraska_Alpha_80.dds</File>
+    <File md5="7E8084B675F65926C4F412F4ACE6985D" import="1">Art/Icon/Nebraska_Atlas128.dds</File>
+    <File md5="2B1A5EFBCF9C6222A0829D8F47251EDC" import="1">Art/Icon/Nebraska_Atlas256.dds</File>
+    <File md5="A0FD00F18783AC08EBD68EBC2E28C785" import="1">Art/Icon/Nebraska_Atlas32.dds</File>
+    <File md5="0E969FF6B6083B8D7B080F89A98D7796" import="1">Art/Icon/Nebraska_Atlas45.dds</File>
+    <File md5="BAB7B2596AC5E7EEB3C56CBB94120D7D" import="1">Art/Icon/Nebraska_Atlas64.dds</File>
+    <File md5="B2F7379ADDF4B9085B66471BFCFD0672" import="1">Art/Icon/Nebraska_Atlas80.dds</File>
+    <File md5="8171CF868C50122BA91157C0B1CE8CA7" import="1">Art/Music/NebraskaWar.mp3</File>
+    <File md5="6A54F2607E841831199A2A1FE11EA47D" import="1">Art/Music/NebraskaPeace.mp3</File>
+    <File md5="4A17EC4719102158A3CFCBEB6DCFF257" import="1">Art/NebraskaDOM.dds</File>
+    <File md5="256B0CAAF08765B590CB1CC25C37AFE1" import="1">Art/NebraskaMap.dds</File>
+    <File md5="5FF3EC67FA239D24CE407D36CC036C95" import="1">Art/Nebraska_Leader.dds</File>
+    <File md5="76532A1F1CB7CAE5C1AA809B1F6C3493" import="0">XML/Civilization.xml</File>
+    <File md5="BF3B9C0B986B4704F4CF426949904848" import="0">XML/Icon_Atlases.xml</File>
+    <File md5="8214F99D564D002712660DF35DF9BD1E" import="0">XML/Leader.xml</File>
+    <File md5="A09F48F97AAA0E466B6E48D0B5273B64" import="0">XML/Modsupport.sql</File>
+    <File md5="A8F8B485EB2A6D54D79670DE8897509B" import="1">XML/NEB_Scene.xml</File>
+    <File md5="1A282A44F3696E540A600FDF91D52D21" import="0">XML/NerbaskaMusic.xml</File>
+    <File md5="6228F548C89BCC0C7FCD92A58454E871" import="0">XML/Text.xml</File>
+    <File md5="747AC01AE70013CFBB988992AEF1E788" import="0">XML/Building.xml</File>
+    <File md5="68A7A7EADFA7F6C7E4FA499BF0D55050" import="0">XML/Trait.xml</File>
+    <File md5="1D6A38182EA46D111D061CE31E0A8D18" import="0">XML/unique cultural influence.xml</File>
+    <File md5="66E86605DB28CA3F165DE050D2AC34B6" import="0">XML/YNAEMP.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Building.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilization.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Icon_Atlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leader.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NEB_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NerbaskaMusic.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Modsupport.sql</UpdateDatabase>
+      <UpdateDatabase>XML/unique cultural influence.xml</UpdateDatabase>
+      <UpdateDatabase>XML/YNAEMP.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

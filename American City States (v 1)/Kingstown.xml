@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/27/2016 11:16:41 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<!-- Adding a new CityState entry. -->
+	<MinorCivilizations>
+		<Row>
+			<Type>MINOR_CIV_KINGSTOWN</Type>
+			<Description>TXT_KEY_CITYSTATE_KINGSTOWN</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_KINGSTOWN</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_KINGSTOWN_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CITYSTATE_KINGSTOWN_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_MIDDLE_CYAN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN</ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+	</MinorCivilizations>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_KINGSTOWN</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_KINGSTOWN</CityName>
+		</Row>
+	</MinorCivilization_CityNames>
+	<MinorCivilization_Flavors>
+		<Row>
+			<MinorCivType>MINOR_CIV_KINGSTOWN</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_KINGSTOWN</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_KINGSTOWN</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_KINGSTOWN</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+	</MinorCivilization_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITYSTATE_KINGSTOWN">
+			<Text>Kingstown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_KINGSTOWN_ADJ">
+			<Text>Vincentian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_KINGSTOWN_PEDIA">
+			<Text>Kingstown is the capital, chief port, and main commercial centre of Saint Vincent and the Grenadines. With a population of 16,500, Kingstown is the most populous settlement in the country. It is the center for the island's agricultural industry and a port of entry for tourists. The modern capital, Kingstown, was founded by French settlers shortly after 1722, although Saint Vincent had 196 years of British rule before her independence. The botanical garden, conceived in 1765, is one of the oldest in the Western hemisphere.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
+  

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/22/2014 8:11:46 PM -->
+<GameData>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_VOYAGER">
+			<Text>Voyager</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_VOYAGER_HELP">
+			<Text>1 Free Technology, 1 free Great Scientist. Provides a free Research Lab in the city in which it is built.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_VOYAGER_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Consider again that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives."[NEWLINE][TAB][TAB] - Carl Sagan[NEWLINE][TAB]</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_VOYAGER_PEDIA">
+			<Text>The Voyager program is a scientific program that launched two unmanned space missions, to study the outer planetary systems of Jupiter, Saturn, Uranus, and Neptune. The space probes were able to continue their mission after studying the outer planets, flying off into interstellar space. Voyager 1 became the first human-made object to enter interstellar space, and will soon be followed by Voyager 2, they are traveling further and faster than anyone, or anything, has in all of human history.[NEWLINE][NEWLINE]Aboard them are twin golden records that contains pictures and sounds of Earth, along with symbolic directions for playing the record and data detailing the location of Earth. These artefacts of our species will continue to exist long after any remembrance of today has faded into nothingness.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

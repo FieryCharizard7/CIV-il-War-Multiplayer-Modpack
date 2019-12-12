@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="38859561-b878-4d3a-8794-9fcde08f80bd" version="3">
+  <Properties>
+    <Name>PROMOTIONS PACK (no DLL required)</Name>
+    <Teaser>80 Promotions pack -no DL required-</Teaser>
+    <Description>80 new promotions, you will mostly never run out of choices. Some might be OP, it is possible that if you seek for perfect balance, this will not fit. But if you want to give to AI deity a hard time, feel free to butcher it.
+
+
+
+
+Some classes as Melee and Archer get 40+ additionally promotions, now you can go until level 47. Several promotions are unlocked by specific technologies, as Education, Dynamite etc. The Gatling Gun is now a better alternative to Artillery, to match all the effort you put into your archers. Yet the Artillery will be the only one to get much increased range. Bombers and Fighters receive several promotions increasing their range, attacks, evasion and movement. All your ships can now acquire the hidden nationality, have fun with.
+
+
+
+Bombers, fighters, tanks and artillery get 3 Learning promotions available with Dynamite, to help them match your old armies experience. This will raise their experience per killl to 300%.
+
+For same mod but with more lua special promotions (requires Howard's DLL mod), see here:
+
+http://steamcommunity.com/sharedfiles/filedetails/?id=523866786&amp;searchtext=
+
+(I recommend it because it is so much better)</Description>
+    <Authors>Salamandre</Authors>
+    <SpecialThanks>LeeS, Whoward69</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>null</Homepage>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+    <PediaCategory>UNITS</PediaCategory>
+    <PediaAtlas>VALERY_ATLAS</PediaAtlas>
+    <PediaIndex>1</PediaIndex>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks>
+    <Mod id="bd97a17f-6902-436c-9330-e6723ab8ff71" minversion="0" maxversion="999" title="UNKNOWN!!!" />
+  </Blocks>
+  <Files>
+    <File md5="3C1CB22AADA509AB09CA7C5753143810" import="1">ART/PromoIconAtlasx256.dds</File>
+    <File md5="9197C631ED303D2B50571428F6AE73DF" import="1">ART/PromoIconAtlasx32.dds</File>
+    <File md5="FC03341C63BD79B54D97F444431A9E89" import="1">ART/PromoIconAtlasx45.dds</File>
+    <File md5="AFB402C903F15496EA4911A70A5BA05E" import="1">ART/PromoIconAtlasx64.dds</File>
+    <File md5="D1F0A69952AE0DAE4CF04A30C3664FE5" import="0">XML/New Promotions pack.xml</File>
+    <File md5="BE97719E1EFA235EC3809DEEBDC694A8" import="0">LUA/PromotionsCrossovers.lua</File>
+    <File md5="DB45C2A90714087CC7CFF63AA5572572" import="0">SQL/PromotionsCrossovers.sql</File>
+    <File md5="F2C281EADA419B0296E082D52F64BFB7" import="0">XML/PromotionsCrossovers.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/New Promotions pack.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/PromotionsCrossovers.sql</UpdateDatabase>
+      <UpdateDatabase>XML/PromotionsCrossovers.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="LUA/PromotionsCrossovers.lua">
+      <Name>PromotionsCrossovers</Name>
+      <Description>PromotionsCrossovers</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

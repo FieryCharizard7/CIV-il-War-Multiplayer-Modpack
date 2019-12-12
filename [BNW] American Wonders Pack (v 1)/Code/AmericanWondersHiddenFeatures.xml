@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/24/2014 1:16:56 PM -->
+<GameData>
+	<Resources>
+		<Row>
+			<Type>RESOURCE_USAFILM</Type>
+			<TechCityTrade>TECH_CALENDAR</TechCityTrade>
+			<Happiness>4</Happiness>
+			<Description>TXT_KEY_RESOURCE_USAFILM</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_USAFILM_TEXT</Civilopedia>
+			<ResourceClassType>RESOURCECLASS_LUXURY</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_MARBLE</ArtDefineTag>
+			<IconString>[ICON_RES_USAFILM]</IconString>
+			<PortraitIndex>7</PortraitIndex>
+			<IconAtlas>USAWONDER_ATLAS</IconAtlas>
+		</Row>
+	</Resources>
+	<Resource_YieldChanges>
+		<Row>
+			<ResourceType>RESOURCE_USAFILM</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Resource_YieldChanges>
+	<Resource_Flavors>
+		<Row>
+			<ResourceType>RESOURCE_USAFILM</ResourceType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Resource_Flavors>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_VEGASDUMMY</Type>
+			<DefaultBuilding>BUILDING_VEGASDUMMY</DefaultBuilding>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_VEGASDUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_VEGASDUMMY</BuildingClass>
+			<Cost>-1</Cost>
+			<PrereqTech>NULL</PrereqTech>
+			<MinAreaSize>-1</MinAreaSize>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<FaithCost>-1</FaithCost>
+			<IconAtlas>USAWONDER_ATLAS</IconAtlas>
+			<Happiness>2</Happiness>
+			<PortraitIndex>4</PortraitIndex>
+
+		</Row>
+	</Buildings>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_RESOURCE_USAFILM">
+			<Text>Film</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_USAFILM_TEXT">
+			<Text>A film, also called a movie or motion picture, is a series of still images which, when shown on a screen, creates the illusion of moving images due to phi phenomenon. This optical illusion causes us to perceive continuous motion between separate objects viewed rapidly in succession. A film is created by photographing actual scenes with a motion picture camera; by photographing drawings or miniature models using traditional animation techniques; by means of CGI and computer animation; or by a combination of some or all of these techniques and other visual effects. Contemporary definition of cinema is the art of simulating experiences, that communicate ideas, stories, perceptions, feelings, beauty or atmosphere by the means of recorded or programmed moving images along with other sensory stimulations. The process of filmmaking is both an art and an industry. Films were originally recorded onto plastic film which was shown through a movie projector onto a large screen; more modern techniques may use wholly digital filming and storage, such as the Red One camera which records onto hard-disk or flash cards. Films are cultural artifacts created by specific cultures. They reflect those cultures, and, in turn, affect them. Film is considered to be an important art form, a source of popular entertainment, and a powerful medium for educating - or indoctrinating - citizens. The visual basis of film gives it a universal power of communication. Some films have become popular worldwide attractions by using dubbing or subtitles to translate the dialog into the language of the viewer. </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

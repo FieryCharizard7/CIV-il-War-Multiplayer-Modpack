@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/20/2016 7:27:24 PM -->
+<GameData>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_DECISIONS_TX_ANNEXATION">
+			<Text>Annex {1_City}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TX_ANNEXATION_DESC">
+			<Text>
+				We believe the people of {1_City} would benefit from joining our nation. If we were to annex them, we should be able to bring them freedom.[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]The Gold and Culture cost goes up each era[NEWLINE][ICON_BULLET]May only be enacted once per City State
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{2_Gold} [ICON_GOLD] Gold
+				[NEWLINE][ICON_BULLET]{3_Culture} [ICON_CULTURE] Culture
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]The City State of {1_City} will join our nation
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TX_ANNEXATION_ENACTED_DESC">
+			<Text>
+				We believe the people of {1_City} would benefit from joining our nation. If we were to annex them, we should be able to bring them freedom.[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]The City State of {1_City} will join our nation
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_TX_ANNEXATION_NOTE">
+			<Text>
+				[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Note: To unlock this Decision, you must have met the City State[ENDCOLOR]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_BUILDING_TX_ANNEXATION">
+			<Text>Building Pedia</Text>
+		</Row>
+	</Language_en_US>
+	
+</GameData>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/6/2015 8:00:08 PM -->
+<GameData>
+	<Civilizations_YagemStartPosition>
+		<Row>
+			<Type>CIVILIZATION_S_NEBRASKA</Type>
+			<X>143</X>
+			<Y>65</Y>
+		</Row>
+	</Civilizations_YagemStartPosition>
+	<Civilizations_YahemStartPosition>
+		<Row>
+			<Type>CIVILIZATION_S_NEBRASKA</Type>
+			<X>22</X>
+			<Y>54</Y>
+		</Row>
+	</Civilizations_YahemStartPosition>
+	<Civilizations_CordiformStartPosition>
+		<Row>
+			<Type>CIVILIZATION_S_NEBRASKA</Type>
+			<X>11</X>
+			<Y>35</Y>
+		</Row>
+	</Civilizations_CordiformStartPosition>
+</GameData>

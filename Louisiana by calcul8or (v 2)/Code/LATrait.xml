@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/1/2014 11:53:20 AM -->
+<GameData>
+
+	<Traits>
+		<Row>
+			<Type>TRAIT_RIVER_STEAMERS</Type>
+			<Description>TXT_KEY_TRAIT_RIVER_STEAMERS</Description>
+			<ShortDescription>TXT_KEY_TRAIT_RIVER_STEAMERS_SHORT</ShortDescription>
+			<FasterAlongRiver>true</FasterAlongRiver>
+			<RiverTradeRoad>true</RiverTradeRoad>
+			<FreeBuilding>BUILDING_RIVERGOLD</FreeBuilding>
+			<GoldenAgeGreatMusicianRateModifier>50</GoldenAgeGreatMusicianRateModifier>
+		</Row>
+	</Traits>
+
+	
+	<Leader_Traits>
+		<Row>
+			<LeaderType>LEADER_LONG</LeaderType>
+			<TraitType>TRAIT_RIVER_STEAMERS</TraitType>
+		</Row>
+	</Leader_Traits>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_RIVER_STEAMERS">
+			<Text>Movement bonus along rivers. Cities on rivers generate +3 [ICON_GOLD] Gold. +50% [ICON_GREAT_MUSICIAN] Great Musician growth during [ICON_GOLDEN_AGE] Golden Ages.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_RIVER_STEAMERS_SHORT">
+			<Text>River Steamers</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/22/2014 7:42:17 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_VOYAGER</Type>
+			<DefaultBuilding>BUILDING_VOYAGER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_VOYAGER</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+	</BuildingClasses>
+</GameData>

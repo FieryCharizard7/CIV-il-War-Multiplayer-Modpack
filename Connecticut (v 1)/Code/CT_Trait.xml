@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/1/2014 11:53:20 AM -->
+<GameData>
+
+	<Traits>
+		<Row>
+			<Type>TRAIT_CT_YANKEE</Type>
+			<Description>TXT_KEY_TRAIT_CT_YANKEE</Description>
+			<ShortDescription>TXT_KEY_TRAIT_CT_YANKEE_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+
+	
+	<Leader_Traits>
+		<Row>
+			<LeaderType>LEADER_CALCTRUMBULL</LeaderType>
+			<TraitType>TRAIT_CT_YANKEE</TraitType>
+		</Row>
+	</Leader_Traits>
+
+	<!--<Trait_YieldChangesPerTradePartner>
+		<Row>
+			<TraitType>TRAIT_CT_YANKEE</TraitType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Trait_YieldChangesPerTradePartner>
+	<Trait_YieldChangesIncomingTradeRoute>
+		<Row>
+			<TraitType>TRAIT_CT_YANKEE</TraitType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Trait_YieldChangesIncomingTradeRoute>-->
+
+
+	<!--<Trait_ImprovementYieldChanges>
+		<Row>
+			<TraitType>TRAIT_CT_YANKEE</TraitType>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Trait_ImprovementYieldChanges>-->
+
+
+	<Trait_ResourceQuantityModifiers>
+		<!--<Row>
+			<TraitType>TRAIT_CT_YANKEE</TraitType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>-->
+		<!--<Row>
+			<TraitType>TRAIT_CT_YANKEE</TraitType>
+			<ResourceType>RESOURCE_SILVER</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>-->
+	</Trait_ResourceQuantityModifiers>
+
+	<UnitPromotions>
+		<!--<Row>
+			<Type>PROMOTION_MARSH_MOVEMENT</Type>
+			<Description>TXT_KEY_PROMOTION_MARSH_MOVEMENT</Description>
+			<Help>TXT_KEY_PROMOTION_MARSH_MOVEMENT_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TX_PROMO_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_MARSH_MOVEMENT</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+			<DefenseMod>15</DefenseMod>
+		</Row>-->
+		<!--<Row>
+			<Type>PROMOTION_MARSH_MOVEMENT</Type>
+			<Description>TXT_KEY_PROMOTION_MARSH_MOVEMENT</Description>
+			<Help>TXT_KEY_PROMOTION_MARSH_MOVEMENT_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			--><!--<ExperiencePercent>50</ExperiencePercent>--><!--
+			<PortraitIndex>59</PortraitIndex>
+			<CannotBeChosen>true</CannotBeChosen>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_MARSH_MOVEMENT</PediaEntry>
+		</Row>-->
+	</UnitPromotions>
+
+	<UnitPromotions_UnitCombats>
+		<!--<Row>
+			<PromotionType>PROMOTION_MARSH_MOVEMENT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_MARSH_MOVEMENT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_MARSH_MOVEMENT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_MARSH_MOVEMENT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_MARSH_MOVEMENT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_MARSH_MOVEMENT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_MARSH_MOVEMENT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_MARSH_MOVEMENT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+		</Row>-->
+		<!--<Row>
+			<PromotionType>PROMOTION_MARSH_MOVEMENT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_MARSH_MOVEMENT</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+		</Row>-->
+	</UnitPromotions_UnitCombats>
+
+	<!--<UnitPromotions_Features>
+		<Row>
+			<PromotionType>PROMOTION_MARSH_MOVEMENT</PromotionType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<DoubleMove>true</DoubleMove>
+			<Defense>15</Defense>
+		</Row>
+	</UnitPromotions_Features>-->
+
+	<Trait_FreePromotionUnitCombats>
+		<!--<Row>
+			<TraitType>TRAIT_CT_YANKEE</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_MARSH_MOVEMENT</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CT_YANKEE</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<PromotionType>PROMOTION_MARSH_MOVEMENT</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CT_YANKEE</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_MARSH_MOVEMENT</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CT_YANKEE</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_MARSH_MOVEMENT</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CT_YANKEE</TraitType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<PromotionType>PROMOTION_MARSH_MOVEMENT</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CT_YANKEE</TraitType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_MARSH_MOVEMENT</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CT_YANKEE</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<PromotionType>PROMOTION_MARSH_MOVEMENT</PromotionType>
+		</Row>-->
+		<!--<Row>
+			<TraitType>TRAIT_CT_YANKEE</TraitType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+			<PromotionType>PROMOTION_SUPPLY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CT_YANKEE</TraitType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+			<PromotionType>PROMOTION_SUPPLY</PromotionType>
+		</Row>-->
+	</Trait_FreePromotionUnitCombats>
+	
+
+	<!--<Policies>
+		<Row>
+			<Type>POLICY_CT_TRAIT</Type>
+			<Description>TXT_KEY_POLICY_CT_TRAIT</Description>
+		</Row>
+	</Policies>-->
+
+	<!--<Policy_BuildingClassProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_CT_TRAIT</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+			<ProductionModifier>30</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CT_TRAIT</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
+			<ProductionModifier>30</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CT_TRAIT</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_STOCK_EXCHANGE</BuildingClassType>
+			<ProductionModifier>30</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CT_TRAIT</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_TREASURY</BuildingClassType>
+			<ProductionModifier>30</ProductionModifier>
+		</Row>
+	</Policy_BuildingClassProductionModifiers>-->
+
+	<!--<Policy_UnitCombatProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_CT_TRAIT</PolicyType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+			<ProductionModifier>30</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CT_TRAIT</PolicyType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+			<ProductionModifier>30</ProductionModifier>
+		</Row>
+	</Policy_UnitCombatProductionModifiers>-->
+
+	<!--<Policy_CapitalYieldChanges>
+		<Row>
+			<PolicyType>POLICY_TXLIBOPEN</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Policy_CapitalYieldChanges>
+
+	<Policy_UnitCombatProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_TXLIBCIT</PolicyType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+	</Policy_UnitCombatProductionModifiers>
+
+	<Policy_CityYieldChanges>
+		<Row>
+			<PolicyType>POLICY_TXLIBMER</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Policy_CityYieldChanges>-->
+	
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_CT_YANKEE">
+			<Text>+1 [ICON_GOLD] Gold for each trade deal with another civs, increasing to +2 in the Industrial era (max 5); +5% military production with each Declaration of Friendship (max 25%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CT_YANKEE_SHORT">
+			<Text>Connecticut Yankee</Text>
+		</Row>
+
+		<!--<Row Tag="TXT_KEY_PROMOTION_MARSH_MOVEMENT">
+			<Text>Remember the Alamo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MARSH_MOVEMENT_HELP">
+			<Text>+15% Defensive [ICON_STRENGTH] Combat Strength</Text>
+		</Row>-->
+		
+		<!--<Row Tag="TXT_KEY_PROMOTION_MARSH_MOVEMENT">
+			<Text>Marsh Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MARSH_MOVEMENT_HELP">
+			<Text>Double [ICON_MOVES] Movement and +15 Defense in Marshes.</Text>
+		</Row>-->
+
+		<Row Tag="TXT_KEY_POLICY_CT_TRAIT">
+			<Text>Connecticut UA Dummy Policy</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

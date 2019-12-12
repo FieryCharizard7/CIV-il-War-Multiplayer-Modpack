@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/30/2014 1:15:57 AM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>ALAMO_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>Alamo256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ALAMO_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>Alamo128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ALAMO_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>Alamo64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ALAMO_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>Alamo80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>ALAMO_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>Alamo45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

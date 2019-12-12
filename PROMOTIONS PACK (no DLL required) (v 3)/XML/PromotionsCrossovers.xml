@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- If the unit is of UnitCombatType and it has promotion FromType,
+	     grant promotion ToType and remove promotion FromType -->
+	<Table name="UnitPromotions_UnitCombatCrossovers">
+		<Column name="UnitCombatType" type="text" reference="UnitCombatInfos(Type)"/>
+		<Column name="FromType" type="text" reference="UnitPromotions(Type)"/>
+		<!-- Setting ToType the same as FromType "loses" the promotion -->
+		<Column name="ToType" type="text" reference="UnitPromotions(Type)"/>
+	</Table>
+
+         <!-- Actually my mod deletes totally the drill, shock, accuracy and barrage then replaces them by Offense (melee/mounted/gun/armor), then archery (archers) and ballistic (siege). So basically all the crap which a knight gets from a war chariot should be changed to offense then logistic (pathfinding was for archer units) -->
+
+	<UnitPromotions_UnitCombatCrossovers>
+		<Row>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<FromType>PROMOTION_ARCHERY</FromType>
+			<ToType>PROMOTION_OFFENSE</ToType>
+		</Row>
+		<Row>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<FromType>PROMOTION_ARCHERY_I</FromType>
+			<ToType>PROMOTION_OFFENSE_I</ToType>
+		</Row>
+		<Row>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<FromType>PROMOTION_ARCHERY_II</FromType>
+			<ToType>PROMOTION_OFFENSE_II</ToType>
+		</Row>
+		<Row>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<FromType>PROMOTION_BALLISTIC</FromType>
+			<ToType>PROMOTION_OFFENSE</ToType>
+		</Row>
+		<Row>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<FromType>PROMOTION_BALLISTIC_I</FromType>
+			<ToType>PROMOTION_OFFENSE_I</ToType>
+		</Row>
+		<Row>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<FromType>PROMOTION_BALLISTIC_II</FromType>
+			<ToType>PROMOTION_OFFENSE_II</ToType>
+		</Row>
+		<Row>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<FromType>PROMOTION_VOLLEY</FromType>
+			<ToType>PROMOTION_CHARGE</ToType>
+		</Row>
+		<Row>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<FromType>PROMOTION_LOGISTICS</FromType>
+			<ToType>PROMOTION_BLITZ</ToType>
+		</Row>
+		<Row>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<!-- No equivalent - so the promotion is lost -->
+			<FromType>PROMOTION_RANGE</FromType>
+			<ToType>PROMOTION_RANGE</ToType>
+		</Row>
+		<Row>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<!-- No equivalent - so the promotion is lost -->
+			<FromType>PROMOTION_INDIRECT_FIRE</FromType>
+			<ToType>PROMOTION_INDIRECT_FIRE</ToType>
+		</Row>
+
+		<Row>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<FromType>PROMOTION_ARCHERY</FromType>
+			<ToType>PROMOTION_OFFENSE</ToType>
+		</Row>
+		<Row>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<FromType>PROMOTION_ARCHERY_I</FromType>
+			<ToType>PROMOTION_OFFENSE_I</ToType>
+		</Row>
+		<Row>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<FromType>PROMOTION_ARCHERY_II</FromType>
+			<ToType>PROMOTION_OFFENSE_II</ToType>
+		</Row>		
+		<Row>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<FromType>PROMOTION_VOLLEY</FromType>
+			<ToType>PROMOTION_CHARGE</ToType>
+		</Row>
+		<Row>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<FromType>PROMOTION_LOGISTICS</FromType>
+			<ToType>PROMOTION_BLITZ</ToType>
+		</Row>
+		<Row>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<FromType>PROMOTION_RANGE</FromType>
+			<ToType>PROMOTION_SENTRY</ToType>
+		</Row>
+		<Row>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<!-- No equivalent - so the promotion is lost -->
+			<FromType>PROMOTION_INDIRECT_FIRE</FromType>
+			<ToType>PROMOTION_INDIRECT_FIRE</ToType>
+		</Row>
+		<!-- Gods and Kings additions -->
+		<Row>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<FromType>PROMOTION_WOODSMAN</FromType>
+			<ToType>PROMOTION_MOBILITY</ToType>
+		</Row>
+            <Row>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<FromType>PROMOTION_PATHFINDING</FromType>
+			<ToType>PROMOTION_LOGISTIC</ToType>
+		</Row>
+                 <Row>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<FromType>PROMOTION_PATHFINDING_I</FromType>
+			<ToType>PROMOTION_LOGISTIC_I</ToType>
+		</Row>
+                <Row>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<FromType>PROMOTION_PATHFINDING_II</FromType>
+			<ToType>PROMOTION_LOGISTIC_II</ToType>
+		</Row>
+		<Row>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<FromType>PROMOTION_SIEGE</FromType>
+			<ToType>PROMOTION_CHARGE</ToType>
+		</Row>
+		<Row>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<!-- No equivalent - so the promotion is lost -->
+			<FromType>PROMOTION_AMBUSH_1</FromType>
+			<ToType>PROMOTION_AMBUSH_1</ToType>
+		</Row>
+		<Row>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<!-- No equivalent - so the promotion is lost -->
+			<FromType>PROMOTION_AMBUSH_2</FromType>
+			<ToType>PROMOTION_AMBUSH_2</ToType>
+		</Row>
+		<Row>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<!-- No equivalent - so the promotion is lost -->
+			<FromType>PROMOTION_AMPHIBIOUS</FromType>
+			<ToType>PROMOTION_AMPHIBIOUS</ToType>
+		</Row>
+
+		<Row>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<!-- Functionally identical - just Tanks have repair not march -->
+			<FromType>PROMOTION_MARCH</FromType>
+			<ToType>PROMOTION_REPAIR</ToType>
+		</Row>
+
+		<Row>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+			<!-- helicopters with blitz can have 7 attacks a turn (logistics restricts this to 2)--> 
+			<FromType>PROMOTION_BLITZ</FromType>
+			<ToType>PROMOTION_LOGISTICS</ToType>
+		</Row>
+
+		
+	</UnitPromotions_UnitCombatCrossovers>
+
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_CROSSOVER</Type>
+			<Description>TXT_KEY_PROMOTION_CROSSOVER</Description>
+			<Help>TXT_KEY_PROMOTION_CROSSOVER</Help>
+			<CannotBeChosen>true</CannotBeChosen>
+			<LostWithUpgrade>true</LostWithUpgrade>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PEDIA_PROMOTION_CROSSOVER</PediaEntry>
+			<ShowInUnitPanel>0</ShowInUnitPanel>
+		</Row>
+	</UnitPromotions>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_CROSSOVER">
+			<Text>Mustered</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_CROSSOVER">
+			<Text>Mustered</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

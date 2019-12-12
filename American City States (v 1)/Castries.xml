@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/27/2016 11:16:41 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<!-- Adding a new CityState entry. -->
+	<MinorCivilizations>
+		<Row>
+			<Type>MINOR_CIV_CASTRIES</Type>
+			<Description>TXT_KEY_CITYSTATE_CASTRIES</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_CASTRIES</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_CASTRIES_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CITYSTATE_CASTRIES_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_PURPLE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN</ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+	</MinorCivilizations>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_CASTRIES</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_CASTRIES</CityName>
+		</Row>
+	</MinorCivilization_CityNames>
+	<MinorCivilization_Flavors>
+		<Row>
+			<MinorCivType>MINOR_CIV_CASTRIES</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CASTRIES</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CASTRIES</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CASTRIES</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+	</MinorCivilization_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITYSTATE_CASTRIES">
+			<Text>Castries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_CASTRIES_ADJ">
+			<Text>Saint Lucian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_CASTRIES_PEDIA">
+			<Text>Castries is the capital of Saint Lucia. In 1650, a fort was founded by a group of 40 Frenchmen led by de Rousselan, when St. Lucia was purchased by Capt. du Parquet and Monsieur Houel from the French West India Company. The capital was moved to the south side of the harbor in 1769 by Gov. Baron de Micoud. In 1785, the village of Carenage was renamed Castries, after Charles Eugene Gabriel de La Croix, marquis de Castries, the French Minister of the Navy and Colonies. In 1835, the British built the western wharf in preparation for the coaling trade and the first steamship arrived in 1841, the RMS Solway. During World War II on 9 March 1942, the German U-161 sailed into Castries harbor at night and sank two allied ships, including the Canadian ocean liner RMS Lady Nelson, which was subsequently refloated in the harbour and taken to Canada to be converted to a hospital ship. Castries has been rebuilt many times, following major fires in 1805, 1813, and most notably in 1948.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
+  

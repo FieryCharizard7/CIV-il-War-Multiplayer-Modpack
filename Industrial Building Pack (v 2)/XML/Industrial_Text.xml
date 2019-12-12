@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/24/2014 9:00:55 AM -->
+<GameData>
+	<Language_en_US>
+		<!-- Description Tags-->
+		<Row Tag="TXT_KEY_BUILDING_TEXTILE_MILL">
+			<Text>Textile Mill</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TCS_GROCER">
+			<Text>Grocer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CHEMIST">
+			<Text>Chemist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RANCH">
+			<Text>Ranch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INDUSTRIAL_MINE">
+			<Text>Industrial Mine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COASTAL_BATTERY">
+			<Text>Coastal Battery</Text>
+		</Row>
+		<!-- Help Tags-->
+		<Row Tag="TXT_KEY_BUILDING_TEXTILE_MILL_HELP">
+			<Text>+3 Production. +1 Production on Sheep, Silk, and Cotton. +2 Gold on Dye.[NEWLINE][NEWLINE]City must have an improved source of Sheep, Silk, or Cotton.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TCS_GROCER_HELP">
+			<Text>+2 Food, +5% Growth. +1 Food on Bananas and Citrus.[NEWLINE][NEWLINE]City must have a Market.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CHEMIST_HELP">
+			<Text>+2 Science, +10% Science.[NEWLINE][NEWLINE]City must have a University.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RANCH_HELP">
+			<Text>+2 Production. +1 Food and Gold on Sheep, Cows, and Horses.[NEWLINE][NEWLINE]City must have a Stable.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INDUSTRIAL_MINE_HELP">
+			<Text>+3 Production. +3 Coal. Maximum of 3 may be built.[NEWLINE][NEWLINE]City must have a nearby Mountain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COASTAL_BATTERY_HELP">
+			<Text>City must have an Arsenal.</Text>
+		</Row>
+		<!-- Pedia Tags-->
+		<Row Tag="TXT_KEY_BUILDING_TEXTILE_MILL_PEDIA">
+			<Text>Before the 18th century, the manufacture of cloth was performed by individual workers, in the premises in which they lived and goods were transported around the country by packhorses or by river navigations and contour-following canals that had been constructed in the early 18th century. In the mid-18th century, artisans were inventing ways to become more productive. Silk, wool, and fustian fabrics were being eclipsed by cotton which became the most important textile.[NEWLINE][NEWLINE]Innovations in carding and spinning enabled by advances in cast iron technology resulted in the creation of larger spinning mules and water frames. The machinery was housed in water-powered mills on streams. The need for more power stimulated the production of steam-powered beam engines, and rotative mill engines transmitting the power to line shafts on each floor of the mill. Surplus power capacity encouraged the construction of more sophisticated power looms working in weaving sheds. The scale of production in the mill towns round Manchester created a need for a commercial structure; for a cotton exchange and warehousing. The technology was used in woollen and worsted mills in the West Riding of Yorkshire and elsewhere.[NEWLINE][NEWLINE]--Wikipedia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TCS_GROCER_PEDIA">
+			<Text>In some countries such as the United States, grocery stores descended from trading posts, which sold not only food but clothing, household items, tools, furniture, and other miscellaneous merchandise. These trading posts evolved into larger retail businesses known as general stores. These facilities generally dealt only in "dry" goods such as flour, dry beans, baking soda, and canned foods. Perishable foods were instead obtained from specialty markets; Fresh meat was obtained from a butcher, milk from a local dairy, eggs and vegetables were either produced by families themselves, bartered for with neighbours, or purchased at a farmers' market or a local greengrocer.[NEWLINE][NEWLINE]Many rural areas still contain general stores that sell goods ranging from cigars to imported napkins. Traditionally, general stores have offered credit to their customers, a system of payment that works on trust rather than modern credit cards. This allowed farm families to buy staples until their harvest could be sold.[NEWLINE][NEWLINE]--Wikipedia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CHEMIST_PEDIA">
+			<Text>The roots of chemistry can be traced to the phenomenon of burning. Fire was a mystical force that transformed one substance into another and thus was of primary interest to mankind. It was fire that led to the discovery of iron and glass. After gold was discovered and became a precious metal, many people were interested to find a method that could convert other substances into gold. This led to the protoscience called alchemy. The word chemist is derived from the New Latin noun chimista, an abbreviation of alchimista (alchemist). Alchemists discovered many chemical processes that led to the development of modern chemistry. Chemistry as we know it today, was invented by Antoine Lavoisier with his law of conservation of mass in 1783. The discoveries of the chemical elements has a long history culminating in the creation of the periodic table by Dmitri Mendeleev.[NEWLINE][NEWLINE]--Wikipedia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RANCH_PEDIA">
+			<Text>Ranching and the cowboy tradition originated in Spain, out of the necessity to handle large herds of grazing animals on dry land from horseback. During the Reconquista, members of the Spanish nobility and various military orders received large land grants that the Kingdom of Castile had conquered from the Moors. These landowners were to defend the lands put into their control and could use them for earning revenue. In the process it was found that open-range breeding of sheep and cattle (under the Mesta system) was the most suitable use for vast tracts, particularly in the parts of Spain now known as Castilla-La Mancha, Extremadura and Andalusia.[NEWLINE][NEWLINE]--Wikipedia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INDUSTRIAL_MINE_PEDIA">
+			<Text>The Industrial Revolution, which began in Britain in the 18th century, and later spread to continental Europe and North America, was based on the availability of coal to power steam engines. International trade expanded exponentially when coal-fed steam engines were built for the railways and steamships. The new mines that grew up in the 19th century depended on men and children to work long hours in often dangerous working conditions.[NEWLINE][NEWLINE]--Wikipedia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COASTAL_BATTERY_PEDIA">
+			<Text>From the Middle Ages until World War II, coastal artillery and naval artillery in the form of cannon were highly important to military affairs and generally represented the areas of highest technology and capital cost among materiel. It was long held as a general rule of thumb that one shore-based gun equaled three naval guns of the same caliber, due to the steadiness of the coastal gun which allowed for significantly higher accuracy than their sea-mounted counterparts.[NEWLINE][NEWLINE]--Wikipedia</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

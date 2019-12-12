@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/27/2016 11:16:41 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<!-- Adding a new CityState entry. -->
+	<MinorCivilizations>
+		<Row>
+			<Type>MINOR_CIV_SAN_SALVADOR</Type>
+			<Description>TXT_KEY_CITYSTATE_SAN_SALVADOR</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_SAN_SALVADOR</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_SAN_SALVADOR_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CITYSTATE_SAN_SALVADOR_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_PURPLE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN</ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
+		</Row>
+	</MinorCivilizations>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_SAN_SALVADOR</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_SAN_SALVADOR</CityName>
+		</Row>
+	</MinorCivilization_CityNames>
+	<MinorCivilization_Flavors>
+		<Row>
+			<MinorCivType>MINOR_CIV_SAN_SALVADOR</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SAN_SALVADOR</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SAN_SALVADOR</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SAN_SALVADOR</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+	</MinorCivilization_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITYSTATE_SAN_SALVADOR">
+			<Text>San Salvador</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_SAN_SALVADOR_ADJ">
+			<Text>Salvadoran</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_SAN_SALVADOR_PEDIA">
+			<Text>Before the Spanish conquest, the Pipil people established their capital, Cuzcatlan, near the current location of San Salvador. Not much is known about Cuzcatlan, as it was abandoned by its inhabitants in an effort to avoid Spanish rule. Under the orders of conquistador Pedro de Alvarado, his associates Gonzalo de Alvarado and Diego de Holguin occupied the empty settlement and began to develop it. Diego de Holgu�n became the first mayor of San Salvador after the town was founded in 1525. The population of the city remained relatively small until the early 20th century. In 1917, an earthquake during an eruption of the nearby San Salvador volcano damaged the city, but it escaped additional damage because the lava flowed down the back side of the volcano. In 1931, president Arturo Araujo was ousted by a military coup d'etat and replaced by a military directorate. The directorate named vice-president Maximiliano Hernandez Martinez as president and Araujo went into exile. The Martinez regime lasted until 1944. The 1960s to the 1980s were the golden age of San Salvador in all aspects of security, quality of life, and modernization. With the commencement of the Salvadoran Civil War in the 1980s, many modernization projects were halted. Examples of suspended projects include a 40-story government building approximately 160 meters in height, and the Sheraton Hotel Tower, a 26-story building with a rotating restaurant on top. The 1986 San Salvador earthquake destroyed many government buildings and other important structures, injuring and killing hundreds. Thousands of people were displaced by the disaster and many struggled to find shelter in the ruins.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
+  

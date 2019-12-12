@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Tomatekh -->
+<GameData>
+	<Improvements>
+		<Row>
+			<Type>IMPROVEMENT_KENTUCKY_DISTILLERY</Type>
+			<Description>TXT_KEY_KENTUCKY_DISTILLERY</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_KENTUCKY_DISTILLERY_TEXT</Civilopedia>
+			<Help>TXT_KEY_IMPROVEMENT_KENTUCKY_DISTILLERY_HELP</Help>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_KENTUCKY_DISTILLERY</ArtDefineTag>
+			<SpecificCivRequired>true</SpecificCivRequired>
+			<CivilizationType>CIVILIZATION_CALC_KENTUCKY</CivilizationType>
+			<!--<ImprovementUpgrade>IMPROVEMENT_KENTUCKY_DISTILLERY_VINTAGE</ImprovementUpgrade>-->
+			<!--<UpgradeTime>40</UpgradeTime>-->
+			<PillageGold>40</PillageGold>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>KY_COLOR_ATLAS</IconAtlas>
+		</Row>
+	</Improvements>
+	<Improvement_Flavors>
+		<Row>
+			<ImprovementType>IMPROVEMENT_KENTUCKY_DISTILLERY</ImprovementType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_KENTUCKY_DISTILLERY</ImprovementType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_KENTUCKY_DISTILLERY</ImprovementType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_KENTUCKY_DISTILLERY</ImprovementType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+	</Improvement_Flavors>
+	<Improvement_Yields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_KENTUCKY_DISTILLERY</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_KENTUCKY_DISTILLERY</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Improvement_Yields>
+	<Improvement_ResourceTypes>
+		<Row>
+			<ImprovementType>IMPROVEMENT_KENTUCKY_DISTILLERY</ImprovementType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_KENTUCKY_DISTILLERY</ImprovementType>
+			<ResourceType>RESOURCE_KY_CORN</ResourceType>
+		</Row>
+	</Improvement_ResourceTypes>
+	<Improvement_ValidFeatures>
+		<!--<Row>
+			<ImprovementType>IMPROVEMENT_KENTUCKY_DISTILLERY</ImprovementType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+		</Row>-->
+		<Row>
+			<ImprovementType>IMPROVEMENT_KENTUCKY_DISTILLERY</ImprovementType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+		</Row>
+	</Improvement_ValidFeatures>
+	<Builds>
+		<Row>
+			<Type>BUILD_KENTUCKY_DISTILLERY</Type>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
+			<Time>600</Time>
+			<ImprovementType>IMPROVEMENT_KENTUCKY_DISTILLERY</ImprovementType>
+			<Description>TXT_KEY_BUILD_KENTUCKY_DISTILLERY</Description>
+			<Help>TXT_KEY_BUILD_KENTUCKY_DISTILLERY_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_KENTUCKY_DISTILLERY_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<OrderPriority>1</OrderPriority>
+			<CtrlDown>1</CtrlDown>
+			<IconIndex>5</IconIndex>
+			<IconAtlas>KY_COLOR_ATLAS</IconAtlas>
+		</Row>
+	</Builds>
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_KENTUCKY_DISTILLERY</BuildType>
+		</Row>
+	</Unit_Builds>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_KENTUCKY_DISTILLERY">
+			<Text>Bourbon Distillery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_KENTUCKY_DISTILLERY_HELP">
+			<Text>The Bourbon Distillery can be built in forests and provide +1 [ICON_FOOD] Food and +3 [ICON_GOLD] Gold, or when built on [ICON_RES_WHEAT] Wheat or [ICON_RES_KY_CORN] Corn, they add +1 [ICON_HAPPINESS_1] Happiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_KENTUCKY_DISTILLERY_TEXT">
+			<Text>The Bourbon Distillery is a unique improvement for Kentucky. Bourbon Distilleries yield food and gold, and happiness in the city. Because bourbon requires corn mash, wheat in the city radius will be converted to [ICON_RES_KY_CORN] Corn, or some Corn will be placed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_KENTUCKY_DISTILLERY">
+			<Text>Construct a [LINK=IMPROVEMENT_KENTUCKY_DISTILLERY]Bourbon Distillery[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_KENTUCKY_DISTILLERY_HELP">
+			<Text>The Bourbon Distillery can be built on [ICON_RES_WHEAT] Wheat, [ICON_RES_KY_CORN] Corn, or Forest and provides +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold, and +1 [ICON_HAPPINESS_1] Happiness when planted on Wheat or Corn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_KENTUCKY_DISTILLERY_REC">
+			<Text>It will provide [ICON_FOOD] Food and [ICON_GOLD] Gold, and Happiness if built on [ICON_RES_WHEAT] Wheat or [ICON_RES_KY_CORN] Corn.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

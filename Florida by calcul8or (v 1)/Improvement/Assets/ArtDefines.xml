@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/18/2015 11:20:32 AM -->
+<GameData>
+
+	<ArtDefine_LandmarkTypes>
+		<Row>
+			<Type>ART_DEF_IMPROVEMENT_AZIRRIGATOR</Type>
+			<LandmarkType>Improvement</LandmarkType>
+			<FriendlyName>AZIRRIGATOR</FriendlyName>
+		</Row>
+	</ArtDefine_LandmarkTypes>
+	
+	<ArtDefine_Landmarks>
+		<Row>
+			<Era>Any</Era>
+			<State>Constructed</State>
+			<Scale>1.0</Scale>
+			<ImprovementType>ART_DEF_IMPROVEMENT_AZIRRIGATOR</ImprovementType>
+			<LayoutHandler>RANDOM</LayoutHandler>
+			<ResourceType>ART_DEF_RESOURCE_ALL</ResourceType>
+			<Model>Gateway.fxsxml</Model>
+		</Row>
+		<Row>
+			<Era>Any</Era>
+			<State>Pillaged</State>
+			<Scale>1.0</Scale>
+			<ImprovementType>ART_DEF_IMPROVEMENT_AZIRRIGATOR</ImprovementType>
+			<LayoutHandler>RANDOM</LayoutHandler>
+			<ResourceType>ART_DEF_RESOURCE_ALL</ResourceType>
+			<Model>Gateway_PL.fxsxml</Model>
+		</Row>
+	</ArtDefine_Landmarks>
+
+	<ArtDefine_StrategicView>
+		<Row TileType="Improvement">
+			<StrategicViewType>ART_DEF_IMPROVEMENT_AZIRRIGATOR</StrategicViewType>
+			<Asset>SV_Irrigator.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
+	
+</GameData>

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/24/2016 10:36:44 PM -->
+<GameData>
+
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_FUTURELAND</Type>
+			<DefaultBuilding>BUILDING_FUTURELAND_DUMMY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_FUTURELAND</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_SEALAND</Type>
+			<DefaultBuilding>BUILDING_SEALAND_DUMMY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SEALAND</Description>
+		</Row>
+	</BuildingClasses>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_FANTASYLAND</Type>
+			<BuildingClass>BUILDINGCLASS_STADIUM</BuildingClass>
+			<Description>TXT_KEY_BUILDING_FANTASYLAND_DESC</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_FANTASYLAND_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_FANTASYLAND_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_FANTASYLAND_HELP</Help>
+			
+			<GoldMaintenance>4</GoldMaintenance>
+
+			<!--<GreatWorkSlotType>GREAT_WORK_SLOT_RIDE</GreatWorkSlotType>
+			<GreatWorkCount>2</GreatWorkCount>-->
+			<!--<SpecialistType>SPECIALIST_IMAGINEER</SpecialistType>
+			<SpecialistCount>0</SpecialistCount>
+			<GreatPeopleRateChange>3</GreatPeopleRateChange>-->
+			
+			<MutuallyExclusiveGroup>-1</MutuallyExclusiveGroup>
+			<NukeImmune>true</NukeImmune>
+			
+			<Cost>800</Cost>
+			
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<Happiness>2</Happiness>
+			<UnmoddedHappiness>0</UnmoddedHappiness>
+			<UnhappinessModifier>0</UnhappinessModifier>
+			<GreatWorksTourismModifier>0</GreatWorksTourismModifier>
+			<ArtDefineTag>STADIUM</ArtDefineTag>
+			<EnhancedYieldTech>TECH_REFRIGERATION</EnhancedYieldTech>
+			<TechEnhancedTourism>4</TechEnhancedTourism>
+			<PrereqTech>TECH_REFRIGERATION</PrereqTech>
+			<!--<SpecialistType></SpecialistType>
+			<SpecialistCount>0</SpecialistCount>
+			<GreatPeopleRateChange>0</GreatPeopleRateChange>-->
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>FL_BUILDING_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_FUTURELAND_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_FUTURELAND</BuildingClass>
+			<Description>TXT_KEY_BUILDING_FUTURELAND_DESC</Description>
+			<!--<Civilopedia>TXT_KEY_CIV5_BUILDINGS_FANTASYLAND_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_FANTASYLAND_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_FANTASYLAND_HELP</Help>-->
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>FL_BUILDING_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_FUTURELAND</Type>
+			<BuildingClass>BUILDINGCLASS_FUTURELAND</BuildingClass>
+			<Description>TXT_KEY_BUILDING_FUTURELAND_DESC</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_FUTURELAND_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_FUTURELAND_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_FUTURELAND_HELP</Help>
+
+			<GoldMaintenance>0</GoldMaintenance>
+			<MutuallyExclusiveGroup>-1</MutuallyExclusiveGroup>
+
+			<!--<GreatWorkSlotType>GREAT_WORK_SLOT_RIDE</GreatWorkSlotType>
+			<GreatWorkCount>2</GreatWorkCount>-->
+			<!--<SpecialistType>SPECIALIST_IMAGINEER</SpecialistType>
+			<SpecialistCount>0</SpecialistCount>
+			<GreatPeopleRateChange>3</GreatPeopleRateChange>-->
+
+			<NukeImmune>true</NukeImmune>
+
+			<Cost>900</Cost>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<Happiness>2</Happiness>
+			<UnmoddedHappiness>0</UnmoddedHappiness>
+			<UnhappinessModifier>0</UnhappinessModifier>
+			<GreatWorksTourismModifier>0</GreatWorksTourismModifier>
+			<ArtDefineTag>STADIUM</ArtDefineTag>
+			<EnhancedYieldTech>TECH_PLASTIC</EnhancedYieldTech>
+			<TechEnhancedTourism>6</TechEnhancedTourism>
+			<PrereqTech>TECH_PLASTIC</PrereqTech>
+			<!--<SpecialistType></SpecialistType>
+			<SpecialistCount>0</SpecialistCount>
+			<GreatPeopleRateChange>0</GreatPeopleRateChange>-->
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>FL_BUILDING_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_SEALAND_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_SEALAND</BuildingClass>
+			<Description>TXT_KEY_BUILDING_SEALAND_DESC</Description>
+			<!--<Civilopedia>TXT_KEY_CIV5_BUILDINGS_FANTASYLAND_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_FANTASYLAND_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_FANTASYLAND_HELP</Help>-->
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>FL_BUILDING_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>BUILDING_SEALAND</Type>
+			<BuildingClass>BUILDINGCLASS_SEALAND</BuildingClass>
+			<Description>TXT_KEY_BUILDING_SEALAND_DESC</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_SEALAND_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_SEALAND_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_SEALAND_HELP</Help>
+
+			<GoldMaintenance>2</GoldMaintenance>
+			<MutuallyExclusiveGroup>-1</MutuallyExclusiveGroup>
+
+			<!--<GreatWorkSlotType>GREAT_WORK_SLOT_RIDE</GreatWorkSlotType>
+			<GreatWorkCount>2</GreatWorkCount>-->
+			<!--<SpecialistType>SPECIALIST_IMAGINEER</SpecialistType>
+			<SpecialistCount>0</SpecialistCount>
+			<GreatPeopleRateChange>3</GreatPeopleRateChange>-->
+
+			<NukeImmune>true</NukeImmune>
+
+			<Cost>1000</Cost>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<Happiness>2</Happiness>
+			<UnmoddedHappiness>0</UnmoddedHappiness>
+			<UnhappinessModifier>0</UnhappinessModifier>
+			<GreatWorksTourismModifier>0</GreatWorksTourismModifier>
+			<ArtDefineTag>STADIUM</ArtDefineTag>
+			<EnhancedYieldTech>TECH_PENICILIN</EnhancedYieldTech>
+			<TechEnhancedTourism>8</TechEnhancedTourism>
+			<PrereqTech>TECH_PENICILIN</PrereqTech>
+			<!--<SpecialistType></SpecialistType>
+			<SpecialistCount>0</SpecialistCount>
+			<GreatPeopleRateChange>0</GreatPeopleRateChange>-->
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>FL_BUILDING_ATLAS</IconAtlas>
+		</Row>
+	</Buildings>
+
+	<Building_ThemingBonuses></Building_ThemingBonuses>
+
+	<Building_BuildingClassYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_FUTURELAND</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_STADIUM</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SEALAND</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FUTURELAND</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>4</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_FANTASYLAND</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FUTURELAND</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SEALAND</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_FUTURELAND</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_STADIUM</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SEALAND</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FUTURELAND</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_FANTASYLAND</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FANTASYLAND</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FANTASYLAND</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FANTASYLAND</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_FUTURELAND</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FUTURELAND</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FUTURELAND</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FUTURELAND</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_SEALAND</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SEALAND</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SEALAND</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SEALAND</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_FANTASYLAND_DESC">
+			<Text>Fantasy Theme Park</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_FANTASYLAND_TEXT">
+			<Text>Magic Kingdom Park, commonly known as Magic Kingdom, is the first-built of the four theme parks at the Walt Disney World Resort in Bay Lake, Florida, near Orlando, Florida. It opened on October 1, 1971. Designed and built by WED Enterprises, its layout and attractions are similar to Disneyland Park in Anaheim, California, and is dedicated to fairy tales and Disney characters. In 2015, the park hosted 20.49 million visitors, making it the most visited theme park in the world for the tenth consecutive year and the most visited theme park in North America for at least the past fifteen years.The park is represented by Cinderella Castle, inspired by the fairy tale castle seen in the 1950 film and the opening logo for the 2015 live-action film.[NEWLINE] [NEWLINE]Therefore, Magic Kingdom was built over a series of tunnels called utilidors, a portmanteau of utility and corridor, allowing employees (called "cast members") or VIP guests to move through the park out of sight from guests. Because of Florida's high water table, the tunnels could not be put underground, so they were built at the existing grade, meaning the park is built on the second story, giving Magic Kingdom an elevation of 108 feet (33 m). The area around the utilidors was filled in with dirt removed from the Seven Seas Lagoon, which was being constructed at the same time. The utilidors were built in the initial construction and were not extended as the park expanded. The tunnels were intended to be designed into all subsequent Walt Disney World parks, but were set aside mostly because of financial constraints. Future World at Epcot and Pleasure Island each have a smaller network of utilidors.[NEWLINE]en.wikipedia.org/wiki/Magic_Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FANTASYLAND_STRATEGY">
+			<Text>A Stadium replacement unique to Florida, the Fantasy Theme Park does not requires a Zoo to be built. It yields 2 [ICON_HAPPINESS_1] Happiness and 4 [ICON_TOURISM] Tourism, and allows the construction of add-on theme parks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FANTASYLAND_HELP">
+			<Text>Adds +2 [ICON_HAPPINESS_1] Happiness to the city, and +4 [ICON_TOURISM] Tourism. Allows building the Future World park.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_BUILDING_FUTURELAND_DESC">
+			<Text>Future World Park</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_FUTURELAND_TEXT">
+			<Text>Epcot is the second of four theme parks built at Walt Disney World in Bay Lake, Florida, near the city of Orlando. It opened as EPCOT Center (Experimental Prototype Community Of Tomorrow) on October 1, 1982, and spans 300 acres (120 ha), more than twice the size of the Magic Kingdom park. It is dedicated to the celebration of human achievement, namely technological innovation and international culture, and is often referred to as a "permanent World's Fair." In 2015, the park hosted approximately 11.98 million guests, ranking it the third most visited theme park in North America and the sixth most visited theme park in the world. The park is represented by Spaceship Earth, a geodesic sphere that also serves as an attraction. Epcot was known as EPCOT Center until 1994, when it was later renamed Epcot '94, then Epcot '95, now commonly known simply as Epcot. [NEWLINE]en.wikipedia.org/wiki/Epcot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FUTURELAND_STRATEGY">
+			<Text>An expansion on the Fantasy Kingdom Theme park, build the Future World park to greatly enhance tourism and Happiness. Adds +2 [ICON_HAPPINESS_1] Happiness to the city, and +6 [ICON_TOURISM] Tourism. City must have a Fantasy Kingdom Theme Park, and it negates the Gold maintenance of the Theme Park. Allows the building of the Sea Land Park.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FUTURELAND_HELP">
+			<Text>Adds +2 [ICON_HAPPINESS_1] Happiness to the city, and +6 [ICON_TOURISM] Tourism. City must have a Fantasy Kingdom Theme Park.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SEALAND_DESC">
+			<Text>Sea Land Park</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SEALAND_TEXT">
+			<Text>SeaWorld Orlando is a theme park and marine zoological park, located on the outskirts of Orlando, Florida. It is owned and operated by SeaWorld Entertainment. When combined with its neighbor Discovery Cove and Aquatica, it forms SeaWorld Parks and Resorts Orlando, an entertainment complex consisting of the three parks and many neighboring hotels. In 2015, SeaWorld Orlando hosted an estimated 4.7 million guests, ranking it the tenth most visited amusement park in the United States and twenty-second worldwide. [NEWLINE}en.wikipedia.org/wiki/SeaWorld_Orlando</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SEALAND_STRATEGY">
+			<Text>An expansion on the Future World Theme park, build the Sea Land park to greatly enhance tourism and Happiness. Adds +2 [ICON_HAPPINESS_1] Happiness to the city, and +8 [ICON_TOURISM] Tourism. City must have a Future World Theme Park, and it boosts [ICON_GOLD] Gold output of Future World.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SEALAND_HELP">
+			<Text>Adds +2 [ICON_HAPPINESS_1] Happiness to the city, and +8 [ICON_TOURISM] Tourism. City must have a Future World Theme Park.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

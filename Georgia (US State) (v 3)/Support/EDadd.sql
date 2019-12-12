@@ -1,0 +1,1 @@
+INSERT INTO DecisionsAddin_Support (FileName) VALUES ('GA_ED.lua');

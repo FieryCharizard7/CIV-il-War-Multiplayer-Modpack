@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d711a74d-0bbc-4bba-8505-12d8fa0d87b9" version="2">
+  <Properties>
+    <Name>Voyager 1 Space Probe Wonder (Brave New World)</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Voyager 1 Space Probe becomes a buildable wonder.</Teaser>
+    <Description>The Voyager program is a scientific program that launched two unmanned space missions, to study the outer planetary systems of Jupiter, Saturn, Uranus, and Neptune. The space probes were able to continue their mission after studying the outer planets, flying off into interstellar space. Voyagers 1 became the first human-made object to enter interstellar space, and will soon be followed by Voyager 2, they are traveling further and faster than anyone, or anything, has in all of human history.
+
+Aboard them are twin golden records that contains pictures and sounds of Earth, along with symbolic directions for playing the record and data detailing the location of Earth. These artefacts of our species will continue to exist long after any remembrance of today has faded into nothingness.
+
+All art belongs rightfully to NASA.</Description>
+    <Authors>Survivalist64</Authors>
+    <SpecialThanks>NASA for exploring the great unknown universe that lies before us, as well as creating all the artwork within this mod</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="6E4F45035AC3486B3C7B7C431BB2E8EA" import="1">Art/VOYAGER_icon128.dds</File>
+    <File md5="DC28239CA4FED317E500730EC5904455" import="1">Art/VOYAGER_icon256.dds</File>
+    <File md5="A7FE1217FE658E5C862605544711DA38" import="1">Art/VOYAGER_icon45.dds</File>
+    <File md5="A18858FE0526DC1ED7C463D2AF264E92" import="1">Art/VOYAGER_icon64.dds</File>
+    <File md5="761DD6F603A772121D827CE48C9523DC" import="1">Art/VOYAGER_icon80.dds</File>
+    <File md5="B5668DF675D845CB490075E762F1DD4A" import="1">Art/VOYAGER_splash.dds</File>
+    <File md5="3A703EFFB5618498A93884A980615DD5" import="0">XML/Buildings/Voyager_BuildingClasses.xml</File>
+    <File md5="A2A834728229AFCA6F54717E3AF066C1" import="0">XML/Buildings/Voyager_Buildings.xml</File>
+    <File md5="EBE786C4D849C031909A367998E88EF5" import="0">XML/Civilizations/Voyager_Civilizations.xml</File>
+    <File md5="3680DB7C9077018CAE81263771276A05" import="0">XML/Gameinfo/Voyager_IconTextureAtlases.xml</File>
+    <File md5="1B03E1E452CD4F38E91C0822C501EC12" import="0">XML/Text/Voyager_text.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Voyager_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Voyager_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Voyager_Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Text/Voyager_text.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Gameinfo/Voyager_IconTextureAtlases.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
