@@ -9,7 +9,9 @@
 		<Delete Type="MINOR_CIV_LA_VENTA"/>
 		<Delete Type="MINOR_CIV_BUENOS_AIRES"/>
 		<Delete Type="MINOR_CIV_BOGOTA"/>
-
+		<Delete Type="MINOR_CIV_QUEBEC_CITY"/>
+		<Delete Type="MINOR_CIV_VANCOUVER"/>
+		
 		-->
 		
 		<!-- MOVE ENTRIES FOR CITY-STATES YOU DON'T WANT BELOW-->
@@ -57,13 +59,11 @@
 		<Delete Type="MINOR_CIV_KIEV"/>
 		<Delete Type="MINOR_CIV_MELBOURNE"/>
 		<Delete Type="MINOR_CIV_PRAGUE"/>
-		<Delete Type="MINOR_CIV_QUEBEC_CITY"/>
 		<Delete Type="MINOR_CIV_RIGA"/>
 		<Delete Type="MINOR_CIV_RAGUSA"/>
 		<Delete Type="MINOR_CIV_SOFIA"/>
 		<Delete Type="MINOR_CIV_SYDNEY"/>
 		<Delete Type="MINOR_CIV_VALLETTA"/>
-		<Delete Type="MINOR_CIV_VANCOUVER"/>
 		<Delete Type="MINOR_CIV_VILNIUS"/>
 		<Delete Type="MINOR_CIV_WELLINGTON"/>
 		<Delete Type="MINOR_CIV_WITTENBERG"/>

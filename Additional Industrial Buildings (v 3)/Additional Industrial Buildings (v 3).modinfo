@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="97e37c5a-f711-49c9-92c7-1737a42e8bd0" version="3">
+  <Properties>
+    <Name>Additional Industrial Buildings</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Adds additonal buildings for the Industrial Era.</Teaser>
+    <Description>Adds additonal buildings for the Industrial Era.
+
+Synthetic Fuel Manufactory
++2 Production, +1 Production for each Coal worked by the city. Maximum of 6 buildings per empire.
+Converts 1 Coal to 2 Oil.
+
+Oil Refinery
++2 Production, +1 Production for each Oil worked by the city. +2 Oil resources.Must have improved Oil near city.
+
+Weapons Factory
++1 Production, +10% Production when building military units.+1 Production for each source of iron worked by the city. City must contain a Workshop.
+
+Munitions Factory
++1 Production, +10% Production when building military units that use munitions (seige, gunpowder, armor and bomber units). +1 Production for each source of aluminum worked by the city. City must contain a Workshop.</Description>
+    <Authors>lordplane</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="1E7E6E3B874E21DFEF7592B6FFC29AFB" import="1">Art/NewBuildingAtlas128.dds</File>
+    <File md5="64A13097F5C38B68550D1F4F6B75854B" import="1">Art/NewBuildingAtlas256.dds</File>
+    <File md5="F5243EA7BCEE913AC044C6C9E66BFB5F" import="1">Art/NewBuildingAtlas45.dds</File>
+    <File md5="07DAD7DEFC670FCD77473EFFED546798" import="1">Art/NewBuildingAtlas64.dds</File>
+    <File md5="93EF6F04A5407749B47E3D6A49D499F9" import="1">Art/NewBuildingAtlas80.dds</File>
+    <File md5="7CE89FEF1C82224FBC24B27046D25E53" import="0">XML/AdditionalIndustrial_BuildingClasses.xml</File>
+    <File md5="B12EF1200BD1668B98859A0423DFB2CC" import="0">XML/AdditionalIndustrial_Buildings.xml</File>
+    <File md5="0A760F9908890A58880F82B3D307EC80" import="0">XML/AdditionalIndustrial_Text.xml</File>
+    <File md5="463916929B63A7B1722BA5902A0234C2" import="0">XML/AdditionalIndustrial_IconAtlas.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/AdditionalIndustrial_BuildingClasses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/AdditionalIndustrial_Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/AdditionalIndustrial_IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>XML/AdditionalIndustrial_Text.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_AMUSEMENT_PARK</Type>
+			<DefaultBuilding>BUILDING_AMUSEMENT_PARK</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_AMUSEMENT_PARK</Description>			
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_AMUSEMENT_PARK</Type>
+			<BuildingClass>BUILDINGCLASS_AMUSEMENT_PARK</BuildingClass>
+			<Cost>300</Cost>
+			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_AMUSEMENT_PARK_HELP</Help>
+			<Description>TXT_KEY_BUILDING_AMUSEMENT_PARK</Description>
+			<Strategy>TXT_KEY_BUILDING_AMUSEMENT_PARK_STRATEGY</Strategy>
+			<Civilopedia>TXT_KEY_BUILDING_AMUSEMENT_PARK_DESC</Civilopedia>		
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<Happiness>3</Happiness>			
+			<HurryCostModifier>5</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>BW_ATLAS_DISNEY</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_AMUSEMENT_PARK</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_AMUSEMENT_PARK</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>24</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AMUSEMENT_PARK</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_AMUSEMENT_PARK">
+			<Text>Amusement Park</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMUSEMENT_PARK_STRATEGY">
+			<Text>An Amusement Park is a Industrial-era building which increases the [ICON_HAPPINESS_1] Happiness of your entire empire, not just the city in which it is constructed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMUSEMENT_PARK_HELP">
+			<Text>It cannot provide more [ICON_HAPPINESS_1] Happiness than there are [ICON_CITIZEN] Citizens in a city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AMUSEMENT_PARK_DESC">
+			<Text>An amusement park is a grouping of entertainment attractions, rides, and other events in a location for the enjoyment of large numbers of people. Amusement parks are more elaborate than simple city parks or playgrounds, usually providing attractions meant to cater specifically to certain age groups, as well as some that are aimed towards all ages. Amusement parks evolved from European fairs and pleasure gardens, which were created for people's recreation. The oldest amusement park in the world is Bakken, north of Copenhagen, Denmark, which opened in 1583. In the United States, world's fairs and expositions were another influence on development of the amusement park industry. Amusement parks have a fixed location, as opposed to traveling funfairs and carnivals.</Text>
+		</Row>
+		<!-- Electricity help override -->
+		<Delete Tag="TXT_KEY_TECH_ELECTRICITY_HELP"/>
+		<Row Tag="TXT_KEY_TECH_ELECTRICITY_HELP">
+			<Text>Reveals [ICON_RES_ALUMINUM] Aluminum, a resource used for many late-game units. Also allows Cities to build the [COLOR_POSITIVE_TEXT]Stock Exchange[ENDCOLOR], a building which boosts [ICON_GOLD] Gold. Also allows you to build the [COLOR_POSITIVE_TEXT]Hydro Plant[ENDCOLOR], which increases [ICON_PRODUCTION] Production from tiles next to a River, the [COLOR_POSITIVE_TEXT]Police Station[ENDCOLOR], which hinders a spies' ability to steal your technology, and the [COLOR_POSITIVE_TEXT]Amusement Park[ENDCOLOR] which increases the [ICON_HAPPINESS_1] Happiness within the City.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

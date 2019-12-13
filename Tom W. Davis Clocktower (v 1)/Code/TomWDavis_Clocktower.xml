@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/10/2018 17:15:04 PM -->
+<GameData>
+  <Language_en_US>
+		<!-- Clock Tower -->
+		<Row Tag="TXT_KEY_BUILDING_TOMWDAVIS_CLOCKTOWER">
+			<Text>Tom W. Davis Clocktower</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TOMWDAVIS_CLOCKTOWER_HELP">
+			<Text>+5 [ICON_HAPPINESS_1] global Happiness from happy administrators but +10% [ICON_HAPPINESS_4] unhappiness from students in your empire. See Civopedia for full bonuses.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TOMWDAVIS_CLOCKTOWER_STRATEGY">
+			<Text>Build this this Clocktower for Tom W. Davis and see students flock from far and wide to bask in its glory. Provides extra Happiness, Culture, and Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TOMWDAVIS_CLOCKTOWER_TEXT">
+			<Text>+5 [ICON_HAPPINESS_1] global Happiness from happy administrators but +10% [ICON_HAPPINESS_4] unhappiness from students in your empire.[NEWLINE]2 [ICON_GREAT_WORK] Great Works of Music slots for bands to come and play in front of the tower.[NEWLINE]+5 [ICON_CULTURE] and +5% [ICON_CULTURE] Culture from this wonder as Ohio Citizens travel far and wide to see this marvel.[NEWLINE]+1 [ICON_GOLD] Gold from science buildings and donors who want their own clocktower.[NEWLINE]+2 [ICON_GOLD] from local students' saltiness because screw scholarships, that's why.[NEWLINE][NEWLINE]
+			Clock towers have long marked the hearts of civilization, inspired awe in passers-by and been the source of envy for communities lacking clock towers. The clang of Big Ben, the romance of “The Hunchback of Notre Dame,” and soon the lifelong memories and traditions at the Tom W. Davis Clock Tower. Get ready, cartographers, because Ohio State is about to be put on the map.[NEWLINE][NEWLINE]
+			We owe this university and its donors a debt of gratitude for this clock tower and we are not properly showing it. Students’ annoyance is unfair. Imagine if you were a businessman who gave a bunch of ungrateful brats a new clock tower and they dismissed you, saying they would rather have more professors and scholarships. You would probably give the clock tower to a group of students who were more respectful. Count ourselves lucky that the clock tower is staying here![NEWLINE][NEWLINE]
+			Sure, we could have used $1.4 million on anything else, but then no one at Ohio State would know the time. And yes, you could complain that a $1.4 million clock tower is a poor financing choice, but I say that you cannot calculate the net present value of millions of smiles, for generations to come.[NEWLINE][NEWLINE]https://www.reddit.com/r/OSU/comments/78y2z3/glory_to_the_clocktower/doy4g27</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_TOMWDAVIS_CLOCKTOWER_LOCAL">
+			<Text>Gathering place of {2_CivAdjective} Music</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_TOMWDAVIS_CLOCKTOWER_GLOBAL">
+			<Text>Gathering place of World Music</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOMWDAVIS_CLOCKTOWER_THEMING_BONUS_HELP">
+			<Text>To maximize your bonus, make sure all slots are filled with music and either: [NEWLINE]1.) Both from the city owner [NEWLINE]2.) Both from different owners.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_TOMWDAVIS_CLOCKTOWER_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Clock towers have long marked the hearts of civilization..."[NEWLINE][TAB][TAB] - Ricky Mulvy[NEWLINE][TAB]</Text>
+		</Row>
+	</Language_en_US>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>BUILDING_TOMWDAVIS_CLOCKTOWER_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>TomWDavis_Clocktower_256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BUILDING_TOMWDAVIS_CLOCKTOWER_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>TomWDavis_Clocktower_128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BUILDING_TOMWDAVIS_CLOCKTOWER_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>TomWDavis_Clocktower_080.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BUILDING_TOMWDAVIS_CLOCKTOWER_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>TomWDavis_Clocktower_064.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BUILDING_TOMWDAVIS_CLOCKTOWER_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>TomWDavis_Clocktower_045.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+	<Audio_Sounds>
+	<!--List of Wonder Songs -->
+		<Row>
+			<SoundID>SND_WONDER_CLOCKTOWER</SoundID>
+			<Filename>TarantellaNapoletana</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>	
+	</Audio_Sounds>
+	<Audio_2DSounds>
+		<!--Sound Script files-->
+		<Row>
+			<ScriptID>AS2D_WONDER_CLOCKTOWER</ScriptID>
+			<SoundID>SND_WONDER_CLOCKTOWER</SoundID>
+			<SoundType>GAME_SPEECH</SoundType>
+			<MinVolume>80</MinVolume>
+			<MaxVolume>100</MaxVolume>
+		</Row>
+	</Audio_2DSounds>
+</GameData>

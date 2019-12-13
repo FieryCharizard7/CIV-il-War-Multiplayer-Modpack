@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_EPCOT</Type>
+			<DefaultBuilding>BUILDING_EPCOT</DefaultBuilding>
+			<Description>TXT_KEY_WONDER_EPCOT</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_EPCOT</Type>
+			<BuildingClass>BUILDINGCLASS_EPCOT</BuildingClass>
+			<Cost>1500</Cost>
+			<PrereqTech>TECH_GLOBALIZATION</PrereqTech>
+			<Help>TXT_KEY_WONDER_EPCOT_HELP</Help>
+			<Description>TXT_KEY_WONDER_EPCOT</Description>
+			<Civilopedia>TXT_KEY_WONDER_EPCOT_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_EPCOT_QUOTE</Quote>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<UnmoddedHappiness>3</UnmoddedHappiness>
+			<EnhancedYieldTech>TECH_GLOBALIZATION</EnhancedYieldTech>
+			<TechEnhancedTourism>6</TechEnhancedTourism>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>BW_ATLAS_DISNEY</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>			
+			<WonderSplashImage>EpcotSplash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_EPCOT</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EPCOT</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EPCOT</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_BuildingClassYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_EPCOT</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_AMUSEMENT_PARK</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EPCOT</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_AMUSEMENT_PARK</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_EPCOT</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>24</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EPCOT</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EPCOT</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EPCOT</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EPCOT</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EPCOT</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_WONDER_EPCOT">
+			<Text>Epcot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EPCOT_QUOTE">
+			<Text>
+				[NEWLINE][TAB][TAB]"I would rather entertain and hope that people learned something than educate people and hope they were entertained."[NEWLINE] - Walt Disney[NEWLINE][TAB]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EPCOT_HELP">
+			<Text>+1 [ICON_RESEARCH] Science, and +1 [ICON_CULTURE] Culture from every Amusement Park. Also provides +6 [ICON_TOURISM] Tourism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EPCOT_DESC">
+			<Text>Epcot is the second of four amusement parks built at Walt Disney World in Bay Lake, Florida. It opened on October 1, 1982, and spans 300 acres, more than twice the size of the Magic Kingdom park. Epcot is dedicated to the celebration of human achievement, namely technological innovation and international culture, and is often referred to as a "Permanent World's Fair." In 2011, the park hosted approximately 10.83 million guests, making it the third most visited amusement park in the United States, and sixth most visited amusement park in the world.	The park is represented by Spaceship Earth, a geodesic sphere that also serves as an attraction.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

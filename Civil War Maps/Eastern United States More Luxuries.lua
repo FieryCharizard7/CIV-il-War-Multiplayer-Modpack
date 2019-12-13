@@ -15,7 +15,7 @@ function GetMapScriptInfo()
 Map size: 55x51]],
 		SupportsSinglePlayer = true,
 		SupportsMultiplayer = true,
-		IsAdvancedMap = true,		
+		IsAdvancedMap = true,
 }
 end
 
@@ -25,7 +25,7 @@ function GetMapInitData(worldSize)
 		Height = 51,
 		WrapX = false,
 		WrapY = false,
-	};      
+	};
 end
 ------------------------------------------------------------------------------
 ------------------------------------------------------------------------------
@@ -34,7 +34,7 @@ nORbConvWorld = {};
 function nORbConvWorld.Create()
 	print("Create nORbConvWorld class.");
 	local gridWidth, gridHeight = Map.GetGridSize();
-	
+
 	local data = {
 		GeneratePlotTypes     = nORbConvWorld.GeneratePlotTypes,
 		GenerateTerrainAtPlot = nORbConvWorld.GenerateTerrainAtPlot,
@@ -64,12 +64,12 @@ function nORbConvWorld.Create()
 end
 ------------------------------------------------------------------------------
 function nORbConvWorld:GeneratePlotTypes()
-	print("Generate Plot Types.");	
+	print("Generate Plot Types.");
 	local plotTypes = table.fill(PlotTypes.PLOT_LAND, self.iNumPlotsX * self.iNumPlotsY);
 	return plotTypes;
 end
 ----------------------------------------------------------------------------------
-function nORbConvWorld:GenerateTerrain()		
+function nORbConvWorld:GenerateTerrain()
 	print("Generate Terrain.");
 	local terrainData = {}
 	local i = 0;
@@ -86,10 +86,10 @@ function nORbConvWorld:FillPlots()
 	print("Set plots...");
 	local arPlotsVars = {
 		[0] = PlotTypes.PLOT_LAND,
-		[1] = PlotTypes.PLOT_HILLS, 
+		[1] = PlotTypes.PLOT_HILLS,
 		[2] = PlotTypes.PLOT_MOUNTAIN,
 		};
-		
+
 	local arPlotsTypes = {{0, 0, 1},{1, 0, 1},{2, 0, 1},{5, 7, 1},{2, 10, 1},{11, 10, 1},{20, 11, 1},{18, 12, 1},{28, 12, 1},{6, 14, 1},
 		{25, 15, 1},{28, 15, 1},{29, 15, 1},{30, 15, 1},{9, 16, 1},{26, 16, 1},{28, 16, 1},{29, 16, 1},{30, 16, 1},{2, 17, 1},
 		{24, 17, 1},{25, 17, 1},{27, 17, 1},{29, 17, 1},{30, 17, 1},{31, 17, 1},{25, 18, 1},{26, 18, 1},{27, 18, 1},{29, 18, 1},
@@ -112,19 +112,19 @@ function nORbConvWorld:FillPlots()
 		{0, 47, 1},{1, 47, 1},{2, 47, 1},{38, 47, 1},{39, 47, 1},{42, 47, 1},{16, 48, 1},{38, 48, 1},{39, 48, 1},{40, 48, 1},
 		{42, 48, 1},{43, 48, 1},{51, 48, 1},{0, 49, 1},{1, 49, 1},{0, 50, 1},};
 
-	
+
 	print("Plots count: "..#arPlotsTypes);
 	for plotInd = 1, #arPlotsTypes do
 		plot = Map.GetPlot(arPlotsTypes[plotInd][1], arPlotsTypes[plotInd][2]);
 		plot:SetPlotType(arPlotsVars[arPlotsTypes[plotInd][3]]);
 	end
-	
+
 end
 ----------------------------------------------------------------------------------
 function nORbConvWorld:FillTerrains()
 	print("Set terrains...");
 	local arTerrainVars = {
-		[0] = TerrainTypes.TERRAIN_GRASS, 
+		[0] = TerrainTypes.TERRAIN_GRASS,
 		[1] = TerrainTypes.TERRAIN_PLAINS,
 		[2] = TerrainTypes.TERRAIN_DESERT,
 		[3] = TerrainTypes.TERRAIN_TUNDRA,
@@ -132,7 +132,7 @@ function nORbConvWorld:FillTerrains()
 		[5] = TerrainTypes.TERRAIN_COAST,
 		[6] = TerrainTypes.TERRAIN_OCEAN,
 		};
-		
+
 	local arTerrainTypes = {{0, 0, 1},{1, 0, 1},{2, 0, 1},{3, 0, 1},{4, 0, 1},{5, 0, 1},{6, 0, 1},{7, 0, 1},{8, 0, 1},{9, 0, 5},
 		{10, 0, 6},{11, 0, 6},{12, 0, 6},{13, 0, 6},{14, 0, 6},{15, 0, 6},{16, 0, 6},{17, 0, 6},{18, 0, 6},{19, 0, 6},
 		{20, 0, 6},{21, 0, 6},{22, 0, 6},{23, 0, 6},{24, 0, 6},{25, 0, 6},{26, 0, 6},{27, 0, 6},{28, 0, 6},{29, 0, 6},
@@ -195,7 +195,7 @@ function nORbConvWorld:FillTerrains()
 		{52, 13, 6},{53, 13, 6},{54, 13, 6},{0, 14, 1},{1, 14, 1},{2, 14, 1},{15, 14, 1},{21, 14, 1},{22, 14, 1},{31, 14, 1},
 		{32, 14, 1},{33, 14, 5},{34, 14, 5},{35, 14, 6},{36, 14, 6},{37, 14, 6},{38, 14, 6},{39, 14, 6},{40, 14, 6},{41, 14, 6},
 		{42, 14, 6},{43, 14, 6},{44, 14, 6},{45, 14, 6},{46, 14, 6},{47, 14, 6},{48, 14, 6},{49, 14, 6},{50, 14, 6},{51, 14, 6},
-		{52, 14, 6},{53, 14, 6},{54, 14, 6},{0, 15, 1},{20, 15, 1},{21, 15, 1},{32, 15, 1},{33, 15, 5},{34, 15, 5},{35, 15, 5},
+		{52, 14, 0},{53, 14, 6},{54, 14, 6},{0, 15, 1},{20, 15, 1},{21, 15, 1},{32, 15, 1},{33, 15, 5},{34, 15, 5},{35, 15, 5},
 		{36, 15, 6},{37, 15, 6},{38, 15, 6},{39, 15, 6},{40, 15, 6},{41, 15, 6},{42, 15, 6},{43, 15, 6},{44, 15, 6},{45, 15, 6},
 		{46, 15, 6},{47, 15, 6},{48, 15, 6},{49, 15, 6},{50, 15, 6},{51, 15, 6},{52, 15, 6},{53, 15, 6},{54, 15, 6},{21, 16, 1},
 		{33, 16, 1},{34, 16, 5},{35, 16, 5},{36, 16, 5},{37, 16, 5},{38, 16, 6},{39, 16, 6},{40, 16, 6},{41, 16, 6},{42, 16, 6},
@@ -269,13 +269,13 @@ function nORbConvWorld:FillTerrains()
 		{4, 50, 5},{7, 50, 5},{19, 50, 1},{23, 50, 1},{26, 50, 5},{42, 50, 5},{47, 50, 5},{48, 50, 5},{49, 50, 5},{50, 50, 6},
 		{51, 50, 6},{52, 50, 6},{53, 50, 6},{54, 50, 6},};
 
-	
+
 	print("Terrain custom hex count: "..#arTerrainTypes);
 	for terrainInd = 1, #arTerrainTypes do
 		plot = Map.GetPlot(arTerrainTypes[terrainInd][1], arTerrainTypes[terrainInd][2]);
 		plot:SetTerrainType(arTerrainVars[arTerrainTypes[terrainInd][3]]);
 	end
-	
+
 end
 function nORbConvWorld:FillRivers()
 	print("Placing rivers...");
@@ -293,7 +293,7 @@ function nORbConvWorld:FillRivers()
 			[2] = FlowDirectionTypes.FLOWDIRECTION_NORTHWEST,
 			},
 		};
-		
+
 	local arRivers = {{19, 8, 2, 0, 0},{16, 9, 2, 0, 0},{17, 9, 0, 2, 1},{18, 9, 0, 2, 1},{19, 9, 0, 0, 1},
 		{15, 10, 2, 0, 0},{16, 10, 0, 2, 1},{17, 10, 0, 0, 1},{23, 10, 2, 0, 0},{15, 11, 2, 1, 0},
 		{23, 11, 2, 1, 0},{12, 12, 2, 0, 0},{13, 12, 0, 2, 1},{14, 12, 0, 2, 1},{15, 12, 2, 2, 1},
@@ -347,11 +347,11 @@ function nORbConvWorld:FillRivers()
 		{29, 42, 0, 2, 1},{30, 42, 0, 0, 1},{37, 42, 1, 0, 0},{38, 42, 0, 0, 2},{28, 43, 2, 1, 0},
 		{37, 43, 0, 2, 0},{38, 43, 1, 2, 1},{39, 44, 1, 2, 0},{39, 45, 1, 2, 0},{40, 46, 1, 2, 0},};
 
-	
+
 	print("Rivers custom hex count: "..#arRivers);
 	for riverInd = 1, #arRivers do
 		plot = Map.GetPlot(arRivers[riverInd][1], arRivers[riverInd][2]);
-		
+
 		if (arRivers[riverInd][3] > 0) then
 			plot:SetWOfRiver (true, arFlowVars[1][ arRivers[riverInd][3] ]);
 		end
@@ -362,7 +362,7 @@ function nORbConvWorld:FillRivers()
 			plot:SetNEOfRiver(true, arFlowVars[3][ arRivers[riverInd][5] ]);
 		end
 	end
-	
+
 end
 ----------------------------------------------------------------------------------
 function nORbConvWorld:FillFeatures()
@@ -376,9 +376,9 @@ function nORbConvWorld:FillFeatures()
 			FeatureTypes.FEATURE_FLOOD_PLAINS = thisFeature.ID;
 		end
 	end
-	
+
 	local arFeaturesVars = {
-		[0] = FeatureTypes.FEATURE_ICE, 
+		[0] = FeatureTypes.FEATURE_ICE,
 		[1] = FeatureTypes.FEATURE_JUNGLE,
 		[2] = FeatureTypes.FEATURE_MARSH,
 		[3] = FeatureTypes.FEATURE_OASIS,
@@ -387,7 +387,7 @@ function nORbConvWorld:FillFeatures()
 		[6] = FeatureTypes.FEATURE_FALLOUT,
 		[7] = FeatureTypes.FEATURE_ATOLL,
 		};
-		
+
 	local arFeaturesTypes = {{5, 0, 1},{6, 0, 1},{7, 0, 1},{8, 0, 1},{38, 0, 1},{39, 0, 1},{1, 1, 5},{2, 1, 5},{3, 1, 5},{5, 1, 1},
 		{6, 1, 1},{33, 1, 1},{41, 1, 1},{0, 2, 5},{1, 2, 5},{2, 2, 5},{3, 2, 5},{5, 2, 1},{6, 2, 1},{7, 2, 1},
 		{33, 2, 2},{34, 2, 1},{40, 2, 1},{0, 3, 5},{7, 3, 1},{31, 3, 2},{32, 3, 2},{33, 3, 2},{34, 3, 2},{0, 4, 5},
@@ -469,21 +469,22 @@ function nORbConvWorld:FillFeatures()
 		{40, 49, 5},{43, 49, 5},{44, 49, 5},{45, 49, 5},{0, 50, 5},{1, 50, 5},{2, 50, 5},{3, 50, 5},{5, 50, 5},{8, 50, 5},
 		{9, 50, 5},{10, 50, 5},{11, 50, 5},{14, 50, 5},{15, 50, 5},{16, 50, 5},{17, 50, 5},{18, 50, 5},{20, 50, 5},{21, 50, 5},
 		{22, 50, 5},{24, 50, 5},{25, 50, 5},{27, 50, 5},{28, 50, 5},{29, 50, 5},{30, 50, 5},{32, 50, 5},{33, 50, 5},{34, 50, 5},
-		{36, 50, 5},{37, 50, 5},{38, 50, 5},{39, 50, 5},{40, 50, 5},{41, 50, 5},{43, 50, 5},{44, 50, 5},{45, 50, 5},{46, 50, 5},};
+		{36, 50, 5},{37, 50, 5},{38, 50, 5},{39, 50, 5},{40, 50, 5},{41, 50, 5},{43, 50, 5},{44, 50, 5},{45, 50, 5},{46, 50, 5},
+		{49, 14, 7},{50, 13, 7},};
 
-	
+
 	print("Features count: "..#arFeaturesTypes);
 	for featureInd = 1, #arFeaturesTypes do
 		plot = Map.GetPlot(arFeaturesTypes[featureInd][1], arFeaturesTypes[featureInd][2]);
 		plot:SetFeatureType(arFeaturesVars[arFeaturesTypes[featureInd][3]], -1);
 	end
-	
+
 end
 ----------------------------------------------------------------------------------
 function nORbConvWorld:FillResources()
-	
+
 	print("Placing Resources.");
-	
+
 	local arResources = {{6, 0, 34, 1},{8, 0, 24, 1},{36, 0, 49, 1},{38, 0, 22, 1},{39, 0, 10, 1},{4, 1, 5, 3},{31, 1, 11, 1},{33, 1, 34, 1},{35, 1, 11, 1},{41, 1, 48, 1},
 		{7, 2, 24, 1},{11, 2, 3, 3},{34, 2, 10, 1},{36, 2, 14, 1},{37, 2, 49, 1},{38, 2, 11, 1},{40, 2, 22, 1},{41, 2, 49, 1},{44, 2, 11, 1},{3, 3, 5, 3},
 		{5, 3, 3, 3},{9, 3, 11, 1},{14, 3, 11, 1},{17, 3, 3, 3},{21, 3, 11, 1},{31, 3, 34, 1},{33, 3, 34, 1},{38, 3, 14, 1},{2, 4, 3, 3},{28, 4, 11, 1},
@@ -536,28 +537,28 @@ function nORbConvWorld:FillResources()
 		{9, 50, 46, 1},{12, 50, 45, 1},{15, 50, 9, 1},{16, 50, 51, 1},{28, 50, 9, 1},{38, 50, 9, 1},{29, 34, 6, 1},{30, 35, 6, 1},{29, 38, 6, 1},{26, 23, 9, 1},
 		{28, 24, 9, 1},{20, 35, 7, 1},{4, 8, 7, 1},{5, 5, 7, 1}};
 
-	
+
 	print("Resources count: "..#arResources);
 	for resourceInd = 1, #arResources do
 		plot = Map.GetPlot(arResources[resourceInd][1], arResources[resourceInd][2]);
 		plot:SetResourceType(arResources[resourceInd][3], arResources[resourceInd][4]);
 	end
-	
+
 end
 ----------------------------------------------------------------------------------
 function nORbConvWorld:FillImprovements()
-	
+
 	print("Placing Improvements.");
-	
+
 	local arImprovements = {};
 
-	
+
 	print("Improvements count: "..#arImprovements);
 	for impInd = 1, #arImprovements do
 		plot = Map.GetPlot(arImprovements[impInd][1], arImprovements[impInd][2]);
 		plot:SetImprovementType(arImprovements[impInd][3]);
 	end
-	
+
 end
 ----------------------------------------------------------------------------------
 function nORbConvWorld:PlaceNaturalWonders()
@@ -600,21 +601,21 @@ function nORbConvWorld:PlaceNaturalWonders()
 			wonder_list[16] = thisFeature.ID;
 		end
 	end
-		
+
 	local arNaturalWonders = {};
 
-	
+
 	print("Natural wonders count: "..#arNaturalWonders);
 	for wonderInd = 1, #arNaturalWonders do
 		plot = Map.GetPlot(arNaturalWonders[wonderInd][1], arNaturalWonders[wonderInd][2]);
 		plot:SetFeatureType(wonder_list[arNaturalWonders[wonderInd][3]], -1);
 	end
-	
+
 end
 ----------------------------------------------------------------------------------
 function nORbConvWorld:FillRegions()
 	print("Placing Regions.");
-		
+
 	local arRegions = {{0, 0, 4},{1, 0, 4},{2, 0, 4},{3, 0, 4},{4, 0, 4},{5, 0, 4},{6, 0, 4},{7, 0, 4},{8, 0, 4},{9, 0, 4},
 		{10, 0, 4},{11, 0, 4},{12, 0, 4},{13, 0, 4},{14, 0, 4},{15, 0, 4},{16, 0, 4},{17, 0, 4},{18, 0, 4},{19, 0, 4},
 		{20, 0, 4},{21, 0, 4},{22, 0, 4},{23, 0, 4},{24, 0, 4},{25, 0, 4},{26, 0, 4},{27, 0, 4},{28, 0, 4},{29, 0, 4},
@@ -897,24 +898,24 @@ function nORbConvWorld:FillRegions()
 		{40, 50, 4},{41, 50, 4},{42, 50, 4},{43, 50, 4},{44, 50, 4},{45, 50, 4},{46, 50, 4},{47, 50, 4},{48, 50, 4},{49, 50, 4},
 		{50, 50, 4},{51, 50, 4},{52, 50, 4},{53, 50, 4},{54, 50, 4},};
 
-	
+
 	for regionInd = 1, #arRegions do
 		plot = Map.GetPlot(arRegions[regionInd][1], arRegions[regionInd][2]);
 		plot:SetContinentArtType(arRegions[regionInd][3]);
 	end
-	
+
 end
 ----------------------------------------------------------------------------------
 function nORbConvWorld:IsPlot4StartCiv(iX, iY)
 	local tmpResult = true;
 	local ind = 0;
-	
+
 	while ((ind < #self.arBlockedPlotsByCiv) and tmpResult) do
 		ind = ind + 1;
-		
+
 		tmpResult = not( (self.arBlockedPlotsByCiv[ind][1] == iX) and (self.arBlockedPlotsByCiv[ind][2] == iY) );
 	end
-	
+
 	return tmpResult;
 
 end
@@ -929,9 +930,9 @@ function nORbConvWorld:SetBlockedPlotsByCiv(iX, iY)
 		[4] = DirectionTypes.DIRECTION_NORTHWEST,
 		[5] = DirectionTypes.DIRECTION_NORTHEAST,
 		};
-	
+
 	local blockParams = {
-		{0, 0, 0}, 
+		{0, 0, 0},
 		{1, 0, 0},
 		{1, 1, 0},
 		{1, 1, 1},
@@ -952,11 +953,11 @@ function nORbConvWorld:SetBlockedPlotsByCiv(iX, iY)
 		{5, 0, 5},
 		{5, 0, 0},
 		};
-	
+
 	if (self:IsPlot4StartCiv(iX, iY)) then
 	  table.insert(self.arBlockedPlotsByCiv, {iX, iY});
 	end
-	
+
 	for step=1, #blockParams do
 		plot       = Map.GetPlot(iX, iY);
 		sub_Params = blockParams[step];
@@ -965,14 +966,14 @@ function nORbConvWorld:SetBlockedPlotsByCiv(iX, iY)
 			if (plot ~= nil) then
 				plot = Map.PlotDirection(plot:GetX(), plot:GetY(), arS2Dir[side]);
 			end
-			
+
 			if (plot ~= nil) then
 				if ( self:IsPlot4StartCiv( plot:GetX(), plot:GetY() ) ) then
 					--print("Blocking plot: "..plot:GetX().."x"..plot:GetY());
 					table.insert(self.arBlockedPlotsByCiv, {plot:GetX(), plot:GetY()});
 				end
 			end
-			
+
 		end
 	end
 
@@ -980,16 +981,16 @@ end
 ----------------------------------------------------------------------------------
 function nORbConvWorld:FillStartingPlots()
 	print("Placing random starting plots.");
-		
+
 	local arSPlots = {};
 	local arSPlotsMin = {};
 
-	
+
 	local SPlotsCount = GameDefines.MAX_MAJOR_CIVS;
 	if (SPlotsCount > #arSPlots) then
 		SPlotsCount = #arSPlots;
 	end
-	
+
 	for plotInd = 1, SPlotsCount do
 		local pPlayer    = Players[plotInd - 1];
 		if pPlayer:IsEverAlive() then
@@ -999,12 +1000,12 @@ function nORbConvWorld:FillStartingPlots()
 			table.remove(arSPlots, plotRand);
 		end
 	end
-	
+
 	SPlotsCount = GameDefines.MAX_MINOR_CIVS;
 	if (SPlotsCount > #arSPlotsMin) then
 		SPlotsCount = #arSPlotsMin;
 	end
-	
+
 	for plotInd = 1, SPlotsCount do
 		local pPlayer    = Players[plotInd + GameDefines.MAX_MAJOR_CIVS - 1];
 		if pPlayer:IsEverAlive() then
@@ -1024,7 +1025,7 @@ function nORbConvWorld:GetCivStartPlot(pPlayer)
 	local arCivs    = {}
 	local ResultPos = {-1,-1}
 	local thisCiv   = GameInfo.Civilizations[iCivType];
-	
+
 	print (thisCiv.ID..'='..thisCiv.Type..' :: '..Locale.ConvertTextKey(thisCiv.ShortDescription));
 print (thisCiv.ID..'='..thisCiv.Type..' :: '..Locale.ConvertTextKey(thisCiv.ShortDescription));
 		if (thisCiv.Type == "CIVILIZATION_CALC_CONNECTICUT") then ResultPos = {39,32};
@@ -1039,6 +1040,7 @@ print (thisCiv.ID..'='..thisCiv.Type..' :: '..Locale.ConvertTextKey(thisCiv.Shor
 	elseif (thisCiv.Type == "CIVILIZATION_WISCONSIN") then ResultPos = {18,33};
 	elseif (thisCiv.Type == "CIVILIZATION_WEST_VIRGINIA") then ResultPos = {31,26};
 	elseif (thisCiv.Type == "CIVILIZATION_CALCTEXAS") then ResultPos = {7,9};
+	elseif (thisCiv.Type == "CIVILIZATION_TEXAS") then ResultPos = {7,8};
 	elseif (thisCiv.Type == "CIVILIZATION_RHODEISLAND") then ResultPos = {40,33};
 	elseif (thisCiv.Type == "CIVILIZATION_NOCAROLINA") then ResultPos = {33,21};
 	elseif (thisCiv.Type == "CIVILIZATION_NEW_YORK") then ResultPos = {34,35};
@@ -1062,25 +1064,31 @@ print (thisCiv.ID..'='..thisCiv.Type..' :: '..Locale.ConvertTextKey(thisCiv.Shor
 		else
 			print("MajorCiv (Error) True Start Position: "..ResultPos[1].."x"..ResultPos[2]);
 		end
-	end	
-	
+	end
+
 end
 -------------------------------------------------------------
 function nORbConvWorld:GetMinorCivStartPlot(pPlayer)
 	local iCivType      = pPlayer:GetMinorCivType();
 	print("MinorCivType: "..iCivType);
-	
+
 	local arCivs    = {}
 	local ResultPos = {-1,-1}
 	local thisCiv   = GameInfo.MinorCivilizations[iCivType];
-	
+
 print (thisCiv.ID..'='..thisCiv.Type..' :: '..Locale.ConvertTextKey(thisCiv.ShortDescription));
-		if (thisCiv.Type == "MINOR_CIV_SEMINOLE") then ResultPos = {32,3};	
-	elseif (thisCiv.Type == "MINOR_CIV_APACHE") then ResultPos = {1,9};	
+		if (thisCiv.Type == "MINOR_CIV_SEMINOLE") then ResultPos = {32,3};
+	elseif (thisCiv.Type == "MINOR_CIV_APACHE") then ResultPos = {1,9};
 	elseif (thisCiv.Type == "MINOR_CIV_COMANCHE") then ResultPos = {2,14};
-	elseif (thisCiv.Type == "MINOR_CIV_CARIB") then ResultPos = {40,2};	
+	elseif (thisCiv.Type == "MINOR_CIV_CARIB") then ResultPos = {40,2};
+	elseif (thisCiv.Type == "MINOR_CIV_CUBEO") then ResultPos = {52,14};
 	elseif (thisCiv.Type == "MINOR_CIV_CHICHIME") then ResultPos = {5,2};
-	elseif (thisCiv.Type == "MINOR_CIV_CAHOKIA") then ResultPos = {17,20};	
+	elseif (thisCiv.Type == "MINOR_CIV_CAHOKIA") then ResultPos = {17,20};
+	elseif (thisCiv.Type == "MINOR_CIV_QUEBEC_CITY") then ResultPos = {41,40};
+	elseif (thisCiv.Type == "MINOR_CIV_VANCOUVER") then ResultPos = {5,48};
+	elseif (thisCiv.Type == "MINOR_CIV_OLMEC") then ResultPos = {2,2};
+	elseif (thisCiv.Type == "MINOR_CIV_PUELCHE") then ResultPos = {2,3};
+	elseif (thisCiv.Type == "MINOR_CIV_TOLTEC") then ResultPos = {1,1};
 	end
 
 	if (ResultPos[1] ~= -1) then
@@ -1091,8 +1099,8 @@ print (thisCiv.ID..'='..thisCiv.Type..' :: '..Locale.ConvertTextKey(thisCiv.Shor
 		else
 			print("MinorCiv (Error) True Start Position: "..ResultPos[1].."x"..ResultPos[2]);
 		end
-	end	
-	
+	end
+
 end
 ---------------------------------------------------------------------------------
 function nORbConvWorld:MoveStartPos()
@@ -1100,7 +1108,7 @@ function nORbConvWorld:MoveStartPos()
 	for player_ID = 0, GameDefines.MAX_CIV_PLAYERS - 1 do
 		print("Player No: "..player_ID);
 		local pPlayer    = Players[player_ID];
-		
+
 		if pPlayer:IsEverAlive() then
 			if (pPlayer:IsMinorCiv()) then
 				local pStartPlot = self:GetMinorCivStartPlot(pPlayer);
@@ -1116,7 +1124,7 @@ function nORbConvWorld:MoveStartPos()
 				local pStartPlot = self:GetCivStartPlot(pPlayer);
 				if (pStartPlot ~= nil) then
 					local thisCiv = GameInfo.Civilizations[pPlayer:GetCivilizationType()];
-					
+
 					if (thisCiv.Type == "CIVILIZATION_AZTEC") then
 						pPlayer:InitUnit(GameInfo.Units.UNIT_AZTEC_JAGUAR.ID,pStartPlot:GetX(), pStartPlot:GetY());
 					elseif (thisCiv.Type == "CIVILIZATION_POLYNESIA") then
@@ -1128,7 +1136,7 @@ function nORbConvWorld:MoveStartPos()
 						pPlayer:InitUnit(GameInfo.Units.UNIT_MUSKETMAN.ID,pStartPlot:GetX(), pStartPlot:GetY());
 						pPlayer:InitUnit(GameInfo.Units.UNIT_MUSKETMAN.ID,pStartPlot:GetX(), pStartPlot:GetY());
 					end
-					
+
 					pPlayer:InitUnit(GameInfo.Units.UNIT_SETTLER.ID,pStartPlot:GetX(), pStartPlot:GetY());
 					pPlayer:InitUnit(GameInfo.Units.UNIT_SETTLER.ID,pStartPlot:GetX(), pStartPlot:GetY());
 					pPlayer:InitUnit(GameInfo.Units.UNIT_SETTLER.ID,pStartPlot:GetX(), pStartPlot:GetY());
@@ -1157,9 +1165,9 @@ end
 ----------------------------------------------------------------------------------
 --[[ Start generate map]]--
 function StartPlotSystem()
-	
+
 	print("Start generate custom map...");
-	
+
 	local nORb_ConvWorld = nORbConvWorld.Create();
 	local plotTypes      = nORb_ConvWorld:GeneratePlotTypes();
 	SetPlotTypes(plotTypes);
@@ -1174,11 +1182,11 @@ function StartPlotSystem()
 	nORbConvWorld:FillResources();
 	nORbConvWorld:FillImprovements();
 	nORbConvWorld:PlaceNaturalWonders();
-	
+
 	nORb_ConvWorld:FillStartingPlots();
 	nORb_ConvWorld:MoveStartPos();
 
 	print("Map complete!");
-	
+
 end
 ------------------------------------------------------------------------------

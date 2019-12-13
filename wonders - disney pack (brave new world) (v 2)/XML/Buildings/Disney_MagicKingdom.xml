@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_MAGIC_KINGDOM</Type>
+			<DefaultBuilding>BUILDING_MAGIC_KINGDOM</DefaultBuilding>
+			<Description>TXT_KEY_WONDER_MAGIC_KINGDOM</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_MAGIC_KINGDOM</Type>
+			<BuildingClass>BUILDINGCLASS_MAGIC_KINGDOM</BuildingClass>
+			<Cost>1250</Cost>
+			<PrereqTech>TECH_COMPUTERS</PrereqTech>
+			<Help>TXT_KEY_WONDER_MAGIC_KINGDOM_HELP</Help>
+			<Description>TXT_KEY_WONDER_MAGIC_KINGDOM</Description>			
+			<Civilopedia>TXT_KEY_WONDER_MAGIC_KINGDOM_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_MAGIC_KINGDOM_QUOTE</Quote>			
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>			
+			<UnmoddedHappiness>6</UnmoddedHappiness>
+			<EnhancedYieldTech>TECH_COMPUTERS</EnhancedYieldTech>
+			<TechEnhancedTourism>6</TechEnhancedTourism>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>			
+			<IconAtlas>BW_ATLAS_DISNEY</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>			
+			<WonderSplashImage>MagicKingdomSplash.dds</WonderSplashImage>
+			<WonderSplashAnchor>R,B</WonderSplashAnchor>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_MAGIC_KINGDOM</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>6</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_BuildingClassYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_MAGIC_KINGDOM</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_AMUSEMENT_PARK</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>
+	<Building_BuildingClassHappiness>
+		<Row>
+			<BuildingType>BUILDING_MAGIC_KINGDOM</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_AMUSEMENT_PARK</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+	</Building_BuildingClassHappiness>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_MAGIC_KINGDOM</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>48</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MAGIC_KINGDOM</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MAGIC_KINGDOM</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MAGIC_KINGDOM</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_WONDER_MAGIC_KINGDOM">
+			<Text>Magic Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_MAGIC_KINGDOM_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"All our dreams can come true, if we have the courage to pursue them."[NEWLINE] - Walt Disney[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_MAGIC_KINGDOM_HELP">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness, and +1 [ICON_GOLD] Gold from every Amusement Park. Also provides +6 [ICON_TOURISM] Tourism.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_MAGIC_KINGDOM_DESC">
+			<Text>Magic Kingdom is the first of four amusement parks built at the Walt Disney World Resort in Lake Buena Vista, Florida. It opened on October 1, 1971. Designed and built by WED Enterprises, its layout and attractions are similar to Disneyland Park in Anaheim, California, and is dedicated to fairy tales and Disney characters. In 2011, the park hosted approximately 17 million visitors, making it the most visited amusement park in the world. The park is represented by Cinderella Castle, a replica of the fairy tale castle seen in the 1950 film.</Text>
+		</Row>
+	</Language_en_US>	
+</GameData>

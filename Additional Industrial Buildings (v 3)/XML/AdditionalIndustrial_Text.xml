@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/24/2014 9:00:55 AM -->
+<GameData>
+	<Language_en_US>
+		<!-- Description Tags-->
+		<Row Tag="TXT_KEY_BUILDING_OIL_REFINERY">
+			<Text>Oil Refinery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WEAPONS_FACTORY">
+			<Text>Weapons Factory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MUNITIONS_FACTORY">
+			<Text>Munitions Factory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SYNTHFUEL_PLANT">
+			<Text>Synthetic Fuel Manufactory</Text>
+		</Row>
+		<!-- Help Tags-->
+		<Row Tag="TXT_KEY_BUILDING_OIL_REFINERY_HELP">
+			<Text>+2 [ICON_PRODUCTION] Production, +1 [ICON_PRODUCTION] Production for each [ICON_RES_OIL] Oil worked by the city. +2 [ICON_RES_OIL] Oil resources. [NEWLINE][NEWLINE]City must have an improved source of [ICON_RES_OIL] Oil.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WEAPONS_FACTORY_HELP">
+			<Text>+1 [ICON_PRODUCTION] Production, +10% [ICON_PRODUCTION] Production when building military units.[NEWLINE]+1 [ICON_PRODUCTION] Production for each source of iron worked by the city.[NEWLINE][NEWLINE]City must have a Workshop.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MUNITIONS_FACTORY_HELP">
+			<Text>+1 [ICON_PRODUCTION] Production, +10% [ICON_PRODUCTION] Production when building military units that use munitions (seige, gunpowder, armor and bomber units).[NEWLINE]+1 [ICON_PRODUCTION] Production for each source of aluminum worked by the city.[NEWLINE][NEWLINE]City must have a Workshop.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SYNTHFUEL_PLANT_HELP">
+			<Text>+2 [ICON_PRODUCTION] Production, +1 [ICON_PRODUCTION] Production for each [ICON_RES_COAL] Coal worked by the city.[NEWLINE]Converts 1 [ICON_RES_COAL] into 2 [ICON_RES_OIL] Oil resources. [NEWLINE][NEWLINE]City must have a Workshop.</Text>
+		</Row>
+		<!-- Pedia Tags-->
+		<Row Tag="TXT_KEY_BUILDING_OIL_REFINERY_PEDIA">
+			<Text>An oil refinery is an industrial process plant where crude oil is processed and refined into more useful products such as petroleum naphtha, gasoline, diesel fuel, kerosene and liquefied petroleum gas. Oil refineries are typically large, sprawling industrial complexes with extensive piping running throughout, carrying streams of fluids between large chemical processing units.[NEWLINE][NEWLINE]Raw or unprocessed crude oil is not generally useful in industrial applications, therefore the hundreds of different hydrocarbon molecules in crude oil are separated in a refinery into components which can be used as fuels, lubricants, and as feedstocks in petrochemical processes that manufacture products such as plastics, solvents, elastomers and fibers such as nylon and polyesters. Petroleum fossil fuels are burned in internal combustion engines to provide power for ships, automobiles, aircraft engines and other machines.[NEWLINE][NEWLINE]--Wikipedia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WEAPONS_FACTORY_PEDIA">
+			<Text>A weapons factory is an industrial site, usually consisting of buildings and machinery, or more commonly a complex having several buildings, where workers manufacture weapon components or operate machines to produce various armaments from raw components.[NEWLINE]Famous weapons plants in history include those owned by Krupp which helped to develop the Panzerkampfwagen VIII Maus and military plants in Karkov responsible for the design and production of the T-34 tank during World War II.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MUNITIONS_FACTORY_PEDIA">
+			<Text>A munitions factory is an industrial site where ammunition for various purposes are manufactured. From the simple bullet to a high-explosive shell to a sophisticated smart bomb, many of modern day weaponary would be useless without their respective ammunition.[NEWLINE]The purpose of ammunition is to project force against a selected target. Historically, round shots made from lead or iron were used in muskets and cannons whilst using gunpowder to deliver themselves to the targets. In modern day warfare, ammunition are often found as projectile and propellant in one such as bullets, tank rounds and missiles; the exception being large caliber guns on field artillery and warships.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SYNTHFUEL_PLANT_PEDIA">
+			<Text>Synthetic fuel is a liquid fuel obtained from syngas, a mixture of carbon monoxide and hydrogen, in which the syngas was derived from gasification of solid feedstocks such as coal or biomass. Indirect coal conversion (where coal is gasified and then converted to synthetic fuels) was also developed in Germany by Franz Fischer and Hans Tropsch in 1923. During World War II, Germany used synthetic oil manufacturing to produce substitute oil products by using the Bergius process, which were Germany's primary source of high-grade aviation gasoline, synthetic oil and synthetic rubber etc.[NEWLINE]Germany relied upon this source of fuel because coal was more readily available compared to crude oil which was considered a rare commodity.[NEWLINE][NEWLINE]--Wikipedia</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
