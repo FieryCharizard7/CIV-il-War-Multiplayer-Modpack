@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/15/2014 10:41:59 PM -->
+<GameData>
+	<Worlds>
+		<Update>
+			<Where Type ="WORLDSIZE_DUEL"/>
+			<Set NumCitiesTechCostMod="2.5"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_TINY"/>
+			<Set NumCitiesTechCostMod="2.5"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_SMALL"/>
+			<Set NumCitiesTechCostMod="2.5"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_STANDARD"/>
+			<Set NumCitiesTechCostMod="2.5"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_DUEL"/>
+			<Set NumCitiesUnhappinessPercent="50"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_TINY"/>
+			<Set NumCitiesUnhappinessPercent="50"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_SMALL"/>
+			<Set NumCitiesUnhappinessPercent="50"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_STANDARD"/>
+			<Set NumCitiesUnhappinessPercent="50"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_DUEL"/>
+			<Set NumCitiesUnhappinessPercent="50"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_TINY"/>
+			<Set NumCitiesUnhappinessPercent="50"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_SMALL"/>
+			<Set NumCitiesUnhappinessPercent="50"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_STANDARD"/>
+			<Set NumCitiesUnhappinessPercent="50"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_STANDARD"/>
+			<Set NumCitiesPolicyCostMod="7.5"/>
+		</Update>
+	</Worlds>
+</GameData>
+<GameData>
+	<Worlds>
+		<Update>
+			<Where Type ="WORLDSIZE_HUGE"/>
+			<Set NumCitiesTechCostMod="1.25"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_HUGE"/>
+			<Set NumCitiesUnhappinessPercent="30"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_HUGE"/>
+			<Set NumCitiesPolicyCostMod="2.5"/>
+		</Update>
+	</Worlds>
+</GameData>
+<GameData>
+	<Worlds>
+		<Update>
+			<Where Type ="WORLDSIZE_LARGE"/>
+			<Set NumCitiesTechCostMod="1.875"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_LARGE"/>
+			<Set NumCitiesUnhappinessPercent="40"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_LARGE"/>
+			<Set NumCitiesPolicyCostMod="3.75"/>
+		</Update>
+	</Worlds>
+</GameData>
+<GameData>
+	</Worlds>
+		<Update>
+			<Where Type ="WORLDSIZE_DUEL"/>
+			<Set DefaultPlayers="20"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_TINY"/>
+			<Set DefaultPlayers="22"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_SMALL"/>
+			<Set DefaultPlayers="22"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_STANDARD"/>
+			<Set DefaultPlayers="22"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_LARGE"/>
+			<Set DefaultPlayers="22"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_HUGE"/>
+			<Set DefaultPlayers="22"/>
+		</Update>	
+		<Update>
+			<Where Type ="WORLDSIZE_DUEL"/>
+			<Set DefaultMinorCivs="27"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_TINY"/>
+			<Set DefaultMinorCivs="27"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_SMALL"/>
+			<Set DefaultMinorCivs="27"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_STANDARD"/>
+			<Set DefaultMinorCivs="27"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_LARGE"/>
+			<Set DefaultMinorCivs="27"/>
+		</Update>
+		<Update>
+			<Where Type ="WORLDSIZE_HUGE"/>
+			<Set DefaultMinorCivs="27"/>
+		</Update>			
+	</Worlds>
+</GameData>
+

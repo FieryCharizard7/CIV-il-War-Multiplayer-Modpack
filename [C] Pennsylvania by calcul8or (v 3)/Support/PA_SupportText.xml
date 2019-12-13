@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/29/2016 6:32:58 PM -->
+<GameData>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_COLONY_NAME_PENNSYLVANIA_01">
+			<Text>Wilmington</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_PENNSYLVANIA_02">
+			<Text>Talleyville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_PENNSYLVANIA_03">
+			<Text>Elsmere</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_PENNSYLVANIA_04">
+			<Text>Newark</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_PENNSYLVANIA_05">
+			<Text>Brookside</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

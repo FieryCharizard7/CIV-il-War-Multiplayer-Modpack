@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/1/2014 11:53:20 AM -->
+<GameData>
+
+	<Traits>
+		<Row>
+			<Type>TRAIT_DAIRY_STATE</Type>
+			<Description>TXT_KEY_TRAIT_DAIRY_STATE</Description>
+			<ShortDescription>TXT_KEY_TRAIT_DAIRY_STATE_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+
+	<Trait_ImprovementYieldChanges>
+		<Row>
+			<TraitType>TRAIT_DAIRY_STATE</TraitType>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_DAIRY_STATE</TraitType>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_DAIRY_STATE</TraitType>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Trait_ImprovementYieldChanges>
+
+	<Leader_Traits>
+		<Row>
+			<LeaderType>LEADER_NICOLET</LeaderType>
+			<TraitType>TRAIT_DAIRY_STATE</TraitType>
+		</Row>
+	</Leader_Traits>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_DAIRY_STATE">
+			<Text>Pastures provide +1 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, and [ICON_GOLD] Gold. Settlers and Workers get +1 [ICON_MOVES] movement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_DAIRY_STATE_SHORT">
+			<Text>The Dairy State</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

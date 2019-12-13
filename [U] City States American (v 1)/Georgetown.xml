@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/27/2016 11:16:41 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<!-- Adding a new CityState entry. -->
+	<MinorCivilizations>
+		<Row>
+			<Type>MINOR_CIV_GEORGETOWN</Type>
+			<Description>TXT_KEY_CITYSTATE_GEORGETOWN</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_GEORGETOWN</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_GEORGETOWN_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CITYSTATE_GEORGETOWN_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_PEACH</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN</ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
+		</Row>
+	</MinorCivilizations>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_GEORGETOWN</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_GEORGETOWN</CityName>
+		</Row>
+	</MinorCivilization_CityNames>
+	<MinorCivilization_Flavors>
+		<Row>
+			<MinorCivType>MINOR_CIV_GEORGETOWN</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_GEORGETOWN</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_GEORGETOWN</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_GEORGETOWN</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+	</MinorCivilization_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITYSTATE_GEORGETOWN">
+			<Text>Georgetown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_GEORGETOWN_ADJ">
+			<Text>Georgetown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_GEORGETOWN_PEDIA">
+			<Text>The city of Georgetown began as a small town in the 18th century. Originally, the capital of the Demerara-Essequibo colony was located on Borselen Island in the Demerara River under the administration of the Dutch. When the colony was captured by the British in 1781, Lieutenant-Colonel Robert Kingston chose the mouth of the Demerara River for the establishment of a town which was situated between Plantations Werk-en-rust and Vlissengen. It was the French who made it a capital city when they colonized it in 1782. The French called the capital Longchamps. When the town was restored to the Dutch in 1784, it was renamed Stabroek after Nicolaas Geelvinck, Lord of Stabroek, and President of the Dutch West India Company. Eventually the town expanded and covered the estates of Vlissengen, La Bourgade and Eve Leary to the North, and Werk-en-rust and La Repentir to the South. It was renamed Georgetown in 1812 in honour of King George III. The governing body of Georgetown was once a Board of Police. The Board of Police was chosen by the governor and the Court of Policy. It came into existence as the result of disputes among various organisations which controlled the districts. The Board met monthly but what was discussed is not on the records between 1825 and 1837. Newspapers in the colony were prohibited by law from reporting public matters. The post of Commissary of Police was not regarded as important. People elected to the Board invariably declined to attend meetings and never gave reasons for their refusal. It was, therefore, decided that individuals elected to the Board were bound to serve for two years, or suffer a penalty of 1,000 guilders. The Board of Police was abolished when an ordinance was passed to establish a Mayor and Town Council. Georgetown gained official city status in 1842 during the reign of Queen Victoria. The names of Georgetown's wards and streets reflect the influence of the Dutch, French and English who administered the town at different periods of history.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
+  

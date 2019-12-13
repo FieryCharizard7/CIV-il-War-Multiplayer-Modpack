@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/2/2014 12:42:04 AM -->
+<GameData>
+
+	<Civilizations>		
+		<Row>
+			<Type>CIVILIZATION_PENNSYLVANIA</Type>
+			<Description>TXT_KEY_CIV_PENNSYLVANIA_DESC</Description>
+			<!--<Civilopedia>TXT_KEY_CIV5_PENNSYLVANIA_PEDIA</Civilopedia>-->
+			<CivilopediaTag>TXT_KEY_CIV5_PENNSYLVANIA</CivilopediaTag>
+			<Strategy/>
+			<Playable>1</Playable>
+			<AIPlayable>1</AIPlayable>
+			<ShortDescription>TXT_KEY_CIV_PENNSYLVANIA_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_PENNSYLVANIA_ADJECTIVE</Adjective>
+			<DefaultPlayerColor>PLAYERCOLOR_PENNSYLVANIA</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_AMERICA</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+			
+			<IconAtlas>PA_COLOR_ATLAS</IconAtlas>
+
+			<AlphaIconAtlas>PA_ALPHA_ATLAS</AlphaIconAtlas>
+
+			<PortraitIndex>1</PortraitIndex>
+
+			<MapImage>PA_map2.dds</MapImage>
+
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_PENNSYLVANIA_TEXT</DawnOfManQuote>
+
+			<DawnOfManImage>TP_PA_DOM2.dds</DawnOfManImage>
+
+			<DawnOfManAudio></DawnOfManAudio>
+
+			<SoundtrackTag>America</SoundtrackTag>
+
+		</Row>
+
+	</Civilizations>
+
+
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+			<Count>1</Count>
+		</Row>
+	</Civilization_FreeUnits>
+
+
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<LeaderheadType>LEADER_BENFRANKLIN</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<ReligionType>RELIGION_PROTESTANTISM</ReligionType>
+		</Row>
+	</Civilization_Religions>
+	
+	
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+			<UnitType>UNIT_PAMUSKET</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+
+	<Civilization_BuildingClassOverrides>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingType>BUILDING_CA_MISSION</BuildingType>
+		</Row>-->
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<BuildingType>BUILDING_STELE</BuildingType>
+		</Row>-->
+	</Civilization_BuildingClassOverrides>
+	
+	
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_PENNSYLVANIA_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_PENNSYLVANIA_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_PENNSYLVANIA_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_PENNSYLVANIA_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_PENNSYLVANIA_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_PENNSYLVANIA_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_PENNSYLVANIA_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_PENNSYLVANIA_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_PENNSYLVANIA_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_PENNSYLVANIA_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+
+
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_PENNSYLVANIA</Type>
+			<PrimaryColor>COLOR_PLAYER_PENNSYLVANIA_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_PENNSYLVANIA_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_PENNSYLVANIA_ICON</Type>
+			<Red>0.0</Red>
+			<Green>0.1647</Green>
+			<Blue>0.5255</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_PENNSYLVANIA_BACKGROUND</Type>
+			<Red>0.0275</Red>
+			<Green>0.4157</Green>
+			<Blue>0.1294</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+
+	<!--<Civilization_Start_Along_Ocean>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<StartAlongOcean>true</StartAlongOcean>
+		</Row>
+	</Civilization_Start_Along_Ocean>-->
+
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<RegionType>REGION_HILLS</RegionType>
+		</Row>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<RegionType>REGION_FOREST</RegionType>
+		</Row>-->
+	</Civilization_Start_Region_Priority>
+
+	<Civilization_Start_Region_Avoid>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<RegionType>REGION_JUNGLE</RegionType>
+		</Row>
+	</Civilization_Start_Region_Avoid>
+
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PENNSYLVANIA_0</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PENNSYLVANIA_1</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PENNSYLVANIA_2</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PENNSYLVANIA_3</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PENNSYLVANIA_4</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PENNSYLVANIA_5</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PENNSYLVANIA_6</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PENNSYLVANIA_7</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PENNSYLVANIA_8</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PENNSYLVANIA_9</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PENNSYLVANIA_10</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PENNSYLVANIA_11</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PENNSYLVANIA_12</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PENNSYLVANIA_13</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PENNSYLVANIA_14</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PENNSYLVANIA_15</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_PENNSYLVANIA</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PENNSYLVANIA_16</CityName>
+		</Row>
+	</Civilization_CityNames>
+
+	<Language_en_US>
+
+		<Row Tag="TXT_KEY_CIV_PENNSYLVANIA_DESC">
+			<Text>State of Pennsylvania</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV_PENNSYLVANIA_SHORT_DESC">
+			<Text>Pennsylvania</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV_PENNSYLVANIA_ADJECTIVE">
+			<Text>Pennsylvanian</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_DAWN_PENNSYLVANIA_TEXT">
+			<Text>How should we greet you, Ben Franklin - statesman, author, inventor, and ambassador? You were a force in the early days of the American Revolution and the founding of your country. Now the people of Pennsylvania look to you again.[NEWLINE] [NEWLINE]Pennsylvania was built on religious freedom, and religious diversity is important to your people. Pennsylvania was also shaped by your inquisitive nature and solid practicality, adding to your state's scientific prowess.[NEWLINE] [NEWLINE]It is within your borders that some of the most important events in early American history took place. Independence Hall was the home of both the signing of the Declaration of Independence and formation of the original US Constitution. Philadelphia has also served as the capital of the United States, cementing its importance in American history.[NEWLINE] [NEWLINE]The people of Pennsylvania call on you now as they never have before - to stand in leadership. Can you take the reins and build an empire of liberty? Can you build a civilization to stand the test of time?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PENNSYLVANIA_PEDIA">
+			<Text>This tag is TXT_KEY_CIV_PENNSYLVANIA_PEDIA</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_PENNSYLVANIA_TITLE">
+			<Text>State of Pennsylvania</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_PENNSYLVANIA_HEADING_1">
+			<Text>Heading 1</Text>
+		</Row>
+			 
+		<Row Tag="TXT_KEY_CIV5_PENNSYLVANIA_TEXT_1">
+			<Text>On February 28, 1681, Charles II granted a land charter to William Penn to repay a debt of £16,000 (around £2,100,000 in 2008, adjusting for retail inflation) owed to William's father, Admiral William Penn. This was one of the largest land grants to an individual in history. It was called Pennsylvania. William Penn, who wanted it called New Wales or Sylvania, was embarrassed at the change, fearing that people would think he had named it after himself, but King Charles would not rename the grant. Penn established a government with two innovations that were much copied in the New World: the county commission and freedom of religious conviction. (http://en.wikipedia.org/wiki/Pennsylvania)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_PENNSYLVANIA_HEADING_2">
+			<Text>Another Heading</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_PENNSYLVANIA_TEXT_2">
+			<Text>Scranton is the primary setting for the US version of The Office</Text>
+		</Row>
+		
+
+		<Row Tag="TXT_KEY_CITY_NAME_PENNSYLVANIA_0">
+			<Text>Philadelphia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PENNSYLVANIA_1">
+			<Text>Pittsburgh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PENNSYLVANIA_2">
+			<Text>Harrisburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PENNSYLVANIA_3">
+			<Text>Allentown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PENNSYLVANIA_4">
+			<Text>Erie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PENNSYLVANIA_5">
+			<Text>Reading</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PENNSYLVANIA_6">
+			<Text>Scranton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PENNSYLVANIA_7">
+			<Text>Bethlehem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PENNSYLVANIA_8">
+			<Text>Lancaster</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_CITY_NAME_PENNSYLVANIA_9">
+			<Text>Altoona</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PENNSYLVANIA_10">
+			<Text>York</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PENNSYLVANIA_11">
+			<Text>State College</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PENNSYLVANIA_12">
+			<Text>Wilkes-Barre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PENNSYLVANIA_13">
+			<Text>Chester</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PENNSYLVANIA_14">
+			<Text>Williamsport</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PENNSYLVANIA_15">
+			<Text>Easton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_PENNSYLVANIA_16">
+			<Text>Lebanon</Text>
+		</Row>
+
+		
+		<Row Tag="TXT_KEY_SPY_NAME_PENNSYLVANIA_0">
+			<Text>Buchanan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PENNSYLVANIA_1">
+			<Text>Penn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PENNSYLVANIA_2">
+			<Text>Pinchot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PENNSYLVANIA_3">
+			<Text>Heidi</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PENNSYLVANIA_4">
+			<Text>Weiser</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PENNSYLVANIA_5">
+			<Text>Rooney</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PENNSYLVANIA_6">
+			<Text>Hershey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PENNSYLVANIA_7">
+			<Text>Tarbell</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PENNSYLVANIA_8">
+			<Text>Specter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_PENNSYLVANIA_9">
+			<Text>Fulton</Text>
+		</Row>
+		
+	</Language_en_US>
+
+
+</GameData>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="33d96892-67e9-4a32-bdf0-5b0ff7acfe12" version="2">
+  <Properties>
+    <Name>Louisiana by calcul8or</Name>
+    <Stability>Beta</Stability>
+    <Teaser>Adds [COLOR_GREEN]Louisiana[ENDCOLOR] as a playable civ. Bonuses from rivers, Music House replaces opera house.</Teaser>
+    <Description>Adds [COLOR_GREEN]Louisiana[ENDCOLOR] as a playable civ!
+
+UA: River Steamers: Cities on rivers earn +3 gold per turn; units moving along a river ignore terrain cost; earn Great Musicians 50% faster during Golden Ages.
+
+UB: House of Music (replaces Opera House; +2 Happiness, +2 Culture instead of +1; no maintenance cost)
+
+UU: Wooden Cannon: Replaces the cannon; doesn't need to set up; nearby enemies get a 15% combat penalty
+
+New peace music from Tokyo Kosei Wind Orchestra - When the Saints Go Marching In</Description>
+    <Authors>calcul8or</Authors>
+    <SpecialThanks>hobo</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="01c131ef-2162-4a7b-b845-763a4e675940" minversion="0" maxversion="999" title="Unique Cultural Influence" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Enlightenment Era" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Leader Traits" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="JFDs Cities in Development" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFDs Cultural Diversity" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFDs Rise to Power" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="93567440C6ED72AE0CAD0D7E13B07DCB" import="1">Art/Atlas/LA_IconAtlas128.dds</File>
+    <File md5="30B921543198B3F8268A5285689F4524" import="1">Art/Atlas/LA_IconAtlas16.dds</File>
+    <File md5="44305BFF205CC50E10DC681B27A67DC4" import="1">Art/Atlas/LA_IconAtlas24.dds</File>
+    <File md5="FB3B9BDABC7BDC82CE856D1AFE85CA18" import="1">Art/Atlas/LA_IconAtlas256.dds</File>
+    <File md5="DBD4D2BDEE6B721368A5AA4C36158589" import="1">Art/Atlas/LA_IconAtlas32.dds</File>
+    <File md5="FE8BD28D80F1A1275E8D4CCAB9B590B2" import="1">Art/Atlas/LA_IconAtlas45.dds</File>
+    <File md5="2C37068049770995317317EB75695E13" import="1">Art/Atlas/LA_IconAtlas48.dds</File>
+    <File md5="E97243D7BA6E2F033288F9F37F30076A" import="1">Art/Atlas/LA_IconAtlas64.dds</File>
+    <File md5="A4685AB42248C928B3D6A2D66C89E7D6" import="1">Art/Atlas/LA_IconAtlas80.dds</File>
+    <File md5="F2047661B6CF880073E17FE79DAA738C" import="1">Art/LA_DOM.dds</File>
+    <File md5="E5AD6FC49CE00B880B223AB65F3ABC0F" import="1">Art/LA_map.dds</File>
+    <File md5="48BFD27AE7F291F0D32433BD0169CCD5" import="1">Art/Long_scene.dds</File>
+    <File md5="71D81F8B57345F2E5E41703ADA164064" import="1">Art/sv_wooden_cannon.dds</File>
+    <File md5="756F76466518C2E158CC70F86B89EBAC" import="0">Code/LA_CannonDefines.sql</File>
+    <File md5="5181509BC0BB9DD85D6A4BB9E59F479F" import="0">Code/JazzHall.xml</File>
+    <File md5="41D9B79373183D7AD8501D26CE8B376E" import="1">Code/Long_scene.xml</File>
+    <File md5="F2E5300799AA9E072998F27094D3F227" import="0">Code/ThemingBonus.xml</File>
+    <File md5="775FD58D895347532ADC7B58FA86287C" import="0">Code/IconAtlas.xml</File>
+    <File md5="8B23343740F4E5358C6150D9C488FC41" import="0">Code/MusicHouse.xml</File>
+    <File md5="94AB398F3EE12D461EF3D328936C95D0" import="0">Code/RiverGoldBldg.xml</File>
+    <File md5="B2F633E691B6DC30ED848E021C77683B" import="0">Code/LACivilization.xml</File>
+    <File md5="7B64EFBC7637B7AA0C848D3716B81886" import="0">Code/LALeader.xml</File>
+    <File md5="5BA92E8517385D7A2FB96FD18CF88040" import="0">Code/LATrait.xml</File>
+    <File md5="E590820737845F0453D8B06C358A77D0" import="0">Code/WoddenCannon.xml</File>
+    <File md5="8F3A752F1AD8EB6BFB77E3B5A7766362" import="0">Sounds/LA_Sounds.xml</File>
+    <File md5="97918A61864403FA29CC67EEFB9422F3" import="1">Sounds/saints_go_marching.mp3</File>
+    <File md5="741CA04D7D17D21FBF95E6AB17DC35A5" import="0">Support/LA_SupportText.xml</File>
+    <File md5="9C84206F2D81733450BDF4B2D61FCC77" import="0">Support/LA_MiscSupport.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Code/LACivilization.xml</UpdateDatabase>
+      <UpdateDatabase>Code/LALeader.xml</UpdateDatabase>
+      <UpdateDatabase>Code/LATrait.xml</UpdateDatabase>
+      <UpdateDatabase>Code/JazzHall.xml</UpdateDatabase>
+      <UpdateDatabase>Code/WoddenCannon.xml</UpdateDatabase>
+      <UpdateDatabase>Code/IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Sounds/LA_Sounds.xml</UpdateDatabase>
+      <UpdateDatabase>Code/RiverGoldBldg.xml</UpdateDatabase>
+      <UpdateDatabase>Support/LA_MiscSupport.sql</UpdateDatabase>
+      <UpdateDatabase>Support/LA_SupportText.xml</UpdateDatabase>
+      <UpdateDatabase>Code/LA_CannonDefines.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

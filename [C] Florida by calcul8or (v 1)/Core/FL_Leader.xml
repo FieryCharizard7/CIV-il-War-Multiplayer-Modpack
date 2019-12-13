@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/2/2014 1:27:08 AM -->
+<GameData>
+
+	<Leaders>
+		<Row>
+			<Type>LEADER_REUBINASKEW</Type>
+
+			<Description>TXT_KEY_LEADER_REUBINASKEW</Description>
+
+			<Civilopedia>TXT_KEY_LEADER_REUBINASKEW_PEDIA</Civilopedia>
+
+			<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_REUBINASKEW</CivilopediaTag>
+
+			<ArtDefineTag>FL_scene3.xml</ArtDefineTag>
+
+			<VictoryCompetitiveness>6</VictoryCompetitiveness>
+			<WonderCompetitiveness>3</WonderCompetitiveness>
+			<MinorCivCompetitiveness>4</MinorCivCompetitiveness>
+			<Boldness>5</Boldness>
+			<DiploBalance>7</DiploBalance>
+			<WarmongerHate>7</WarmongerHate>
+			<WorkAgainstWillingness>0</WorkAgainstWillingness>
+			<WorkWithWillingness>0</WorkWithWillingness>
+			<DenounceWillingness>4</DenounceWillingness>
+			<DoFWillingness>7</DoFWillingness>
+			<Loyalty>7</Loyalty>
+			<Neediness>4</Neediness>
+			<Forgiveness>5</Forgiveness>
+			<Chattiness>4</Chattiness>
+			<Meanness>6</Meanness>
+			<IconAtlas>FL_COLOR_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+
+		</Row>
+	</Leaders>
+
+	<Leader_MajorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_WAR</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_HOSTILE</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_DECEPTIVE</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_GUARDED</MajorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_AFRAID</MajorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_FRIENDLY</MajorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_NEUTRAL</MajorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+	</Leader_MajorCivApproachBiases>
+
+	<Leader_MinorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+	</Leader_MinorCivApproachBiases>
+
+	<Leader_Flavors>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_USE_NUKE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_ARCHAEOLOGY</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_I_TRADE_DESTINATION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_REUBINASKEW</LeaderType>
+			<FlavorType>FLAVOR_AIRLIFT</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+	</Leader_Flavors>
+	
+	<!-- TEXT -->
+
+	<!--<Diplomacy_Responses>
+		<Row LeaderType="LEADER_REUBINASKEW">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_REUBINASKEW_FIRSTGREETING_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_REUBINASKEW">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_REUBINASKEW_DEFEATED_%</Response>
+		</Row>
+	</Diplomacy_Responses>-->
+		
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEADER_REUBINASKEW">
+			<Text>Reubin Askew</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_REUBINASKEW_PEDIA">
+			<Text>Reubin O. Askew</Text>
+		</Row>
+		<!--<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_REUBINASKEW">
+			<Text>Test text.</Text>
+		</Row>-->
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_REUBINASKEW_HEADING_1">
+			<Text>Overview</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_REUBINASKEW_TEXT_1">
+			<Text>Reubin O'Donovan Askew (September 11, 1928 – March 13, 2014) was an American politician, who served as the 37th Governor of the U.S. state of Florida from 1971 to 1979. He led on tax reform, civil rights, and financial transparency for public officials, maintaining an outstanding reputation for personal integrity. Askew is widely thought to have been one of the state's best governors; in 2014 the Tampa Bay Times ranked him the second best governor in Florida history and the John F. Kennedy School of Government at Harvard University rated him one of the country's top ten governors of the 20th century.[NEWLINE]en.wikipedia.org/wiki/Reubin_Askew</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_REUBINASKEW_HEADING_2">
+			<Text>Tidbit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_REUBINASKEW_FACT_2">
+			<Text>A Democrat, in 1956, Askew was elected as Assistant County Solicitor of Escambia County, Florida. In 1958, he was elected to the Florida House of Representatives. After two terms, in 1962 Askew was elected to the Florida Senate. From 1969 to 1970, he served as President Pro Tempore of the Florida State Senate.[NEWLINE] [NEWLINE]During Askew's first term as governor, Walt Disney World opened in Orlando, FL. [NEWLINE] [NEWLINE]en.wikipedia.org/wiki/Reubin_Askew</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_REUBINASKEW_SUBTITLE">
+			<Text>Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_REUBINASKEW_NAME">
+			<Text>Reubin O. Askew</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_REUBINASKEW_LIVED">
+			<Text>1928 - 2014 AD</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

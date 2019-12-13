@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/31/2016 8:19:57 PM -->
+<GameData>
+
+	<Language_en_US>
+		<!--JFD Mods-->
+
+		<Row Tag="TXT_KEY_COLONY_NAME_CALC_CONNECTICUT_01">
+			<Text>Akron</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_CALC_CONNECTICUT_02">
+			<Text>Youngstown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_CALC_CONNECTICUT_03">
+			<Text>Cleveland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_CALC_CONNECTICUT_04">
+			<Text>Toledo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_CALC_CONNECTICUT_05">
+			<Text>Norwalk</Text>
+		</Row>
+	
+		<!--Decisions-->
+		
+		<!--Great Dictionary-->
+					
+		<Row Tag="TXT_KEY_DECISIONS_CALC_CONNECTICUT_DICTIONARY">
+			<Text>Commission a Dictionary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_CALC_CONNECTICUT_DICTIONARY_DESC">
+			<Text>
+				Noah Webster would like to compile all of the words in our language into one book. He needs support to do so...
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Connecticut
+				[NEWLINE][ICON_BULLET]Player must be in the Rennaissance Era or later
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Gold} [ICON_GOLD] Gold
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]A Great Scientist appears
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_CALC_CONNECTICUT_DICTIONARY_ENACTED_DESC">
+			<Text>
+				We have commissioned a dictionary...
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]A Great Scientist appears
+			</Text>
+		</Row>
+
+		
+		<!--Fundamental Orders-->
+		
+		<Row Tag="TXT_KEY_DECISIONS_CALC_CT_FUND_ORDERS">
+			<Text>Create the Fundamental Orders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_CALC_CT_FUND_ORDERS_DESC">
+			<Text>
+				Our people want a legal document to guide our affairs. They propose a constitution called the Fundamental Orders...
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Connecticut
+				[NEWLINE][ICON_BULLET]Player must be in the Rennaissance Era or earlier
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]{1_Gold} [ICON_GOLD] Gold
+				[NEWLINE][ICON_BULLET]{2_Cul} [ICON_CULTURE] Culture
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrates
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]All cities celebrate WLTK Day
+				[NEWLINE][ICON_BULLET]A Golden Age begins
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECISIONS_CALC_CT_FUND_ORDERS_ENACTED_DESC">
+			<Text>
+				We have formed the Fundamental Orders...
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]All cities celebrate WLTK Day
+				[NEWLINE][ICON_BULLET]A Golden Age begins
+			</Text>
+		</Row>
+
+	</Language_en_US>
+
+</GameData>

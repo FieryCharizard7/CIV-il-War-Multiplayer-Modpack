@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/27/2016 11:16:41 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<!-- Adding a new CityState entry. -->
+	<MinorCivilizations>
+		<Row>
+			<Type>MINOR_CIV_MANAGUA</Type>
+			<Description>TXT_KEY_CITYSTATE_MANAGUA</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_MANAGUA</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_MANAGUA_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CITYSTATE_MANAGUA_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_PURPLE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN</ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_RELIGIOUS</MinorCivTrait>
+		</Row>
+	</MinorCivilizations>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_MANAGUA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_MANAGUA</CityName>
+		</Row>
+	</MinorCivilization_CityNames>
+	<MinorCivilization_Flavors>
+		<Row>
+			<MinorCivType>MINOR_CIV_MANAGUA</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MANAGUA</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MANAGUA</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MANAGUA</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+	</MinorCivilization_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITYSTATE_MANAGUA">
+			<Text>Managua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_MANAGUA_ADJ">
+			<Text>Managuan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_MANAGUA_PEDIA">
+			<Text>Managua  is the capital and largest city of Nicaragua, and the center of eponymous department. The city was declared the national capital in 1852. Previously, the capital alternated between the cities of Le�n and Granada. The 1972 Nicaragua earthquake and years of civil war in the 1980s severely disrupted and stunted Managua's growth. It was not until the mid-1990s that Managua began to see a resurgence. Managua's population is composed predominantly of mestizos and whites who are mainly of Spanish descent, with a minority being of French, Jewish Nicaraguan, German Nicaraguan, Italian, Russian and Turkish descent.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
+  

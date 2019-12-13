@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/27/2016 11:16:41 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<!-- Adding a new CityState entry. -->
+	<MinorCivilizations>
+		<Row>
+			<Type>MINOR_CIV_ASUNCION</Type>
+			<Description>TXT_KEY_CITYSTATE_ASUNCION</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_ASUNCION</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_ASUNCION_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CITYSTATE_ASUNCION_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_WHITE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN</ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MILITARISTIC</MinorCivTrait>
+		</Row>
+	</MinorCivilizations>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_ASUNCION</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_ASUNCION</CityName>
+		</Row>
+	</MinorCivilization_CityNames>
+	<MinorCivilization_Flavors>
+		<Row>
+			<MinorCivType>MINOR_CIV_ASUNCION</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ASUNCION</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ASUNCION</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ASUNCION</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+	</MinorCivilization_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITYSTATE_ASUNCION">
+			<Text>Asuncion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_ASUNCION_ADJ">
+			<Text>Asuncion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_ASUNCION_PEDIA">
+			<Text>The Spanish conquistador Juan de Ayolas may have first visited the site of the future city on his way north, up the Paraguay River, looking for a passage to the mines of Alto Peru (present-day Bolivia). Later, Juan de Salazar y Espinosa and Gonzalo de Mendoza, a relative of Pedro de Mendoza, were sent in search of Ayolas, but failed to find him. On his way up and then down the river, de Salazar stopped briefly at a bay in the left bank to resupply his ships. He found the natives friendly, and decided to found a fort there in 1537. He named it Nuestra Senora Santa Maria de la Asuncion. In 1542 natives destroyed Buenos Aires, and the Spaniards there fled to Asuncion. Thus the city became the center of a large Spanish colonial province comprising part of Brazil, present-day Paraguay and northeastern Argentina: the Giant Province of the Indies. In 1603 Asuncion was the seat of the First Synod of Asuncion, which set guidelines for the evangelization of the natives in their lingua franca, Guarani. In 1731 an uprising under Jose de Antequera y Castro was one of the first rebellions against Spanish colonial rule. The uprising failed, but it was the first sign of the independent spirit that was growing among the criollos, mestizos and natives of Paraguay. The event influenced the independence of Paraguay, which subsequently materialised in 1811. The secret meetings between the independence leaders to plan an ambush against the Spanish Governor in Paraguay took place in Asuncion. On the night of May 14 and May 15, 1811, the rebels succeeded and forced governor Velasco to surrender. After Paraguay became independent, significant change occurred in Asuncion. Under the rule of Gaspar Rodriguez de Francia (in office 1813-1840) roads were built throughout the city and the streets were named. However, during the presidency of Carlos Antonio Lopez (President 1844�1862) Asuncion saw further progress as the president implemented new economic policies. More than 400 schools, metallurgic factories and the first railroad service in South America were built during the L�pez presidency. After Lopez died, his son Francisco Solano Lpez became the new president and led the country through the disastrous Paraguayan War that lasted for five years (1864-1870). After the end of the armed conflict, Brazilian troops occupied Asuncion until 1876. Many historians have claimed that this war provoked a steady downfall of the city and country, since it massacred two thirds of the country's population. Progress slowed down greatly afterwards, and the economy stagnated. After the Paraguayan War, Asuncion began a slow attempt at recovery. Towards the end of the 19th century and during the early years of the 20th century, a flow of immigrants from Europe and the Ottoman Empire came to the city. This led to a change in the appearance of the city as many new buildings were built and Asuncion went through an era more prosperous than any since the war.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
+  

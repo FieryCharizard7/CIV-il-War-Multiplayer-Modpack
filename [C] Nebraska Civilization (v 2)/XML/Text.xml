@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/6/2015 10:31:51 AM -->
+<GameData>
+	<Language_en_US>
+		<!--City List-->
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_01">
+			<Text>Lincoln</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_02">
+			<Text>Omaha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_03">
+			<Text>Bellevue</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_04">
+			<Text>Grand Island</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_05">
+			<Text>Kearney</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_06">
+			<Text>Fremont</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_07">
+			<Text>Hastings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_08">
+			<Text>North Platte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_09">
+			<Text>Norfolk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_10">
+			<Text>Columbus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_11">
+			<Text>Papillion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_12">
+			<Text>La Vista</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_13">
+			<Text>Scottsbluff</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_14">
+			<!--South Sioux City-->
+			<Text>Sioux City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_15">
+			<Text>Beatrice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_16">
+			<Text>Lexington</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_17">
+			<Text>Alliance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_18">
+			<Text>Gering</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_19">
+			<Text>Blair</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_20">
+			<Text>York</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_21">
+			<Text>McCook</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_22">
+			<Text>Nebraska City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_23">
+			<Text>Ralston</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_24">
+			<Text>Crete</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_25">
+			<Text>Seward</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_26">
+			<Text>Sidney</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_27">
+			<Text>Plattsmouth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_28">
+			<Text>Schuyler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_29">
+			<Text>Chadron</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_30">
+			<Text>Gretna</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_31">
+			<Text>Wayne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_32">
+			<Text>Holdrege</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_33">
+			<Text>Ogallala</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_34">
+			<Text>Wahoo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_35">
+			<Text>Aurora</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_36">
+			<Text>Falls City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_37">
+			<Text>Cozad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_38">
+			<Text>Fairbury</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_39">
+			<Text>O'Neill</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_40">
+			<Text>Waverly</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_41">
+			<Text>Gothenburg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_42">
+			<Text>Broken Bow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_43">
+			<Text>Auburn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_44">
+			<Text>West Point</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_45">
+			<Text>Minden</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_46">
+			<Text>Central City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_47">
+			<Text>David City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_48">
+			<Text>Valentine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_49">
+			<Text>Ashland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEBRASKA_50">
+			<Text>Kimball</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV_S_NEBRASKA_ADJECTIVE">
+			<Text>Nebraskan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_S_NEBRASKA_DESC">
+			<Text>Nebraskan Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_S_NEBRASKA_SHORT_DESC">
+			<Text>Nebraska</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_S_NEBRASKA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_S_NEBRASKA_TEXT_1">
+			<Text>Before European came to Nebraska was imhabited by native tribes that included the Omaha, Missouria, Ponca, Pawnee, Otoe and the Lakota Sioux. The First European to arrived in Nebraska was the Spainish, and the French, whom develoed a regular trade with the natives. Nebraska was brought by the United State with the rest of the Louisiana purchase in 1803. In 1854 the Nebraska territory was created, which at the time included parts of Colorado, North and South Dakota, Wyoming, and Montana. Under the Homestead Act, thousands of new settler migrated into Nebraska to claim the free land granted by the government. On March 1, 1867, Nebraska became the 37th state and the capital was moved from Omaha to Lancaster, which was renamed atfer recently assassinated President Abraham Lincoln.</Text>
+		</Row>
+		
+		<!--Leader-->
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NEB_NAME">
+			<Text>Julius Sterling Morton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NEB_SUBTITLE">
+			<Text>Leader of Nebraska</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NEB">
+			<Text>J. S. Morton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NEB_LIVED">
+			<Text>1832 AD - 1902 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NEB_TITLES_1">
+			<Text>Governor of Nebraska</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NEB_TITLES_2">
+			<Text>United States Secretary of Agriculture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NEB_TITLES_3">
+			<Text>Founder of Arbor Day</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NEB_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NEB_TEXT_1">
+			<Text>Julius Sterling Morton was a Nebraska newspaper editor who served as Acting Governor of Nebraska in 1858-1859 and again in 1861. He was also the Secretary of Agriculture under President Grover Cleveland. Morton built a 52 room mansion in Nebraska City, where he planted many trees on its estate. There he founded Arbor Day, a holiday about planting trees.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DOM_NEBRASKA_TEXT">
+			<Text>Greeting, Julius Sterling Morton, of Nebraska. You lead the Great State of Nebraska! Nebraska is a state in the heart of the United States, and is primary an agricultural state, with most of the state bring farmland. You J. S. Morton was its acting Governor in the late 1850s and early 1860s. Here in this Great State, you founded Arbor Day, a day for the Earth and trees. [NEWLINE][NEWLINE]Mr.Secetary, Nebraska need your help once again. Are you willing to answer their call? Can you plant the seeds of success for the state? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_TRAIT_ARBOR">
+			<Text>
+				+1 [ICON_CULTURE] culture per Forests tiles.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_ARBOR_SHORT">
+			<Text>Arbor Day</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SPY_NAME_NEBRASKA_0">
+			<Text>Herbie Husker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEBRASKA_1">
+			<Text>Pete</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEBRASKA_2">
+			<Text>Ben</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEBRASKA_3">
+			<Text>Tom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEBRASKA_4">
+			<Text>Adrian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEBRASKA_5">
+			<Text>Mike</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEBRASKA_6">
+			<Text>Kerry</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEBRASKA_7">
+			<Text>Deb</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEBRASKA_8">
+			<Text>Sally</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEBRASKA_9">
+			<Text>Walda</Text>
+			<Gender>feminine</Gender>
+		</Row>
+
+
+		<Row Tag="TXT_KEY_BUILDING_GRAIN_ELEVATOR">
+			<Text>Grain Elevator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GRAIN_ELEVATOR_PEDIA">
+			<Text>Grain Elevator is a tower containing a bucket elevator which scoops up grain from a lower leverl and deposits it in a silo. In most cases the trem grain elevator covers the entire elevator complex.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GRAIN_ELEVATOR_STRATEGY">
+			<Text>Replaces the Hospital. +5 [ICON_FOOD] and +1 [ICON_FOOD] and +1 [ICON_GOLD] from [ICON_RES_WHEAT] Wheat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GRAIN_ELEVATOR_HELP">
+			<Text>Replaces the Hospital. +5 [ICON_FOOD] and +1 [ICON_FOOD] and +1 [ICON_GOLD] from [ICON_RES_WHEAT] Wheat.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_IMPROVEMENT_HOMESTEAD">
+			<Text>Homestead</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_HOMESTEAD_TEXT">
+			<Text>Homestead is a dwelling and adjacent building typically on a large agricultural holding such as a ranch. In the United States, Homesteads are land claimed by settlers or squatter under the Homestead Act. Most of Nebreska was settled under the Homestead Act.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_HOMESTEAD">
+			<Text>Construct a [LINK=IMPROVEMENT_HOMESTEAD]Homestead[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_HOMESTEAD_HELP">
+			<Text>+2 [ICON_FOOD], +1 [ICON_PRODUCTION] and Adds every tile around it to your territory. Must be built on flat plains or glassland tiles, and can not be adjacent to another Homestead.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_NEB_FIRSTGREETING_1">
+			<Text>Welcome to Nebraska, I hope you enjoy your stay.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_NEB_DEFEATED_1">
+			<Text>Please take good care of my trees.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

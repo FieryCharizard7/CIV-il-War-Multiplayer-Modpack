@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/30/2014 8:00:52 AM -->
+<GameData>
+	<Audio_Sounds>
+		<Row>
+			<SoundID>SND_WONDER_SPEECH_ALAMO</SoundID>
+			<Filename>Alamo_Quote</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+	</Audio_Sounds>
+	<Audio_2DSounds>
+		<Row>
+			<ScriptID>AS2D_WONDER_SPEECH_ALAMO</ScriptID>
+			<SoundID>SND_WONDER_SPEECH_ALAMO</SoundID>
+			<SoundType>GAME_MUSIC_STINGS</SoundType>
+			<TaperSoundtrackVolume>0.0</TaperSoundtrackVolume>
+			<MinVolume>80</MinVolume>
+			<MaxVolume>80</MaxVolume>
+		</Row>
+	</Audio_2DSounds>
+</GameData>

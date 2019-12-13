@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/2/2014 1:27:08 AM -->
+<GameData>
+
+	<Leaders>
+		<Row>
+			<Type>LEADER_OGLETHORPE</Type>
+			<Description>TXT_KEY_LEADER_OGLETHORPE</Description>
+			<Civilopedia>TXT_KEY_LEADER_OGLETHORPE_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_OGLETHORPE</CivilopediaTag>
+			<ArtDefineTag>GA_scene.xml</ArtDefineTag>
+			<VictoryCompetitiveness>6</VictoryCompetitiveness>
+			<WonderCompetitiveness>3</WonderCompetitiveness>
+			<MinorCivCompetitiveness>4</MinorCivCompetitiveness>
+			<Boldness>7</Boldness>
+			<DiploBalance>5</DiploBalance>
+			<WarmongerHate>4</WarmongerHate>
+			<WorkAgainstWillingness>0</WorkAgainstWillingness>
+			<WorkWithWillingness>0</WorkWithWillingness>
+			<DenounceWillingness>5</DenounceWillingness>
+			<DoFWillingness>5</DoFWillingness>
+			<Loyalty>7</Loyalty>
+			<Neediness>4</Neediness>
+			<Forgiveness>7</Forgiveness>
+			<Chattiness>4</Chattiness>
+			<Meanness>6</Meanness>
+			<IconAtlas>GA_COLOR_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+
+		</Row>
+	</Leaders>
+
+	<Leader_MajorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_WAR</MajorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_HOSTILE</MajorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_DECEPTIVE</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_GUARDED</MajorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_AFRAID</MajorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_FRIENDLY</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_NEUTRAL</MajorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+	</Leader_MajorCivApproachBiases>
+
+	<Leader_MinorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+	</Leader_MinorCivApproachBiases>
+
+	<Leader_Flavors>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_USE_NUKE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_ARCHAEOLOGY</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_I_TRADE_DESTINATION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_OGLETHORPE</LeaderType>
+			<FlavorType>FLAVOR_AIRLIFT</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+	</Leader_Flavors>
+	
+	<!-- TEXT -->
+
+	<!--<Diplomacy_Responses>
+		<Row LeaderType="LEADER_OGLETHORPE">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_OGLETHORPE_FIRSTGREETING_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_OGLETHORPE">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_OGLETHORPE_DEFEATED_%</Response>
+		</Row>
+	</Diplomacy_Responses>-->
+		
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEADER_OGLETHORPE">
+			<Text>James Oglethorpe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_OGLETHORPE_PEDIA">
+			<Text>James Oglethorpe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_OGLETHORPE">
+			<Text>Test text.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_OGLETHORPE_HEADING_1">
+			<Text></Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_OGLETHORPE_TEXT_1">
+			<Text>In 1728, three years before conceiving the Georgia colony, Oglethorpe chaired a Parliamentary committee on prison reform. The committee documented horrendous abuses in three debtors' prisons. As a result of the committee's actions, many debtors were released from prison with no means of support. Oglethorpe viewed this as part of the larger problem of urbanization, which was depleting the countryside of productively employed people and depositing them in cities, particularly London, where they often became impoverished or resorted to criminal activity. To address this problem, Oglethorpe and a group of associates, many of whom served on the prison committee, petitioned in 1730 to form the Trustees for the Establishment of the Colony of Georgia in America. The petition was finally approved in 1732, and the first ship, led by Oglethorpe, departed for the New World in November.[NEWLINE]en.wikipedia.org/wiki/James_Oglethorpe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_OGLETHORPE_HEADING_2">
+			<Text>Tidbit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_OGLETHORPE_FACT_2">
+			<Text>Oglethorpe and the Trustees formulated a contractual, multi-tiered plan for the settlement of Georgia (see the Oglethorpe Plan). The plan envisioned a system of "agrarian equality", designed to support and perpetuate an economy based on family farming, and prevent social disintegration associated with unregulated urbanisation. Land ownership was limited to fifty acres, a grant that included a town lot, a garden plot near town, and a forty-five-acre farm. Self-supporting colonists were able to obtain larger grants, but such grants were structured in fifty-acre increments tied to the number of indentured servants supported by the grantee. Servants would receive a land grant of their own upon completing their term of service. No one was permitted to acquire additional land through purchase or inheritance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_OGLETHORPE_SUBTITLE">
+			<Text>Governor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_OGLETHORPE_NAME">
+			<Text>Oglethorpe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_OGLETHORPE_LIVED">
+			<Text>1696 - 1785 AD</Text>
+		</Row>
+		<!--<Row Tag="TXT_KEY_LEADER_OGLETHORPE_FIRSTGREETING_1">
+			<Text>Greetings from The North Pole. My people have the right to live free, I hope you do not intend to intrude upon that right.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_OGLETHORPE_FIRSTGREETING_2">
+			<Text>I am Zebulon Vance of North Carolina, I welcome you in the name of my people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_OGLETHORPE_FIRSTGREETING_3">
+			<Text>I am Zebulon Vance of The North Pole. I take my borders seriously; I hope I don't have to take your borders too.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_OGLETHORPE_DEFEATED_1">
+			<Text>You have bested us. The world weeps for the loss you have caused.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_OGLETHORPE_DEFEATED_2">
+			<Text>We may be defeated, but we will rise again.</Text>
+		</Row>-->
+	</Language_en_US>
+  
+</GameData>

@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/29/2014 9:57:22 PM -->
+<GameData>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_GOLDENGATE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_GOLDENGATE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_KENNEDYSPACE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_KENNEDYSPACE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_USARUSHMORE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_USARUSHMORE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_USAWHITEHOUSE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_USAWHITEHOUSE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_LASVEGASSTRIP</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_LASVEGASSTRIP</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_USAHOLLYWOOD</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_USAHOLLYWOOD</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_SPACENEEDLE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_SPACENEEDLE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_GOLDENGATE</Type>
+			<DefaultBuilding>BUILDING_GOLDENGATE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_GOLDENGATE</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_KENNEDYSPACE</Type>
+			<DefaultBuilding>BUILDING_KENNEDYSPACE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_KENNEDYSPACE</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_USARUSHMORE</Type>
+			<DefaultBuilding>BUILDING_USARUSHMORE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_USARUSHMORE</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_USAWHITEHOUSE</Type>
+			<DefaultBuilding>BUILDING_USAWHITEHOUSE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_USAWHITEHOUSE</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_LASVEGASSTRIP</Type>
+			<DefaultBuilding>BUILDING_LASVEGASSTRIP</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_LASVEGASSTRIP</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_USAHOLLYWOOD</Type>
+			<DefaultBuilding>BUILDING_USAHOLLYWOOD</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_USAHOLLYWOOD</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_SPACENEEDLE</Type>
+			<DefaultBuilding>BUILDING_SPACENEEDLE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SPACENEEDLE</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+	</BuildingClasses>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_USAWHITEHOUSE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_GOLDENGATE</Type>
+			<BuildingClass>BUILDINGCLASS_GOLDENGATE</BuildingClass>
+			<Cost>1250</Cost>
+			<PrereqTech>TECH_RADAR</PrereqTech>
+			<Help>TXT_KEY_WONDER_GOLDENGATE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_GOLDENGATE</Description>
+			<Civilopedia>TXT_KEY_WONDER_GOLDENGATE_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_GOLDENGATE_QUOTE</Quote>
+			<ArtDefineTag>NONE</ArtDefineTag>
+			<MaxStartEra>ERA_FUTURE</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<Water>true</Water>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>10</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<TradeRouteSeaDistanceModifier>25</TradeRouteSeaDistanceModifier>
+			<TradeRouteSeaGoldBonus>100</TradeRouteSeaGoldBonus>
+			<TradeRouteLandDistanceModifier>25</TradeRouteLandDistanceModifier>
+			<TradeRouteLandGoldBonus>100</TradeRouteLandGoldBonus>
+			<TradeRouteRecipientBonus>4</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>2</TradeRouteTargetBonus>
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
+			<IconAtlas>GOLDENGATE_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>GoldenGate_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_GOLDENGATE</WonderSplashAudio>
+		</Row>
+		<Row>
+			<Type>BUILDING_KENNEDYSPACE</Type>
+			<BuildingClass>BUILDINGCLASS_KENNEDYSPACE</BuildingClass>
+			<Cost>1250</Cost>
+			<PrereqTech>TECH_ROCKETRY</PrereqTech>
+			<Help>TXT_KEY_WONDER_KENNEDYSPACE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_KENNEDYSPACE</Description>
+			<Civilopedia>TXT_KEY_WONDER_KENNEDYSPACE_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_KENNEDYSPACE_QUOTE</Quote>
+			<ArtDefineTag>NONE</ArtDefineTag>
+			<MaxStartEra>ERA_FUTURE</MaxStartEra>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>10</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>USAWONDER_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<WonderSplashImage>KennedySpace_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_GOLDENGATE</WonderSplashAudio>
+		</Row>
+		<Row>
+			<Type>BUILDING_USARUSHMORE</Type>
+			<BuildingClass>BUILDINGCLASS_USARUSHMORE</BuildingClass>
+			<Cost>750</Cost>
+			<PrereqTech>TECH_DYNAMITE</PrereqTech>
+			<Help>TXT_KEY_WONDER_USARUSHMORE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_USARUSHMORE</Description>
+			<Civilopedia>TXT_KEY_WONDER_USARUSHMORE_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_USARUSHMORE_QUOTE</Quote>
+			<ArtDefineTag>NONE</ArtDefineTag>
+			<MaxStartEra>ERA_MODERN</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<NearbyMountainRequired>true</NearbyMountainRequired>
+			<FreeBuildingthiscity>BUILDINGCLASS_STONE_WORKS</FreeBuildingthiscity>
+			<HappinessPerCity>1</HappinessPerCity>
+			<GlobalPopulationChange>1</GlobalPopulationChange>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>10</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>USAWONDER_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>MountRushmore_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,T</WonderSplashAnchor>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_GOLDENGATE</WonderSplashAudio>
+		</Row>
+		<Row>
+			<Type>BUILDING_USAWHITEHOUSE</Type>
+			<BuildingClass>BUILDINGCLASS_USAWHITEHOUSE</BuildingClass>
+			<Cost>650</Cost>
+			<PrereqTech>TECH_ECONOMICS</PrereqTech>
+			<Help>TXT_KEY_WONDER_USAWHITEHOUSE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_USAWHITEHOUSE</Description>
+			<Civilopedia>TXT_KEY_WONDER_USAWHITEHOUSE_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_USAWHITEHOUSE_QUOTE</Quote>
+			<ArtDefineTag>NONE</ArtDefineTag>
+			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
+			<NukeImmune>true</NukeImmune>
+			<XBuiltTriggersIdeologyChoice>1</XBuiltTriggersIdeologyChoice>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>10</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>USAWONDER_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<WonderSplashImage>WhiteHouse_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_GOLDENGATE</WonderSplashAudio>
+		</Row>
+		<Row>
+			<Type>BUILDING_LASVEGASSTRIP</Type>
+			<BuildingClass>BUILDINGCLASS_LASVEGASSTRIP</BuildingClass>
+			<Cost>1250</Cost>
+			<PrereqTech>TECH_REFRIGERATION</PrereqTech>
+			<Help>TXT_KEY_WONDER_LASVEGASSTRIP_HELP</Help>
+			<Description>TXT_KEY_BUILDING_LASVEGASSTRIP</Description>
+			<Civilopedia>TXT_KEY_WONDER_LASVEGASSTRIP_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_LASVEGASSTRIP_QUOTE</Quote>
+			<ArtDefineTag>NONE</ArtDefineTag>
+			<LandmarksTourismPercent>50</LandmarksTourismPercent>
+			<GreatWorksTourismModifier>50</GreatWorksTourismModifier>
+			<MaxStartEra>ERA_ATOMIC</MaxStartEra>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<GreatPeopleRateChange>2</GreatPeopleRateChange>
+			<NearbyTerrainRequired>TERRAIN_DESERT</NearbyTerrainRequired>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>10</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>USAWONDER_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+			<WonderSplashImage>LasVegasStrip_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>R,B</WonderSplashAnchor>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_GOLDENGATE</WonderSplashAudio>
+		</Row>
+		<Row>
+			<Type>BUILDING_USAHOLLYWOOD</Type>
+			<BuildingClass>BUILDINGCLASS_USAHOLLYWOOD</BuildingClass>
+			<Cost>1250</Cost>
+			<PrereqTech>TECH_PLASTIC</PrereqTech>
+			<Help>TXT_KEY_WONDER_USAHOLLYWOOD_HELP</Help>
+			<ThemingBonusHelp>TXT_KEY_THEMING_BONUS_HOLLYWOOD</ThemingBonusHelp>
+			<Description>TXT_KEY_BUILDING_USAHOLLYWOOD</Description>
+			<Civilopedia>TXT_KEY_WONDER_USAHOLLYWOOD_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_USAHOLLYWOOD_QUOTE</Quote>
+			<ArtDefineTag>NONE</ArtDefineTag>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
+			<GreatWorkCount>2</GreatWorkCount>
+			<MaxStartEra>ERA_ATOMIC</MaxStartEra>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>10</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>USAWONDER_ATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+			<WonderSplashImage>Hollywood_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,T</WonderSplashAnchor>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_GOLDENGATE</WonderSplashAudio>
+		</Row>
+		<Row>
+			<Type>BUILDING_SPACENEEDLE</Type>
+			<BuildingClass>BUILDINGCLASS_SPACENEEDLE</BuildingClass>
+			<Cost>1250</Cost>
+			<PrereqTech>TECH_LASERS</PrereqTech>
+			<Help>TXT_KEY_WONDER_SPACENEEDLE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_SPACENEEDLE</Description>
+			<Civilopedia>TXT_KEY_WONDER_SPACENEEDLE_DESC</Civilopedia>
+			<Quote>TXT_KEY_WONDER_SPACENEEDLE_QUOTE</Quote>
+			<ArtDefineTag>NONE</ArtDefineTag>
+			<MaxStartEra>ERA_FUTURE</MaxStartEra>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>10</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<GlobalGreatPeopleRateModifier>25</GlobalGreatPeopleRateModifier>
+			<FreeGreatPeople>1</FreeGreatPeople>
+			<UnmoddedHappiness>2</UnmoddedHappiness>
+			<IconAtlas>USAWONDER_ATLAS</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+			<WonderSplashImage>SpaceNeedle_Splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_GOLDENGATE</WonderSplashAudio>
+		</Row>
+	</Buildings>
+	<Building_FreeUnits>
+		<Row>
+			<BuildingType>BUILDING_KENNEDYSPACE</BuildingType>
+			<UnitType>UNIT_SS_BOOSTER</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GOLDENGATE</BuildingType>
+			<UnitType>UNIT_CARGO_SHIP</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_USAHOLLYWOOD</BuildingType>
+			<UnitType>UNIT_WRITER</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+	</Building_FreeUnits>
+	<Building_ResourceQuantity>
+		<Row>
+			<BuildingType>BUILDING_USAHOLLYWOOD</BuildingType>
+			<ResourceType>RESOURCE_USAFILM</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+	</Building_ResourceQuantity>
+	<Building_ThemingBonuses>
+		<Row>
+			<BuildingType>BUILDING_USAHOLLYWOOD</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_HOLLYWOOD</Description>
+			<Bonus>2</Bonus>
+			<SameEra>true</SameEra>
+			<AIPriority>3</AIPriority>
+		</Row>
+	</Building_ThemingBonuses>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_GOLDENGATE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KENNEDYSPACE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_USARUSHMORE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_USAWHITEHOUSE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LASVEGASSTRIP</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_USAHOLLYWOOD</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SPACENEEDLE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_RiverPlotYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_GOLDENGATE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_RiverPlotYieldChanges>
+	<Building_SeaPlotYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_GOLDENGATE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_SeaPlotYieldChanges>
+	<Building_LakePlotYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_GOLDENGATE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_LakePlotYieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_GOLDENGATE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GOLDENGATE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GOLDENGATE</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GOLDENGATE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KENNEDYSPACE</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KENNEDYSPACE</BuildingType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KENNEDYSPACE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_USARUSHMORE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_USARUSHMORE</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_USARUSHMORE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_USAWHITEHOUSE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_USAWHITEHOUSE</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_USAWHITEHOUSE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LASVEGASSTRIP</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LASVEGASSTRIP</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LASVEGASSTRIP</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_USAHOLLYWOOD</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_USAHOLLYWOOD</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_USAHOLLYWOOD</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SPACENEEDLE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SPACENEEDLE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SPACENEEDLE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SPACENEEDLE</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_GOLDENGATE">
+			<Text>Golden Gate Bridge</Text>
+			<Gender>neuter:the</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GOLDENGATE_DESC">
+			<Text>The Golden Gate Bridge is a suspension bridge spanning the Golden Gate strait, the mile-wide, three-mile-long channel between San Francisco Bay and the Pacific Ocean, an area known as the Golden Gate. Completed in 1937, the structure links the U.S. city of San Francisco, on the northern tip of the San Francisco Peninsula, to Marin County, bridging both U.S. Route 101 and California State Route 1 across the strait. The bridge is one of the most internationally recognized symbols of San Francisco, California, and the United States. The Frommers travel guide considers the Golden Gate Bridge "possibly the most beautiful, certainly the most photographed, bridge in the world". Conceived, designed, and promoted by engineering student Joseph Strauss, it once had the longest suspension bridge main span in the world, at 4,200 feet, a title held by it until 1964.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GOLDENGATE_HELP">
+			<Text>City must be built on the Coast. Increases the range of Trade Routes from this city by 25%, and opens an additional Trade Route. Provides a free Cargo Ship.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GOLDENGATE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"To reach a port, we must sail. Sail, not tie at anchor. Sail, not drift." [NEWLINE] - Franklin D. Roosevelt[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_KENNEDYSPACE">
+			<Text>Kennedy Space Center</Text>
+			<Gender>neuter:the</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_KENNEDYSPACE_DESC">
+			<Text>The John F. Kennedy Space Center (KSC) is the United States launch site that has been used for every NASA human space flight since December 1968. Although such flights are currently on hiatus, KSC continues to manage and operate unmanned rocket launch facilities for the U.S. government's civilian space program from three pads at the adjoining Cape Canaveral Air Force Station. Its Vehicle Assembly Building (VAB) is the fourth-largest structure in the world by volume, and was the largest when completed in 1965. Located on Merritt Island, Florida, the center is northwest of Cape Canaveral on the Atlantic Ocean, midway between Miami and Jacksonville on Florida's Space Coast. It is 34 miles long and roughly 6 miles wide, covering 219 square miles. Since December 1968, all launch operations have been conducted from Pads A and B at Launch Complex 39 (LC-39). Both pads are on the ocean, 3 miles east of the VAB. From 1969–1972, LC-39 was the departure point for all six Apollo manned Moon landing missions using the Saturn V, the largest and most powerful operational launch vehicle in history, and was used from 1981–2011 for all Space Shuttle launches. The Shuttle Landing Facility, located just to the north, was used for most Shuttle landings and is among the longest runways in the world. The Kennedy Space Center is a major Florida tourist destination and is approximately one hour's drive from the Orlando area. The Visitor Complex offers public tours of the center and Cape Canaveral Air Force Station. KSC is one of ten major NASA field centers, and has several facilities listed on the National Register of Historic Places.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_KENNEDYSPACE_HELP">
+			<Text>Provides a free Spaceship Part.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_KENNEDYSPACE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"We choose to go to the Moon! We choose to go to the Moon this decade, and do the other things, not because they are easy, but because they are hard!" [NEWLINE] - John F. Kennedy[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_USARUSHMORE">
+			<Text>Mount Rushmore</Text>
+			<Gender>neuter:the</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_USARUSHMORE_DESC">
+			<Text>Mount Rushmore, officially the Mount Rushmore National Memorial, is a sculpture carved into the granite face of Mount Rushmore (known to the Lakota-Sioux as Six Grandfathers) near Keystone, South Dakota, in the United States. Sculpted by Danish-American Gutzon Borglum and his son, Lincoln Borglum, Mount Rushmore features 60-foot sculptures of the heads of four United States presidents: George Washington (1732-1799), Thomas Jefferson (1743-1826), Theodore Roosevelt (1858-1919), and Abraham Lincoln (1809-1865). Historian Doane Robinson is credited with conceiving the idea of carving the likenesses of famous people into the Black Hills region of South Dakota in order to promote tourism in the region. Robinson's initial idea was to sculpt the Needles; however, Gutzon Borglum rejected the Needles site because of the poor quality of the granite and strong opposition from Native American groups. They settled on the Mount Rushmore location, which also has the advantage of facing southeast for maximum sun exposure. Robinson wanted it to feature western heroes like Lewis and Clark, Red Cloud, and Buffalo Bill Cody, but Borglum decided the sculpture should have a more national focus and chose the four presidents whose likenesses would be carved into the mountain. After securing federal funding through the enthusiastic sponsorship of "Mount Rushmore's great political patron", U.S. Senator Peter Norbeck, construction on the memorial began in 1927, and the presidents' faces were completed between 1934 and 1939. Upon Gutzon Borglum's death in March 1941, his son Lincoln Borglum took over construction. Although the initial concept called for each president to be depicted from head to waist, lack of funding forced construction to end in late October 1941. Mount Rushmore has become an iconic symbol of presidential greatness and has appeared in works of fiction, and has been discussed or depicted in other popular works. It attracts over two million people annually.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_USARUSHMORE_HELP">
+			<Text>Must be built within 2 tiles of a Mountain. +1 [ICON_CITIZEN] Population and +1 [ICON_HAPPINESS_1] Happiness in all cities. Provides a free Stone Works in this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_USARUSHMORE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Great leaders are both idealistic and realistic. They have a grand vision and great goals. They seek to close the gap between what is and what can be but they have no illusions that success is either certain or simple."[NEWLINE] - Michael Josephson[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_USAWHITEHOUSE">
+			<Text>White House</Text>
+			<Gender>neuter:the</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_USAWHITEHOUSE_DESC">
+			<Text>The White House is the official residence and principal workplace of the President of the United States, located at 1600 Pennsylvania Avenue in Washington, D.C. It has been the residence of every U.S. president since John Adams moved in in 1800. The house was designed by Irish-born James Hoban and built between 1792 and 1800 of white-painted Aquia Creek sandstone in the Neoclassical style. When Thomas Jefferson moved into the house in 1801, he (with architect Benjamin Henry Latrobe) expanded the building outward, creating two colonnades that were meant to conceal stables and storage. In 1814, during the War of 1812, the mansion was set ablaze by the British Army in the Burning of Washington, destroying the interior and charring much of the exterior. Reconstruction began almost immediately, and President James Monroe moved into the partially reconstructed Executive Residence in October 1817. Construction continued with the addition of the South Portico in 1824 and the North in 1829. Because of crowding within the executive mansion itself, President Theodore Roosevelt had all work offices relocated to the newly constructed West Wing in 1901. Eight years later, President William Howard Taft expanded the West Wing and created the first Oval Office which was eventually moved as the section was expanded. Today, the White House Complex includes the Executive Residence, West Wing, East Wing, the Eisenhower Executive Office Building—the former State Department, which now houses offices for the President's staff and the Vice President—and Blair House, a guest residence.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_USAWHITEHOUSE_HELP">
+			<Text>Must be built in a [ICON_CAPITAL] Capital City. Allows the immediate adoption of an Ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_USAWHITEHOUSE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"We hold these truths to be self-evident: that all men are created equal; that they are endowed by their Creator with certain unalienable rights; that among these are life, liberty, and the pursuit of happiness." [NEWLINE] - Thomas Jefferson[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LASVEGASSTRIP">
+			<Text>Las Vegas Strip</Text>
+			<Gender>neuter:the</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_LASVEGASSTRIP_DESC">
+			<Text>The Las Vegas Strip is a stretch of South Las Vegas Boulevard in Nevada internationally known for the concentration of resort hotels and casinos along its route. The Strip is approximately 4.2 miles in length, located south of the Las Vegas city limits in the unincorporated towns of Paradise and Winchester. Most of the Strip has been designated an All-American Road, and is considered a scenic route at night. Many of the largest hotel, casino, and resort properties in the world are located on the Las Vegas Strip. Fifteen of the world's 25 largest hotels by room count are on the Strip, with a total of over 62,000 rooms. One of the most visible aspects of Las Vegas' cityscape is its use of dramatic architecture. The modernization of hotels, casinos, restaurants, and residential high-rises on the Strip has established the city as one of the most popular destinations for tourists. Las Vegas is an internationally renowned major resort city known primarily for gambling, shopping, fine dining and nightlife and is the leading financial and cultural center for Southern Nevada. The city bills itself as The Entertainment Capital of the World, and is famous for its mega casino–hotels and associated entertainment. A growing retirement and family city, Las Vegas is the 31st-most populous city in the United States, with a population at the 2010 census of 583,756. Established in 1905, Las Vegas was incorporated as a city in 1911. At the close of the 20th century, Las Vegas was the most populous American city founded in that century (a distinction held by Chicago in the 19th century). The city's tolerance for various forms of adult entertainment earned it the title of Sin City, and has made Las Vegas a popular setting for films and television programs. Today, Las Vegas is one of the top tourist destinations in the world.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_LASVEGASSTRIP_HELP">
+			<Text>Provides 2 free [ICON_CITIZEN] Population in this city, and has the same [ICON_TOURISM] Tourism effects as a Hotel. Must be built on or adjacent to Desert.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_LASVEGASSTRIP_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"What happens in Vegas, stays in Vegas." [NEWLINE] - Tourism Slogan[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_USAHOLLYWOOD">
+			<Text>Hollywood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_USAHOLLYWOOD_DESC">
+			<Text>Hollywood is a district in the central region of Los Angeles, California, in the United States. It is notable for its place as the home of the American entertainment industry, including several of its historic film studios. Its name has come to be a metonymy for the motion picture industry of the United States. Hollywood is also a highly ethnically diverse, densely populated, economically diverse neighborhood and retail business district. Hollywood was incorporated as a municipality on November 14, 1903, and by 1912, major motion-picture companies had set up production near or in Los Angeles. In the early 1900s, most moviemaking patents were held by Thomas Edison's Motion Picture Patents Company in New Jersey, and filmmakers were often sued to stop their productions. To escape this, filmmakers began moving out west, where Edison's patents could not be enforced. Also, the climate was ideal and there was nearby access to a variety of settings. Hollywood rapidly became the capital of the film industry. The first studio in Hollywood, the Nestor Company, was established by the New Jersey–based Centaur Company in a roadhouse at 6121 Sunset Boulevard at the corner of Gower, in October 1911. Four major film companies – Paramount, Warner Bros., RKO and Columbia – had studios in Hollywood, as did several minor companies and rental studios. In the 1920s, Hollywood was the fifth largest industry in the nation, and became known as Tinseltown and Movie Biz City because of the glittering nature of the movie industry. The city represented the glamour and the extravagant lifestyles that people strived to have, a true manifestation of the American dream. Overlooking the town, the "Hollywood Sign" (formerly the "Hollywoodland Sign") is a landmark and American cultural icon. It is situated on Mount Lee in the Hollywood Hills area of the Santa Monica Mountains. The sign makes frequent appearances in popular culture, particularly in establishing shots for films and television programs set in or around Hollywood. Signs of similar style, but spelling different words, are frequently seen as parodies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_USAHOLLYWOOD_HELP">
+			<Text>Contains 2 Slots for Great Works of Writing, and a free Great Writer appears near the city in which it was built. Additionally provides 2 copies of the unique [ICON_RES_USAFILM] Film Luxury Resource.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_USAHOLLYWOOD_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Hollywood is a place where they'll pay you a thousand dollars for a kiss and fifty cents for your soul. I know, because I turned down the first offer often enough and held out for the fifty cents." [NEWLINE] - Marilyn Manson[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_HOLLYWOOD">
+			<Text>Theming bonus requires 2 Great Works of Literature from the same Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SPACENEEDLE">
+			<Text>Space Needle</Text>
+			<Gender>neuter:the</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_SPACENEEDLE_DESC">
+			<Text>The Space Needle is an observation tower in Seattle, Washington, a landmark of the Pacific Northwest, and an internationally-known symbol of the United States. It was built in the Seattle Center for the 1962 World's Fair, which drew over 2.3 million visitors, when nearly 20,000 people a day used its elevators. Once the tallest US structure west of the Mississippi River, it is 605 ft high, 138 ft wide, and weighs 9,550 tons. It is built to withstand winds of up to 200 miles per hour and earthquakes of up to 9.1 magnitude. It has an observation deck at 520 ft and a gift shop with the iconic rotating SkyCity restaurant at 500 ft. From the top of the Needle, one can see not only the downtown Seattle skyline but also the Olympic and Cascade Mountains, Mount Rainier, Mount Baker, Elliott Bay, and surrounding islands. Photographs of the Seattle skyline often show the Space Needle prominently, above the rest of the skyscrapers and Mount Rainier. On April 19, 1999, Seattle's Landmarks Preservation Board designated it a historic landmark.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_SPACENEEDLE_HELP">
+			<Text>In addition to providing +2 [ICON_HAPPINESS_1] Happiness, it also provides 1 free [ICON_GREAT_PEOPLE] Great Person of your choice, and increases the empire-wide [ICON_GREAT_PEOPLE] Great Person spawn rate by 25%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_SPACENEEDLE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"All things share the same breath - the beast, the tree, the man. The air shares its spirit with all the life it supports." [NEWLINE] - Chief Seattle[NEWLINE][TAB]</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

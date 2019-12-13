@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/2/2014 12:42:04 AM -->
+<GameData>
+
+	<Civilizations>
+
+		<Update>
+			<Where Type="CIVILIZATION_AMERICA"></Where>
+			<Set>
+				<Playable>0</Playable>
+				<AIPlayable>0</AIPlayable>
+			</Set>
+		</Update>
+		
+		<Row>
+			<Type>CIVILIZATION_MICHIGAN</Type>
+			<Description>TXT_KEY_CIV_MICHIGAN_DESC</Description>
+
+			<Civilopedia>TXT_KEY_CIV5_MICHIGAN_PEDIA</Civilopedia>
+
+			<CivilopediaTag>TXT_KEY_CIV5_MICHIGAN</CivilopediaTag>
+
+			<Strategy/>
+
+			<Playable>1</Playable>
+
+			<AIPlayable>1</AIPlayable>
+
+			<ShortDescription>TXT_KEY_CIV_MICHIGAN_SHORT_DESC</ShortDescription>
+
+			<Adjective>TXT_KEY_CIV_MICHIGAN_ADJECTIVE</Adjective>
+
+			<DefaultPlayerColor>PLAYERCOLOR_MICHIGAN</DefaultPlayerColor>
+
+			<ArtDefineTag>ART_DEF_CIVILIZATION_AMERICA</ArtDefineTag>
+
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+
+			<ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+
+			<PortraitIndex>1</PortraitIndex>
+
+			<IconAtlas>MI_COLOR_ATLAS</IconAtlas>
+
+			<AlphaIconAtlas>MI_ALPHA_ATLAS</AlphaIconAtlas>
+
+			<MapImage>MI_Map.dds</MapImage>
+
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_MICHIGAN_TEXT</DawnOfManQuote>
+
+			<DawnOfManImage>MI_DOM.dds</DawnOfManImage>
+
+			<DawnOfManAudio></DawnOfManAudio>
+
+			<SoundtrackTag/>
+
+		</Row>
+
+	</Civilizations>
+
+
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+			<Count>1</Count>
+		</Row>
+	</Civilization_FreeUnits>
+
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+			<UnitType>UNIT_MILITIAMAN</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<LeaderheadType>LEADER_FORD</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<ReligionType>RELIGION_PROTESTANTISM</ReligionType>
+		</Row>
+	</Civilization_Religions>
+
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_MICHIGAN_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_MICHIGAN_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_MICHIGAN_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_MICHIGAN_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_MICHIGAN_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_MICHIGAN_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_MICHIGAN_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_MICHIGAN_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_MICHIGAN_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_MICHIGAN_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+
+
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_MICHIGAN</Type>
+			<PrimaryColor>COLOR_PLAYER_MICHIGAN_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_MICHIGAN_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_MICHIGAN_BACKGROUND</Type>
+			<Red>0.0</Red>
+			<Green>0.427</Green>
+			<Blue>.690</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_MICHIGAN_ICON</Type>
+			<Red>.737</Red>
+			<Green>0.765</Green>
+			<Blue>0.788</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<RegionType>REGION_FOREST</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+
+	<Civilization_Start_Region_Avoid>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<RegionType>REGION_JUNGLE</RegionType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<RegionType>REGION_TUNDRA</RegionType>
+		</Row>
+	</Civilization_Start_Region_Avoid>
+
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MICHIGAN_0</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MICHIGAN_1</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MICHIGAN_2</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MICHIGAN_3</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MICHIGAN_4</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MICHIGAN_5</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MICHIGAN_6</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MICHIGAN_7</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MICHIGAN_8</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MICHIGAN_9</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MICHIGAN_10</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MICHIGAN_11</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MICHIGAN_12</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MICHIGAN_13</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MICHIGAN_14</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MICHIGAN_15</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MICHIGAN_16</CityName>
+		</Row>
+	</Civilization_CityNames>
+
+	<Language_en_US>
+
+		<Row Tag="TXT_KEY_CIV_MICHIGAN_DESC">
+			<Text>State of Michigan</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV_MICHIGAN_SHORT_DESC">
+			<Text>Michigan</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV_MICHIGAN_ADJECTIVE">
+			<Text>Michiganian</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_DAWN_MICHIGAN_TEXT">
+			<Text>Greetings, President Ford. You step forth to claim leadership of a people with rich history. With early roots in many Native American tribes, European explorers, trappers, and settlers. The Erie Canal connected it to the rest of the world, and a thriving economy was born. Henry Ford and other manufacturers built a mighty automotive industry, and during WWII, Detroit produced massive amounts of tanks and planes.[NEWLINE][NEWLINE]Michigan has been plagued with economic problems in recent years, and they lack only a leader to help them fulfill their promise. President Ford, can you lead the Michigan to greatness once again? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_MICHIGAN_PEDIA">
+			<Text>This tag is TXT_KEY_CIV_MICHIGAN_PEDIA</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_MICHIGAN_TITLE">
+			<Text>Michigan</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_MICHIGAN_HEADING_1">
+			<Text>Heading 1</Text>
+		</Row>
+			 
+		<Row Tag="TXT_KEY_CIV5_MICHIGAN_TEXT_1">
+			<Text>Held by the French and English before being ceded to the US.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_MICHIGAN_HEADING_2">
+			<Text>Another Heading</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_MICHIGAN_TEXT_2">
+			<Text>Henry Ford made this state and its industry famous.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITY_NAME_MICHIGAN_0">
+			<Text>Lansing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MICHIGAN_1">
+			<Text>Detroit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MICHIGAN_2">
+			<Text>Grand Rapids</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MICHIGAN_3">
+			<Text>Warren</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MICHIGAN_4">
+			<Text>Ann Arbor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MICHIGAN_5">
+			<Text>Flint</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MICHIGAN_6">
+			<Text>Dearborn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MICHIGAN_7">
+			<Text>Ypsilanti</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_CITY_NAME_MICHIGAN_8">
+			<Text>Kalamazoo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MICHIGAN_9">
+			<Text>Shelby</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MICHIGAN_10">
+			<Text>Pontiac</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MICHIGAN_11">
+			<Text>Battle Creek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MICHIGAN_12">
+			<Text>Saginaw</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MICHIGAN_13">
+			<Text>East Lansing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MICHIGAN_14">
+			<Text>Muskegon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MICHIGAN_15">
+			<Text>Holland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MICHIGAN_16">
+			<Text>Marquette</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SPY_NAME_MICHIGAN_0">
+			<Text>Henry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MICHIGAN_1">
+			<Text>Iococca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MICHIGAN_2">
+			<Text>Francis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MICHIGAN_3">
+			<Text>Heidi</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MICHIGAN_4">
+			<Text>Eminem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MICHIGAN_5">
+			<Text>Dodge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MICHIGAN_6">
+			<Text>Edsel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MICHIGAN_7">
+			<Text>Page</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MICHIGAN_8">
+			<Text>Post</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MICHIGAN_9">
+			<Text>Kellogg</Text>
+		</Row>
+		
+	</Language_en_US>
+
+
+</GameData>

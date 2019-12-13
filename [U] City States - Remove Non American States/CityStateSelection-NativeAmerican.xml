@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<MinorCivilizations>
+		<!-- MOVE ENTRIES FOR CITY-STATES YOU WANT IN-GAME HERE (commented entries won't be deleted)
+		
+		'NATIVE AMERICAN'
+		<Delete Type="MINOR_CIV_PANAMA_CITY"/>
+		<Delete Type="MINOR_CIV_CAHOKIA"/>
+		<Delete Type="MINOR_CIV_LA_VENTA"/>
+		<Delete Type="MINOR_CIV_BUENOS_AIRES"/>
+		<Delete Type="MINOR_CIV_BOGOTA"/>
+
+		-->
+		
+		<!-- MOVE ENTRIES FOR CITY-STATES YOU DON'T WANT BELOW-->
+
+		'ASIAN'
+		<Delete Type="MINOR_CIV_ALMATY"/>
+		<Delete Type="MINOR_CIV_COLOMBO"/>
+		<Delete Type="MINOR_CIV_HANOI"/>
+		<Delete Type="MINOR_CIV_HONG_KONG"/>
+		<Delete Type="MINOR_CIV_KABUL"/>
+		<Delete Type="MINOR_CIV_KATHMANDU"/>
+		<Delete Type="MINOR_CIV_KUALA_LUMPUR"/>
+		<Delete Type="MINOR_CIV_KYZYL"/>
+		<Delete Type="MINOR_CIV_LHASA"/>
+		<Delete Type="MINOR_CIV_MALACCA"/>
+		<Delete Type="MINOR_CIV_MANILA"/>
+		<Delete Type="MINOR_CIV_SAMARKAND"/>
+		<Delete Type="MINOR_CIV_SINGAPORE"/>
+
+		'MIDDLE EASTERN'
+		<Delete Type="MINOR_CIV_ANTANANARIVO"/>
+		<Delete Type="MINOR_CIV_IFE"/>
+		<Delete Type="MINOR_CIV_JERUSALEM"/>
+		<Delete Type="MINOR_CIV_MBANZA_KONGO"/>
+		<Delete Type="MINOR_CIV_MOGADISHU"/>
+		<Delete Type="MINOR_CIV_MOMBASA"/>
+		<Delete Type="MINOR_CIV_ORMUS"/>
+		<Delete Type="MINOR_CIV_SIDON"/>
+		<Delete Type="MINOR_CIV_TYRE"/>
+		<Delete Type="MINOR_CIV_UR"/>
+		<Delete Type="MINOR_CIV_YEREVAN"/>
+		<Delete Type="MINOR_CIV_ZANZIBAR"/>
+
+		'EUROPEAN'
+
+		<Delete Type="MINOR_CIV_ANTWERP"/>
+		<Delete Type="MINOR_CIV_BELGRADE"/>
+		<Delete Type="MINOR_CIV_BRATISLAVA"/>
+		<Delete Type="MINOR_CIV_BRUSSELS"/>
+		<Delete Type="MINOR_CIV_BUCHAREST"/>
+		<Delete Type="MINOR_CIV_BUDAPEST"/>
+		<Delete Type="MINOR_CIV_CAPE_TOWN"/>
+		<Delete Type="MINOR_CIV_GENEVA"/>
+		<Delete Type="MINOR_CIV_GENOA"/>
+		<Delete Type="MINOR_CIV_KIEV"/>
+		<Delete Type="MINOR_CIV_MELBOURNE"/>
+		<Delete Type="MINOR_CIV_PRAGUE"/>
+		<Delete Type="MINOR_CIV_QUEBEC_CITY"/>
+		<Delete Type="MINOR_CIV_RIGA"/>
+		<Delete Type="MINOR_CIV_RAGUSA"/>
+		<Delete Type="MINOR_CIV_SOFIA"/>
+		<Delete Type="MINOR_CIV_SYDNEY"/>
+		<Delete Type="MINOR_CIV_VALLETTA"/>
+		<Delete Type="MINOR_CIV_VANCOUVER"/>
+		<Delete Type="MINOR_CIV_VILNIUS"/>
+		<Delete Type="MINOR_CIV_WELLINGTON"/>
+		<Delete Type="MINOR_CIV_WITTENBERG"/>
+		<Delete Type="MINOR_CIV_ZURICH"/>
+
+		'MEDITERRANEAN'
+
+		<Delete Type="MINOR_CIV_BYBLOS"/>
+		<Delete Type="MINOR_CIV_FLORENCE"/>
+		<Delete Type="MINOR_CIV_MILAN"/>
+		<Delete Type="MINOR_CIV_MONACO"/>
+		<Delete Type="MINOR_CIV_VATICAN_CITY"/>
+
+
+	</MinorCivilizations>
+</GameData>

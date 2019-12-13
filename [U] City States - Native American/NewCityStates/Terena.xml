@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/29/2010 2:52:04 PM -->
+<GameData>
+	<MinorCivilizations>
+		<Row>
+			<Type>MINOR_CIV_TERENA</Type>
+			<Description>TXT_KEY_CITYSTATE_TERENA</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_TERENA</ShortDescription>
+			<Adjective>Aborigine</Adjective>
+			<Civilopedia>No info</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_GRAY</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICAN</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN</ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+	</MinorCivilizations>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_TERENA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_TERENA_CAPITAL</CityName>
+		</Row>
+	</MinorCivilization_CityNames>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITYSTATE_TERENA">
+			<Text>The Terena</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_TERENA_CAPITAL">
+			<Text>Terena</Text>
+		</Row>
+	</Language_en_US>
+	<Language_de_DE>
+		<Row Tag="TXT_KEY_CITYSTATE_TERENA">
+			<Text>The Terena</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_TERENA_CAPITAL">
+			<Text>Terena</Text>
+		</Row>
+	</Language_de_DE>
+	<Language_fr_FR>
+		<Row Tag="TXT_KEY_CITYSTATE_TERENA">
+			<Text>The Terena</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_TERENA_CAPITAL">
+			<Text>Terena</Text>
+		</Row>
+	</Language_fr_FR>
+	<Language_es_ES>
+		<Row Tag="TXT_KEY_CITYSTATE_TERENA">
+			<Text>The Terena</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_TERENA_CAPITAL">
+			<Text>Terena</Text>
+		</Row>
+	</Language_es_ES>
+	<Language_it_IT>
+		<Row Tag="TXT_KEY_CITYSTATE_TERENA">
+			<Text>The Terena</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_TERENA_CAPITAL">
+			<Text>Terena</Text>
+		</Row>
+	</Language_it_IT>
+	<MinorCivilization_Flavors>
+		<Row>
+			<MinorCivType>MINOR_CIV_TERENA</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TERENA</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TERENA</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TERENA</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TERENA</MinorCivType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+	</MinorCivilization_Flavors>
+</GameData>

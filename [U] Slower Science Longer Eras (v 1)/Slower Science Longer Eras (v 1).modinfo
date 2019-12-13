@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="c5da86a5-d2a6-42cc-b3f0-eb8790a92207" version="1">
+  <Properties>
+    <Name>Slower Science Longer Eras</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Slower eras, progressively slower science, more units, longer games!</Teaser>
+    <Description>Modifies science output, research costs, beaker yields etc. to make research take longer each era - allowing much to happen in the game each and every era.
+
+Unit production costs are reduced slightly to allow for larger armies between each era.
+
+Enables wealth production in cities immediately to prevent some AI derpiness early game when they have nothing left to build in cities.
+
+Should be compatible with most other mods (including ones that add new technologies etc.) as it is a SQL based mod. 
+
+Will work with any gamespeed you choose - but works best with marathon!</Description>
+    <Authors>azzer007</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="A18F8264775DB271F2E1913AEBFC24B4" import="0">xml/SlowerScienceLongerEras.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>xml/SlowerScienceLongerEras.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

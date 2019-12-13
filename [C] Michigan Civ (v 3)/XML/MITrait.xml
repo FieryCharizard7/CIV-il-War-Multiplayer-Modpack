@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/1/2014 11:53:20 AM -->
+<GameData>
+
+	<Traits>
+		<Row>
+			<Type>TRAIT_ASSEMBLY_LINE</Type>
+			<Description>TXT_KEY_TRAIT_ASSEMBLY_LINE</Description>
+			<ShortDescription>TXT_KEY_TRAIT_ASSEMBLY_LINE_SHORT</ShortDescription>
+			<!--<FreeUnit>UNITCLASS_ENGINEER</FreeUnit>
+			<FreeUnitPrereqTech>TECH_INDUSTRIALIZATION</FreeUnitPrereqTech>-->
+		</Row>
+	</Traits>
+
+	<Trait_FreePromotionUnitCombats>
+		<Row>
+			<TraitType>TRAIT_ASSEMBLY_LINE</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<PromotionType>PROMOTION_AMBUSH_1</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_ASSEMBLY_LINE</TraitType>
+			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
+			<PromotionType>PROMOTION_AIR_RANGE</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_ASSEMBLY_LINE</TraitType>
+			<UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
+			<PromotionType>PROMOTION_AIR_RANGE</PromotionType>
+		</Row>
+	</Trait_FreePromotionUnitCombats>
+
+	<Leader_Traits>
+		<Row>
+			<LeaderType>LEADER_FORD</LeaderType>
+			<TraitType>TRAIT_ASSEMBLY_LINE</TraitType>
+		</Row>
+	</Leader_Traits>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_ASSEMBLY_LINE">
+			<Text>Earn [ICON_GREAT_PEOPLE] Great Engineers 50% faster. Armor units start with Ambush 1; Air units start with Range.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_ASSEMBLY_LINE_SHORT">
+			<Text>Assembly Line</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

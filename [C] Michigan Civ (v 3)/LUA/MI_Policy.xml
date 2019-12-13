@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/18/2014 6:28:13 AM -->
+<GameData>
+
+	<Policies>
+		<Row>
+			<Type>POLICY_MIUA</Type>
+			<Description>TXT_KEY_POLICY_MIUA</Description>
+			<GreatPeopleRateModifier>50</GreatPeopleRateModifier>
+			<GreatGeneralRateModifier>-50</GreatGeneralRateModifier>
+			<GreatAdmiralRateModifier>-50</GreatAdmiralRateModifier>
+			<GreatWriterRateModifier>-50</GreatWriterRateModifier>
+			<GreatArtistRateModifier>-50</GreatArtistRateModifier>
+			<GreatMusicianRateModifier>-50</GreatMusicianRateModifier>
+			<GreatMerchantRateModifier>-50</GreatMerchantRateModifier>
+			<GreatScientistRateModifier>-50</GreatScientistRateModifier>
+			
+		</Row>
+	</Policies>
+
+	<!--<Policy_UnitCombatProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_MIUA</PolicyType>
+			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
+			<ProductionModifier>15</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MIUA</PolicyType>
+			<UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
+			<ProductionModifier>15</ProductionModifier>
+		</Row>
+	</Policy_UnitCombatProductionModifiers>-->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_MIUA">
+			<Text>Michigan UA</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

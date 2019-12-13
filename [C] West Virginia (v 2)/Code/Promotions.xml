@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/13/2014 9:03:54 PM -->
+<GameData>
+
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_MOUNTAINEER</Type>
+			<Description>TXT_KEY_PROMOTION_MOUNTAINEER</Description>
+			<Help>TXT_KEY_PROMOTION_MOUNTAINEER_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<OrderPriority>1</OrderPriority>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>PROMOTION_ICON_ATLAS</IconAtlas>
+			<PediaType>PEDIA_MELEE</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_MOUNTAINEER</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_MOUNTAINEER_2</Type>
+			<Description>TXT_KEY_PROMOTION_MOUNTAINEER_II</Description>
+			<Help>TXT_KEY_PROMOTION_MOUNTAINEER_2_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<OrderPriority>1</OrderPriority>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>PROMOTION_ICON_ATLAS</IconAtlas>
+			<PediaType>PEDIA_MELEE</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_MOUNTAINEER_II</PediaEntry>
+		</Row>
+	</UnitPromotions>
+		
+	<UnitPromotions_Terrains>
+		<Row>
+			<PromotionType>PROMOTION_MOUNTAINEER</PromotionType>
+			<TerrainType>TERRAIN_HILL</TerrainType>
+			<Defense>20</Defense>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_MOUNTAINEER_2</PromotionType>
+			<TerrainType>TERRAIN_HILL</TerrainType>
+			<Attack>20</Attack>
+		</Row>
+	</UnitPromotions_Terrains>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_MOUNTAINEER">
+			<Text>Mountaineer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MOUNTAINEER_HELP">
+			<Text>+20% defence in Hills</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MOUNTAINEER_II">
+			<Text>Mountaineer II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MOUNTAINEER_2_HELP">
+			<Text>+20% attack in Hills</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

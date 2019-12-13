@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/7/2015 8:15:42 PM -->
+<GameData>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WASHINGTON1">
+			<Text>George Washington</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WASHINGTON2">
+			<Text>George Washington</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WASHINGTON3">
+			<Text>George Washington</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WASHINGTON4">
+			<Text>George Washington</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GREAT_WORK_NO_EXCUSE">
+			<Text>No Excuse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_NO_EXCUSE">
+			<Text>It is better to offer no excuse than a bad one.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GREAT_WORK_FREEDOM_OF_SPEECH">
+			<Text>Freedom of Speech</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_FREEDOM_OF_SPEECH">
+			<Text>If freedom of speech is taken away, then dumb and silent we may be led, like sheep to the slaughter.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GREAT_WORK_CHARACTER_OF_HONEST_MAN">
+			<Text>Character of an Honest Man</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_CHARACTER_OF_HONEST_MAN">
+			<Text>I hope I shall possess firmness and virtue enough to maintain what I consider the most enviable of all titles, the character of an honest man.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_GREAT_WORK_THE_HARDER">
+			<Text>Conflict and Triumph</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_QUOTE_THE_HARDER">
+			<Text>The harder the conflict, the greater the triumph.</Text>
+		</Row>
+		
+	</Language_en_US>
+  
+</GameData>

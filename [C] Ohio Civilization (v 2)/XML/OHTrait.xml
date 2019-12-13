@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/1/2014 11:53:20 AM -->
+<GameData>
+
+	<Traits>
+		<Row>
+			<Type>TRAIT_OHIO_STRONG</Type>
+			<Description>TXT_KEY_TRAIT_OHIO_STRONG</Description>
+			<ShortDescription>TXT_KEY_TRAIT_OHIO_STRONG_SHORT</ShortDescription>
+			<GreatPeopleRateModifier>15</GreatPeopleRateModifier>
+		</Row>
+	</Traits>
+	
+
+	<Trait_SpecialistYieldChanges>
+		<Row>
+			<TraitType>TRAIT_OHIO_STRONG</TraitType>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_OHIO_STRONG</TraitType>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_OHIO_STRONG</TraitType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_OHIO_STRONG</TraitType>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_OHIO_STRONG</TraitType>
+			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_OHIO_STRONG</TraitType>
+			<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Trait_SpecialistYieldChanges>
+	
+
+	<Leader_Traits>
+		<Row>
+			<LeaderType>LEADER_HAYES</LeaderType>
+			<TraitType>TRAIT_OHIO_STRONG</TraitType>
+		</Row>
+	</Leader_Traits>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_OHIO_STRONG">
+			<Text>Earn +15% [ICON_GREAT_PERSON] Great Person generation; +1 [ICON_PRODUCTION] Production from all Specialists.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_OHIO_STRONG_SHORT">
+			<Text>Mother of Presidents</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

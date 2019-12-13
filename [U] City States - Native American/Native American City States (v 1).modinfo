@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="3ffd8ea3-8059-495a-b8fa-649536357396" version="1">
+  <Properties>
+    <Name>Native American City States</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Several native american peoples, primarily from south america, represented as minor civilizations in game. Code humbly borrowed</Teaser>
+    <Description>Several native american peoples, primarily from south america, represented as minor civilizations in game. Code humbly borrowed from Ieco's Not Just Another City State mod.</Description>
+    <Authors>Jacks</Authors>
+    <SpecialThanks>Ieco</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="88AD46F8BEC7207B508EB1D1D0718DEA" import="0">Compatability.sql</File>
+    <File md5="4F8FCC0645564E5F64B01D05B9A87745" import="0">NewCityStates/Apache.xml</File>
+    <File md5="5754B1BE6E37A2F9D04D9D4149E5CDDF" import="0">SaveUtils.lua</File>
+    <File md5="88AD46F8BEC7207B508EB1D1D0718DEA" import="0">Compatibility.sql</File>
+    <File md5="8229EE20092DA0C2D4E19BE4A550F33C" import="0">NewCityStates/Apache.xml</File>
+    <File md5="B86EFD5BD0491F3C61C21F474AE5EFDD" import="0">NewCityStates/Bribri.xml</File>
+    <File md5="0598C6E10F586379164C4220BAF4F010" import="0">NewCityStates/Carib.xml</File>
+    <File md5="6AC01607EA7CB7AE9F9D4E1E226F2C40" import="0">NewCityStates/Charrua.xml</File>
+    <File md5="29C108820104FF6D8815B3E0DB81ADC4" import="0">NewCityStates/Chichimec.xml</File>
+    <File md5="56DAC3DDCA76114F159C6C59F622504D" import="0">NewCityStates/Comanche.xml</File>
+    <File md5="AC847957E75E16DDA32780BB1B9E4175" import="0">NewCityStates/Cubeo.xml</File>
+    <File md5="97857865742DC2FAAA35670973EF719C" import="0">NewCityStates/Kamayura.xml</File>
+    <File md5="6CB93CD5DE8F610DB8B065B6C45383A1" import="0">NewCityStates/Kanhgag.xml</File>
+    <File md5="BB70BC899345B1DCE901DB9CF8C37A7B" import="0">NewCityStates/Mura.xml</File>
+    <File md5="2F271DE78DF410727460FA2330F11EF8" import="0">NewCityStates/Nazca.xml</File>
+    <File md5="5722D6848B298394A89DD340C4423B42" import="0">NewCityStates/Olmec.xml</File>
+	<File md5="5722D6848B298394A89DD340C4423B42" import="0">NewCityStates/Pataxo.xml</File>
+	<File md5="5722D6848B298394A89DD340C4423B42" import="0">NewCityStates/Terena.xml</File>
+	<File md5="5722D6848B298394A89DD340C4423B42" import="0">NewCityStates/Puelche.xml</File>
+	<File md5="5722D6848B298394A89DD340C4423B42" import="0">NewCityStates/Rankulche.xml</File>
+	<File md5="5722D6848B298394A89DD340C4423B42" import="0">NewCityStates/Seminole.xml</File>
+	<File md5="5722D6848B298394A89DD340C4423B42" import="0">NewCityStates/Tehuelche.xml</File>
+	<File md5="5722D6848B298394A89DD340C4423B42" import="0">NewCityStates/Temimino.xml</File>
+	<File md5="5722D6848B298394A89DD340C4423B42" import="0">NewCityStates/Toltec.xml</File>
+	<File md5="5722D6848B298394A89DD340C4423B42" import="0">NewCityStates/Yanomami.xml</File>
+	<File md5="5722D6848B298394A89DD340C4423B42" import="0">NewCityStates/Hia.xml</File>
+	<File md5="5722D6848B298394A89DD340C4423B42" import="0">NewCityStates/Guaj.xml</File>
+	<File md5="5722D6848B298394A89DD340C4423B42" import="0">NewCityStates/Pat.xml</File>
+	<File md5="5722D6848B298394A89DD340C4423B42" import="0">NewCityStates/Temi.xml</File>
+    <File md5="5754B1BE6E37A2F9D04D9D4149E5CDDF" import="1">SaveUtils.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>NewCityStates/Apache.xml</UpdateDatabase>
+      <UpdateDatabase>NewCityStates/Bribri.xml</UpdateDatabase>
+      <UpdateDatabase>NewCityStates/Carib.xml</UpdateDatabase>
+      <UpdateDatabase>NewCityStates/Charrua.xml</UpdateDatabase>
+      <UpdateDatabase>NewCityStates/Chichimec.xml</UpdateDatabase>
+      <UpdateDatabase>NewCityStates/Comanche.xml</UpdateDatabase>
+      <UpdateDatabase>NewCityStates/Cubeo.xml</UpdateDatabase>
+      <UpdateDatabase>NewCityStates/Guajajara Nation.xml</UpdateDatabase>
+      <UpdateDatabase>NewCityStates/Kamayura.xml</UpdateDatabase>
+      <UpdateDatabase>NewCityStates/Kanhgag.xml</UpdateDatabase>
+      <UpdateDatabase>NewCityStates/Mura.xml</UpdateDatabase>
+      <UpdateDatabase>NewCityStates/Nazca.xml</UpdateDatabase>
+      <UpdateDatabase>NewCityStates/Olmec.xml</UpdateDatabase>
+      <UpdateDatabase>NewCityStates/Pataxo.xml</UpdateDatabase>
+      <UpdateDatabase>NewCityStates/Puelche.xml</UpdateDatabase>
+	  <UpdateDatabase>NewCityStates/Terena.xml</UpdateDatabase>
+      <UpdateDatabase>NewCityStates/Rankulche.xml</UpdateDatabase>
+      <UpdateDatabase>NewCityStates/Seminole.xml</UpdateDatabase>
+      <UpdateDatabase>NewCityStates/Tehuelche.xml</UpdateDatabase>
+      <UpdateDatabase>NewCityStates/Temimino.xml</UpdateDatabase>
+      <UpdateDatabase>NewCityStates/Toltec.xml</UpdateDatabase>
+      <UpdateDatabase>NewCityStates/Yanomami.xml</UpdateDatabase>
+	  <UpdateDatabase>NewCityStates/Hia.xml</UpdateDatabase>
+	  <UpdateDatabase>NewCityStates/Guaj.xml</UpdateDatabase>
+	  <UpdateDatabase>NewCityStates/Pat.xml</UpdateDatabase>
+	  <UpdateDatabase>NewCityStates/Temi.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="SmallCivs/UI/NACSMGreetingPopup.lua">
+      <Name>NACSMGreetingPopup.lua</Name>
+      <Description>GreetingPopup changes</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="SmallCivs/UI/NACSMDiploPopup.lua">
+      <Name>NACSMDiploPopup.lua</Name>
+      <Description>DiploPopup changes</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="NewTraits/CityStatePopupTraitChanges.lua">
+      <Name>CityStatePopupTraitChanges.lua</Name>
+      <Description>Trait related Popup changes</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="NewTraits/NewTraitsEffects.lua">
+      <Name>NewTraitsEffects.lua</Name>
+      <Description>effects of new Traits</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

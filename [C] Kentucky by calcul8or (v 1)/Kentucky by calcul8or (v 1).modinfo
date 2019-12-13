@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="fd4e5619-cb5d-45c0-ba82-52f9b1845deb" version="1">
+  <Properties>
+    <Name>Kentucky by calcul8or</Name>
+    <Teaser>[COLOR_CITY_BLUE]The state of Kentucky[ENDCOLOR]</Teaser>
+    <Description>[COLOR_CITY_BLUE]The state of Kentucky[ENDCOLOR]
+
+Distillery Model by DJSHenninger
+Building and Improvement code by LeeS
+Unit model by danrell
+
+Peace Music: Federal March, from The Greatest Band in the Land
+War Music: Bela Fleck - Whitewater
+
+Supports EE
+
+https://www.youtube.com/watch?v=szJ35piLQGA
+Battle of Trenton
+https://www.youtube.com/watch?v=I5kml3kV1Ro
+https://www.youtube.com/watch?v=bPV7zUConxo
+https://www.youtube.com/watch?v=QBUMdJaMydk
+**
+https://www.youtube.com/watch?v=yM3cYGzEYME&amp;index=5&amp;list=PLD5dOIAYIDtopYK3dw0e8C7WkgS-bczs4
+**
+https://www.youtube.com/watch?v=mQW1d7LCEmk&amp;list=PLD5dOIAYIDtopYK3dw0e8C7WkgS-bczs4&amp;index=6
+https://www.youtube.com/watch?v=qcSUmFzAANo&amp;index=7&amp;list=PLD5dOIAYIDtopYK3dw0e8C7WkgS-bczs4</Description>
+    <Authors>calcul8or</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="YnAEMP" />
+    <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Traits in Civ V" />
+    <Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFDs Cultural Diversity" />
+    <Mod id="10e9728f-d61c-4317-be4f-7d52d6bae6f4" minversion="0" maxversion="999" title="JFDs Cities in Development" />
+    <Mod id="eea66053-7579-481a-bb8d-2f3959b59974" minversion="0" maxversion="999" title="JFDs Rise to Power" />
+    <Mod id="6676902b-b907-45f1-8db5-32dcb2135eee" minversion="0" maxversion="999" title="JFDs Exploration Continued Expanded" />
+    <Mod id="01c131ef-2162-4a7b-b845-763a4e675940" minversion="0" maxversion="999" title="Unique Cultural Influence" />
+    <Mod id="1f941088-b185-4159-865c-472df81247b2" minversion="0" maxversion="999" title="Events and Decisions" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Enlightenment Era" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="9544B80B82D7FD2445BFA5337A660F0C" import="1">Assets/Atlas/KY_IconAtlas128.dds</File>
+    <File md5="1211C89A5D9A651EC252EB4DCD1D73F4" import="1">Assets/Atlas/KY_IconAtlas16.dds</File>
+    <File md5="8DAFB0D5B7DE3E1D8A9B0D7B35939F82" import="1">Assets/Atlas/KY_IconAtlas24.dds</File>
+    <File md5="DD0352F77A288D70D623BD842A5BF86F" import="1">Assets/Atlas/KY_IconAtlas256.dds</File>
+    <File md5="3F19AAF2D4756C97E64AC4B544BAA852" import="1">Assets/Atlas/KY_IconAtlas32.dds</File>
+    <File md5="3956F08E513A3015D5DAEC07C2F569F4" import="1">Assets/Atlas/KY_IconAtlas45.dds</File>
+    <File md5="09BA7C711524466647488D07B3276F48" import="1">Assets/Atlas/KY_IconAtlas48.dds</File>
+    <File md5="85C7EE5EAB3BA4FF0362C149CB200422" import="1">Assets/Atlas/KY_IconAtlas64.dds</File>
+    <File md5="36FC8B54F06529D7A1F2B8BB6A137F81" import="1">Assets/Atlas/KY_IconAtlas80.dds</File>
+    <File md5="C47D23848CF4EA4B034C9A0A1BB3EA4B" import="1">Assets/Federal_March.mp3</File>
+    <File md5="85D18332EC2AA85BA350E26420522463" import="1">Assets/KY_DOM.dds</File>
+    <File md5="3C75FA296CDF6F2B5FD5426563393451" import="1">Assets/KY_map.dds</File>
+    <File md5="D9DF679E832644A3788627EB762D53B6" import="1">Assets/KY_scene.dds</File>
+    <File md5="BA090B75084226050BCC9B087BCE7708" import="1">Assets/SV_KY_scout.dds</File>
+    <File md5="5706BF34E2C4E028663AE1AD53339227" import="1">Assets/Unit/black_4x4.dds</File>
+    <File md5="592152F6263EBD3D02964BE7D9BE212A" import="1">Assets/Unit/u_canadian_voyageur.dds</File>
+    <File md5="D76EE027F98D5FC0E93E4293D9460317" import="1">Assets/Unit/u_canadian_voyageur.fxsxml</File>
+    <File md5="14386331CFB7972C74ADECD51A8AE54F" import="1">Assets/Unit/u_canadian_voyageur.gr2</File>
+    <File md5="0B24C820AE900FEDF6C0C2EE62143B12" import="1">Assets/Whitewater.mp3</File>
+    <File md5="5CBE2C0008EC5CF51052287B2E0B259B" import="0">Code/KY_Diplomacy.sql</File>
+    <File md5="A6BB11B77B9FB949D938F9CCE69C90D6" import="0">Code/KY_DiploReplies.xml</File>
+    <File md5="9883E0C3385F439C43CE38124125E2FF" import="0">Code/KY_Sound.xml</File>
+    <File md5="E1072A4AD4EA961052D80F6313487B91" import="0">Code/KY_Civilization.xml</File>
+    <File md5="6CD6A0DB374B2A198DA011FB869611D4" import="0">Code/KY_IconAtlas.xml</File>
+    <File md5="CE3EA592EEC344B7CB6C0601CF0308D5" import="0">Code/KY_Leader.xml</File>
+    <File md5="8E4872CFA9D6DBD4064476DB2A341E51" import="1">Code/KY_scene.xml</File>
+    <File md5="8F314300E87204F925474C493526A550" import="0">Code/KY_Trait.xml</File>
+    <File md5="383C0569785C8D9FC8757E1DCC9F3C8B" import="0">Code/KY_Units.xml</File>
+    <File md5="2B8361E436407AE8709F869A342BA35A" import="0">Code/KY_Unit_Defines.sql</File>
+    <File md5="956665517CECDA950D770BF5523AF514" import="0">Corn/ArtDefines_Corn.sql</File>
+    <File md5="E534689CEB815B5881AB2AF58A2B249C" import="1">Corn/Assets/corn-icon.dds</File>
+    <File md5="9EFF323CEBDF0A222C954F2D90E73C54" import="1">Corn/Assets/Corn_Atlas256.dds</File>
+    <File md5="165CCCF0AF8186A80D3837427A8293BD" import="1">Corn/Assets/Corn_Atlas45.dds</File>
+    <File md5="F1DA8913522D699548D6031EDDE57419" import="1">Corn/Assets/Corn_Atlas64.dds</File>
+    <File md5="1ECC178710A7F17FBD196366A52585D3" import="1">Corn/Assets/Corn_Atlas80.dds</File>
+    <File md5="4CBC6EFFEF9973A6F1460C60E148CB05" import="1">Corn/Assets/CornFont.ggxml</File>
+    <File md5="C9FD81421C74FA9F6272136AC5560655" import="0">Corn/Assets/FontIcons.xml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Corn/Assets/fx_triggers_pl_plantation_ind_corn.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Corn/Assets/fx_triggers_pl_plantation_mid_corn.ftsxml</File>
+    <File md5="F8B1C4ECEF38FE9AF92328EC7C3A9E67" import="1">Corn/Assets/hb_plantation_ind_corn.fxsxml</File>
+    <File md5="1F0727B536B2B9638FA4BAC268B37F69" import="1">Corn/Assets/hb_plantation_ind_corn.gr2</File>
+    <File md5="EB9A77441EA8987B0EA4FF8B1CDF8145" import="1">Corn/Assets/hb_plantation_mid_corn.fxsxml</File>
+    <File md5="C406F15DA39FBFBFB4F064B412CFA4EA" import="1">Corn/Assets/hb_plantation_mid_corn.gr2</File>
+    <File md5="40131A926978DD075D8853B5F4B9A434" import="1">Corn/Assets/plantation_ind_corn.fxsxml</File>
+    <File md5="0E8FFF9001AA734CA8EC05A418E2C6F6" import="1">Corn/Assets/plantation_ind_corn.gr2</File>
+    <File md5="BDB3CCB15B5E98D6660CAE9E58D78D1E" import="1">Corn/Assets/plantation_mid_corn.fxsxml</File>
+    <File md5="D608CA534A1AA20B31C982B847A31F91" import="1">Corn/Assets/plantation_mid_corn.gr2</File>
+    <File md5="E38FAA1632437A5E25829AF03E5703AA" import="1">Corn/Assets/pl_plantation_ind_corn.fxsxml</File>
+    <File md5="CC6E4719630284F60A2F574B96501EC6" import="1">Corn/Assets/pl_plantation_ind_corn.gr2</File>
+    <File md5="1F6970A60EEF70A2A974BB71AD6BBB9C" import="1">Corn/Assets/pl_plantation_mid_corn.fxsxml</File>
+    <File md5="D982943886D5AAFB1D65306E13E87A63" import="1">Corn/Assets/pl_plantation_mid_corn.gr2</File>
+    <File md5="70CCB986A2AB258947C40307CD86A8E7" import="1">Corn/Assets/pl_resource_corn_diff.dds</File>
+    <File md5="D257D5D709D5B004DBF809557DEF5A8D" import="1">Corn/Assets/resource_corn.fxsxml</File>
+    <File md5="F39A0090650DB5C7F6A31252C2203AEA" import="1">Corn/Assets/resource_corn.gr2</File>
+    <File md5="CB2FEFC733D2E4EA1325B978FA56E9B2" import="1">Corn/Assets/resource_corn_diff.dds</File>
+    <File md5="C8D92A47936A0B2B7E5947FE8F02058D" import="1">Corn/Assets/resource_corn_sref.dds</File>
+    <File md5="905A4CDEEA832FA80C9BBF8355A932D6" import="1">Corn/Assets/SV_Corn.dds</File>
+    <File md5="C1611C40A1A525F248812AC7392A7855" import="0">Corn/FarmFixDefine.sql</File>
+    <File md5="6DD45DF71EE2EE7363D66333B0D3AE8F" import="0">Corn/ResCorn.xml</File>
+    <File md5="07B8E40B2AEA00B79BBAE8C979E598F1" import="0">Improvement/DistilleryDefine.sql</File>
+    <File md5="C0C2110D80602347ED0ADE9182E59878" import="1">Improvement/Graphics/Ind14.dds</File>
+    <File md5="548EA69BC09BC130EAD3A567A822E94A" import="1">Improvement/Graphics/Ind14_shadow.dds</File>
+    <File md5="D90DFC7D8DE65661DF8ABFC6C3D81A23" import="1">Improvement/Graphics/Industrial Factory B.fxsxml</File>
+    <File md5="BA98BBA41EF97FF037C8E887B47575C0" import="1">Improvement/Graphics/Industrial Factory HB.fxsxml</File>
+    <File md5="17EB2DF94A343714F086D860E22AE55E" import="1">Improvement/Graphics/Industrial Factory HB.gr2</File>
+    <File md5="7712CDF45BEDD150C618146FD0DE9268" import="1">Improvement/Graphics/Industrial Factory PL.fxsxml</File>
+    <File md5="DC4F1B2482DFB9456ABCF586C36EF4DA" import="1">Improvement/Graphics/Industrial Factory PL.gr2</File>
+    <File md5="0C9907B6681CA16BF1D3CC638FAABAD0" import="1">Improvement/Graphics/Industrial Factory.gr2</File>
+    <File md5="3708637430085C0A00226FABE16EF8AD" import="1">Improvement/Graphics/SV_distillery.dds</File>
+    <File md5="BADB407B00254B13D5EE71EF74F73EBD" import="0">Improvement/KY_Improvements.xml</File>
+    <File md5="732EB67604041A6BA0336BDC7CDDF5A3" import="0">Lua/KY_Bourbon.lua</File>
+    <File md5="6795D8002790A4E7FBAEE4880267B81F" import="0">Lua/KY_Corn.lua</File>
+    <File md5="4C41BD95299CEDD8DCF73A805CB1747A" import="0">Lua/KY_Dummy_Bldgs.xml</File>
+    <File md5="D63DC8BB6AA0F310DD55B264DB49C7E2" import="1">Lua/PlotIterators.lua</File>
+    <File md5="08B9C0C575AD05EF3288A61EADEE12B4" import="1">ModSupport/KY_Decisions.lua</File>
+    <File md5="77C93DCCAF0A03AC9EC3BF89B65FBFB3" import="0">ModSupport/KY_SupportText.xml</File>
+    <File md5="C7155AFE60EB944B5366CD1B862AD373" import="0">ModSupport/KY_TSL.sql</File>
+    <File md5="FC7C8CF6D1CEC0DC7CA76CC6BD8733EF" import="0">ModSupport/KY_ModSupport.sql</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Code/KY_Civilization.xml</UpdateDatabase>
+      <UpdateDatabase>Code/KY_Leader.xml</UpdateDatabase>
+      <UpdateDatabase>Code/KY_Trait.xml</UpdateDatabase>
+      <UpdateDatabase>Code/KY_Units.xml</UpdateDatabase>
+      <UpdateDatabase>Code/KY_Sound.xml</UpdateDatabase>
+      <UpdateDatabase>Code/KY_IconAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>Improvement/KY_Improvements.xml</UpdateDatabase>
+      <UpdateDatabase>Lua/KY_Dummy_Bldgs.xml</UpdateDatabase>
+      <UpdateDatabase>Improvement/DistilleryDefine.sql</UpdateDatabase>
+      <UpdateDatabase>Code/KY_Unit_Defines.sql</UpdateDatabase>
+      <UpdateDatabase>Code/KY_Diplomacy.sql</UpdateDatabase>
+      <UpdateDatabase>Code/KY_DiploReplies.xml</UpdateDatabase>
+      <UpdateDatabase>Corn/ResCorn.xml</UpdateDatabase>
+      <UpdateDatabase>Corn/ArtDefines_Corn.sql</UpdateDatabase>
+      <UpdateDatabase>Corn/Assets/FontIcons.xml</UpdateDatabase>
+      <UpdateDatabase>ModSupport/KY_ModSupport.sql</UpdateDatabase>
+      <UpdateDatabase>ModSupport/KY_TSL.sql</UpdateDatabase>
+      <UpdateDatabase>ModSupport/KY_SupportText.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/KY_Bourbon.lua">
+      <Name>KY_Bourbon</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/KY_Corn.lua">
+      <Name>KY_Corn</Name>
+      <Description>
+      </Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

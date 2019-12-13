@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/27/2016 11:16:41 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<!-- Adding a new CityState entry. -->
+	<MinorCivilizations>
+		<Row>
+			<Type>MINOR_CIV_SANTO_DOMINGO</Type>
+			<Description>TXT_KEY_CITYSTATE_SANTO_DOMINGO</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_SANTO_DOMINGO</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_SANTO_DOMINGO_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CITYSTATE_SANTO_DOMINGO_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_MIDDLE_CYAN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN</ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+	</MinorCivilizations>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_SANTO_DOMINGO</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_SANTO_DOMINGO</CityName>
+		</Row>
+	</MinorCivilization_CityNames>
+	<MinorCivilization_Flavors>
+		<Row>
+			<MinorCivType>MINOR_CIV_SANTO_DOMINGO</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SANTO_DOMINGO</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SANTO_DOMINGO</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SANTO_DOMINGO</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+	</MinorCivilization_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITYSTATE_SANTO_DOMINGO">
+			<Text>Santo Domingo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_SANTO_DOMINGO_ADJ">
+			<Text>Santo Domingo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_SANTO_DOMINGO_PEDIA">
+			<Text>Santo Domingo is the capital and largest city in the Dominican Republic and the largest metropolitan area in the Caribbean by population. Founded by Bartholomew Columbus in 1496, on the east bank of the Ozama River and then moved by Nicolas de Ovando in 1502 to the west bank of the river, the city is the oldest continuously inhabited European settlement in the Americas, and was the first seat of the Spanish colonial rule in the New World. Santo Domingo is the site of the first university, cathedral, castle, monastery, and fortress in the New World. The city's Colonial Zone was declared as a World Heritage Site by UNESCO. Santo Domingo was called Ciudad Trujillo from 1936 to 1961, after the Dominican Republic's dictator, Rafael Trujillo, named the capital after himself. Following his assassination, the city resumed its original designation. Santo Domingo is the cultural, financial, political, commercial and industrial center of the Dominican Republic, with the country's most important industries being located within the city. Santo Domingo also serves as the chief seaport of the country. The city's harbor at the mouth of the Ozama River accommodates the largest vessels, and the port handles both heavy passenger and freight traffic. Temperatures are high year round, with a cool breeze around winter time.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
+  

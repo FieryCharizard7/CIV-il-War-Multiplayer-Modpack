@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/27/2016 11:16:41 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<!-- Adding a new CityState entry. -->
+	<MinorCivilizations>
+		<Row>
+			<Type>MINOR_CIV_HAVANA</Type>
+			<Description>TXT_KEY_CITYSTATE_HAVANA</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_HAVANA</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_HAVANA_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CITYSTATE_HAVANA_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_BLUE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN</ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+	</MinorCivilizations>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_HAVANA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_HAVANA</CityName>
+		</Row>
+	</MinorCivilization_CityNames>
+	<MinorCivilization_Flavors>
+		<Row>
+			<MinorCivType>MINOR_CIV_HAVANA</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HAVANA</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HAVANA</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HAVANA</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+	</MinorCivilization_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITYSTATE_HAVANA">
+			<Text>Havana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_HAVANA_ADJ">
+			<Text>Habanero</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_HAVANA_PEDIA">
+			<Text>Havana is the capital city, largest city, province, major port, and leading commercial center of Cuba. The city extends mostly westward and southward from the bay, which is entered through a narrow inlet and which divides into three main harbors: Mari melena, Guanabacoa and Antares. The sluggish Almendares River traverses the city from south to north, entering the Straits of Florida a few miles west of the bay. The city of Havana was founded by the Spanish in the 16th century and due to its strategic location it served as a springboard for the Spanish conquest of the Americas, becoming a stopping point for treasure-laden Spanish galleons returning to Spain. King Philip II of Spain granted Havana the title of City in 1592. Walls as well as forts were built to protect the old city. The sinking of the U.S. battleship Maine in Havana's harbor in 1898 was the immediate cause of the Spanish�American War.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
+  

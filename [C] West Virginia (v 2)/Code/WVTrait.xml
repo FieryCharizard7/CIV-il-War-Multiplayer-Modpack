@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/1/2014 11:53:20 AM -->
+<GameData>
+
+	<Traits>
+		<Row>
+			<Type>TRAIT_WV_MOUNTAINEER</Type>
+			<Description>TXT_KEY_TRAIT_WV_MOUNTAINEER</Description>
+			<ShortDescription>TXT_KEY_TRAIT_WV_MOUNTAINEER_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+
+
+	<Trait_ResourceQuantityModifiers>
+		<Row>
+			<TraitType>TRAIT_WV_MOUNTAINEER</TraitType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>
+	</Trait_ResourceQuantityModifiers>
+
+
+	<Trait_FreePromotionUnitCombats>
+		<Row>
+			<TraitType>TRAIT_WV_MOUNTAINEER</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_MOUNTAINEER</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WV_MOUNTAINEER</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<PromotionType>PROMOTION_MOUNTAINEER</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WV_MOUNTAINEER</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_MOUNTAINEER</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WV_MOUNTAINEER</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_MOUNTAINEER</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WV_MOUNTAINEER</TraitType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<PromotionType>PROMOTION_MOUNTAINEER</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WV_MOUNTAINEER</TraitType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_MOUNTAINEER</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WV_MOUNTAINEER</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<PromotionType>PROMOTION_MOUNTAINEER</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WV_MOUNTAINEER</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WV_MOUNTAINEER</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WV_MOUNTAINEER</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WV_MOUNTAINEER</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WV_MOUNTAINEER</TraitType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WV_MOUNTAINEER</TraitType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WV_MOUNTAINEER</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+		</Row>
+	</Trait_FreePromotionUnitCombats>
+	
+	
+	<Leader_Traits>
+		<Row>
+			<LeaderType>LEADER_CALC_PIERPONT</LeaderType>
+			<TraitType>TRAIT_WV_MOUNTAINEER</TraitType>
+		</Row>
+	</Leader_Traits>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TRAIT_WV_MOUNTAINEER">
+			<Text>Double quantities of [ICON_RES_COAL] Coal; all units get extra defense in hills and ignore terrain cost.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_WV_MOUNTAINEER_SHORT">
+			<Text>Mountain Country</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

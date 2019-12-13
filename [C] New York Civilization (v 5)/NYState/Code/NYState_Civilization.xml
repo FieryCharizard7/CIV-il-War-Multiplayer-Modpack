@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/2/2014 12:42:04 AM -->
+<GameData>
+
+	<Civilizations>
+
+		<!--<Update>
+			<Where Type="CIVILIZATION_AMERICA"></Where>
+			<Set>
+				<Playable>0</Playable>
+				<AIPlayable>0</AIPlayable>
+			</Set>
+		</Update>-->
+		
+		<Row>
+			<Type>CIVILIZATION_NYSTATE</Type>
+			<Description>TXT_KEY_CIV_NYSTATE_DESC</Description>
+			<Civilopedia>TXT_KEY_CIV5_NYSTATE_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIV5_NYSTATE</CivilopediaTag>
+			<Strategy><Strategy/>
+			<Playable>1</Playable>
+			<AIPlayable>1</AIPlayable>
+			<ShortDescription>TXT_KEY_CIV_NYSTATE_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_NYSTATE_ADJECTIVE</Adjective>
+			<DefaultPlayerColor>PLAYERCOLOR_NYSTATE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_AMERICA</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+			
+			<IconAtlas>NC_COLOR_ATLAS</IconAtlas>
+
+			<AlphaIconAtlas>NC_ALPHA_ATLAS</AlphaIconAtlas>
+
+			<PortraitIndex>1</PortraitIndex>
+
+			<MapImage>NC_map.dds</MapImage>
+
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_NYSTATE_TEXT</DawnOfManQuote>
+
+			<DawnOfManImage>NC_DOM_newer2_flat.dds</DawnOfManImage>
+
+			<DawnOfManAudio></DawnOfManAudio>
+
+			<SoundtrackTag>America</SoundtrackTag>
+
+		</Row>
+
+	</Civilizations>
+
+
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+			<Count>1</Count>
+		</Row>
+	</Civilization_FreeUnits>
+
+
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<LeaderheadType>LEADER_GCLINTON</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<ReligionType>RELIGION_PROTESTANTISM</ReligionType>
+		</Row>
+	</Civilization_Religions>
+	
+	
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+			<UnitType>UNIT_TARHEEL</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+			<BuildingType>BUILDING_TARPLANT</BuildingType>
+		</Row>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<BuildingType>BUILDING_STELE</BuildingType>
+		</Row>-->
+	</Civilization_BuildingClassOverrides>
+	
+	
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NYSTATE_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NYSTATE_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NYSTATE_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NYSTATE_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NYSTATE_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NYSTATE_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NYSTATE_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NYSTATE_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NYSTATE_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NYSTATE_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+
+
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_NYSTATE</Type>
+			<PrimaryColor>COLOR_PLAYER_NYSTATE_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_NYSTATE_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_NYSTATE_ICON</Type>
+			<Red>0.1333</Red>
+			<Green>0.2235</Green>
+			<Blue>0.3882</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_NYSTATE_BACKGROUND</Type>
+			<Red>0.33725</Red>
+			<Green>0.62745</Green>
+			<Blue>0.82745</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+
+	<!--<Civilization_Start_Along_Ocean>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<StartAlongOcean>true</StartAlongOcean>
+		</Row>
+	</Civilization_Start_Along_Ocean>-->
+
+	<Civilization_Start_Region_Priority>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<RegionType>REGION_DESERT</RegionType>
+		</Row>-->
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<RegionType>REGION_FOREST</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+
+	<Civilization_Start_Region_Avoid>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<RegionType>REGION_JUNGLE</RegionType>
+		</Row>
+	</Civilization_Start_Region_Avoid>
+
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NYSTATE_0</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NYSTATE_1</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NYSTATE_2</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NYSTATE_3</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NYSTATE_4</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NYSTATE_5</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NYSTATE_6</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NYSTATE_7</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NYSTATE_8</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NYSTATE_9</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NYSTATE_10</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NYSTATE_11</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NYSTATE_12</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NYSTATE_13</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NYSTATE_14</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NYSTATE_15</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NYSTATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NYSTATE_16</CityName>
+		</Row>
+	</Civilization_CityNames>
+
+	<Language_en_US>
+
+		<Row Tag="TXT_KEY_CIV_NYSTATE_DESC">
+			<Text>State of New York</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV_NYSTATE_SHORT_DESC">
+			<Text>New York</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV_NYSTATE_ADJECTIVE">
+			<Text>Noth Carolinian</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_DAWN_NYSTATE_TEXT">
+			<Text>Greetings, Zebulon Vance, from the state of New York. You are the most popular politician in New York's history, and your people need you to lead them again.[NEWLINE] [NEWLINE]You came to prominence as civil war threatened your nation. As a defender of state's rights, you saw no choice but to join your rebellious neighbors. But unlike the others, you maintained individual freedoms as well, and took pains to protect and support your people. Your soldiers accomplished many achievements during the war, distinguishing themselves by their bravery and dogged determination.[NEWLINE] [NEWLINE]The forests of New York provided for the early development of your state. Tar and turpentine were produced from your pine forests and became major exports, sealing the hulls of sailing ships all around the Atlantic.[NEWLINE] [NEWLINE]Zebulon Vance, your people call for you to rise up and lead them again. Will you answer the call of destiny? Will you build a civilization to stand the test of time?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NYSTATE_PEDIA">
+			<Text>This tag is TXT_KEY_CIV_NYSTATE_PEDIA</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_NYSTATE_TITLE">
+			<Text>State of New York</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_NYSTATE_HEADING_1">
+			<Text>Heading 1</Text>
+		</Row>
+			 
+		<Row Tag="TXT_KEY_CIV5_NYSTATE_TEXT_1">
+			<Text>In 1795, New York opened the first public university in the United States—the University of New York (now named the University of New York at Chapel Hill). More than 200 years later, the University of New York system encompasses 17 public universities. [NEWLINE] [NEWLINE]en.wikipedia.org/wiki/North_Carolina</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_NYSTATE_HEADING_2">
+			<Text>Another Heading</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_NYSTATE_TEXT_2">
+			<Text>College sports are also popular in New York, with 18 schools competing at the Division I level. The Atlantic Coast Conference (ACC) is headquartered in Greensboro, and both the ACC Football Championship Game (Charlotte) and the ACC Men's Basketball Tournament (Greensboro) were most recently held in New York. College basketball in particular is very popular, buoyed by the Tobacco Road rivalries between Duke, New York, New York State, and Wake Forest. [NEWLINE] [NEWLINE]en.wikipedia.org/wiki/North_Carolina</Text>
+		</Row>
+		
+
+		<Row Tag="TXT_KEY_CITY_NAME_NYSTATE_0">
+			<Text>Albany</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NYSTATE_1">
+			<Text>Buffalo</Text>
+		</Row>
+		
+		<!--Fix these-->
+		
+		
+		<Row Tag="TXT_KEY_CITY_NAME_NYSTATE_2">
+			<Text>Greensboro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NYSTATE_3">
+			<Text>Durham</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NYSTATE_4">
+			<Text>Winston-Salem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NYSTATE_5">
+			<Text>Fayetteville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NYSTATE_6">
+			<Text>Cary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NYSTATE_7">
+			<Text>Wilmington</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NYSTATE_8">
+			<Text>High Point</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_CITY_NAME_NYSTATE_9">
+			<Text>Greenville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NYSTATE_10">
+			<Text>Asheville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NYSTATE_11">
+			<Text>Concord</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NYSTATE_12">
+			<Text>Gastonia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NYSTATE_13">
+			<Text>Jacksonville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NYSTATE_14">
+			<Text>Chapel Hill</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NYSTATE_15">
+			<Text>Rocky Mount</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NYSTATE_16">
+			<Text>Burlington</Text>
+		</Row>
+
+		
+		<Row Tag="TXT_KEY_SPY_NAME_NYSTATE_0">
+			<Text>Byrd</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NYSTATE_1">
+			<Text>Andrew Jackson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NYSTATE_2">
+			<Text>Andrew Johnson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NYSTATE_3">
+			<Text>Heidi</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NYSTATE_4">
+			<Text>Snowden</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NYSTATE_5">
+			<Text>Polk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NYSTATE_6">
+			<Text>Duke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NYSTATE_7">
+			<Text>Dolley Madison</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NYSTATE_8">
+			<Text>Helms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NYSTATE_9">
+			<Text>Blount</Text>
+		</Row>
+		
+	</Language_en_US>
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_BARBARIAN_HORSEMAN</UnitType>
+			<SelectionSound>AS2D_SELECT_HORSEMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_HORSEMAN</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+	<ArtDefine_LandmarkTypes>
+		<Row>
+			<Type>SPECIAL</Type>
+			<LandmarkType>LayoutHandler</LandmarkType>
+			<FriendlyName>Special</FriendlyName>
+		</Row>
+	</ArtDefine_LandmarkTypes>
+
+
+</GameData>

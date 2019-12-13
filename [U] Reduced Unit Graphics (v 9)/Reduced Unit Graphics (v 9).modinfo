@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="de77c612-15a0-4580-92fd-535b525df700" version="9">
+  <Properties>
+    <Name>Reduced Unit Graphics</Name>
+    <Teaser>[COLOR_YELLOW]Units represented by a few larger models.[/COLOR]</Teaser>
+    <Description>Reduced Unit Graphics
+for Civilization V (vanilla), Civilization V: Gods + Kings, and Civilization V: Brave New World
+
+Causes units to be represented by a few (usually 3) larger models instead of many small ones.  Makes it easier to tell units apart, and it can also increase game performance!
+
+Integrates with R.E.D. Modpack (v 27), but can NOT be activated at the same time as Single Unit Graphics, R.E.D. Xtreme, or R.E.D. - Just Ethnic Diversity.</Description>
+    <Authors>Nutty.</Authors>
+    <SpecialThanks>Gedemon (R.E.D. Modpack), Kael (Modders Guide)</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://forums.civfanatics.com/showthread.php?t=415885</Homepage>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="01127f62-3896-4897-b169-ecab445786cd" minversion="0" maxversion="999" title="Unofficial Patch and Vanilla Enhanced" />
+    <Mod id="abaa043a-f851-4c61-bd18-52d480862cd0" minversion="0" maxversion="999" title="City State Diplomacy Mod" />
+    <Mod id="d0bc4a46-8a69-46b5-917a-8de842f82ed9" minversion="0" maxversion="999" title="City States UU" />
+    <Mod id="6b326f24-940e-4fce-bfbf-e12a0bb4d09e" minversion="0" maxversion="999" title="Mechanized Infantry with soldiers, Resized" />
+    <Mod id="f78d7560-ecf0-4f48-9a5c-f2fb4b6ca22a" minversion="0" maxversion="999" title="Mechanized Infantry with soldiers" />
+    <Mod id="ffc5f55f-1cf2-4263-bfde-a339c477b9a6" minversion="0" maxversion="999" title="R.E.D. HotFix" />
+    <Mod id="01127f62-3896-4897-b169-ecab445786cd" minversion="0" maxversion="999" title="Civ V Unofficial Patch v2.3.2 (GK)" />
+    <Mod id="8670da15-d435-44ea-9758-7438cb321411" minversion="0" maxversion="999" title="R.E.D. Modpack" />
+  </References>
+  <Blocks>
+    <Mod id="4a60955e-7dc2-40bc-895e-2e1dd7d46651" minversion="0" maxversion="999" title="Single Unit Graphics" />
+    <Mod id="b3ae4a21-6f9f-47aa-b4e0-34ede1fda0ab" minversion="0" maxversion="999" title="R.E.D. Xtreme" />
+    <Mod id="7f80db44-cd76-493b-9f45-6cb3ee2dfccd" minversion="0" maxversion="999" title="R.E.D. - Just Ethnic Diversity" />
+  </Blocks>
+  <Files>
+    <File md5="566ED8D4B22BA9B6515B5AD0709E6F4E" import="0">SQL/RUGREDCompatibility.sql</File>
+    <File md5="DB47AA625C6D3D40CD4C092C68F85B6B" import="0">SQL/RUGCompatibility.sql</File>
+    <File md5="C9BD4A54DA23A21E19BC6767BAA507A3" import="0">SQL/ReducedUnitGraphics.sql</File>
+    <File md5="971865A8C6A1705888DEB59EAFE497BA" import="0">SQL/RUGREDSettlers.sql</File>
+    <File md5="205738819D837053337431C354C2117F" import="1">XML/unitformations.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>SQL/ReducedUnitGraphics.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/RUGREDCompatibility.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/RUGREDSettlers.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/RUGCompatibility.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

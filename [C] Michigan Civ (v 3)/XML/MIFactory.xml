@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/1/2014 8:22:09 PM -->
+<GameData>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_AUTO_PLANT</Type>
+			<BuildingClass>BUILDINGCLASS_FACTORY</BuildingClass>
+			<Cost>315</Cost>
+			<GoldMaintenance>3</GoldMaintenance>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<Help>TXT_KEY_BUILDING_AUTO_PLANT_HELP</Help>
+			<Description>TXT_KEY_BUILDING_AUTO_PLANT</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_AUTO_PLANT_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_AUTO_PLANT_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_FACTORY</ArtDefineTag>
+			<XBuiltTriggersIdeologyChoice>3</XBuiltTriggersIdeologyChoice>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistCount>2</SpecialistCount>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>0</HurryCostModifier>
+			<IconAtlas>MI_COLOR_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_AUTO_PLANT</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AUTO_PLANT</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_AUTO_PLANT</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_YieldModifiers>
+
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_AUTO_PLANT</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+
+	<Building_UnitCombatProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_AUTO_PLANT</BuildingType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<Modifier>25</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AUTO_PLANT</BuildingType>
+			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
+			<Modifier>25</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AUTO_PLANT</BuildingType>
+			<UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
+			<Modifier>25</Modifier>
+		</Row>
+	</Building_UnitCombatProductionModifiers>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_AUTO_PLANT</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AUTO_PLANT</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AUTO_PLANT</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Building_ResourceQuantityRequirements>
+		<Row>
+			<BuildingType>BUILDING_AUTO_PLANT</BuildingType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Building_ResourceQuantityRequirements>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_MICHIGAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+			<BuildingType>BUILDING_AUTO_PLANT</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_AUTO_PLANT">
+			<Text>Auto Plant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AUTO_PLANT_STRATEGY">
+			<Text>The Auto Plant provides the usual benefits of a factory, with +25% production for Armor and Air units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AUTO_PLANT_HELP">
+			<Text>The Auto Plant replaces the Factory and boosts production for Armor and Air units. They cost 10% less to build. Building 3 allows you to choose an Ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_AUTO_PLANT_TEXT">
+			<Text>Auto plants have had a huge impact on culture, and were incredibly productive during wartime.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

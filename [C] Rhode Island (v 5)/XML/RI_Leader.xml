@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/2/2014 1:27:08 AM -->
+<GameData>
+
+	<Leaders>
+		<Row>
+			<Type>LEADER_ROGERWILLIAMS</Type>
+
+			<Description>TXT_KEY_LEADER_ROGERWILLIAMS</Description>
+
+			<Civilopedia>TXT_KEY_LEADER_ROGERWILLIAMS_PEDIA</Civilopedia>
+
+			<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_ROGERWILLIAMS</CivilopediaTag>
+
+			<ArtDefineTag>RI_scene.xml</ArtDefineTag>
+
+			<VictoryCompetitiveness>7</VictoryCompetitiveness>
+			<WonderCompetitiveness>6</WonderCompetitiveness>
+			<MinorCivCompetitiveness>5</MinorCivCompetitiveness>
+			<Boldness>5</Boldness>
+			<DiploBalance>7</DiploBalance>
+			<WarmongerHate>5</WarmongerHate>
+			<WorkAgainstWillingness>0</WorkAgainstWillingness>
+			<WorkWithWillingness>0</WorkWithWillingness>
+			<DenounceWillingness>6</DenounceWillingness>
+			<DoFWillingness>7</DoFWillingness>
+			<Loyalty>6</Loyalty>
+			<Neediness>4</Neediness>
+			<Forgiveness>4</Forgiveness>
+			<Chattiness>5</Chattiness>
+			<Meanness>3</Meanness>
+			<IconAtlas>RI_COLOR_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+
+		</Row>
+	</Leaders>
+
+	<Leader_MajorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_WAR</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_HOSTILE</MajorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_DECEPTIVE</MajorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_GUARDED</MajorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_AFRAID</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_FRIENDLY</MajorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_NEUTRAL</MajorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+	</Leader_MajorCivApproachBiases>
+
+	<Leader_MinorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+	</Leader_MinorCivApproachBiases>
+
+	<Leader_Flavors>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_USE_NUKE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_ARCHAEOLOGY</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_I_TRADE_DESTINATION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROGERWILLIAMS</LeaderType>
+			<FlavorType>FLAVOR_AIRLIFT</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+	</Leader_Flavors>
+	
+	<!-- TEXT -->
+
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_ROGERWILLIAMS">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_ROGERWILLIAMS_FIRSTGREETING_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ROGERWILLIAMS">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_ROGERWILLIAMS_DEFEATED_%</Response>
+		</Row>
+	</Diplomacy_Responses>
+		
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEADER_ROGERWILLIAMS">
+			<Text>Roger Williams</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ROGERWILLIAMS_PEDIA">
+			<Text>Roger Williams</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ROGERWILLIAMS">
+			<Text>Test text.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ROGERWILLIAMS_HEADING_1">
+			<Text>Happiness Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ROGERWILLIAMS_TEXT_1">
+			<Text>The [ICON_HAPPINESS_1] Happiness bonus works as follows: The first city produces no Unhappiness; with 2 cities, you experience 1 Unhappiness per city; with 3, 2 Unhappiness for a total of 6 Unhappiness from the number of cities); and so on.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ROGERWILLIAMS_HEADING_2">
+			<Text>Summary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ROGERWILLIAMS_TEXT_2">
+			<Text>Roger Williams was an English Protestant theologian who was an early proponent of religious freedom and the separation of church and state. In 1636, he began the colony of Providence Plantation, which provided a refuge for religious minorities. Williams started the first Baptist church in America, the First Baptist Church of Providence. He was a student of Native American languages and an advocate for fair dealings with Native Americans. Williams was arguably the first abolitionist in North America, having organized the first attempt to prohibit slavery in any of the original thirteen colonies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ROGERWILLIAMS_HEADING_3">
+			<Text>Tidbit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ROGERWILLIAMS_FACT_3">
+			<Text>In the spring of 1636, Williams and a number of his followers from Salem began a new settlement on land that Williams had bought from Massasoit in present day Rumford, Rhode Island. However, Plymouth authorities asserted that he was within their land grant and warned that they might still arrest him. Williams, with his crops already planted, decided to cross the Seekonk River, as that territory lay beyond any charter. The outcasts rowed and encountered Native Americans who greeted him with the phrase "What Cheer, Neetop" (Hello, friend). He acquired land from Canonicus and Miantonomi, chief sachems of the Narragansetts. Williams and twelve "loving friends" then established his new settlement which Williams called "Providence", because he felt that God's Providence had brought him there. (Williams would later name his third child, the first born in his new settlement, "Providence" as well.) [NEWLINE]en.wikipedia.org/wiki/Roger_Williams</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ROGERWILLIAMS_SUBTITLE">
+			<Text>Governor of Rhode Island</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ROGERWILLIAMS_NAME">
+			<Text>Roger Williams</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ROGERWILLIAMS_LIVED">
+			<Text>1603 - 1683 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ROGERWILLIAMS_FIRSTGREETING_1">
+			<Text>Greetings from Rhode Island. We don't need a lot of cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ROGERWILLIAMS_FIRSTGREETING_2">
+			<Text>I am Roger Williams of Rhode Island, I welcome you in the name of my people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ROGERWILLIAMS_FIRSTGREETING_3">
+			<Text>Welcome to Rhode Island, where you are free to practice your religion as you please.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ROGERWILLIAMS_DEFEATED_1">
+			<Text>You have bested us. The world weeps for the loss you have caused.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ROGERWILLIAMS_DEFEATED_2">
+			<Text>We may be defeated, but we will rise again.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

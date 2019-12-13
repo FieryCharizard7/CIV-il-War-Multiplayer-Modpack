@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4bb71842-435e-4475-b418-fdab9e1966c8" version="1">
+  <Properties>
+    <Name>Units at Half Cost</Name>
+    <Teaser>Reduce by half the cost of all units in the game</Teaser>
+    <Description>Very simple mod that simply reduce the production cost of all units of the game by half.
+
+Since I've owned Civilization V, I've always thought that the units were very long to train, being used to the costs of Civilization IV. Now that I learned how to mod, I've decided to create this mod for myself, and all those who think, like me, that the units in Civilization V take too long to train, making it hard when you're focusing Wonders or buildings to create a small army to defend your empire.
+
+Fully compatible with Vanilla, all DLCs, as well as modded units.
+
+Note: Does not reduce the Gold or Faith costs of the units, as I think those are balanced already.</Description>
+    <Authors>Aiktor</Authors>
+    <SpecialThanks>Jaden</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="4048D691521292D60D37D3882FE03FC8" import="0">UnitCost.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>UnitCost.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/2/2014 1:27:08 AM -->
+<GameData>
+
+	<Leaders>
+		<Row>
+			<Type>LEADER_ROCKEFELLER</Type>
+
+			<Description>TXT_KEY_LEADER_ROCKEFELLER</Description>
+
+			<Civilopedia>TXT_KEY_LEADER_ROCKEFELLER_PEDIA</Civilopedia>
+
+			<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_ROCKEFELLER</CivilopediaTag>
+
+			<ArtDefineTag>NY_scene_new.xml</ArtDefineTag>
+
+			<VictoryCompetitiveness>6</VictoryCompetitiveness>
+			<WonderCompetitiveness>6</WonderCompetitiveness>
+			<MinorCivCompetitiveness>8</MinorCivCompetitiveness>
+			<Boldness>6</Boldness>
+			<DiploBalance>6</DiploBalance>
+			<WarmongerHate>6</WarmongerHate>
+			<WorkAgainstWillingness>0</WorkAgainstWillingness>
+			<WorkWithWillingness>0</WorkWithWillingness>
+			<DenounceWillingness>6</DenounceWillingness>
+			<DoFWillingness>7</DoFWillingness>
+			<Loyalty>7</Loyalty>
+			<Neediness>4</Neediness>
+			<Forgiveness>4</Forgiveness>
+			<Chattiness>5</Chattiness>
+			<Meanness>5</Meanness>
+			
+			<PortraitIndex>2</PortraitIndex>
+
+			<IconAtlas>NY_COLOR_ATLAS</IconAtlas>
+
+		</Row>
+	</Leaders>
+
+	<Leader_MajorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_WAR</MajorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_HOSTILE</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_DECEPTIVE</MajorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_GUARDED</MajorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_AFRAID</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_FRIENDLY</MajorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_NEUTRAL</MajorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+	</Leader_MajorCivApproachBiases>
+
+	<Leader_MinorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+	</Leader_MinorCivApproachBiases>
+
+	<Leader_Flavors>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_USE_NUKE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_ARCHAEOLOGY</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_I_TRADE_DESTINATION</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_ROCKEFELLER</LeaderType>
+			<FlavorType>FLAVOR_AIRLIFT</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Leader_Flavors>
+	
+	<!-- TEXT -->
+
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_ROCKEFELLER">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_ROCKEFELLER_FIRSTGREETING_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ROCKEFELLER">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_ROCKEFELLER_DEFEATED_%</Response>
+		</Row>
+	</Diplomacy_Responses>
+		
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEADER_ROCKEFELLER">
+			<Text>Rockefeller</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ROCKEFELLER_PEDIA">
+			<Text>Captain of Industry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ROCKEFELLER">
+			<Text>Test text.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ROCKEFELLER_HEADING_1">
+			<Text>Summary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ROCKEFELLER_TEXT_1">
+			<Text>Rockefeller is considered the first billionnaire in the US.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ROCKEFELLER_HEADING_2">
+			<Text>Quote</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ROCKEFELLER_FACT_2">
+			<Text>"I have ways of making money that you know nothing of."</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ROCKEFELLER_SUBTITLE">
+			<Text>Captain of Industry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ROCKEFELLER_NAME">
+			<Text>John D Rockefeller</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ROCKEFELLER_LIVED">
+			<Text>1839 - 1937 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ROCKEFELLER_FIRSTGREETING_1">
+			<Text>Greetings from New York, fugetaboutit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ROCKEFELLER_FIRSTGREETING_2">
+			<Text>I am John D Rockefeller of New York, I welcome you in the name of my people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ROCKEFELLER_FIRSTGREETING_3">
+			<Text>Welcome to New York, the city that never sleeps.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ROCKEFELLER_DEFEATED_1">
+			<Text>You have bested us. The world weeps for the loss you have caused.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ROCKEFELLER_DEFEATED_2">
+			<Text>We may be defeated, but we will rise again.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="87355a6c-f0c2-41c0-b832-95c654a83dda" version="1">
+  <Properties>
+    <Name>National Navy Academy</Name>
+    <Teaser>National Navy Academy Wonder</Teaser>
+    <Description>1 Free Great Admiral.
++15 XP and +15% Production for all Sea Units.
+Requires a SeaPort in the city
+Grants the Supply Promotion to each new naval unit produced in this city.</Description>
+    <Authors>Joshua Adams</Authors>
+    <SpecialThanks>framedarchiture</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="B8B9DD4E8D373210E39257519AF8C81E" import="1">AN_Atlas45.dds</File>
+    <File md5="C9B32C231B515349B9C5DAD2328E3F44" import="1">AN_SMALL_ATLAS128.dds</File>
+    <File md5="BAEB08680935871E9039871E8D5CD6A1" import="1">AN_SMALL_ATLAS256.dds</File>
+    <File md5="681B4E7D2ABCE8C8CAA1CEBAC5B78DFE" import="1">AN_SMALL_ATLAS64.dds</File>
+    <File md5="89782AC73D6B30760F1E8DD1411649CA" import="0">National Navy Academy.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>National Navy Academy.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

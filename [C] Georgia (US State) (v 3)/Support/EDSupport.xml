@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/7/2015 6:39:39 AM -->
+<GameData>
+
+	<Language_en_US>
+
+		<!--RYOGA'S UNIQUE CULTURAL INFLUENCE  01c131ef-2162-4a7b-b845-763a4e675940 -->
+		<Row Tag="TXT_KEY_GENERIC_CALCGEORGIA_INFLUENTIAL_ON_AI_1">
+			<Text>Our people are now waving your Confederate Flags and drinking your Cola. I hope this madness does not spread to the rest of the world.</Text>
+		</Row>
+
+	<!--Post War Decision Text-->
+		          
+		<Row Tag="TXT_KEY_BUILDING_DECISIONS_GAWARMARKER_DESC">
+			<Text>Marker Building placed on war outbreak.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DECISIONS_GARECONTRUCTION_DESC">
+			<Text>Reconstruction</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DECISIONS_GACIVILRIGHTS_DESC">
+			<Text>Civil Rights</Text>
+		</Row>
+		<!--<Row Tag="TXT_KEY_BUILDING_DECISIONS_ORCIVILWAR_DESC">
+			<Text>Oregon War Bonus</Text>
+		</Row>-->
+		           
+		<Row Tag ="TXT_KEY_DECISIONS_CALCGEORGIA_GARECONSTRUCTION_NAME">
+			<Text>Begin Reconstruction</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_DECISIONS_CALCGEORGIA_GARECONSTRUCTION_DESC">
+			<Text>
+				War has ravaged our lands, it might be time for reconstruction...[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Georgia
+				[NEWLINE][ICON_BULLET]Player must be at peace but been at war in the past
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]500 [ICON_GOLD] Gold
+				[NEWLINE][ICON_BULLET]1 [ICON_MAGISTRATES] Magistrate
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Receive a Worker.
+				[NEWLINE][ICON_BULLET]Workers get 25% improvement speed.
+				<!--[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Note: the [ICON_GOLD] Gold value of trade routes is increased for each source of Jewels (Gems, Pearls, Jewelry, Amber, Jade, Lapis Lazuli, and Glass.)[ENDCOLOR]-->
+			</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_DECISIONS_CALCGEORGIA_GARECONSTRUCTION_ADOPTED">
+			<Text>
+				War has ravaged our lands, it might be time for reconstruction...[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]Receive a Worker.
+				[NEWLINE][ICON_BULLET]Workers get 25% improvement speed.
+			</Text>
+		</Row>
+		
+
+		<Row Tag ="TXT_KEY_DECISIONS_CALCGEORGIA_GACIVILRIGHTS_NAME">
+			<Text>Adopt Civil Rights</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_DECISIONS_CALCGEORGIA_GACIVILRIGHTS_DESC">
+			<Text>
+				Division among our people has persisted long enough. We should adopt Civil Rights...[NEWLINE]
+				[NEWLINE]Requirement/Restrictions:
+				[NEWLINE][ICON_BULLET]Player must be Georgia
+				[NEWLINE][ICON_BULLET]Player must be at peace
+				[NEWLINE][ICON_BULLET]Player must be in the Modern era
+				[NEWLINE][ICON_BULLET]May only be enacted once per game
+				[NEWLINE]Costs:
+				[NEWLINE][ICON_BULLET]500 [ICON_GOLD] Gold
+				[NEWLINE][ICON_BULLET]2 [ICON_MAGISTRATES] Magistrate
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+3[ICON_HAPPINESS_1] Happiness per city
+				<!--[NEWLINE][ICON_BULLET]Workers get 25% improvement speed.-->
+				<!--[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Note: the [ICON_GOLD] Gold value of trade routes is increased for each source of Jewels (Gems, Pearls, Jewelry, Amber, Jade, Lapis Lazuli, and Glass.)[ENDCOLOR]-->
+			</Text>
+		</Row>
+		<Row Tag ="TXT_KEY_DECISIONS_CALCGEORGIA_GACIVILRIGHTS_ADOPTED">
+			<Text>
+				Division among our people has persisted long enough. We should adopt Civil Rights...[NEWLINE]
+				[NEWLINE]Rewards:
+				[NEWLINE][ICON_BULLET]+3[ICON_HAPPINESS_1] Happiness per city
+				<!--[NEWLINE][ICON_BULLET]Workers get 25% improvement speed.-->
+			</Text>
+		</Row>
+
+		<!--Cities in Development-->
+		<Row Tag="TXT_KEY_COLONY_NAME_CALCGEORGIA_01">
+			<Text>Hilton Head</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_CALCGEORGIA_02">
+			<Text>River Island</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_CALCGEORGIA_03">
+			<Text>Oglethorpe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_CALCGEORGIA_04">
+			<Text>Jamestown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COLONY_NAME_CALCGEORGIA_05">
+			<Text>Georgopolis</Text>
+		</Row>
+
+	</Language_en_US>
+  
+</GameData>

@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/2/2014 12:42:04 AM -->
+<GameData>
+
+	<Civilizations>
+
+		<Update>
+			<Where Type="CIVILIZATION_AMERICA"></Where>
+			<Set>
+				<Playable>0</Playable>
+				<AIPlayable>0</AIPlayable>
+			</Set>
+		</Update>
+		
+		<Row>
+			<Type>CIVILIZATION_NEW_HAMPSHIRE</Type>
+			<Description>TXT_KEY_CIV_NEW_HAMPSHIRE_DESC</Description>
+
+			<Civilopedia>TXT_KEY_CIV5_NEW_HAMPSHIRE_PEDIA</Civilopedia>
+
+			<CivilopediaTag>TXT_KEY_CIV5_NEW_HAMPSHIRE</CivilopediaTag>
+
+			<Strategy/>
+
+			<Playable>1</Playable>
+
+			<AIPlayable>1</AIPlayable>
+
+			<ShortDescription>TXT_KEY_CIV_NEW_HAMPSHIRE_SHORT_DESC</ShortDescription>
+
+			<Adjective>TXT_KEY_CIV_NEW_HAMPSHIRE_ADJECTIVE</Adjective>
+
+			<DefaultPlayerColor>PLAYERCOLOR_NEW_HAMPSHIRE</DefaultPlayerColor>
+
+			<ArtDefineTag>ART_DEF_CIVILIZATION_AMERICA</ArtDefineTag>
+
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+
+			<ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+
+			<IconAtlas>NH_COLOR_ATLAS</IconAtlas>
+
+			<AlphaIconAtlas>NH_ALPHA_ATLAS</AlphaIconAtlas>
+
+			<PortraitIndex>1</PortraitIndex>
+
+			<MapImage>NH_map_new.dds</MapImage>
+
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_NEW_HAMPSHIRE_TEXT</DawnOfManQuote>
+
+			<DawnOfManImage>NH_DOM_new.dds</DawnOfManImage>
+
+			<DawnOfManAudio></DawnOfManAudio>
+
+			<SoundtrackTag>America</SoundtrackTag>
+
+		</Row>
+
+	</Civilizations>
+
+
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+			<Count>1</Count>
+		</Row>
+	</Civilization_FreeUnits>
+
+
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<LeaderheadType>LEADER_MASON</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<ReligionType>RELIGION_PROTESTANTISM</ReligionType>
+		</Row>
+	</Civilization_Religions>
+
+	<Civilization_UnitClassOverrides>
+		
+	</Civilization_UnitClassOverrides>
+
+
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEW_HAMPSHIRE_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEW_HAMPSHIRE_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEW_HAMPSHIRE_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEW_HAMPSHIRE_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEW_HAMPSHIRE_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEW_HAMPSHIRE_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEW_HAMPSHIRE_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEW_HAMPSHIRE_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEW_HAMPSHIRE_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_NEW_HAMPSHIRE_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+
+
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_NEW_HAMPSHIRE</Type>
+			<PrimaryColor>COLOR_PLAYER_NEW_HAMPSHIRE_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_NEW_HAMPSHIRE_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_NEW_HAMPSHIRE_ICON</Type>
+			<Red>0.0</Red>
+			<Green>0.322</Green>
+			<Blue>0.647</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_NEW_HAMPSHIRE_BACKGROUND</Type>
+			<Red>1.0</Red>
+			<Green>0.808</Green>
+			<Blue>0.0</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+
+	<!--<Civilization_Start_Along_Ocean>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<StartAlongOcean>true</StartAlongOcean>
+		</Row>
+	</Civilization_Start_Along_Ocean>-->
+
+	<Civilization_Start_Region_Priority>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<RegionType>REGION_FOREST</RegionType>
+		</Row>
+	</Civilization_Start_Region_Priority>
+
+	<Civilization_Start_Region_Avoid>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<RegionType>REGION_JUNGLE</RegionType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<RegionType>REGION_TUNDRA</RegionType>
+		</Row>
+	</Civilization_Start_Region_Avoid>
+
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_0</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_1</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_2</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_3</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_4</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_5</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_6</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_7</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_8</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_9</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_10</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_11</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_12</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_13</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_14</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_15</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_NEW_HAMPSHIRE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_16</CityName>
+		</Row>
+	</Civilization_CityNames>
+
+	<Language_en_US>
+
+		<Row Tag="TXT_KEY_CIV_NEW_HAMPSHIRE_DESC">
+			<Text>State of New Hampshire</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV_NEW_HAMPSHIRE_SHORT_DESC">
+			<Text>New Hampshire</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV_NEW_HAMPSHIRE_ADJECTIVE">
+			<Text>New Hampshirite</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_DAWN_NEW_HAMPSHIRE_TEXT">
+			<Text>New Hampshire welcomes you, John Langdon. You stand ready to lead the people who led as Governor and Senator. [NEWLINE] [NEWLINE]New Hampshire is abundant with raw materials, primarily forests and stone. Here can be found vast quantities of high-quality Granite, a stone with both practical and ornamental purposes. Your quarries will yield like no others, and your Granite is desired by other nations. Truly, this is The Granite State.[NEWLINE] [NEWLINE]The Industrial Revolution brought your people a new source of income in your Textile Mills. By the late 1800s, cloth produced in New Hampshire could be found throughout the world. So efficient is your process that your mills produce more than other factories, and cotton and silk resources provide extra production.[NEWLINE] [NEWLINE]An independent people, your state also uses the motto "Live Free or Die". Do you have the strength to lead New Hampshire to greatness? Can you build a civilization to stand the test of time?</Text> 
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_NEW_HAMPSHIRE_PEDIA">
+			<Text>This tag is TXT_KEY_CIV_NEW_HAMPSHIRE_PEDIA</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_NEW_HAMPSHIRE_TITLE">
+			<Text>State of New Hampshire</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_NEW_HAMPSHIRE_HEADING_1">
+			<Text>Heading 1</Text>
+		</Row>
+			 
+		<Row Tag="TXT_KEY_CIV5_NEW_HAMPSHIRE_TEXT_1">
+			<Text>In June of 1788, New Hampshire became the ninth state to ratify the United States Constitution, bringing that document into effect.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_NEW_HAMPSHIRE_HEADING_2">
+			<Text>Another Heading</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_NEW_HAMPSHIRE_TEXT_2">
+			<Text>New Hampshire traditionally hosts the first primary election for US President. Despite being a relatively small state, this fact gives it incredible influence in national affairs.</Text>
+		</Row>
+		
+
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_0">
+			<Text>Concord</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_1">
+			<Text>Manchester</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_2">
+			<Text>Nashua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_3">
+			<Text>Derry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_4">
+			<Text>Dover</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_5">
+			<Text>Rochester</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_6">
+			<Text>Salem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_7">
+			<Text>Merrimack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_8">
+			<Text>Hudson</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_9">
+			<Text>Londonderry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_10">
+			<Text>Keene</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_11">
+			<Text>Bedford</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_12">
+			<Text>Portsmouth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_13">
+			<Text>Goffstown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_14">
+			<Text>Laconia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_15">
+			<Text>Hampton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_HAMPSHIRE_16">
+			<Text>Milford</Text>
+		</Row>
+
+		
+		<Row Tag="TXT_KEY_SPY_NAME_NEW_HAMPSHIRE_0">
+			<Text>Frost</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEW_HAMPSHIRE_1">
+			<Text>LaMontagne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEW_HAMPSHIRE_2">
+			<Text>Hale</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEW_HAMPSHIRE_3">
+			<Text>Heidi</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEW_HAMPSHIRE_4">
+			<Text>Pierce</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEW_HAMPSHIRE_5">
+			<Text>Webster</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEW_HAMPSHIRE_6">
+			<Text>Shepard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEW_HAMPSHIRE_7">
+			<Text>Ayotte</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEW_HAMPSHIRE_8">
+			<Text>Sandler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_NEW_HAMPSHIRE_9">
+			<Text>Salinger</Text>
+		</Row>
+		
+	</Language_en_US>
+
+
+</GameData>

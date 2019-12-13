@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/1/2014 12:44:46 PM -->
+<GameData>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_BREWERY</Type>
+			<BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
+			<FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
+			<Cost>60</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_POTTERY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_BREWERY_HELP</Help>
+
+			<Description>TXT_KEY_BUILDING_BREWERY</Description>
+
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_GRANARY_TEXT</Civilopedia>
+
+			<Strategy>TXT_KEY_BUILDING_BREWERY_STRATEGY</Strategy>
+
+			<ArtDefineTag>ART_DEF_BUILDING_GRANARY</ArtDefineTag>
+
+			<MinAreaSize>-1</MinAreaSize>
+
+			<ConquestProb>66</ConquestProb>
+
+			<HurryCostModifier>25</HurryCostModifier>
+
+			<AllowsFoodTradeRoutes>true</AllowsFoodTradeRoutes>
+
+			<Happiness>2</Happiness>
+
+			<IconAtlas>WI_COLOR_ATLAS</IconAtlas>
+
+			<PortraitIndex>2</PortraitIndex>
+
+		</Row>
+	</Buildings>
+
+	<Building_Flavors>
+			<Row>
+				<BuildingType>BUILDING_BREWERY</BuildingType>
+				<FlavorType>FLAVOR_GROWTH</FlavorType>
+				<Flavor>18</Flavor>
+			</Row>
+			<Row>
+				<BuildingType>BUILDING_BREWERY</BuildingType>
+				<FlavorType>FLAVOR_SCIENCE</FlavorType>
+				<Flavor>5</Flavor>
+			</Row>
+			<Row>
+				<BuildingType>BUILDING_BREWERY</BuildingType>
+				<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+				<Flavor>5</Flavor>
+			</Row>
+			<Row>
+				<BuildingType>BUILDING_BREWERY</BuildingType>
+				<FlavorType>FLAVOR_EXPANSION</FlavorType>
+				<Flavor>5</Flavor>
+			</Row>
+			<Row>
+				<BuildingType>BUILDING_BREWERY</BuildingType>
+				<FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
+				<Flavor>5</Flavor>
+			</Row>
+			<Row>
+				<BuildingType>BUILDING_BREWERY</BuildingType>
+				<FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
+				<Flavor>5</Flavor>
+			</Row>
+		<Row>
+			<BuildingType>BUILDING_BREWERY</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_BREWERY</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BREWERY</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BREWERY</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_BREWERY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_WISCONSIN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+			<BuildingType>BUILDING_BREWERY</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_BREWERY">
+			<Text>Brewery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BREWERY_STRATEGY">
+			<Text>Breweries replace Granaries, and add +2 [ICON_HAPPINESS_1] happiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BREWERY_HELP">
+			<Text>Breweries have the same effects as Granaries, and add +2 [ICON_HAPPINESS_1] happiness.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

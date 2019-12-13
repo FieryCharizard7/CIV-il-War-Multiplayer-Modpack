@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/15/2014 7:45:37 AM -->
+<GameData>
+
+	<Units>
+		<Row>
+			<Type>UNIT_TARHEEL</Type>
+			<Description>TXT_KEY_UNIT_TARHEEL</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_TARHEEL_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_TARHEEL_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_TARHEEL</Help>
+			<Combat>34</Combat>
+			
+			<Cost>225</Cost>
+			<FaithCost>450</FaithCost>
+			
+			<RequiresFaithPurchaseEnabled>1</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
+			<BaseSightRange>2</BaseSightRange>
+			<Class>UNITCLASS_RIFLEMAN</Class>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<PrereqTech>TECH_RIFLING</PrereqTech>
+			<ObsoleteTech>TECH_REPLACEABLE_PARTS</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_GREAT_WAR_INFANTRY</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>30</AdvancedStartCost>
+			<MinAreaSize>-1</MinAreaSize>
+			<NukeDamageLevel>-1</NukeDamageLevel>
+			<CombatLimit>100</CombatLimit>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>5</Conscription>
+			<ExtraMaintenanceCost>0</ExtraMaintenanceCost>
+			<NoMaintenance>0</NoMaintenance>
+			<UnitArtInfo>ART_DEF_UNIT_U_TARHEEL</UnitArtInfo>
+			<!--<UnitArtInfo>ART_DEF_UNIT_TARHEEL</UnitArtInfo>-->
+			<ShowInPedia>1</ShowInPedia>
+			<MoveRate>BIPED</MoveRate>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>NC_COLOR_ATLAS</IconAtlas>
+			<UnitFlagAtlas>NC_ALPHA_ATLAS</UnitFlagAtlas>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_TARHEEL</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TARHEEL</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TARHEEL</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_TARHEEL</UnitType>
+			<UnitClassType>UNITCLASS_GREAT_WAR_INFANTRY</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_TARHEEL</Type>
+			<Description>TXT_KEY_PROMOTION_TARHEEL</Description>
+			<Help>TXT_KEY_PROMOTION_TARHEEL_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<GreatGeneralModifier>50</GreatGeneralModifier>
+			<IgnoreZOC>true</IgnoreZOC>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_TARHEEL</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+		</Row>
+	</UnitPromotions>
+	
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_TARHEEL</UnitType>
+			<PromotionType>PROMOTION_TARHEEL</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_TARHEEL</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_TARHEEL</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<!-- Unit_GreatPersons -->
+	<!-- Unit_ResourceQuantityRequirements -->
+	<!-- Unit_UniqueNames -->
+	<!-- Unit_YieldFromKills -->
+	<!-- Unit_NotAITypes -->
+	<!-- Unit_ProductionTraits -->
+	<!-- Unit_TechTypes -->
+	<!-- UnitPromotions_CivilianUnitType -->
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_TARHEEL</UnitType>
+			<SelectionSound>AS2D_SELECT_MUSKETMAN</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_MUSKETMAN</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_TARHEEL">
+			<Text>Tarheel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_TARHEEL_TEXT">
+			<Text>"In battle the soldiers of North Carolina stuck to their bloody work as if they had tar on their heels"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_TARHEEL_STRATEGY">
+			<Text>The Tarheel is the gunpowder unit following the musketman, unique to North Carolina. It is identical to the standard Rifleman, except for its unique promotion, which allows it ignore enemy ZOC and generate [ICON_GENERAL]Great Generals faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_TARHEEL">
+			<Text>Strong, front-line land Unit of the mid-game[NEWLINE]Ignores enemy ZOC and earns Great Generals faster.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_TARHEEL">
+			<Text>Tarheel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TARHEEL_HELP">
+			<Text>Ignores enemy Zone of Control[NEWLINE]Earns Great Generals 50% faster</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

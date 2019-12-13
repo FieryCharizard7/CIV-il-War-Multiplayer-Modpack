@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/22/2014 8:10:36 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>BW_ATLAS_VOYAGER</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>VOYAGER_icon256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_VOYAGER</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>VOYAGER_icon128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_VOYAGER</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>VOYAGER_icon64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_VOYAGER</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>VOYAGER_icon80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_VOYAGER</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>VOYAGER_icon45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

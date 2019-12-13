@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/2/2014 12:42:04 AM -->
+<GameData>
+
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_MASSACHUSETTS</Type>
+			<Description>TXT_KEY_CIV_MASSACHUSETTS_DESC</Description>
+			<Civilopedia>TXT_KEY_CIV5_MASSACHUSETTS_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIV5_MASSACHUSETTS</CivilopediaTag>
+			<Strategy/>
+			<Playable>1</Playable>
+			<AIPlayable>1</AIPlayable>
+			<ShortDescription>TXT_KEY_CIV_MASSACHUSETTS_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_MASSACHUSETTS_ADJECTIVE</Adjective>
+			<DefaultPlayerColor>PLAYERCOLOR_MASSACHUSETTS</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_AMERICA</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN</ArtStylePrefix>
+			<IconAtlas>MA_COLOR_ATLAS</IconAtlas>
+			<AlphaIconAtlas>MA_ALPHA_ATLAS</AlphaIconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<MapImage>MA_map.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_MASSACHUSETTS_TEXT</DawnOfManQuote>
+			<DawnOfManImage>MA_DOM.dds</DawnOfManImage>
+			<DawnOfManAudio></DawnOfManAudio>
+			<SoundtrackTag>America</SoundtrackTag>
+		</Row>
+	</Civilizations>
+
+
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+			<Count>1</Count>
+		</Row>
+	</Civilization_FreeUnits>
+
+
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<LeaderheadType>LEADER_SAMADAMS</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+
+	<Civilization_Religions>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<ReligionType>RELIGION_CHRISTIANITY</ReligionType>
+		</Row>
+	</Civilization_Religions>
+	
+	
+	<Civilization_UnitClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<UnitClassType>UNITCLASS_CARAVEL</UnitClassType>
+			<UnitType>UNIT_MASCHOONER</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+
+	<Civilization_BuildingClassOverrides>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingType>BUILDING_CA_MISSION</BuildingType>
+		</Row>-->
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<BuildingType>BUILDING_STELE</BuildingType>
+		</Row>-->
+	</Civilization_BuildingClassOverrides>
+	
+	
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_MASSACHUSETTS_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_MASSACHUSETTS_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_MASSACHUSETTS_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_MASSACHUSETTS_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_MASSACHUSETTS_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_MASSACHUSETTS_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_MASSACHUSETTS_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_MASSACHUSETTS_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_MASSACHUSETTS_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_MASSACHUSETTS_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+
+
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_MASSACHUSETTS</Type>
+			<PrimaryColor>COLOR_PLAYER_MASSACHUSETTS_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_MASSACHUSETTS_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_MASSACHUSETTS_ICON</Type>
+			<Red>0.0</Red>
+			<Green>0.38823</Green>
+			<Blue>0.21961</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_MASSACHUSETTS_BACKGROUND</Type>
+			<Red>0.68235</Red>
+			<Green>0.77647</Green>
+			<Blue>0.68235</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+
+	<Civilization_Start_Along_Ocean>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<StartAlongOcean>true</StartAlongOcean>
+		</Row>
+	</Civilization_Start_Along_Ocean>
+
+	<Civilization_Start_Region_Priority>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<RegionType>REGION_HILLS</RegionType>
+		</Row>-->
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<RegionType>REGION_FOREST</RegionType>
+		</Row>-->
+	</Civilization_Start_Region_Priority>
+
+	<Civilization_Start_Region_Avoid>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<RegionType>REGION_JUNGLE</RegionType>
+		</Row>
+	</Civilization_Start_Region_Avoid>
+
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MASSACHUSETTS_0</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MASSACHUSETTS_1</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MASSACHUSETTS_2</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MASSACHUSETTS_3</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MASSACHUSETTS_4</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MASSACHUSETTS_5</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MASSACHUSETTS_6</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MASSACHUSETTS_7</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MASSACHUSETTS_8</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MASSACHUSETTS_9</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MASSACHUSETTS_10</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MASSACHUSETTS_11</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MASSACHUSETTS_12</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MASSACHUSETTS_13</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MASSACHUSETTS_14</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MASSACHUSETTS_15</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MASSACHUSETTS_16</CityName>
+		</Row>
+	</Civilization_CityNames>
+
+	<Language_en_US>
+
+		<Row Tag="TXT_KEY_CIV_MASSACHUSETTS_DESC">
+			<Text>State of Massachusetts</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV_MASSACHUSETTS_SHORT_DESC">
+			<Text>Massachusetts</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV_MASSACHUSETTS_ADJECTIVE">
+			<Text>Massachusite</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_DAWN_MASSACHUSETTS_TEXT">
+			<Text>God's blessings be on you, Sam Adams of Massachusetts. You were a firebrand leader of the American Revolution, and your writings and speeches rallied citizens to the cause. Your home state calls on you now to lead your people to greatness.[NEWLINE] [NEWLINE]Massachusetts was the site of one of the first permanent colonies in what is now the American mainland. It was also here that the Revolutionary War started in 1775, an event that would shape the world. [NEWLINE] [NEWLINE]The sea and its resources were a significant portion of Massachusetts' early strength. Schooners were built by the hundreds, and served as fishing vessels along with military uses. [NEWLINE] [NEWLINE]Within Massachusetts stands some of the oldest and most prestigious universities in America. This includes Harvard, established in 1636, Amherst, Boston College, MIT, and many others. Your people yearn for higher education, and you have the means to fulfill this need.[NEWLINE] [NEWLINE]Governor Adams, can you rise up again and lead your people to greatness? Can you master the seas, educate your people, and lead them to glory? Can you build a civilization to stand the test of time?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_MASSACHUSETTS_PEDIA">
+			<Text>This tag is TXT_KEY_CIV_MASSACHUSETTS_PEDIA</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_MASSACHUSETTS_TITLE">
+			<Text>State of Massachusetts</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_MASSACHUSETTS_HEADING_1">
+			<Text>Heading 1</Text>
+		</Row>
+			 
+		<Row Tag="TXT_KEY_CIV5_MASSACHUSETTS_TEXT_1">
+			<Text>Massachusetts was a center of the movement for independence from Great Britain, earning it the nickname, the "Cradle of Liberty". Colonists here had long had uneasy relations with the British monarchy, including open rebellion under the Dominion of New England in the 1680s. The Boston Tea Party is an example of the protest spirit in the early 1770s, while the Boston Massacre escalated the conflict. Anti-British activity by men like Sam Adams and John Hancock, followed by reprisals by the British government, were a primary reason for the unity of the Thirteen Colonies and the outbreak of the American Revolution.[NEWLINE](en.wikipedia.org/wiki/History_of_Massachusetts)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_MASSACHUSETTS_HEADING_2">
+			<Text>Another Heading</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIV5_MASSACHUSETTS_TEXT_2">
+			<Text>One of the many taxes protested by the colonists was a tax on tea, imposed when Parliament passed the Townshend Acts, and retained when most of the provisions of those acts were repealed. With the passage of the Tea Act in 1773, tea sold by the British East India Company would become less expensive than smuggled tea, and there would be reduced profitmaking opportunities for Massachusetts merchants engaged in the tea trade. This led to protests against the delivery of the company's tea to Boston. On December 16, 1773, when a tea ship of the East India Company was planning to land taxed tea in Boston, a group of local men known as the Sons of Liberty sneaked onto the boat the night before it was to be unloaded and dumped all the tea into the harbor, an act known as the Boston Tea Party.[NEWLINE](en.wikipedia.org/wiki/History_of_Massachusetts)</Text>
+		</Row>
+		
+
+		<Row Tag="TXT_KEY_CITY_NAME_MASSACHUSETTS_0">
+			<Text>Boston</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MASSACHUSETTS_1">
+			<Text>Worcester</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MASSACHUSETTS_2">
+			<Text>Springfield</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MASSACHUSETTS_3">
+			<Text>Lexington</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MASSACHUSETTS_4">
+			<Text>Lowell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MASSACHUSETTS_5">
+			<Text>Cambridge</Text>
+		</Row>
+		
+		
+		
+		<Row Tag="TXT_KEY_CITY_NAME_MASSACHUSETTS_6">
+			<Text>Scranton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MASSACHUSETTS_7">
+			<Text>Bethlehem</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MASSACHUSETTS_8">
+			<Text>Lancaster</Text>
+		</Row>
+		
+		
+		<Row Tag="TXT_KEY_CITY_NAME_MASSACHUSETTS_9">
+			<Text>Altoona</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MASSACHUSETTS_10">
+			<Text>York</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MASSACHUSETTS_11">
+			<Text>State College</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MASSACHUSETTS_12">
+			<Text>Wilkes-Barre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MASSACHUSETTS_13">
+			<Text>Chester</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MASSACHUSETTS_14">
+			<Text>Williamsport</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MASSACHUSETTS_15">
+			<Text>Easton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MASSACHUSETTS_16">
+			<Text>Lebanon</Text>
+		</Row>
+
+		
+		<Row Tag="TXT_KEY_SPY_NAME_MASSACHUSETTS_0">
+			<Text>Hancock</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MASSACHUSETTS_1">
+			<Text>Kennedy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MASSACHUSETTS_2">
+			<Text>John Adams</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MASSACHUSETTS_3">
+			<Text>Heidi</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MASSACHUSETTS_4">
+			<Text>Revere</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MASSACHUSETTS_5">
+			<Text>Hawthorn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MASSACHUSETTS_6">
+			<Text>Coolidge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MASSACHUSETTS_7">
+			<Text>Clara Barton</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MASSACHUSETTS_8">
+			<Text>Whitney</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_MASSACHUSETTS_9">
+			<Text>Susan B Anthony</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		
+	</Language_en_US>
+
+
+</GameData>

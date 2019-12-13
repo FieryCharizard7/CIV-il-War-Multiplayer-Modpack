@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/2/2014 1:27:08 AM -->
+<GameData>
+
+	<Leaders>
+		<Row>
+			<Type>LEADER_BENFRANKLIN</Type>
+
+			<Description>TXT_KEY_LEADER_BENFRANKLIN</Description>
+
+			<!--<Civilopedia>TXT_KEY_LEADER_BENFRANKLIN_PEDIA</Civilopedia>-->
+
+			<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_BENFRANKLIN</CivilopediaTag>
+
+			<ArtDefineTag>PA_new_scene.xml</ArtDefineTag>
+
+			<VictoryCompetitiveness>7</VictoryCompetitiveness>
+			<WonderCompetitiveness>6</WonderCompetitiveness>
+			<MinorCivCompetitiveness>5</MinorCivCompetitiveness>
+			<Boldness>5</Boldness>
+			<DiploBalance>7</DiploBalance>
+			<WarmongerHate>5</WarmongerHate>
+			<WorkAgainstWillingness>0</WorkAgainstWillingness>
+			<WorkWithWillingness>0</WorkWithWillingness>
+			<DenounceWillingness>6</DenounceWillingness>
+			<DoFWillingness>7</DoFWillingness>
+			<Loyalty>6</Loyalty>
+			<Neediness>4</Neediness>
+			<Forgiveness>4</Forgiveness>
+			<Chattiness>5</Chattiness>
+			<Meanness>3</Meanness>
+			<IconAtlas>PA_COLOR_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+
+		</Row>
+	</Leaders>
+
+	<Leader_MajorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_WAR</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_HOSTILE</MajorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_DECEPTIVE</MajorCivApproachType>
+			<Bias>5</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_GUARDED</MajorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_AFRAID</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_FRIENDLY</MajorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_NEUTRAL</MajorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+	</Leader_MajorCivApproachBiases>
+
+	<Leader_MinorCivApproachBiases>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType>
+			<Bias>3</Bias>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+	</Leader_MinorCivApproachBiases>
+
+	<Leader_Flavors>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_USE_NUKE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_ARCHAEOLOGY</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_I_TRADE_DESTINATION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<LeaderType>LEADER_BENFRANKLIN</LeaderType>
+			<FlavorType>FLAVOR_AIRLIFT</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+	</Leader_Flavors>
+	
+	<!-- TEXT -->
+
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_BENFRANKLIN">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_BENFRANKLIN_FIRSTGREETING_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_BENFRANKLIN">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_BENFRANKLIN_DEFEATED_%</Response>
+		</Row>
+	</Diplomacy_Responses>
+		
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEADER_BENFRANKLIN">
+			<Text>Ben Franklin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_BENFRANKLIN_PEDIA">
+			<Text>Ben Franklin</Text>
+		</Row>
+		<!--<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BENFRANKLIN">
+			<Text>Test text.</Text>
+		</Row>-->
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BENFRANKLIN_HEADING_1">
+			<Text>Summary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BENFRANKLIN_TEXT_1">
+			<Text>Franklin was a leading author, printer, political theorist, politician, postmaster, scientist, inventor, civic activist, statesman, and diplomat. As a scientist, he was a major figure in the American Enlightenment and the history of physics for his discoveries and theories regarding electricity. As an inventor, he is known for the lightning rod, bifocals, and the Franklin stove, among other inventions. He facilitated many civic organizations, including Philadelphia's fire department and a university.[NEWLINE]en.wikipedia.org/wiki/Benjamin_Franklin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BENFRANKLIN_HEADING_2">
+			<Text>Tidbit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BENFRANKLIN_FACT_2">
+			<Text>As the first United States Ambassador to France, he exemplified the emerging American nation. Franklin was foundational in defining the American ethos as a marriage of the practical values of thrift, hard work, education, community spirit, self-governing institutions, and opposition to authoritarianism both political and religious, with the scientific and tolerant values of the Enlightenment.[NEWLINE]en.wikipedia.org/wiki/Benjamin_Franklin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BENFRANKLIN_SUBTITLE">
+			<Text>President of Pennsylvania</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BENFRANKLIN_NAME">
+			<Text>Ben Franklin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BENFRANKLIN_LIVED">
+			<Text>1706 - 1790 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_BENFRANKLIN_FIRSTGREETING_1">
+			<Text>Greetings from Pennsylvania. Would you hold my kite string, it's starting to rain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_BENFRANKLIN_FIRSTGREETING_2">
+			<Text>I am Ben Franklin of Pennsylvania, I welcome you in the name of my people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_BENFRANKLIN_FIRSTGREETING_3">
+			<Text>Welcome to Pennsylvania, a penny saved is a penny earned.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_BENFRANKLIN_DEFEATED_1">
+			<Text>You have bested us. The world weeps for the loss you have caused.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_BENFRANKLIN_DEFEATED_2">
+			<Text>We may be defeated, but we will rise again.</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

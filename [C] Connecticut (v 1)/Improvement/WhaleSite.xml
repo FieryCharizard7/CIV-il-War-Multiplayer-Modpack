@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/11/2016 9:26:34 AM -->
+<GameData>
+
+	<Improvements>
+		<Row>
+			<Type>IMPROVEMENT_WHALE_SITE</Type>
+			<Description>TXT_KEY_IMPROVEMENT_WHALE_SITE</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_WHALESITE_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_FISHING_BOATS</ArtDefineTag>
+			<Water>true</Water>
+			<PillageGold>10</PillageGold>
+			<DestroyedWhenPillaged>true</DestroyedWhenPillaged>
+			<SpecificCivRequired>true</SpecificCivRequired>
+			<CivilizationType>CIVILIZATION_CALC_CONNECTICUT</CivilizationType>
+			<!--<InAdjacentFriendly>true</InAdjacentFriendly>-->
+			<NoTwoAdjacent>true</NoTwoAdjacent>
+			
+			<PortraitIndex>23</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+	</Improvements>
+
+	<Improvement_ValidTerrains>
+		<Row>
+			<ImprovementType>IMPROVEMENT_WHALE_SITE</ImprovementType>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_WHALE_SITE</ImprovementType>
+			<TerrainType>TERRAIN_OCEAN</TerrainType>
+		</Row>
+	</Improvement_ValidTerrains>
+
+	<Improvement_ResourceType_Yields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_WHALE_SITE</ImprovementType>
+			<ResourceType>RESOURCE_WHALE</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_ResourceType_Yields>
+
+	<Improvement_ResourceTypes>
+		<Row>
+			<ImprovementType>IMPROVEMENT_WHALE_SITE</ImprovementType>
+			<ResourceType>RESOURCE_WHALE</ResourceType>
+			<ResourceMakesValid>false</ResourceMakesValid>
+			<ResourceTrade>true</ResourceTrade>
+		</Row>
+		<!--<Row>
+			<ImprovementType>IMPROVEMENT_WHALE_SITE</ImprovementType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<ResourceMakesValid>1</ResourceMakesValid>
+			<ResourceTrade>true</ResourceTrade>
+		</Row>-->
+	</Improvement_ResourceTypes>
+
+	<Improvement_TechYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_WHALE_SITE</ImprovementType>
+			<TechType>TECH_COMPASS</TechType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_TechYieldChanges>
+
+	<Builds>
+		<Row>
+			<Type>BUILD_WHALE_SITE</Type>
+			<PrereqTech>TECH_ASTRONOMY</PrereqTech>
+			<ImprovementType>IMPROVEMENT_WHALE_SITE</ImprovementType>
+			<Description>TXT_KEY_BUILD_WHALE_SITE</Description>
+			<Help>TXT_KEY_BUILD_WHALE_SITE_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_WHALE_SITE_REC</Recommendation>
+			<!--<Kill>1</Kill>-->
+			<Water>true</Water>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_F</HotKey>
+			<OrderPriority>98</OrderPriority>
+			<HotKeyPriority>1</HotKeyPriority>
+			<IconIndex>0</IconIndex>
+			<IconAtlas>CT_ACTION_ATLAS</IconAtlas>
+		</Row>
+	</Builds>
+
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_CT_WHALER</UnitType>
+			<BuildType>BUILD_WHALE_SITE</BuildType>
+		</Row>
+	</Unit_Builds>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_IMPROVEMENT_WHALE_SITE">
+			<Text>Whale Site</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_WHALESITE_TEXT">
+			<Text>
+				 Add Civilopedia text here 
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_WHALE_SITE">
+			<Text>Build a Whale Site</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_WHALE_SITE_HELP">
+			<Text>Building a Whale Site adds [ICON_RES_WHALE] Whales to the tile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_WHALE_SITE_REC">
+			<Text>I recommend you build a Whale Site here</Text>
+		</Row>
+	</Language_en_US>
+
+</GameData>

@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/10/2016 1:16:27 PM -->
+<GameData>
+	<Language_en_US>
+		<!--City List-->
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_01">
+			<Text>Nashville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_02">
+			<Text>Memphis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_03">
+			<Text>Knoxville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_04">
+			<Text>Chattanooga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_05">
+			<Text>Clarksville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_06">
+			<Text>Murfreesboro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_07">
+			<Text>Franklin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_08">
+			<Text>Jackson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_09">
+			<Text>Bartlett</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_10">
+			<Text>Shiloh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_11">
+			<Text>Fort Pillow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_12">
+			<Text>Fort Henry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_13">
+			<Text>Brentwoof</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_14">
+			<Text>Fort Sanders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_15">
+			<Text>Brooklyn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_16">
+			<Text>Troy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_17">
+			<Text>Louisville</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_18">
+			<Text>New Haven</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_19">
+			<Text>Norfolk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_20">
+			<Text>Rochester</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_21">
+			<Text>Charlestown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_22">
+			<Text>Buffalo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_23">
+			<Text>Georgetowns</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_24">
+			<Text>Utica</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_25">
+			<Text>Petersbrug</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_26">
+			<Text>Alexandria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_27">
+			<Text>Portmouth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_28">
+			<Text>New Port</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_29">
+			<Text>Landcaster</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_30">
+			<Text>New Bedford</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_31">
+			<Text>Gloucester</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JACKSON_32">
+			<Text>Savannah</Text>
+		</Row>
+		
+		<!--Spy List-->
+		<Row Tag="TXT_KEY_SPY_NAME_JACKSON_0">
+			<Text>George</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JACKSON_1">
+			<Text>Bill</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JACKSON_2">
+			<Text>Manny</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JACKSON_3">
+			<Text>Agent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JACKSON_4">
+			<Text>Jack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JACKSON_5">
+			<Text>Jane</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JACKSON_6">
+			<Text>Miss</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JACKSON_7">
+			<Text>Cat</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JACKSON_8">
+			<Text>Wanda</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JACKSON_9">
+			<Text>Rachel</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!--JACKSON-->
+		<Row Tag="TXT_KEY_LEADER_JACKSON">
+			<Text>Jackson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_JACKSON_NAME">
+			<Text>Andrew Jackson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_JACKSON_SUBTITLE">
+			<Text>Leader of Tennessee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_JACKSON_LIVED">
+			<Text>1767 AD - 1845 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_JACKSON_TITLES_1">
+			<Text>7th President of the United States</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_JACKSON_TITLES_2">
+			<Text>Old Hickory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_JACKSON_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_JACKSON_TEXT_1">
+			<Text>Andrew Jackson was the seventh President of the United States of America, and a dominant figure in American politics between Thomas Jefferson and Abraham Lincoln. Born to unknown parents and orphaned at a young age, Jackson was the first self-made man and westerner to reach the Whit Horse. He became the founder and symbol of the Democratic Party. During his term, Jackson expanded executuve powers and transformed the President's role in American politics.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TENNESSEE">
+			<Text>Tennesseean</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TENNESSEE_DESC">
+			<Text>Tennesseean Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TENNESSEE_SHORT_DESC">
+			<Text>Tennessee</Text>
+		</Row>
+		<!--<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_JACKSON_HEADING_2">
+			<Text>Early Life</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_JACKSON_TEXT_2">
+			<Text>Andrew Jackson was born in 1767 in Waxhaw, South Carolina to Unknown parents. He fought in the Recolutionary War as a boy, and studied law before moving to Nashville. Their He met and started to live with Rachel Robards, whom he later married. Jackson served as a congressman and senator for Tennessee, and gain national fame as a major general in the War of 1812 at battles against the Creek Indians and the British at New Orleans. Jackson's victory at New Orleans made him a stuff of legend and the greatest military hero since George Washington. In 1824 Jackson ran for president, while winning the popular vote but lost the elections to John Quincy Adams to a "corrupt bargain" between Adams and Speaker of the Horse Henry Clay. Four year later Jackson ran again, and easly beated Adams, but withen his victory, Jackson wife Rachel died.</Text>
+		</Row>-->
+
+
+		<Row Tag="TXT_KEY_CIV5_DAWN_JACKSON_TEXT">
+			<Text>
+				Welcome President Andrew Jackson, as the seventh president of the United States, you were the first of many Democratic presidents and had strengthen the Executive Branch of the United States. When faced a threat of secession from South Carolina, you threatened the use of military force on any State that attempted to secede. When the Congress attempted to reauthorize the Bank of the United States, you vetoed it and dismantled it after its charter expired. You signed the Indian Removal Act, which relocated a number of native tribes to Indian Territory.
+				[NEWLINE][NEWLINE]President Jackson, America once again is in need of a strong leader. Are you up to the challenges that faces you? Will you conquer the foes of the United States? Can you make America great again? Can you build a civilization that can stand the test of time?
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_SPOILS_SYSTEM_SHORT">
+			<Text>Spoils System</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_SPOILS_SYSTEM">
+			<Text>Upon entering a new Era, recieve a new unique Specialist. Gold building yield -1 [ICON_GOLD] and +2 [ICON_HAPPINESS_1] Happiness.</Text>
+		</Row>
+
+		<!--Units-->
+		<Row Tag="TXT_KEY_UNIT_JACKSON_FRONTIERSMAN">
+			<Text>Frontiersman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_MEDIEVAL_JACKSON_FRONTIERSMAN_TEXT">
+			<Text>Frontiersmen were the people whom blazed new trails on the American frontier.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JACKSON_FRONTIERSMAN_STRATEGY">
+			<Text>May learn an Unique skill while visiting City States. May build roads and Forts. Have a combat bonus outside Friendly Territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JACKSON_FRONTIERSMAN">
+			<Text>May learn an Unique skill while visiting City States. May build roads and Forts. Have a combat bonus outside Friendly Territory.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_WEST_POINT">
+			<Text>West Point</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_WEST_POINT_TEXT">
+			<Text>The United States Military Academy at West Point, also known as West Point, is a four-year coeducational federal service academy located in West Point, New York.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WEST_POINT_STRATEGY">
+			<Text>West Point is an unique National Wonder for Jackson's America and is a must have for thoses going for a domination victory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WEST_POINT_HELP">
+			<Text>
+				A Great General appears near the [ICON_CAPITAL] Capital and +15 experience for all new units built in this city, 2 [ICON_GREAT_PEOPLE] Great People Point towards Great general, 1 Sergeant specialists slots.  Requires a Military Academy in all cities.
+			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_FRONTIERS_CITY_STATE">
+			<Text>City States Skills</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FRONTIERS_CITY_STATE_HELP">
+			<Text>May learn a skill from a City State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NEAR_DEATH_STATE">
+			<Text>Near Death</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NEAR_DEATH_HELP">
+			<Text>Fight harder near Death</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CITY_STATE_LOVE">
+			<Text>Live among Natives</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CITY_STATE_LOVE_HELP">
+			<Text>Earn City State Influence by standing in its land.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_FRONTIERSMAN_GRIZZLY_ADAMS">
+			<Text>Grizzly Adams</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRONTIERSMAN_JAMES_AIRD">
+			<Text>James Aird</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRONTIERSMAN_JOHN_DAVIS_ALBERT">
+			<Text>John Davis Albert</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRONTIERSMAN_CYRUS_ALEXANDER">
+			<Text>Cyrus Alexander</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRONTIERSMAN_LOUIS_AMBROISE">
+			<Text>Louis Ambroise</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRONTIERSMAN_WILLIAM_ASHLEY">
+			<Text>William Ashley</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRONTIERSMAN_JOHN_JACOB_ASTOR">
+			<Text>John Jacob Astor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRONTIERSMAN_ALEXANDER_HARVEY">
+			<Text>Alexander Harvey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRONTIERSMAN_JOHN_HATCHER">
+			<Text>John Hatcher</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRONTIERSMAN_CHARLES_BENT">
+			<Text>Charles Bent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRONTIERSMAN_WILLIAM_BENT">
+			<Text>William Bent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRONTIERSMAN_DANIEL_BOONE">
+			<Text>Daniel Boone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRONTIERSMAN_ZEBULON_PIKE">
+			<Text>Zebulon Pike</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRONTIERSMAN_JOSEPH_ROBIDOUX">
+			<Text>Joseph Robidoux</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRONTIERSMAN_HIRAM_SCOTT">
+			<Text>Hiram Scott</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRONTIERSMAN_DAVY_CROCKETT">
+			<Text>Davy Crockett</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRONTIERSMAN_WILLIAM_CLARK">
+			<Text>William Clark</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRONTIERSMAN_MERIWETHER_LEWIS">
+			<Text>Meriwether Lewis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRONTIERSMAN_MANUEL_ALVAREZ">
+			<Text>Manuel Alvarez</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRONTIERSMAN_CHARLES_AUTOBEES">
+			<Text>Charles Autobees</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRONTIERSMAN_JAMES_BOWIE">
+			<Text>James Bowie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRONTIERSMAN_FRANCOIS_AUGUSTE_CHARDON">
+			<Text>Francois Auguste Chardon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRONTIERSMAN_JOHN_COLTER">
+			<Text>John Colter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRONTIERSMAN_WILLIAM_BECKNELL">
+			<Text>William Becknell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRONTIERSMAN_JOHN_GANNT">
+			<Text>John Gannt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRONTIERSMAN_ANDREW_HENRY">
+			<Text>Andrew Henry</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_JACKSON_PM">
+			<Text>Post Master</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JACKSON_PM_HELP">
+			<Text>Post Master</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JACKSON_SER">
+			<Text>Sergeant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JACKSON_SER_HELP">
+			<Text>Sergeant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JACKSON_TAX">
+			<Text>Tax Collector</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JACKSON_TAX_HELP">
+			<Text>Tax Collector</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JACKSON_SCR">
+			<Text>Lawyer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JACKSON_SCR_HELP">
+			<Text>Lawyer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JACKSON_CUR">
+			<Text>Currupt Official</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JACKSON_CUR_HELP">
+			<Text>Currupt Official</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_POST_MASTER">
+			<Text>Post Master</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_POST_MASTER_STRATEGY">
+			<Text>Post Master</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_SERGEANT">
+			<Text>Sergeant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_SERGEANT_STRATEGY">
+			<Text>Sergeant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_TAX">
+			<Text>Tax Collector</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_TAX_STRATEGY">
+			<Text>Tax Collector</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_SCRIBE">
+			<Text>Lawyer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_SCRIBE_STRATEGY">
+			<Text>Lawyer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_CURRUPT">
+			<Text>Currupt Official</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_CURRUPT_STRATEGY">
+			<Text>Currupt Official</Text>
+		</Row>
+		
+		<!--First Greetings-->
+		<Row Tag="TXT_KEY_LEADER_JACKSON_FIRSTGREETING_1">
+			<Text>I Welcome you to the United States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JACKSON_FIRSTGREETING_2">
+			<Text>You there, What's your name? I'm Andrew Jackson, the president of these United States.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_LEADER_JACKSON_NATIVE_FIRSTGREETING_1">
+			<Text>I Welcome you to... Wait! I thought that I got rid of you! Get out before I'll calls my guards!</Text>
+		</Row>
+		<!--Defeat-->
+		<Row Tag="TXT_KEY_LEADER_JACKSON_DEFEATED_1">
+			<Text>I find it hard to believe, but here we are. I congratulate you for your victory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JACKSON_DEFEATED_2">
+			<Text>Why can't you just leave us be?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JACKSON_NATIVE_DEFEATED_1">
+			<Text>Trail of Tears no more! I'll get you next time!</Text>
+		</Row>
+
+	</Language_en_US>
+</GameData>

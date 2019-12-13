@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/27/2016 11:16:41 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+ 
+  <!-- TODO: Insert table data example here.-->
+  
+  <!-- Enter your Game Data here. -->
+	<!-- Adding a new CityState entry. -->
+	<MinorCivilizations>
+		<Row>
+			<Type>MINOR_CIV_SANTIAGO</Type>
+			<Description>TXT_KEY_CITYSTATE_SANTIAGO</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_SANTIAGO</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_SANTIAGO_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CITYSTATE_SANTIAGO_PEDIA</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_GRAY</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN</ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MERCANTILE</MinorCivTrait>
+		</Row>
+	</MinorCivilizations>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_SANTIAGO</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_SANTIAGO</CityName>
+		</Row>
+	</MinorCivilization_CityNames>
+	<MinorCivilization_Flavors>
+		<Row>
+			<MinorCivType>MINOR_CIV_SANTIAGO</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SANTIAGO</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SANTIAGO</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SANTIAGO</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+	</MinorCivilization_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CITYSTATE_SANTIAGO">
+			<Text>Santiago</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_SANTIAGO_ADJ">
+			<Text>Santiaguino</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_ASUNCION_PEDIA">
+			<Text>Santiago is the capital and largest city of Chile as well as one of the largest cities in the Americas. The city is entirely located in the country's central valley. Most of the city lies between 500 m (1,640 ft) and 650 m (2,133 ft) above mean sea level. Founded in 1541 by the Spanish conquistador Pedro de Valdivia, Santiago has been the capital city of Chile since colonial times. The city has a downtown core of 19th-century neoclassical architecture and winding side-streets, dotted by art deco, neo-gothic, and other styles. Santiago's cityscape is shaped by several stand-alone hills and the fast-flowing Mapocho River, lined by parks such as Parque Forestal. The Andes Mountains can be seen from most points in the city. These mountains contribute to a considerable smog problem, particularly during winter. The city outskirts are surrounded by vineyards and Santiago is within a few hours of both the mountains and the Pacific Ocean. Santiago is the cultural, political and financial center of Chile and is home to the regional headquarters of many multinational corporations. The Chilean executive and judiciary are located in Santiago, but Congress meets mostly in nearby Valparaiso. Santiago is named after the biblical figure St. James. Santiago will host the 2023 Pan American Games.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
+  

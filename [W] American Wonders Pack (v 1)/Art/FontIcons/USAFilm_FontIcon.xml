@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/23/2012 3:49:53 AM -->
+<GameData>
+	<!--Special thanks to Stone Town Wonder Mod-->
+	<IconFontTextures>
+		<Row>
+			<IconFontTexture>ICON_FONT_TEXTURE_USAFILM</IconFontTexture>
+			<IconFontTextureFile>USAFilm_FontIcon</IconFontTextureFile>
+		</Row>
+	</IconFontTextures>
+	<IconFontMapping>
+		<Row>
+			<IconName>ICON_RES_USAFILM</IconName>
+			<IconFontTexture>ICON_FONT_TEXTURE_USAFILM</IconFontTexture>
+			<IconMapping>1</IconMapping>
+		</Row>
+	</IconFontMapping>
+</GameData>
