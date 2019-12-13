@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="713f9899-393c-4086-b3d5-f7fb72a3dc41" version="2">
+  <Properties>
+    <Name>Wonders - Disney Pack (Brave New World)</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds the Amusement Park building, the Disneyland National Wonder, the Magic Kingdom, Animal Kingdom, and Epcot World Wonders.</Teaser>
+    <Description>The Disney Wonder pack adds the Amusement Park building, the Disneyland National Wonder, and the Magic Kingdom and Epcot World Wonders to the game.
+
+[NEWLINE][NEWLINE]
+
+Requires Brave New World.
+
+[NEWLINE][NEWLINE]
+
+"To all who come to this happy place; welcome. Disneyland is your land. Here age relives fond memories of the past .... and here youth may savor the challenge and promise of the future. Disneyland is dedicated to the ideals, the dreams and the hard facts that have created America ... with the hope that it will be a source of joy and inspiration to all the world." - Walt Disney
+
+[NEWLINE][NEWLINE]
+
+The Amusement Park increases [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold in a City. Available with Electricity.
+
+[NEWLINE][NEWLINE]
+
+The Disneyland National Wonder reduces Unhappiness [ICON_HAPPINESS_4] from [ICON_CITIZEN] Citizens in non-occupied Cities, and provides a large amount of [ICON_HAPPINESS_1] Happiness for your empire. Available with Electronics.
+
+[NEWLINE][NEWLINE]
+
+The Magic Kingdom Wonder increases the [ICON_HAPPINESS_1] Happiness and [ICON_GOLD] Gold of all Amusement Parks. Also provides +6 [ICON_TOURISM] Tourism. Available with Computers.
+
+[NEWLINE][NEWLINE]
+
+The Animal Kingdom Wonder provides +1 [ICON_CULTURE] Culture, +1 [ICON_GOLD] Gold, and +1 [ICON_RESEARCH] Science from all animal Resources worked by the City. Also provides +6 [ICON_TOURISM] Tourism. Available with Ecology.
+
+[NEWLINE][NEWLINE]
+
+The Epcot Wonder increases the [ICON_RESEARCH] Science and [ICON_CULTURE] Culture of all Amusement Parks. Also provides +6 [ICON_TOURISM] Tourism. Available with Globalization.
+
+[NEWLINE][NEWLINE]
+
+Follow me on twitter @fourfourhero to get notifications about updates to this mod as well as others.</Description>
+    <Authors>Envoy (@fourfourhero)</Authors>
+    <SpecialThanks>Pouakai</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="DD95E4764A644788F3EB350A18B9346E" import="1">ART/AnimalKingdomSplash.dds</File>
+    <File md5="CD9C61AD06B47796074DCF6F8944D4B0" import="1">ART/DisneyIconAtlas128.dds</File>
+    <File md5="0E8119A90AEF6C914A7F6EB760B0B1A4" import="1">ART/DisneyIconAtlas256.dds</File>
+    <File md5="74BB6369EF14619571DEE5F02F6C2AD2" import="1">ART/DisneyIconAtlas45.dds</File>
+    <File md5="8C0644937B5325E40C7023DA06A65C5E" import="1">ART/DisneyIconAtlas64.dds</File>
+    <File md5="8F987FAD8FF8172F690B31C6B81C8859" import="1">ART/DisneyIconAtlas80.dds</File>
+    <File md5="8ECD1187C4949C31CBA32179A7758DFD" import="1">ART/EpcotSplash.dds</File>
+    <File md5="1614BD1E1EE51C24D94BBDC1B1939F1B" import="1">ART/MagicKingdomSplash.dds</File>
+    <File md5="2B6856E06D1D6ECEC2C0C11699B4E0CD" import="0">XML/Buildings/Disney_AmusementPark.xml</File>
+    <File md5="5A4EACFC5A9884D3EC9D7DC58085A44E" import="0">XML/Buildings/Disney_Disneyland.xml</File>
+    <File md5="C8D6E5C11D0B1CC95B7558B0A8AFB273" import="0">XML/Buildings/Disney_Epcot.xml</File>
+    <File md5="E449DA8F3E220F8ED5ADC82CEEEA947F" import="0">XML/Buildings/Disney_IconTextureAtlases.xml</File>
+    <File md5="61773ECDE8F66C38833FD1D74A78A498" import="0">XML/Buildings/Disney_MagicKingdom.xml</File>
+    <File md5="93C1312DCFC2305675545216BC68237E" import="0">XML/Buildings/Disney_AnimalKingdom.xml</File>
+    <File md5="4A8C3810BA2AC1848D3321486E304886" import="0">XML/Civilizations/Disney_Civilizations.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Buildings/Disney_IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Disney_AmusementPark.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Disney_Disneyland.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Disney_MagicKingdom.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Disney_AnimalKingdom.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/Disney_Epcot.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Disney_Civilizations.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>BW_ATLAS_DISNEY</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>DisneyIconAtlas256.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_DISNEY</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>DisneyIconAtlas128.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_DISNEY</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>DisneyIconAtlas80.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_DISNEY</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>DisneyIconAtlas64.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_DISNEY</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>DisneyIconAtlas45.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

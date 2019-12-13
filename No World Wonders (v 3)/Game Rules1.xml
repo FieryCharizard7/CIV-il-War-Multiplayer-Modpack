@@ -45,17 +45,18 @@
 		</Update>
 		<Update>
 			<Set Cost="-1"/>
-			<Where Type="BUILDING_CHICHEN_ITZA"/>
-		</Update>
-		<Update>
-			<Set Cost="-1"/>
 			<Where Type="BUILDING_MACHU_PICHU"/>
 		</Update>
+		<!-- 
 		<Update>
-			<Set Cost="-1"/>
+		<Set Cost="-1"/>
 			<Where Type="BUILDING_NOTRE_DAME"/>
 		</Update>
-		<!-- 
+		<Update>
+			<Set Cost="-1"/>
+			<Where Type="BUILDING_CHICHEN_ITZA"/>
+		</Update>
+		
 		<Update>
 			<Set Cost="-1"/>
 			<Where Type="BUILDING_PORCELAIN_TOWER"/>
@@ -96,7 +97,6 @@
 			<Set Cost="-1"/>
 			<Where Type="BUILDING_STATUE_OF_LIBERTY"/>
 		</Update>
-		-->
 		<Update>
 			<Set Cost="-1"/>
 			<Where Type="BUILDING_CRISTO_REDENTOR"/>
@@ -105,21 +105,21 @@
 			<Set Cost="-1"/>
 			<Where Type="BUILDING_EIFFEL_TOWER"/>
 		</Update>
-		<!-- 
 		<Update>
 			<Set Cost="-1"/>
 			<Where Type="BUILDING_PENTAGON"/>
+		</Update>
+		<Update>
+			<Set Cost="-1"/>
+			<Where Type="BUILDING_SYDNEY_OPERA_HOUSE"/>
 		</Update>
 		-->
 		<Update>
 			<Set Cost="-1"/>
 			<Where Type="BUILDING_UNITED_NATIONS"/>
 		</Update>
-		<Update>
-			<Set Cost="-1"/>
-			<Where Type="BUILDING_SYDNEY_OPERA_HOUSE"/>
-		</Update>
-		<!-- Gods & Kings Wonders -->
+		
+		<!-- Gods & Kings Wonders 
 		<Update>
 			<Set Cost="-1"/>
 			<Where Type="BUILDING_ALHAMBRA"/>
@@ -138,12 +138,19 @@
 		</Update>
 		<Update>
 			<Set Cost="-1"/>
-			<Where Type="BUILDING_MOSQUE_OF_DJENNE"/>
+			<Where Type="BUILDING_NEUSCHWANSTEIN"/>
 		</Update>
 		<Update>
 			<Set Cost="-1"/>
-			<Where Type="BUILDING_NEUSCHWANSTEIN"/>
+			<Where Type="BUILDING_GREAT_FIREWALL"/>
 		</Update>
+		-->
+		
+		<Update>
+			<Set Cost="-1"/>
+			<Where Type="BUILDING_MOSQUE_OF_DJENNE"/>
+		</Update>
+		
 		<Update>
 			<Set Cost="-1"/>
 			<Where Type="BUILDING_PETRA"/>
@@ -152,11 +159,8 @@
 			<Set Cost="-1"/>
 			<Where Type="BUILDING_TERRACOTTA_ARMY"/>
 		</Update>
-		<Update>
-			<Set Cost="-1"/>
-			<Where Type="BUILDING_GREAT_FIREWALL"/>
-		</Update>
-		<!-- Brave New World Wonders -->
+		
+		<!-- Brave New World Wonders 
 		<Update>
 			<Set Cost="-1"/>
 			<Where Type="BUILDING_UFFIZI"/>
@@ -177,6 +181,8 @@
 			<Set Cost="-1"/>
 			<Where Type="BUILDING_PRORA_RESORT"/>
 		</Update>
+		-->
+		
 		<Update>
 			<Set Cost="-1"/>
 			<Where Type="BUILDING_BOROBUDUR"/>

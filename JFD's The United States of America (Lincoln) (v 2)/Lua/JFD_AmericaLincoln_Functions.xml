@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Context>
+	<Box ID="BuildingBackground" Hidden="1" Anchor="C,B" Size="280,35" Offset="15,40" Color="0,0,0,0" ConsumeMouse="1">
+		<Grid Size="1,1" Anchor="C,C" Offset="0,0" ConsumeMouse="1">
+			<Button NoStateChange="1" Offset="25,10" Anchor="C,C" Color="255.255.255.0" Size="254,70" ID="BuildingButton">
+				<Image Anchor="C,C" Size="214,29" Offset="0,0" Texture="MeterBarGreatPersonBack.dds">
+					<TextureBar Anchor="R,C" Size="214.29" Texture="MeterBarGreatPersonGold.dds" Direction="Right" ID="BuildingMeter" />
+					<Image Anchor="R,C" Size="214,29" Texture="MeterBarFrame.dds"/>
+				</Image>
+				<Image Anchor="L,C" Size="64,64" Offset="0,0" Texture="64x64FrameButtons.dds">
+					<Image Anchor="C,C" Size="64,64" ID="BuildingImage"/>
+				</Image>
+			</Button>
+		</Grid>
+	</Box>
+</Context>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/24/2014 8:59:37 AM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_OIL_REFINERY</Type>
+			<DefaultBuilding>BUILDING_OIL_REFINERY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_OIL_REFINERY</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_WEAPONS_FACTORY</Type>
+			<DefaultBuilding>BUILDING_WEAPONS_FACTORY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_WEAPONS_FACTORY</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_MUNITIONS_FACTORY</Type>
+			<DefaultBuilding>BUILDING_MUNITIONS_FACTORY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MUNITIONS_FACTORY</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_SYNTHFUEL_PLANT</Type>
+			<DefaultBuilding>BUILDING_SYNTHFUEL_PLANT</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SYNTHFUEL_PLANT</Description>
+			<MaxPlayerInstances>6</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+</GameData>

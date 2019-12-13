@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>NewBuildingAtlas</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>NewBuildingAtlas256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>NewBuildingAtlas</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>NewBuildingAtlas128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>NewBuildingAtlas</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>NewBuildingAtlas80.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>NewBuildingAtlas</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>NewBuildingAtlas64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>NewBuildingAtlas</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>NewBuildingAtlas45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

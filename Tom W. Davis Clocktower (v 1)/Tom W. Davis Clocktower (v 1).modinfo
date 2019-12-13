@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4afd2442-40b6-45bb-91ed-f15196c1cf04" version="1">
+  <Properties>
+    <Name>Tom W. Davis Clocktower</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>The mighty Tom W. Davis Clocktower</Teaser>
+    <Description>Clock towers have long marked the hearts of civilization, inspired awe in passers-by and been the source of envy for communities lacking clock towers. The clang of Big Ben, the romance of “The Hunchback of Notre Dame,” and soon the lifelong memories and traditions at the Tom W. Davis Clock Tower. Get ready, cartographers, because Ohio State is about to be put on the map.[NEWLINE][NEWLINE]
+We owe this university and its donors a debt of gratitude for this clock tower and we are not properly showing it. Students’ annoyance is unfair. Imagine if you were a businessman who gave a bunch of ungrateful brats a new clock tower and they dismissed you, saying they would rather have more professors and scholarships. You would probably give the clock tower to a group of students who were more respectful. Count ourselves lucky that the clock tower is staying here! [NEWLINE][NEWLINE]
+Sure, we could have used $1.4 million on anything else, but then no one at Ohio State would know the time. And yes, you could complain that a $1.4 million clock tower is a poor financing choice, but I say that you cannot calculate the net present value of millions of smiles, for generations to come.</Description>
+    <Authors>FieryCharizard7</Authors>
+    <SpecialThanks>r/osu</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References>
+    <Mod id="60172c12-50c4-4ae8-9281-578daa612f67" minversion="0" maxversion="999" title="Dynamic Culture Overview" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="860169C3101C593A17206C45D15BB0EB" import="1">Art/TomWDavis_Clocktower.dds</File>
+    <File md5="A09428BFEB64B857F7AD8743746C91CB" import="1">Art/TomWDavis_Clocktower_128.dds</File>
+    <File md5="24808D4FC21B597DBA528A6ACB6349E2" import="1">Art/TomWDavis_Clocktower_256.dds</File>
+    <File md5="C7BF31F66A4977625A62BA3FC2AC3182" import="1">Art/TomWDavis_Clocktower_045.dds</File>
+    <File md5="01C28A56899272A299D216032A98325E" import="1">Art/TomWDavis_Clocktower_064.dds</File>
+    <File md5="D68155D4D1824210BD9FB321FD39DC5B" import="1">Art/TomWDavis_Clocktower_080.dds</File>
+    <File md5="6B664DC1BE1EEE1D39141D91D05D3A92" import="0">Code/TomWDavis_Clocktower.sql</File>
+    <File md5="446C87745F939765C3052A52180C1CDE" import="0">Code/TomWDavis_Clocktower.xml</File>
+    <File md5="F138CB6F9C1240966BB9C05788A8F86E" import="1">SpicyMeme/Its_Spicy_Meme_Ball/TarantellaNapoletana.wav</File>
+    <File md5="DDC3E91FDB11D999FF263E1ABEB8DEAB" import="0">SpicyMeme/MEME.txt</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Code/TomWDavis_Clocktower.sql</UpdateDatabase>
+      <UpdateDatabase>Code/TomWDavis_Clocktower.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
