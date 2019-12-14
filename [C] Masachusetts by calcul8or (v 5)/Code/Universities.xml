@@ -33,11 +33,13 @@
 			<DefaultBuilding>BUILDING_BUSINESS_DUMMY</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_BUSINESS_UNIVERSITY</Description>
 		</Row>
+		<!--
 		<Row>
 			<Type>BUILDINGCLASS_RELIGIOUS_UNIVERSITY</Type>
 			<DefaultBuilding>BUILDING_RELIGIOUS_DUMMY</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_RELIGIOUS_UNIVERSITY</Description>
 		</Row>
+		-->
 	</BuildingClasses>
 
 	<Buildings>
@@ -278,7 +280,7 @@
 			<PortraitIndex>4</PortraitIndex>
 			<IconAtlas>MA_UNIVERSITY_ATLAS</IconAtlas>
 		</Row>
-
+		<!--
 		<Row>
 			<Type>BUILDING_RELIGIOUS_UNIVERSITY</Type>
 			<Description>TXT_KEY_BUILDING_RELIGIOUS_UNIVERSITY</Description>
@@ -298,7 +300,7 @@
 			<PrereqTech>TECH_EDUCATION</PrereqTech>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
-			<!--<FreeBuildingThisCity>BUILDING_RELIGIOUS_DUMMY</FreeBuildingThisCity>-->
+			<FreeBuildingThisCity>BUILDING_RELIGIOUS_DUMMY</FreeBuildingThisCity>
 			<PortraitIndex>6</PortraitIndex>
 			<IconAtlas>MA_UNIVERSITY_ATLAS</IconAtlas>
 		</Row>
@@ -316,7 +318,7 @@
 			<PortraitIndex>6</PortraitIndex>
 			<IconAtlas>MA_UNIVERSITY_ATLAS</IconAtlas>
 		</Row>
-		
+		-->
 	</Buildings>
 
 
@@ -347,10 +349,12 @@
 			<BuildingType>BUILDING_BUSINESS_UNIVERSITY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_RELIGIOUS_UNIVERSITY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
 		</Row>
+		-->
 	</Building_ClassesNeededInCity>
 
 
@@ -384,10 +388,12 @@
 			<BuildingType>BUILDING_PUBLIC_SCHOOL</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_BUSINESS_UNIVERSITY</BuildingClassType>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_PUBLIC_SCHOOL</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_RELIGIOUS_UNIVERSITY</BuildingClassType>
 		</Row>
+		-->
 		<Row>
 			<BuildingType>BUILDING_PUBLIC_SCHOOL</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
@@ -465,10 +471,12 @@
 			<UnitType>UNIT_ARCHAEOLOGIST</UnitType>
 			<BuildingClassType>BUILDINGCLASS_BUSINESS_UNIVERSITY</BuildingClassType>
 		</Row>
+		<!--
 		<Row>
 			<UnitType>UNIT_ARCHAEOLOGIST</UnitType>
 			<BuildingClassType>BUILDINGCLASS_RELIGIOUS_UNIVERSITY</BuildingClassType>
 		</Row>
+		-->
 	</Unit_BuildingClassRequiredsOR>
 
 
@@ -509,12 +517,14 @@
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<YieldMod>17</YieldMod>
 		</Row>
+		<!--
 		<Row>
 			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_RELIGIOUS_UNIVERSITY</BuildingClassType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<YieldMod>17</YieldMod>
 		</Row>
+		-->
 	</Policy_BuildingClassYieldModifiers>
 	
 
@@ -640,7 +650,7 @@
 			<Flavor>15</Flavor>
 		</Row>
 		
-		
+		<!--
 		<Row>
 			<BuildingType>BUILDING_RELIGIOUS_UNIVERSITY</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
@@ -661,6 +671,7 @@
 			<FlavorType>FLAVOR_RELIGION</FlavorType>
 			<Flavor>15</Flavor>
 		</Row>
+		-->
 	</Building_Flavors>
 
 
@@ -701,12 +712,14 @@
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>2</Yield>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_RELIGIOUS_UNIVERSITY</BuildingType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>2</Yield>
 		</Row>
+		-->
 	</Building_FeatureYieldChanges>
 
 
@@ -721,11 +734,13 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>3</Yield>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_RELIGIOUS_UNIVERSITY</BuildingType>
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>5</Yield>
 		</Row>
+		-->
 	</Building_YieldChanges>
 
 
@@ -765,11 +780,13 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>10</Yield>
 		</Row>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_RELIGIOUS_UNIVERSITY</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>25</Yield>
 		</Row>
+		-->
 	</Building_YieldModifiers>
 
 
@@ -851,11 +868,13 @@
 			<BuildingClassType>BUILDINGCLASS_BUSINESS_UNIVERSITY</BuildingClassType>
 			<BuildingType>BUILDING_BUSINESS_UNIVERSITY</BuildingType>
 		</Row>
+		<!--
 		<Row>
 			<CivilizationType>CIVILIZATION_MASSACHUSETTS</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_RELIGIOUS_UNIVERSITY</BuildingClassType>
 			<BuildingType>BUILDING_RELIGIOUS_UNIVERSITY</BuildingType>
 		</Row>
+		-->
 	</Civilization_BuildingClassOverrides>
 		
 
@@ -944,7 +963,7 @@
 			<Text>+2 [ICON_RESEARCH] from Jungle Tiles and +10% [ICON_GOLD] Gold, plus 2 Merchant Specialists. Allows Archaeologists to be built in this city.[NEWLINE][NEWLINE]City must have a Library.</Text>
 		</Row>
 
-
+		<!--
 		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_UNIVERSITY">
 			<Text>Religious University</Text>
 		</Row>
@@ -957,7 +976,7 @@
 		<Row Tag="TXT_KEY_BUILDING_RELIGIOUS_UNIVERSITY_HELP">
 			<Text>+2 [ICON_RESEARCH] from Jungle Tiles and adds +5 [ICON_PEACE] Faith. Allows Archaeologists to be built in this city.[NEWLINE][NEWLINE]City must have a Library.</Text>
 		</Row>
-
+		-->
 	</Language_en_US>
 	
 </GameData>
