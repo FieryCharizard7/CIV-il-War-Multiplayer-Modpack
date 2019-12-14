@@ -75,13 +75,13 @@
 	</Civilization_FreeBuildingClasses>-->
 
 
-	<Building_YieldChangesPerReligion>
+	<Building_YieldChangesPerPop>		
 		<Row>
 			<BuildingType>BUILDING_PAFAITH</BuildingType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>200</Yield>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>50</Yield>
 		</Row>
-	</Building_YieldChangesPerReligion>
+	</Building_YieldChangesPerPop>
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_PAFAITH">
