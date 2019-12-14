@@ -11,7 +11,7 @@
 
 			<Cost>300</Cost>
 
-			<GoldMaintenance>1</GoldMaintenance>
+			<GoldMaintenance>0</GoldMaintenance>
 
 			<PrereqTech>TECH_ARCHAEOLOGY</PrereqTech>
 
@@ -51,7 +51,6 @@
 			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
 		</Row>
 	</Building_ClassesNeededInCity>
-
 	<Building_Flavors>
 		<Row>
 			<BuildingType>BUILDING_HOF</BuildingType>
@@ -194,7 +193,7 @@
 			<Text>Hall of Fame</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HOF_STRATEGY">
-			<Text>Replace the Museum; adds +3 Tourism after researching Radio.</Text>
+			<Text> The Ohioan replacement for the Museum. The Hall of Fame adds +3 Tourism after researching Radio and has no Maintenancen cost.</Text>
 		</Row>
 	</Language_en_US>
 

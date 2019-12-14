@@ -83,7 +83,14 @@
 			<Yield>6</Yield>
 		</Row>
 	</Building_YieldChanges>
-
+	<Building_BuildingClassYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_ROCK_HALL</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_STADIUM</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>
 	<Civilization_BuildingClassOverrides>
 		<Row>
 			<CivilizationType>CIVILIZATION_OHIO</CivilizationType>
@@ -99,7 +106,7 @@
 			<Text>Rock Hall</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_ROCK_HALL_HELP">
-			<Text>Unique National Wonder, requires Museums in all cities. Adds +4 [ICON_CULTURE] and +6 [ICON_TOURISM] Tourism, more with Telecommunications.</Text>
+			<Text>Unique National Wonder, requires Halls of Fame in all cities. Adds +4 [ICON_CULTURE] and +6 [ICON_TOURISM] Tourism, more with Telecommunications. Also adds +2 [ICON_GOLD] Gold to all Stadiums in your state.</Text>
 		</Row>
 	</Language_en_US>
   
