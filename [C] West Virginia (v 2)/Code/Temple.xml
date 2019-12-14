@@ -5,17 +5,19 @@
 		<Buildings>
 			<Row>
 				<Type>BUILDING_GOLD_PALACE</Type>
-				<BuildingClass>BUILDINGCLASS_GRAND_TEMPLE</BuildingClass>
+				<BuildingClass>BUILDINGCLASS_NATIONAL_TREASURY</BuildingClass>
 				<Cost>125</Cost>
 				<GoldMaintenance>0</GoldMaintenance>
-				<HolyCity>1</HolyCity>
+				<!--<HolyCity>0</HolyCity>-->
 				<NumCityCostMod>30</NumCityCostMod>
-				<ReligiousPressureModifier>150</ReligiousPressureModifier>
-				<PrereqTech>TECH_THEOLOGY</PrereqTech>
+				<!--<ReligiousPressureModifier>150</ReligiousPressureModifier>-->
+				<PrereqTech>TECH_GUILDS</PrereqTech>
+				<TradeRouteRecipientBonus>3</TradeRouteRecipientBonus>
+      			<TradeRouteTargetBonus>2</TradeRouteTargetBonus>
 				<Description>TXT_KEY_BUILDING_GOLD_PALACE_DESC</Description>
-				<Civilopedia>TXT_KEY_CIV5_BUILDINGS_GRAND_TEMPLE_TEXT</Civilopedia>
+				<Civilopedia>TXT_KEY_CIV5_BUILDINGS_EAST_INDIA_TEXT</Civilopedia>
 				<Strategy>TXT_KEY_BUILDING_GOLD_PALACE_STRATEGY</Strategy>
-				<Help>TXT_KEY_BUILDING_GRAND_TEMPLE_HELP</Help>
+				<Help>TXT_KEY_BUILDING_NATIONAL_TREASURY_HELP</Help>
 				<ArtDefineTag>TEMPLE</ArtDefineTag>
 				<MinAreaSize>-1</MinAreaSize>
 				<MutuallyExclusiveGroup>-1</MutuallyExclusiveGroup>
@@ -25,21 +27,25 @@
 				<IconAtlas>WV_COLOR_ATLAS</IconAtlas>
 				<PortraitIndex>5</PortraitIndex>
 				<EnhancedYieldTech>TECH_FLIGHT</EnhancedYieldTech>
-				<TechEnhancedTourism>5</TechEnhancedTourism>
+				<TechEnhancedTourism>8</TechEnhancedTourism>
+				<GreatWorkSlotType>GREAT_WORK_SLOT_MUSIC</GreatWorkSlotType>
+				<GreatWorkCount>1</GreatWorkCount>
+				<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
+      			<SpecialistCount>1</SpecialistCount>
 			</Row>
 		</Buildings>
 
 		<Building_ClassesNeededInCity>
 			<Row>
 				<BuildingType>BUILDING_GOLD_PALACE</BuildingType>
-				<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+				<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
 			</Row>
 		</Building_ClassesNeededInCity>
 
 		<Building_PrereqBuildingClasses>
 			<Row>
 				<BuildingType>BUILDING_GOLD_PALACE</BuildingType>
-				<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+				<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
 				<NumBuildingNeeded>-1</NumBuildingNeeded>
 			</Row>
 		</Building_PrereqBuildingClasses>
@@ -47,7 +53,7 @@
 		<Building_YieldChanges>
 			<Row>
 				<BuildingType>BUILDING_GOLD_PALACE</BuildingType>
-				<YieldType>YIELD_FAITH</YieldType>
+				<YieldType>YIELD_CULTURE</YieldType>
 				<Yield>8</Yield>
 			</Row>
 		</Building_YieldChanges>
@@ -59,10 +65,30 @@
 				<Flavor>25</Flavor>
 			</Row>
 			<Row>
-				<BuildingType>BUILDING_GRAND_TEMPLE</BuildingType>
+				<BuildingType>BUILDING_GOLD_PALACE</BuildingType>
 				<FlavorType>FLAVOR_WONDER</FlavorType>
 				<Flavor>20</Flavor>
 			</Row>
+			<Row>
+      			<BuildingType>BUILDING_GOLD_PALACE</BuildingType>
+      			<FlavorType>FLAVOR_GOLD</FlavorType>
+      			<Flavor>25</Flavor>
+    		</Row>
+    		<Row>
+      			<BuildingType>BUILDING_GOLD_PALACE</BuildingType>
+      			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+      			<Flavor>25</Flavor>
+    		</Row>
+    		<Row>
+      			<BuildingType>BUILDING_GOLD_PALACE</BuildingType>
+      			<FlavorType>FLAVOR_I_TRADE_DESTINATION</FlavorType>
+      			<Flavor>25</Flavor>
+    		</Row>
+    		<Row>
+      			<BuildingType>BUILDING_GOLD_PALACE</BuildingType>
+      			<FlavorType>FLAVOR_WONDER</FlavorType>
+      			<Flavor>25</Flavor>
+    		</Row>
 		</Building_Flavors>
 
 		<Language_en_US>
@@ -71,7 +97,7 @@
 				<Gender>neuter:the</Gender>
 			</Row>
 			<Row Tag="TXT_KEY_BUILDING_GOLD_PALACE_STRATEGY">
-				<Text>The Palace of Gold has +8 [ICON_PEACE] Faith like the Grand Temple, and boosts religious pressure by 150%. Also generates +5 Tourism after Flight is researched.</Text>
+				<Text>The Palace of Gold has +8 [ICON_CULTURE] culture and increases the amount of [ICON_GOLD] Gold a city generates. Trade routes other players make to a city with an East India Company will generate an extra 3 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 2 [ICON_GOLD] Gold for the trade route. Generates +8 [ICON_TOURISM] Tourism after Flight is researched. Has 1 slot for a [ICON_GREAT_WORK] Great Work of Music and 1 [ICON_GREAT_MUSICIAN] Musician Specialist.</Text>
 			</Row>
 			<Row Tag="TXT_KEY_BUILDING_GOLD_PALACE_DESC">
 				<Text>Palace of Gold</Text>
