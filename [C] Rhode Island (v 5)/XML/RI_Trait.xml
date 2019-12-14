@@ -48,7 +48,7 @@
 	
 	<Language_en_US>
 		<Row Tag="TXT_KEY_TRAIT_RITRAIT">
-			<Text>Unhappiness per city increases with each city. Each coastal city is automatically [ICON_CONNECTED] connected to the capital and opens one additional trade route slot; +1 [ICON_PEACE] Faith in each city.</Text>
+			<Text>Unhappiness per city increases with each city. Each coastal city is automatically [ICON_CONNECTED] connected to the capital and opens one additional trade route slot; +1 [ICON_CULTURE] Culture and in each city and free Lighthouses for coastal cities.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_RITRAIT_SHORT">
 			<Text>The Ocean State</Text>

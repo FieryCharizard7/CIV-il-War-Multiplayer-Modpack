@@ -9,21 +9,22 @@
 			<Civilopedia>TXT_KEY_BUILDING_STONEENDER_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_STONEENDER_STRATEGY</Strategy>
 			<Help>TXT_KEY_BUILDING_STONEENDER_HELP</Help>
-			<Cost>100</Cost>
+			<Cost>120</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
-			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+      		<SpecialistCount>1</SpecialistCount>
 			<MutuallyExclusiveGroup>-1</MutuallyExclusiveGroup>
 			<HurryCostModifier>25</HurryCostModifier>
 			<FaithCost>0</FaithCost>
 			<MinAreaSize>-1</MinAreaSize>
-			<FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
+			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
 			<GreatWorkSlotType>GREAT_WORK_SLOT_MUSIC</GreatWorkSlotType>
 			<GreatWorkCount>2</GreatWorkCount>
 			<ThemingBonusHelp>TXT_KEY_STONEENDER_THEMING_BONUS_HELP</ThemingBonusHelp>
-			<EnhancedYieldTech/>
 			<TechEnhancedTourism>0</TechEnhancedTourism>
 			
-			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
+			<BuildingClass>BUILDINGCLASS_WORKSHOP</BuildingClass>
 			<ArtDefineTag>COLESSEUM</ArtDefineTag>
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>4</PortraitIndex>
@@ -32,19 +33,19 @@
 		
 	</Buildings>
 
-
+	<!--
 	<Building_ClassesNeededInCity>
 		<Row>
 			<BuildingType>BUILDING_STONEENDER</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
 		</Row>
 	</Building_ClassesNeededInCity>
-
+	-->
 
 	<Building_YieldChanges>
 		<Row>
 			<BuildingType>BUILDING_STONEENDER</BuildingType>
-			<YieldType>YIELD_FAITH</YieldType>
+			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>2</Yield>
 		</Row>
 	</Building_YieldChanges>
@@ -72,10 +73,30 @@
 			<Flavor>2</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_TEMPLE</BuildingType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<BuildingType>BUILDING_STONEENDER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>40</Flavor>
 		</Row>
+	    <Row>
+      		<BuildingType>BUILDING_STONEENDER</BuildingType>
+      		<FlavorType>FLAVOR_GROWTH</FlavorType>
+      		<Flavor>5</Flavor>
+    	</Row>
+    	<Row>
+      		<BuildingType>BUILDING_STONEENDER</BuildingType>
+      		<FlavorType>FLAVOR_EXPANSION</FlavorType>
+      		<Flavor>5</Flavor>
+    	</Row>
+    	<Row>
+      		<BuildingType>BUILDING_STONEENDER</BuildingType>
+      		<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+      		<Flavor>30</Flavor>
+    	</Row>
+    	<Row>
+      		<BuildingType>BUILDING_STONEENDER</BuildingType>
+      		<FlavorType>FLAVOR_WONDER</FlavorType>
+      		<Flavor>10</Flavor>
+    	</Row>
 	</Building_Flavors>
 	
 	
@@ -90,13 +111,13 @@
 		</Row>
 		
 		<Row Tag="TXT_KEY_BUILDING_STONEENDER_HELP">
-			<Text>The Stone Ender is Rhode Island's unique building, replacing the Temple. It holds 2 Great Works of Music.</Text>
+			<Text>The Stone Ender is Rhode Island's unique building, replacing the Workshop. It holds 2 Great Works of Music, yields +2 [ICON_CULTURE] culture, and has reduced maintenance cost.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STONEENDER_STRATEGY">
-			<Text>The Stone Ender is Rhode Island's unique building, replacing the Temple. It holds 2 Great Works of Music.</Text>
+			<Text>The Stone Ender is Rhode Island's unique building, replacing the Workshop. It holds 2 Great Works of Music and yields +2 [ICON_CULTURE] culture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_THEMING_BONUS_STONEENDER">
-			<Text>Rhode Island music repository</Text>
+			<Text>{1_EraAdjective} {2_CivAdjective} Music Repository</Text>
 		</Row>
 		<Row Tag="TXT_KEY_STONEENDER_THEMING_BONUS_HELP">
 			<Text>Must be from the same player and era</Text>
