@@ -2,6 +2,7 @@
 <!-- Created by ModBuddy on 6/23/2014 8:30:37 AM -->
 <GameData>
 	<Buildings>
+		<!--
 		<Row>
 			<Type>BUILDING_TEXTILE_MILL</Type>
 			<BuildingClass>BUILDINGCLASS_TEXTILE_MILL</BuildingClass>
@@ -17,6 +18,7 @@
 			<IconAtlas>INDUSTRIAL_ICONATLAS</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 		</Row>
+		-->
 		<Row>
 			<Type>BUILDING_TCS_GROCER</Type>
 			<BuildingClass>BUILDINGCLASS_TCS_GROCER</BuildingClass>
@@ -118,6 +120,7 @@
 		</Row>
 	</Building_ClassesNeededInCity>
 	<!-- You can specify that a building require EITHER resource 1 OR resource 2 (for instance, either Sheep or Cow) -->
+	<!--
 	<Building_LocalResourceOrs>
 		<Row>
 			<BuildingType>BUILDING_TEXTILE_MILL</BuildingType>
@@ -132,8 +135,10 @@
 			<ResourceType>RESOURCE_COTTON</ResourceType>
 		</Row>
 	</Building_LocalResourceOrs>
+	-->
 	<!-- Resource Yield Changes -->
 	<Building_ResourceYieldChanges>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_TEXTILE_MILL</BuildingType>
 			<ResourceType>RESOURCE_SHEEP</ResourceType>
@@ -158,6 +163,7 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
+		-->
 		<Row>
 			<BuildingType>BUILDING_RANCH</BuildingType>
 			<ResourceType>RESOURCE_SHEEP</ResourceType>
@@ -222,11 +228,13 @@
 	</Building_YieldModifiers>
 	<!-- Building Yields -->
 	<Building_YieldChanges>
+		<!--
 		<Row>
 			<BuildingType>BUILDING_TEXTILE_MILL</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>3</Yield>
 		</Row>
+		-->
 		<Row>
 			<BuildingType>BUILDING_TCS_GROCER</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -258,7 +266,7 @@
 	</Building_ResourceQuantity>
 	<!-- Building flavors, to make buildings usable by AI -->
 	<Building_Flavors>
-		<!-- Textile Mill -->
+		<!-- Textile Mill
 		<Row>
 			<BuildingType>BUILDING_TEXTILE_MILL</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -274,6 +282,7 @@
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
+		-->
 		<!-- Grocer -->
 		<Row>
 			<BuildingType>BUILDING_TCS_GROCER</BuildingType>

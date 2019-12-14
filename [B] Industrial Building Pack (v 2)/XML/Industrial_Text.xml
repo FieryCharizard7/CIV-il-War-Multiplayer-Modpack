@@ -3,9 +3,11 @@
 <GameData>
 	<Language_en_US>
 		<!-- Description Tags-->
+		<!--
 		<Row Tag="TXT_KEY_BUILDING_TEXTILE_MILL">
 			<Text>Textile Mill</Text>
 		</Row>
+		-->
 		<Row Tag="TXT_KEY_BUILDING_TCS_GROCER">
 			<Text>Grocer</Text>
 		</Row>
@@ -22,9 +24,11 @@
 			<Text>Coastal Battery</Text>
 		</Row>
 		<!-- Help Tags-->
+		<!--
 		<Row Tag="TXT_KEY_BUILDING_TEXTILE_MILL_HELP">
 			<Text>+3 Production. +1 Production on Sheep, Silk, and Cotton. +2 Gold on Dye.[NEWLINE][NEWLINE]City must have an improved source of Sheep, Silk, or Cotton.</Text>
 		</Row>
+		-->
 		<Row Tag="TXT_KEY_BUILDING_TCS_GROCER_HELP">
 			<Text>+2 Food, +5% Growth. +1 Food on Bananas and Citrus.[NEWLINE][NEWLINE]City must have a Market.</Text>
 		</Row>
@@ -41,9 +45,11 @@
 			<Text>City must have an Arsenal.</Text>
 		</Row>
 		<!-- Pedia Tags-->
+		<!--
 		<Row Tag="TXT_KEY_BUILDING_TEXTILE_MILL_PEDIA">
 			<Text>Before the 18th century, the manufacture of cloth was performed by individual workers, in the premises in which they lived and goods were transported around the country by packhorses or by river navigations and contour-following canals that had been constructed in the early 18th century. In the mid-18th century, artisans were inventing ways to become more productive. Silk, wool, and fustian fabrics were being eclipsed by cotton which became the most important textile.[NEWLINE][NEWLINE]Innovations in carding and spinning enabled by advances in cast iron technology resulted in the creation of larger spinning mules and water frames. The machinery was housed in water-powered mills on streams. The need for more power stimulated the production of steam-powered beam engines, and rotative mill engines transmitting the power to line shafts on each floor of the mill. Surplus power capacity encouraged the construction of more sophisticated power looms working in weaving sheds. The scale of production in the mill towns round Manchester created a need for a commercial structure; for a cotton exchange and warehousing. The technology was used in woollen and worsted mills in the West Riding of Yorkshire and elsewhere.[NEWLINE][NEWLINE]--Wikipedia</Text>
 		</Row>
+		-->
 		<Row Tag="TXT_KEY_BUILDING_TCS_GROCER_PEDIA">
 			<Text>In some countries such as the United States, grocery stores descended from trading posts, which sold not only food but clothing, household items, tools, furniture, and other miscellaneous merchandise. These trading posts evolved into larger retail businesses known as general stores. These facilities generally dealt only in "dry" goods such as flour, dry beans, baking soda, and canned foods. Perishable foods were instead obtained from specialty markets; Fresh meat was obtained from a butcher, milk from a local dairy, eggs and vegetables were either produced by families themselves, bartered for with neighbours, or purchased at a farmers' market or a local greengrocer.[NEWLINE][NEWLINE]Many rural areas still contain general stores that sell goods ranging from cigars to imported napkins. Traditionally, general stores have offered credit to their customers, a system of payment that works on trust rather than modern credit cards. This allowed farm families to buy staples until their harvest could be sold.[NEWLINE][NEWLINE]--Wikipedia</Text>
 		</Row>
