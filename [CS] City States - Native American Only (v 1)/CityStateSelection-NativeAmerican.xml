@@ -2,19 +2,22 @@
 <GameData>
 	<MinorCivilizations>
 		<!-- MOVE ENTRIES FOR CITY-STATES YOU WANT IN-GAME HERE (commented entries won't be deleted)
+		-- This document deletes all of the base game city states not listed in this section.
 		
 		'NATIVE AMERICAN'
-		<Delete Type="MINOR_CIV_PANAMA_CITY"/>
+		
 		<Delete Type="MINOR_CIV_CAHOKIA"/>
-		<Delete Type="MINOR_CIV_LA_VENTA"/>
-		<Delete Type="MINOR_CIV_BUENOS_AIRES"/>
-		<Delete Type="MINOR_CIV_BOGOTA"/>
 		<Delete Type="MINOR_CIV_QUEBEC_CITY"/>
 		<Delete Type="MINOR_CIV_VANCOUVER"/>
 		
 		-->
 		
-		<!-- MOVE ENTRIES FOR CITY-STATES YOU DON'T WANT BELOW-->
+		<!-- MOVE ENTRIES FOR CITY-STATES YOU WANT TO DELETE-->
+		'NATIVE AMERICAN'
+		<Delete Type="MINOR_CIV_LA_VENTA"/>
+		<Delete Type="MINOR_CIV_PANAMA_CITY"/>
+		<Delete Type="MINOR_CIV_BUENOS_AIRES"/>
+		<Delete Type="MINOR_CIV_BOGOTA"/>
 
 		'ASIAN'
 		<Delete Type="MINOR_CIV_ALMATY"/>

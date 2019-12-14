@@ -1052,6 +1052,8 @@ print (thisCiv.ID..'='..thisCiv.Type..' :: '..Locale.ConvertTextKey(thisCiv.Shor
 	elseif (thisCiv.Type == "CIVILIZATION_ILLINOIS") then ResultPos = {19,28};
 	elseif (thisCiv.Type == "CIVILIZATION_S_NEBRASKA") then ResultPos = {1,29};
 	elseif (thisCiv.Type == "CIVILIZATION_AMERICA") then ResultPos = {35,28};
+	elseif (thisCiv.Type == "CIVILIZATION_JFD_AMERICA_LINCOLN") then ResultPos = {34,28};
+	elseif (thisCiv.Type == "CIVILIZATION_CSA") then ResultPos = {35,23};
 	elseif (thisCiv.Type == "CIVILIZATION_IROQUOIS") then ResultPos = {36,43};
 	elseif (thisCiv.Type == "CIVILIZATION_THECREEFIRSTNATION") then ResultPos = {17,48};
 	elseif (thisCiv.Type == "CIVILIZATION_SIOUX_MOD") then ResultPos = {7,32};
@@ -1077,18 +1079,25 @@ function nORbConvWorld:GetMinorCivStartPlot(pPlayer)
 	local thisCiv   = GameInfo.MinorCivilizations[iCivType];
 
 print (thisCiv.ID..'='..thisCiv.Type..' :: '..Locale.ConvertTextKey(thisCiv.ShortDescription));
-		if (thisCiv.Type == "MINOR_CIV_SEMINOLE") then ResultPos = {32,3};
-	elseif (thisCiv.Type == "MINOR_CIV_APACHE") then ResultPos = {1,9};
-	elseif (thisCiv.Type == "MINOR_CIV_COMANCHE") then ResultPos = {2,14};
-	elseif (thisCiv.Type == "MINOR_CIV_CARIB") then ResultPos = {40,2};
-	elseif (thisCiv.Type == "MINOR_CIV_CUBEO") then ResultPos = {52,14};
-	elseif (thisCiv.Type == "MINOR_CIV_CHICHIME") then ResultPos = {5,2};
-	elseif (thisCiv.Type == "MINOR_CIV_CAHOKIA") then ResultPos = {17,20};
+	if (thisCiv.Type == "MINOR_CIV_CAHOKIA") then ResultPos = {17,20};
 	elseif (thisCiv.Type == "MINOR_CIV_QUEBEC_CITY") then ResultPos = {41,40};
 	elseif (thisCiv.Type == "MINOR_CIV_VANCOUVER") then ResultPos = {5,48};
+
+	elseif (thisCiv.Type == "MINOR_CIV_APACHE") then ResultPos = {1,9};
+	elseif (thisCiv.Type == "MINOR_CIV_CHICHIME") then ResultPos = {5,2};
+	elseif (thisCiv.Type == "MINOR_CIV_CARIB") then ResultPos = {40,2};
+	elseif (thisCiv.Type == "MINOR_CIV_COMANCHE") then ResultPos = {2,14};
+	elseif (thisCiv.Type == "MINOR_CIV_CUBEO") then ResultPos = {52,14};
 	elseif (thisCiv.Type == "MINOR_CIV_OLMEC") then ResultPos = {2,2};
 	elseif (thisCiv.Type == "MINOR_CIV_PUELCHE") then ResultPos = {2,3};
+	elseif (thisCiv.Type == "MINOR_CIV_SEMINOLE") then ResultPos = {32,3};
 	elseif (thisCiv.Type == "MINOR_CIV_TOLTEC") then ResultPos = {1,1};
+
+	elseif (thisCiv.Type == "MINOR_CIV_MEXICO_CITY") then ResultPos = {6,0};
+	elseif (thisCiv.Type == "MINOR_CIV_KINGSTON") then ResultPos = {32,38};
+	elseif (thisCiv.Type == "MINOR_CIV_OTTAWA") then ResultPos = {38,40};
+
+
 	end
 
 	if (ResultPos[1] ~= -1) then
