@@ -2,6 +2,7 @@
 <!-- Created by ModBuddy on 5/18/2014 1:21:18 AM -->
 <GameData>
 	<Improvements>
+		<!-- CSA-->
 		<Row>
 			<Type>IMPROVEMENT_ANTEBELLUM</Type>
 			<Description>TXT_KEY_IMPROVEMENT_ANTEBELLUM</Description>
@@ -15,8 +16,114 @@
 			<PortraitIndex>2</PortraitIndex>
 			<IconAtlas>CIV_COLOR_ATLAS_CSA</IconAtlas>
 		</Row>
+		<!-- Non calc texas -->
+		<Row>
+			<Type>IMPROVEMENT_ANTEBELLUM_TX</Type>
+			<Description>TXT_KEY_IMPROVEMENT_ANTEBELLUM</Description>
+			<Civilopedia>TXT_KEY_IMPROVEMENT_ANTEBELLUM_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_ANTEBELLUM_MANOR</ArtDefineTag>
+			<Help>TXT_KEY_BUILD_ANTEBELLUM_HELP</Help>
+			<SpecificCivRequired>true</SpecificCivRequired>
+			<CivilizationType>CIVILIZATION_TEXAS</CivilizationType>
+			<NoTwoAdjacent>true</NoTwoAdjacent>
+			<PillageGold>50</PillageGold>
+			<RequiresFlatlandsOrFreshWater>true</RequiresFlatlandsOrFreshWater>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_CSA</IconAtlas>
+		</Row>
+		<!-- Tennesee -->
+		<Row>
+			<Type>IMPROVEMENT_ANTEBELLUM_TN</Type>
+			<Description>TXT_KEY_IMPROVEMENT_ANTEBELLUM</Description>
+			<Civilopedia>TXT_KEY_IMPROVEMENT_ANTEBELLUM_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_ANTEBELLUM_MANOR</ArtDefineTag>
+			<Help>TXT_KEY_BUILD_ANTEBELLUM_HELP</Help>
+			<SpecificCivRequired>true</SpecificCivRequired>
+			<CivilizationType>CIVILIZATION_TENNESSEE</CivilizationType>
+			<PillageGold>50</PillageGold>
+			<RequiresFlatlandsOrFreshWater>true</RequiresFlatlandsOrFreshWater>
+			<NoTwoAdjacent>true</NoTwoAdjacent>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_CSA</IconAtlas>
+		</Row>
+		<!-- Louisiana -->
+		<Row>
+			<Type>IMPROVEMENT_ANTEBELLUM_LA</Type>
+			<Description>TXT_KEY_IMPROVEMENT_ANTEBELLUM</Description>
+			<Civilopedia>TXT_KEY_IMPROVEMENT_ANTEBELLUM_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_ANTEBELLUM_MANOR</ArtDefineTag>
+			<Help>TXT_KEY_BUILD_ANTEBELLUM_HELP</Help>
+			<SpecificCivRequired>true</SpecificCivRequired>
+			<CivilizationType>CIVILIZATION_LOUISIANA</CivilizationType>
+			<PillageGold>50</PillageGold>
+			<RequiresFlatlandsOrFreshWater>true</RequiresFlatlandsOrFreshWater>
+			<NoTwoAdjacent>true</NoTwoAdjacent>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_CSA</IconAtlas>
+		</Row>
+		<!-- FL-->
+		<Row>
+			<Type>IMPROVEMENT_ANTEBELLUM_FL</Type>
+			<Description>TXT_KEY_IMPROVEMENT_ANTEBELLUM</Description>
+			<Civilopedia>TXT_KEY_IMPROVEMENT_ANTEBELLUM_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_ANTEBELLUM_MANOR</ArtDefineTag>
+			<Help>TXT_KEY_BUILD_ANTEBELLUM_HELP</Help>
+			<SpecificCivRequired>true</SpecificCivRequired>
+			<CivilizationType>CIVILIZATION_FLORIDA</CivilizationType>
+			<PillageGold>50</PillageGold>
+			<RequiresFlatlandsOrFreshWater>true</RequiresFlatlandsOrFreshWater>
+			<NoTwoAdjacent>true</NoTwoAdjacent>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_CSA</IconAtlas>
+		</Row>
+		<!-- GA -->
+		<Row>
+			<Type>IMPROVEMENT_ANTEBELLUM_GA</Type>
+			<Description>TXT_KEY_IMPROVEMENT_ANTEBELLUM</Description>
+			<Civilopedia>TXT_KEY_IMPROVEMENT_ANTEBELLUM_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_ANTEBELLUM_MANOR</ArtDefineTag>
+			<Help>TXT_KEY_BUILD_ANTEBELLUM_HELP</Help>
+			<SpecificCivRequired>true</SpecificCivRequired>
+			<CivilizationType>CIVILIZATION_CALCGEORGIA</CivilizationType>
+			<PillageGold>50</PillageGold>
+			<RequiresFlatlandsOrFreshWater>true</RequiresFlatlandsOrFreshWater>
+			<NoTwoAdjacent>true</NoTwoAdjacent>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_CSA</IconAtlas>
+		</Row>
+		<!-- VA -->
+		<Row>
+			<Type>IMPROVEMENT_ANTEBELLUM_VA</Type>
+			<Description>TXT_KEY_IMPROVEMENT_ANTEBELLUM</Description>
+			<Civilopedia>TXT_KEY_IMPROVEMENT_ANTEBELLUM_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_ANTEBELLUM_MANOR</ArtDefineTag>
+			<Help>TXT_KEY_BUILD_ANTEBELLUM_HELP</Help>
+			<SpecificCivRequired>true</SpecificCivRequired>
+			<CivilizationType>CIVILIZATION_VIRGINIA</CivilizationType>
+			<PillageGold>50</PillageGold>
+			<RequiresFlatlandsOrFreshWater>true</RequiresFlatlandsOrFreshWater>
+			<NoTwoAdjacent>true</NoTwoAdjacent>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_CSA</IconAtlas>
+		</Row>
+		<!-- NC -->
+		<Row>
+			<Type>IMPROVEMENT_ANTEBELLUM_NC</Type>
+			<Description>TXT_KEY_IMPROVEMENT_ANTEBELLUM</Description>
+			<Civilopedia>TXT_KEY_IMPROVEMENT_ANTEBELLUM_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_ANTEBELLUM_MANOR</ArtDefineTag>
+			<Help>TXT_KEY_BUILD_ANTEBELLUM_HELP</Help>
+			<SpecificCivRequired>true</SpecificCivRequired>
+			<CivilizationType>CIVILIZATION_NOCAROLINA</CivilizationType>
+			<PillageGold>50</PillageGold>
+			<RequiresFlatlandsOrFreshWater>true</RequiresFlatlandsOrFreshWater>
+			<NoTwoAdjacent>true</NoTwoAdjacent>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_CSA</IconAtlas>
+		</Row>
 	</Improvements>
 	<Improvement_Flavors>
+		<!-- CSA -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_ANTEBELLUM</ImprovementType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
@@ -37,8 +144,157 @@
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
+		<!-- Non-calc Texas -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TX</ImprovementType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TX</ImprovementType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TX</ImprovementType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TX</ImprovementType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<!-- TN -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TN</ImprovementType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TN</ImprovementType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TN</ImprovementType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TN</ImprovementType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<!-- Louisiana -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_LA</ImprovementType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_LA</ImprovementType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_LA</ImprovementType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_LA</ImprovementType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<!-- FL -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_FL</ImprovementType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_FL</ImprovementType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_FL</ImprovementType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_FL</ImprovementType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<!-- GA -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_GA</ImprovementType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_GA</ImprovementType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_GA</ImprovementType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_GA</ImprovementType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<!-- VA -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_VA</ImprovementType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_VA</ImprovementType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_VA</ImprovementType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_VA</ImprovementType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<!-- NC -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_NC</ImprovementType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_NC</ImprovementType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_NC</ImprovementType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_NC</ImprovementType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+
 	</Improvement_Flavors>
 	<Improvement_ResourceTypes>
+		<!-- CSA -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_ANTEBELLUM</ImprovementType>
 			<ResourceType>RESOURCE_COTTON</ResourceType>
@@ -49,10 +305,102 @@
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_ANTEBELLUM</ImprovementType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+		</Row>
+		<!-- Non-calc Texas -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TX</ImprovementType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TX</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TX</ImprovementType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+		</Row>
+		<!-- TN -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TN</ImprovementType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TN</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TN</ImprovementType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+		</Row>
+		<!-- LA -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_LA</ImprovementType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_LA</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_LA</ImprovementType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+		</Row>
+		<!-- FL -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_FL</ImprovementType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_FL</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_FL</ImprovementType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+		</Row>
+		<!-- GA -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_GA</ImprovementType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_GA</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_GA</ImprovementType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+		</Row>
+		<!-- VA -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_VA</ImprovementType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_VA</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_VA</ImprovementType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+		</Row>
+		<!-- NC -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_NC</ImprovementType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_NC</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_NC</ImprovementType>
 			<ResourceType>RESOURCE_TOBACCO</ResourceType>
 		</Row>
 	</Improvement_ResourceTypes>
 	<Improvement_ResourceType_Yields>
+		<!-- CSA -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_ANTEBELLUM</ImprovementType>
 			<ResourceType>RESOURCE_COTTON</ResourceType>
@@ -85,12 +433,272 @@
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_ANTEBELLUM</ImprovementType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!-- Non-calc Texas -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TX</ImprovementType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TX</ImprovementType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TX</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TX</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TX</ImprovementType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TX</ImprovementType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!-- TN -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TN</ImprovementType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TN</ImprovementType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TN</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TN</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TN</ImprovementType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TN</ImprovementType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!-- LA -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_LA</ImprovementType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_LA</ImprovementType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_LA</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_LA</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_LA</ImprovementType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_LA</ImprovementType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!-- FL -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_FL</ImprovementType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_FL</ImprovementType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_FL</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_FL</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_FL</ImprovementType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_FL</ImprovementType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!-- GA -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_GA</ImprovementType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_GA</ImprovementType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_GA</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_GA</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_GA</ImprovementType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_GA</ImprovementType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!-- VA -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_VA</ImprovementType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_VA</ImprovementType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_VA</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_VA</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_VA</ImprovementType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_VA</ImprovementType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!-- NC -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_NC</ImprovementType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_NC</ImprovementType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_NC</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_NC</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_NC</ImprovementType>
+			<ResourceType>RESOURCE_TOBACCO</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_NC</ImprovementType>
 			<ResourceType>RESOURCE_TOBACCO</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
 	</Improvement_ResourceType_Yields>
 	<Improvement_AdjacentCityYields>
+		<!-- CSA -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_ANTEBELLUM</ImprovementType>
 			<YieldType>YIELD_CULTURE</YieldType>
@@ -98,11 +706,89 @@
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_ANTEBELLUM</ImprovementType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!-- Non-calc Texas -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TX</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TX</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!-- TN -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TN</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TN</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!-- LA -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_LA</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_LA</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!-- FL -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_FL</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_FL</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!-- GA -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_GA</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_GA</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!-- VA -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_VA</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_VA</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!-- NC -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_NC</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_NC</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 	</Improvement_AdjacentCityYields>
 	<Improvement_ValidTerrains>
+		<!-- CSA -->
 		<Row>
 			<ImprovementType>IMPROVEMENT_ANTEBELLUM</ImprovementType>
 			<TerrainType>TERRAIN_GRASS</TerrainType>
@@ -113,18 +799,102 @@
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_ANTEBELLUM</ImprovementType>
-			<TerrainType>TERRAIN_TUNDRA</TerrainType>
-		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_ANTEBELLUM</ImprovementType>
 			<TerrainType>TERRAIN_DESERT</TerrainType>
 		</Row>
+		<!-- Non-calc Texas -->
 		<Row>
-			<ImprovementType>IMPROVEMENT_ANTEBELLUM</ImprovementType>
-			<TerrainType>TERRAIN_SNOW</TerrainType>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TX</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TX</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TX</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<!-- TN -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TN</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TN</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TN</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<!-- LA -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_LA</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_LA</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_LA</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<!-- FL -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_FL</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_FL</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_FL</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<!-- GA -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_GA</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_GA</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_GA</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<!-- VA -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_VA</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_VA</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_VA</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<!-- NC -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_NC</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_NC</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_NC</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
 		</Row>
 	</Improvement_ValidTerrains>
 	<Builds>
+		<!-- CSA -->
 		<Row>
 			<Type>BUILD_ANTEBELLUM</Type>
 			<PrereqTech>TECH_CHIVALRY</PrereqTech>
@@ -140,8 +910,121 @@
 			<IconIndex>3</IconIndex>
 			<IconAtlas>CIV_COLOR_ATLAS_CSA</IconAtlas>
 		</Row>
+		<!-- Non-calc Texas -->
+		<Row>
+			<Type>BUILD_ANTEBELLUM_TX</Type>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<Time>700</Time>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TX</ImprovementType>
+			<Description>TXT_KEY_BUILD_ANTEBELLUM</Description>
+			<Help>TXT_KEY_BUILD_ANTEBELLUM_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_ANTEBELLUM_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_CHOP</EntityEvent>
+			<HotKey>KB_N</HotKey>
+			<OrderPriority>96</OrderPriority>
+			<CtrlDown>1</CtrlDown>
+			<IconIndex>3</IconIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_CSA</IconAtlas>
+		</Row>
+		<!-- TN -->
+		<Row>
+			<Type>BUILD_ANTEBELLUM_TN</Type>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<Time>700</Time>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_TN</ImprovementType>
+			<Description>TXT_KEY_BUILD_ANTEBELLUM</Description>
+			<Help>TXT_KEY_BUILD_ANTEBELLUM_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_ANTEBELLUM_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_CHOP</EntityEvent>
+			<HotKey>KB_N</HotKey>
+			<OrderPriority>96</OrderPriority>
+			<CtrlDown>1</CtrlDown>
+			<IconIndex>3</IconIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_CSA</IconAtlas>
+		</Row>
+		<!-- LA -->
+		<Row>
+			<Type>BUILD_ANTEBELLUM_LA</Type>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<Time>700</Time>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_LA</ImprovementType>
+			<Description>TXT_KEY_BUILD_ANTEBELLUM</Description>
+			<Help>TXT_KEY_BUILD_ANTEBELLUM_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_ANTEBELLUM_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_CHOP</EntityEvent>
+			<HotKey>KB_N</HotKey>
+			<OrderPriority>96</OrderPriority>
+			<CtrlDown>1</CtrlDown>
+			<IconIndex>3</IconIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_CSA</IconAtlas>
+		</Row>
+		<!-- FL -->
+		<Row>
+			<Type>BUILD_ANTEBELLUM_FL</Type>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<Time>700</Time>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_FL</ImprovementType>
+			<Description>TXT_KEY_BUILD_ANTEBELLUM</Description>
+			<Help>TXT_KEY_BUILD_ANTEBELLUM_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_ANTEBELLUM_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_CHOP</EntityEvent>
+			<HotKey>KB_N</HotKey>
+			<OrderPriority>96</OrderPriority>
+			<CtrlDown>1</CtrlDown>
+			<IconIndex>3</IconIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_CSA</IconAtlas>
+		</Row>
+		<!-- GA -->
+		<Row>
+			<Type>BUILD_ANTEBELLUM_GA</Type>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<Time>700</Time>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_GA</ImprovementType>
+			<Description>TXT_KEY_BUILD_ANTEBELLUM</Description>
+			<Help>TXT_KEY_BUILD_ANTEBELLUM_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_ANTEBELLUM_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_CHOP</EntityEvent>
+			<HotKey>KB_N</HotKey>
+			<OrderPriority>96</OrderPriority>
+			<CtrlDown>1</CtrlDown>
+			<IconIndex>3</IconIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_CSA</IconAtlas>
+		</Row>
+		<!-- VA -->
+		<Row>
+			<Type>BUILD_ANTEBELLUM_VA</Type>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<Time>700</Time>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_VA</ImprovementType>
+			<Description>TXT_KEY_BUILD_ANTEBELLUM</Description>
+			<Help>TXT_KEY_BUILD_ANTEBELLUM_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_ANTEBELLUM_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_CHOP</EntityEvent>
+			<HotKey>KB_N</HotKey>
+			<OrderPriority>96</OrderPriority>
+			<CtrlDown>1</CtrlDown>
+			<IconIndex>3</IconIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_CSA</IconAtlas>
+		</Row>
+		<!-- NC -->
+		<Row>
+			<Type>BUILD_ANTEBELLUM_NC</Type>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<Time>700</Time>
+			<ImprovementType>IMPROVEMENT_ANTEBELLUM_NC</ImprovementType>
+			<Description>TXT_KEY_BUILD_ANTEBELLUM</Description>
+			<Help>TXT_KEY_BUILD_ANTEBELLUM_HELP</Help>
+			<Recommendation>TXT_KEY_BUILD_ANTEBELLUM_REC</Recommendation>
+			<EntityEvent>ENTITY_EVENT_CHOP</EntityEvent>
+			<HotKey>KB_N</HotKey>
+			<OrderPriority>96</OrderPriority>
+			<CtrlDown>1</CtrlDown>
+			<IconIndex>3</IconIndex>
+			<IconAtlas>CIV_COLOR_ATLAS_CSA</IconAtlas>
+		</Row>
 	</Builds>
 	<BuildFeatures>
+		<!-- CSA -->
 		<Row>
 			<BuildType>BUILD_ANTEBELLUM</BuildType>
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
@@ -164,11 +1047,201 @@
 			<Time>600</Time>
 			<Remove>true</Remove>
 		</Row>
+		<!-- Non-Calc TX -->
+		<Row>
+			<BuildType>BUILD_ANTEBELLUM_TX</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_ANTEBELLUM_TX</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Time>400</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_ANTEBELLUM_TX</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+			<Remove>true</Remove>
+		</Row>
+		<!-- TN -->
+		<Row>
+			<BuildType>BUILD_ANTEBELLUM_TN</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_ANTEBELLUM_TN</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Time>400</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_ANTEBELLUM_TN</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+			<Remove>true</Remove>
+		</Row>
+		<!-- LA -->
+		<Row>
+			<BuildType>BUILD_ANTEBELLUM_LA</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_ANTEBELLUM_LA</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Time>400</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_ANTEBELLUM_LA</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+			<Remove>true</Remove>
+		</Row>
+		<!-- FL -->
+		<Row>
+			<BuildType>BUILD_ANTEBELLUM_FL</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_ANTEBELLUM_FL</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Time>400</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_ANTEBELLUM_FL</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+			<Remove>true</Remove>
+		</Row>
+		<!-- GA -->
+		<Row>
+			<BuildType>BUILD_ANTEBELLUM_GA</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_ANTEBELLUM_GA</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Time>400</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_ANTEBELLUM_GA</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+			<Remove>true</Remove>
+		</Row>
+		<!-- VA -->
+		<Row>
+			<BuildType>BUILD_ANTEBELLUM_VA</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_ANTEBELLUM_VA</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Time>400</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_ANTEBELLUM_VA</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+			<Remove>true</Remove>
+		</Row>
+		<!-- NC -->
+		<Row>
+			<BuildType>BUILD_ANTEBELLUM_NC</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Time>700</Time>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_ANTEBELLUM_NC</BuildType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Time>400</Time>
+			<Production>20</Production>
+			<Remove>true</Remove>
+		</Row>
+		<Row>
+			<BuildType>BUILD_ANTEBELLUM_NC</BuildType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Time>600</Time>
+			<Remove>true</Remove>
+		</Row>
+
 	</BuildFeatures>
 	<Unit_Builds>
 		<Row>
 			<UnitType>UNIT_WORKER</UnitType>
 			<BuildType>BUILD_ANTEBELLUM</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_ANTEBELLUM_TX</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_ANTEBELLUM_TN</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_ANTEBELLUM_LA</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_ANTEBELLUM_FL</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_ANTEBELLUM_GA</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_ANTEBELLUM_VA</BuildType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_ANTEBELLUM_NC</BuildType>
 		</Row>
 	</Unit_Builds>
 	<ArtDefine_Landmarks>
