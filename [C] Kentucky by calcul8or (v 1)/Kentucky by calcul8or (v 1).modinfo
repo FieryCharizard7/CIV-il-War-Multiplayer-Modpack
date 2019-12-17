@@ -38,7 +38,7 @@ https://www.youtube.com/watch?v=qcSUmFzAANo&amp;index=7&amp;list=PLD5dOIAYIDtopY
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
   <Dependencies>
-    <Mod id=""ce8aa614-7ef7-4a45-a179-5329869e8d6d"" minversion="0" maxversion="999" title="Enlightenment Era" />
+    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Enlightenment Era" />
   </Dependencies>
   <References>
     <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="YnAEMP" />

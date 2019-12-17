@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 10/13/2013 2:56:59 PM -->
 <GameData>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_ALHAMBRA"/>
+			<Set>
+				<Text>Fort Benning</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_ALHAMBRA_DESC"/>
+			<Set>
+				<Text>Insert Wikipedia information about Fort Benning Here.</Text>
+			</Set>
+		</Update>
+	</Language_en_US>
 	<Buildings>
 		<!-- Civilization V Wonders -->
 		<Update>
