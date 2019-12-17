@@ -46,7 +46,7 @@
 	
 	<Language_en_US>
 		<Row Tag="TXT_KEY_TRAIT_PA_LIBERTY">
-			<Text>Each city yields +1 [ICON_RESEARCH] Science, and an additional +2 after researching Education, plus +2 [ICON_PEACE] Faith from each religion present.</Text>
+			<Text>Each city yields +1 [ICON_RESEARCH] Science, and an additional +2 after researching Education, plus +1 [ICON_PEACE] Culture from every 2 [ICON_CITIZEN] citizens.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_PA_LIBERTY_SHORT">
 			<Text>Lightning and Liberty</Text>
