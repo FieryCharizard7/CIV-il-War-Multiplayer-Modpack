@@ -1,3 +1,4 @@
+Old without Future Worlds
 42 - Coffee
 43 - Tea
 44 - Tobacco
@@ -7,6 +8,26 @@
 48 - Perfume
 49 - Coral
 50 - Lapis Lazuli
+
+Corn -> probably 
+cola -> ?? -> old 44 needs to be turned into corn
+
+New with Future Worlds
+43 - seals
+44 - Cola
+45 - Granite
+
+46 - Coffee (don't change 42 to coffee)
+47 - Tea (change 43 to 47 for coffee)
+48/60 - Tobacco (change 44 to 48 for tobacco)
+49 - Amber (then go down the line)
+50 - Jade
+51 - Olive
+52 - Perfume
+53 - Coral
+54 - Lapis Lazuli
+
+58 - Corn 
 
 To-Do
 1) Change wonder names
