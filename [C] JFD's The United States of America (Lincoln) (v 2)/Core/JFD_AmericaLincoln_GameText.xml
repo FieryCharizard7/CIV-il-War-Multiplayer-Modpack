@@ -266,10 +266,10 @@
 			<Text>Monitor</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_JFD_MONITOR">
-			<Text>Unique replacement for the Ironclad. Only Lincoln may build it. May be built as either a Melee unit or a Ranged unit. Devastating vs. cities as a ranged unit. Heals nearby units as a melee unit.</Text>
+			<Text>Unique replacement for the Ironclad. Only Lincoln or Northern civs may build it. May be built as either a Melee unit or a Ranged unit. Devastating vs. cities as a ranged unit. Heals nearby units as a melee unit.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_JFD_MONITOR_STRATEGY">
-			<Text>The Monitor is the unique replacement for the Ironclad for Lincoln. Unlike the Ironclad, the Monitor comes in two unique variants, and may be trained as either a melee unit or a ranged unit. As a melee unit, a Monitor causes all friendly, adjacent naval units to heal 5 damage per turn with the Medic promotion, and also begins with the Supply promotion. As a ranged unit, the Monitor gains the Indirect Fire promotion, allowing it to attack over obstacles, and it gains a significant bonus against cities, though it must set up before attacking. Both variants cost more to produce than the regular Ironclad.</Text>
+			<Text>The Monitor is the unique replacement for the Ironclad for Lincoln and the North. Unlike the Ironclad, the Monitor comes in two unique variants, and may be trained as either a melee unit or a ranged unit. As a melee unit, a Monitor causes all friendly, adjacent naval units to heal 5 damage per turn with the Medic promotion, and also begins with the Supply promotion. As a ranged unit, the Monitor gains the Indirect Fire promotion, allowing it to attack over obstacles, and it gains a significant bonus against cities, though it must set up before attacking. Both variants cost more to produce than the regular Ironclad.</Text>
 		</Row>
 		<!--PAROTT RIFLE-->
 		<Row Tag="TXT_KEY_UNIT_JFD_PARROTT_RIFLE">
