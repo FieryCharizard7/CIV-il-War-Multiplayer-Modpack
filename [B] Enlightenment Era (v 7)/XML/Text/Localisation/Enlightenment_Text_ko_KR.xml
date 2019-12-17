@@ -510,7 +510,7 @@
 			<Text>Topkapi Palace</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_EE_TOPKAPI_HELP">
-			<Text>+1 [ICON_PEACE] Faith from Military buildings</Text>
+			<Text>+1 [ICON_Culture] Culture from Military buildings</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_EE_TOPKAPI_QUOTE">
 			<Text>[NEWLINE]"The city and the buildings are mine; but I resign to your valor the captives and the spoil, the treasures of gold and beauty; be rich and be happy"[NEWLINE] - Mehmet II[NEWLINE]</Text>
