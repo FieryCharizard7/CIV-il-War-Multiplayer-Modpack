@@ -37,7 +37,7 @@
 	<Building_YieldChanges>
 		<Row>
 			<BuildingType>BUILDING_RI_LIGHTHOUSE</BuildingType>
-			<YieldType>YIELD_FAITH</YieldType>
+			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
 	</Building_YieldChanges>

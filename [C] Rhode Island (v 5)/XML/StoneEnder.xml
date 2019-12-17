@@ -9,22 +9,23 @@
 			<Civilopedia>TXT_KEY_BUILDING_STONEENDER_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_STONEENDER_STRATEGY</Strategy>
 			<Help>TXT_KEY_BUILDING_STONEENDER_HELP</Help>
-			<Cost>100</Cost>
+			<Cost>190</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
-			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<PrereqTech>TECH_ACOUSTICS</PrereqTech>
+			<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
+      		<GreatWorkSlotType>GREAT_WORK_SLOT_MUSIC</GreatWorkSlotType>
+      		<GreatPeopleRateChange>1</GreatPeopleRateChange>
+      		<GreatWorkCount>2</GreatWorkCount>
+			<ThemingBonusHelp>TXT_KEY_STONEENDER_THEMING_BONUS_HELP</ThemingBonusHelp>
 			<MutuallyExclusiveGroup>-1</MutuallyExclusiveGroup>
 			<HurryCostModifier>25</HurryCostModifier>
 			<FaithCost>0</FaithCost>
 			<MinAreaSize>-1</MinAreaSize>
-			<FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
-			<GreatWorkSlotType>GREAT_WORK_SLOT_MUSIC</GreatWorkSlotType>
-			<GreatWorkCount>2</GreatWorkCount>
-			<ThemingBonusHelp>TXT_KEY_STONEENDER_THEMING_BONUS_HELP</ThemingBonusHelp>
-			<EnhancedYieldTech/>
-			<TechEnhancedTourism>0</TechEnhancedTourism>
-			
-			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
-			<ArtDefineTag>COLESSEUM</ArtDefineTag>
+			<FreeStartEra>ERA_FUTURE</FreeStartEra>
+			<TechEnhancedTourism>1</TechEnhancedTourism>
+			<EnhancedYieldTech>TECH_RADIO</EnhancedYieldTech>
+			<BuildingClass>BUILDINGCLASS_OPERA_HOUSE</BuildingClass>
+			<ArtDefineTag>OPERA_HOUSE</ArtDefineTag>
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>4</PortraitIndex>
 			<IconAtlas>RI_COLOR_ATLAS</IconAtlas>
@@ -32,21 +33,24 @@
 		
 	</Buildings>
 
-
 	<Building_ClassesNeededInCity>
 		<Row>
 			<BuildingType>BUILDING_STONEENDER</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
 		</Row>
 	</Building_ClassesNeededInCity>
-
 
 	<Building_YieldChanges>
 		<Row>
 			<BuildingType>BUILDING_STONEENDER</BuildingType>
-			<YieldType>YIELD_FAITH</YieldType>
+			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>2</Yield>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_STONEENDER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>		
 	</Building_YieldChanges>
 
 	<Building_ThemingBonuses>
@@ -64,18 +68,18 @@
 		<Row>
 			<BuildingType>BUILDING_STONEENDER</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>30</Flavor>
+			<Flavor>35</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_STONEENDER</BuildingType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
-		<Row>
-			<BuildingType>BUILDING_TEMPLE</BuildingType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>40</Flavor>
-		</Row>
+    	<Row>
+      		<BuildingType>BUILDING_STONEENDER</BuildingType>
+      		<FlavorType>FLAVOR_WONDER</FlavorType>
+      		<Flavor>10</Flavor>
+    	</Row>
 	</Building_Flavors>
 	
 	
@@ -90,13 +94,13 @@
 		</Row>
 		
 		<Row Tag="TXT_KEY_BUILDING_STONEENDER_HELP">
-			<Text>The Stone Ender is Rhode Island's unique building, replacing the Temple. It holds 2 Great Works of Music.</Text>
+			<Text>The Stone Ender is Rhode Island's unique building, replacing the Opera House. It holds 2 Great Works of Music, yields +2 [ICON_CULTURE] culture and +2 [ICON_PRODUCTION], and gives +1 [ICON_GREAT_MUSICIAN] Great Musician point.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STONEENDER_STRATEGY">
-			<Text>The Stone Ender is Rhode Island's unique building, replacing the Temple. It holds 2 Great Works of Music.</Text>
+			<Text>The Stone Ender is Rhode Island's unique building, replacing the Opera House. It holds 2 Great Works of Music, yields +2 [ICON_CULTURE] culture and +2 [ICON_PRODUCTION], and gives +1 [ICON_GREAT_MUSICIAN] Great Musician point. +1 [ICON_TOURISM] Tourism when Radio is discovered.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_THEMING_BONUS_STONEENDER">
-			<Text>Rhode Island music repository</Text>
+			<Text>{1_EraAdjective} {2_CivAdjective} Music Repository</Text>
 		</Row>
 		<Row Tag="TXT_KEY_STONEENDER_THEMING_BONUS_HELP">
 			<Text>Must be from the same player and era</Text>
