@@ -2,11 +2,13 @@
 <!-- Created by ModBuddy on 6/24/2014 8:59:37 AM -->
 <GameData>
 	<BuildingClasses>
+		<!--
 		<Row>
 			<Type>BUILDINGCLASS_TEXTILE_MILL</Type>
 			<DefaultBuilding>BUILDING_TEXTILE_MILL</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_TEXTILE_MILL</Description>
 		</Row>
+		-->
 		<Row>
 			<Type>BUILDINGCLASS_TCS_GROCER</Type>
 			<DefaultBuilding>BUILDING_TCS_GROCER</DefaultBuilding>
