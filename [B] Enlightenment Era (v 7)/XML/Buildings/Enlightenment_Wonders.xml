@@ -423,4 +423,36 @@
 			<Yield>20</Yield>
 		</Row>
 	</Building_YieldModifiers>
+	<Building_BuildingClassYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_EE_WAT_PHRA_KAEW</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EE_WAT_PHRA_KAEW</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EE_WAT_PHRA_KAEW</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EE_WAT_PHRA_KAEW</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EE_WAT_PHRA_KAEW</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>
 </GameData>

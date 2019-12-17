@@ -81,6 +81,12 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_IA_GRAIN_ELEVATOR</BuildingType>
+			<ResourceType>RESOURCE_KY_CORN</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
 	</Building_ResourceYieldChanges>
 
 	<Building_YieldChanges>
@@ -110,7 +116,7 @@
 			<Text>The Grain Elevator replaces the Granary, and includes a Great Farmer (Merchant Replacement) specialist slot, and generates points towards a Great Farmer</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_IA_GRAIN_ELEVATOR_HELP">
-			<Text>Each source of [ICON_RES_WHEAT] Wheat [ICON_RES_BANANA] Bananas and [ICON_RES_DEER] Deer worked by this City produce +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]Allows [ICON_FOOD] Food to be moved from this city along trade routes inside your civilization.</Text>
+			<Text>Each source of [ICON_RES_KY_CORN] Corn [ICON_RES_WHEAT] Wheat [ICON_RES_BANANA] Bananas and [ICON_RES_DEER] Deer worked by this City produce +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]Allows [ICON_FOOD] Food to be moved from this city along trade routes inside your civilization.</Text>
 		</Row>
 	</Language_en_US>
   
