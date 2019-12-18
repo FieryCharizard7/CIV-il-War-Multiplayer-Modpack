@@ -82,7 +82,7 @@
 
 
 	</MinorCivilizations>
-	<MajorCivilizations>
+	<Civilizations>
 		<!-- Don't Delete America or England b/c Lincoln uses them <Delete Type="CIVILIZATION_AMERICA"> -->
 		<!-- Don't Delete America or England b/c Lincoln uses them <Delete Type="CIVILIZATION_ENGLAND"> -->
 		<!-- Don't Delete Iriquois because they are playable <Delete Type="CIVILIZATION_IROQUOIS"> -->
@@ -128,7 +128,7 @@
 		<Delete Type="CIVILIZATION_ZULU">
 		<Delete Type="CIVILIZATION_SHOSHONE">
 
-	</MajorCivilizations>
+	</Civilizations>
 	<Buildings>
 		<Delete Type="BUILDING_SHRINE">
 		<Delete Type="BUILDING_TEMPLES">
