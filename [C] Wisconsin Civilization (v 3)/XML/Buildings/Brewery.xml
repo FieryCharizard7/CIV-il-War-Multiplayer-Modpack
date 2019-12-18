@@ -122,7 +122,7 @@
 			<Text>Breweries replace Taverns by adding +2 [ICON_FOOD] Food and +1 [ICON_GOLD] gold to [ICON_RES_DEER] Deer and [ICON_RES_WHEAT] Wheat.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BREWERY_HELP">
-			<Text>Breweries have the same effects as Taverns, add +2 [ICON_FOOD] food to the city, and add +1 [ICON_GOLD] gold to [ICON_RES_DEER] Deer and [ICON_RES_WHEAT] Wheat..</Text>
+			<Text>Breweries have the same effects as Taverns, add +2 [ICON_FOOD] food to the city, and add +1 [ICON_GOLD] gold to [ICON_RES_DEER] Deer and [ICON_RES_WHEAT] Wheat.</Text>
 		</Row>
 	</Language_en_US>
   

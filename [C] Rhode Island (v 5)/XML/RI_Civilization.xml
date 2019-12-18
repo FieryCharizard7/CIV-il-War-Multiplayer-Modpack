@@ -109,7 +109,7 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_RHODEISLAND</CivilizationType>
-			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
 			<BuildingType>BUILDING_STONEENDER</BuildingType>
 		</Row>
 	</Civilization_BuildingClassOverrides>

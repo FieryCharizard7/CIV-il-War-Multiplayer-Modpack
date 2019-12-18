@@ -20,14 +20,20 @@
 	</Leader_Traits>
 
 
-	<!--<Trait_ImprovementYieldChanges>
+	<Trait_SpecialistYieldChanges>
 		<Row>
 			<TraitType>TRAIT_PA_LIBERTY</TraitType>
-			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
 		</Row>
-	</Trait_ImprovementYieldChanges>-->
+		<Row>
+			<TraitType>TRAIT_PA_LIBERTY</TraitType>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Trait_SpecialistYieldChanges>
 
 
 	<Trait_ResourceQuantityModifiers>
@@ -46,7 +52,7 @@
 	
 	<Language_en_US>
 		<Row Tag="TXT_KEY_TRAIT_PA_LIBERTY">
-			<Text>Each city yields +1 [ICON_RESEARCH] Science, and an additional +2 after researching Education, plus +1 [ICON_CULTURE] Culture from every 2 [ICON_CITIZEN] citizens.</Text>
+			<Text>Each city yields +1 [ICON_RESEARCH] Science, and an additional +2 after researching Education, plus +2 [ICON_CULTURE] Culture from scientist and engineering specialists.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_PA_LIBERTY_SHORT">
 			<Text>Lightning and Liberty</Text>
