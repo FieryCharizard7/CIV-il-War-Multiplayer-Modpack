@@ -4,6 +4,7 @@
 
 	<Units>
 		<Row>
+			<Class>UNITCLASS_MUSKETMAN</Class>
 			<Type>UNIT_KY_FRONTIERSMAN</Type>
 			<Description>TXT_KEY_UNIT_KY_FRONTIERSMAN</Description>
 			<PrereqTech>TECH_EE_EXPLORATION</PrereqTech>
@@ -16,7 +17,6 @@
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>4</Moves>
 			<BaseSightRange>2</BaseSightRange>
-			<Class>UNITCLASS_EE_EXPLORER</Class>
 			<CombatClass>UNITCOMBAT_RECON</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
@@ -85,7 +85,17 @@
 		<Row>
 			<UnitType>UNIT_KY_FRONTIERSMAN</UnitType>
 			<FlavorType>FLAVOR_RECON</FlavorType>
-			<Flavor>7</Flavor>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KY_FRONTIERSMAN</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_KY_FRONTIERSMAN</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>6</Flavor>
 		</Row>
 	</Unit_Flavors>
 
