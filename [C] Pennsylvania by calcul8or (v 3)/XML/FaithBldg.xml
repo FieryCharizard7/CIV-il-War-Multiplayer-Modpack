@@ -42,6 +42,11 @@
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_PAFAITH</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
 	</Building_YieldChanges>
 
 
@@ -74,7 +79,7 @@
 		</Row>
 	</Civilization_FreeBuildingClasses>-->
 
-
+	<!--
 	<Building_YieldChangesPerPop>		
 		<Row>
 			<BuildingType>BUILDING_PAFAITH</BuildingType>
@@ -82,6 +87,7 @@
 			<Yield>50</Yield>
 		</Row>
 	</Building_YieldChangesPerPop>
+	-->
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_PAFAITH">
