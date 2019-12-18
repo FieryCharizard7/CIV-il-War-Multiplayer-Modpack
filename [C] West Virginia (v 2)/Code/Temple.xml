@@ -107,7 +107,7 @@
 		<Civilization_BuildingClassOverrides>
 			<Row>
 				<CivilizationType>CIVILIZATION_WEST_VIRGINIA</CivilizationType>
-				<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+				<BuildingClassType>BUILDINGCLASS_NATIONAL_TREASURY</BuildingClassType>
 				<BuildingType>BUILDING_GOLD_PALACE</BuildingType>
 			</Row>
 		</Civilization_BuildingClassOverrides>
