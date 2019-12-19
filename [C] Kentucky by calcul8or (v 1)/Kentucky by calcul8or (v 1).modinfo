@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod id="fd4e5619-cb5d-45c0-ba82-52f9b1845deb" version="1">
   <Properties>
     <Name>Kentucky by calcul8or</Name>
@@ -37,9 +37,7 @@ https://www.youtube.com/watch?v=qcSUmFzAANo&amp;index=7&amp;list=PLD5dOIAYIDtopY
     <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
-  <Dependencies>
-    <Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Enlightenment Era" />
-  </Dependencies>
+  <Dependencies />
   <References>
     <Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="YnAEMP" />
     <Mod id="1153b26a-69fd-4cd5-899c-a8ba8e0e5e5d" minversion="0" maxversion="999" title="Civ IV Traits in Civ V" />

@@ -4,19 +4,18 @@
 
 	<Units>
 		<Row>
-			<Class>UNITCLASS_MUSKETMAN</Class>
 			<Type>UNIT_KY_FRONTIERSMAN</Type>
 			<Description>TXT_KEY_UNIT_KY_FRONTIERSMAN</Description>
-			<PrereqTech>TECH_EE_EXPLORATION</PrereqTech>
 			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_KY_FRONTIERSMAN_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_KY_FRONTIERSMAN_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_KY_FRONTIERSMAN</Help>
-			<Combat>22</Combat>
-			<Cost>100</Cost>
-			<FaithCost>370</FaithCost>
+			<Combat>8</Combat>
+			<Cost>25</Cost>
+			<FaithCost>50</FaithCost>
 			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
-			<Moves>4</Moves>
+			<Moves>2</Moves>
 			<BaseSightRange>2</BaseSightRange>
+			<Class>UNITCLASS_SCOUT</Class>
 			<CombatClass>UNITCOMBAT_RECON</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_EXPLORE</DefaultUnitAI>
@@ -24,13 +23,13 @@
 			<!--<RivalTerritory>0</RivalTerritory>-->
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<NoBadGoodies>true</NoBadGoodies>
 			<Pillage>true</Pillage>
-			<ObsoleteTech>TECH_REPLACEABLE_PARTS</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_EE_SURVEYOR</GoodyHutUpgradeUnitClass>
-			<AdvancedStartCost>30</AdvancedStartCost>
+			<ObsoleteTech>TECH_SCIENTIFIC_THEORY</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_SPEARMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>10</AdvancedStartCost>
 			<MinAreaSize>-1</MinAreaSize>
 			<NukeDamageLevel>-1</NukeDamageLevel>
+			<CombatLimit>100</CombatLimit>
 			<UnitArtInfo>ART_DEF_UNIT_KY_FRONTIERSMAN</UnitArtInfo>
 			<MoveRate>BIPED</MoveRate>
 			<UnitFlagIconOffset>2</UnitFlagIconOffset>
@@ -60,24 +59,12 @@
 			<UnitType>UNIT_KY_FRONTIERSMAN</UnitType>
 			<PromotionType>PROMOTION_WOODSMAN</PromotionType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_KY_FRONTIERSMAN</UnitType>
-			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KY_FRONTIERSMAN</UnitType>
-			<PromotionType>PROMOTION_EE_EXPLORER</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KY_FRONTIERSMAN</UnitType>
-			<PromotionType>PROMOTION_SCOUTING_1</PromotionType>
-		</Row>
 	</Unit_FreePromotions>
 
 	<Unit_ClassUpgrades>
 		<Row>
 			<UnitType>UNIT_KY_FRONTIERSMAN</UnitType>
-			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
 		</Row>
 	</Unit_ClassUpgrades>
 	
@@ -85,17 +72,7 @@
 		<Row>
 			<UnitType>UNIT_KY_FRONTIERSMAN</UnitType>
 			<FlavorType>FLAVOR_RECON</FlavorType>
-			<Flavor>15</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KY_FRONTIERSMAN</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_KY_FRONTIERSMAN</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>6</Flavor>
+			<Flavor>7</Flavor>
 		</Row>
 	</Unit_Flavors>
 
@@ -116,10 +93,10 @@
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_KY_FRONTIERSMAN_STRATEGY">
-			<Text>This unit replaces the Explorer. It starts with Woodsman and Survivalism I, can see further, and has additional movement while embarked. It can be upgraded to a Rifleman once you research Rifling. The Frontiersman has more strength than a typical explorer, but is still weak. Use it to finish meeting all the other Civilizations, or scout out locations for colonies.</Text>
+			<Text>This early unit replaces the Scout. However, instead of the Scout's movement bonus it starts with Woodsman and Survivalism I and a Warrior's strength. It can be upgraded to a Musketman once you research Gunpowder.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_KY_FRONTIERSMAN">
-			<Text>This unit replaces the Explorer. It starts with Woodsman and Survivalism I, can see further and has additional movement while embarked. It can be upgraded to a Rifleman once you research Rifling. </Text>
+			<Text>Frontiersmen replace the Scout, and start with the Woodsman and Survivalism I promotions and a Warrior's combat strength. They can be upgraded to Musketmen once you research Gunpowder.</Text>
 		</Row>
 	</Language_en_US>
   

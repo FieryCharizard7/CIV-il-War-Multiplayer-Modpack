@@ -72,7 +72,7 @@
 	<Civilization_UnitClassOverrides>
 		<Row>
 			<CivilizationType>CIVILIZATION_CALC_KENTUCKY</CivilizationType>
-			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+			<UnitClassType>UNITCLASS_SCOUT</UnitClassType>
 			<UnitType>UNIT_KY_FRONTIERSMAN</UnitType>
 		</Row>
 	</Civilization_UnitClassOverrides>
