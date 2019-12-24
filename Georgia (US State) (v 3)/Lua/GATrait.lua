@@ -132,9 +132,9 @@ end
 GameEvents.CityTrained.Add(RandomPromo)
 
 function AssignPromo(unit, PromoBool)
-	local Throwaway = math.random(1,100)
+	local Throwaway = JFD_GetRandom(1,100)
 	if PromoBool then
-		local RandomNum = math.random(1, 100)
+		local RandomNum = JFD_GetRandom(1, 100)
 		print("Benning Random number is " .. RandomNum)
 		if RandomNum < 25 then
 			unit:SetHasPromotion(BenningPromo1, true);
@@ -148,7 +148,7 @@ function AssignPromo(unit, PromoBool)
 			unit:SetHasPromotion(BenningPromo5, true);
 		end
 	else
-		local RandomNum = math.random(1, 100)
+		local RandomNum = JFD_GetRandom(1, 100)
 		print("Archer Benning Random number is " .. RandomNum)
 		if RandomNum < 25 then
 			unit:SetHasPromotion(BenningArcherPromo1, true);
