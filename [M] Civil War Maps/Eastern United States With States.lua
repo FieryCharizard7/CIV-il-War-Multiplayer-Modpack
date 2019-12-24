@@ -944,7 +944,7 @@ function nORbConvWorld:FillStartingPlots()
 	for plotInd = 1, SPlotsCount do
 		local pPlayer    = Players[plotInd - 1];
 		if pPlayer:IsEverAlive() then
-			plotRand = math.random(1, #arSPlots);
+			plotRand = JFD_GetRandom(1, #arSPlots);
 			plot = Map.GetPlot(arSPlots[plotRand][1], arSPlots[plotRand][2]);
 			pPlayer:SetStartingPlot(plot);
 			table.remove(arSPlots, plotRand);
@@ -959,7 +959,7 @@ function nORbConvWorld:FillStartingPlots()
 	for plotInd = 1, SPlotsCount do
 		local pPlayer    = Players[plotInd + GameDefines.MAX_MAJOR_CIVS - 1];
 		if pPlayer:IsEverAlive() then
-			plotRand = math.random(1, #arSPlotsMin);
+			plotRand = JFD_GetRandom(1, #arSPlotsMin);
 			plot = Map.GetPlot(arSPlotsMin[plotRand][1], arSPlotsMin[plotRand][2]);
 			pPlayer:SetStartingPlot(plot);
 			table.remove(arSPlotsMin, plotRand);
