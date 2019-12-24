@@ -46,7 +46,6 @@ UPDATE: fixed some icons and atlases to prevent conflicts with other mods</Descr
     <File md5="E408190729CA0BEBFDD9179FD888C24E" import="1">Art/SV_militiaman.dds</File>
     <File md5="23C93EC00A10C02475197C695B697C3B" import="1">Art/Unchained_Melody.mp3</File>
     <File md5="78AAE664E36BF8B54C5441AEB14B713D" import="0">LUA/MI_Policy.xml</File>
-    <File md5="E74E01E93F148074146CDA570D06C221" import="0">LUA/PolicyOpener.lua</File>
     <File md5="D3EF595AFE09266AD196E778952089FF" import="0">XML/ArtDefines.xml</File>
     <File md5="E69D06DB389936067267518EB53641A3" import="0">XML/IconAtlas.xml</File>
     <File md5="0E49354F647CBDF05CF1F6104B504281" import="0">XML/MIFactory.xml</File>
@@ -72,9 +71,5 @@ UPDATE: fixed some icons and atlases to prevent conflicts with other mods</Descr
     </OnModActivated>
   </Actions>
   <EntryPoints>
-    <EntryPoint type="InGameUIAddin" file="LUA/PolicyOpener.lua">
-      <Name>PolicyOpener</Name>
-      <Description>Gives the dummy policy for the trait</Description>
-    </EntryPoint>
   </EntryPoints>
 </Mod>

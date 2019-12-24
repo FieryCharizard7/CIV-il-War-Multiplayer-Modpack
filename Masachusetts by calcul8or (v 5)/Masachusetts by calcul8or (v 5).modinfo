@@ -80,8 +80,6 @@ Battle Hymn of the Republic and Yankee Doodle from the US Marines</Description>
     <File md5="DB1C56C7662DE758A37D20B030E0FFCE" import="0">Code/U_IconAtlas.xml</File>
     <File md5="4486E05E92C6A1829D1BD4FC8EAB80DE" import="1">CultureOverview.lua</File>
     <File md5="BF85D174CA9D4F2EC2AD7E3FBB6C0D6D" import="1">CultureOverview.xml</File>
-    <File md5="A34E9FD68BCD8F60AF3D981FDE489AF8" import="0">Lua/JFD_BuildingClassesNeededInCityOR.lua</File>
-    <File md5="99F873B5C15A565CC9C2422F47237C23" import="0">Lua/JFD_BuildingClassesNeededInCityOR.sql</File>
     <File md5="B405AA3BF3EA36C403722976D06D373C" import="0">Lua/MA_Bldgs.lua</File>
     <File md5="3D4969D0DF61765DDB5687D73648613E" import="1">Lua/PlotIterators.lua</File>
     <File md5="CCFE037417CCDD82A34070F49FB5EF57" import="0">Lua/TPangTest.lua</File>
@@ -95,7 +93,6 @@ Battle Hymn of the Republic and Yankee Doodle from the US Marines</Description>
       <UpdateDatabase>Code/MA_Civilization.xml</UpdateDatabase>
       <UpdateDatabase>Code/MA_Leader.xml</UpdateDatabase>
       <UpdateDatabase>Code/MA_Trait.xml</UpdateDatabase>
-      <UpdateDatabase>Lua/JFD_BuildingClassesNeededInCityOR.sql</UpdateDatabase>
       <UpdateDatabase>Code/MA_IconAtlas.xml</UpdateDatabase>
       <UpdateDatabase>Code/MA_Sounds.xml</UpdateDatabase>
       <UpdateDatabase>Code/U_IconAtlas.xml</UpdateDatabase>
@@ -106,11 +103,6 @@ Battle Hymn of the Republic and Yankee Doodle from the US Marines</Description>
     </OnModActivated>
   </Actions>
   <EntryPoints>
-    <EntryPoint type="InGameUIAddin" file="Lua/JFD_BuildingClassesNeededInCityOR.lua">
-      <Name>JFD_BuildingClassesNeededInCityOR</Name>
-      <Description>
-      </Description>
-    </EntryPoint>
     <EntryPoint type="InGameUIAddin" file="Lua/TrainArchOR.lua">
       <Name>TrainArchOR</Name>
       <Description>
