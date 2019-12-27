@@ -893,6 +893,56 @@
 			<TerrainType>TERRAIN_DESERT</TerrainType>
 		</Row>
 	</Improvement_ValidTerrains>
+	<Improvement_TechYieldChanges>
+		<Row>
+		  <ImprovementType>IMPROVEMENT_ANTEBELLUM</ImprovementType>
+		  <TechType>TECH_FLIGHT</TechType>
+		  <YieldType>YIELD_GOLD</YieldType>
+		  <Yield>1</Yield>
+		</Row>
+		<Row>
+		  <ImprovementType>IMPROVEMENT_ANTEBELLUM_TX</ImprovementType>
+		  <TechType>TECH_FLIGHT</TechType>
+		  <YieldType>YIELD_GOLD</YieldType>
+		  <Yield>1</Yield>
+		</Row>
+		<Row>
+		  <ImprovementType>IMPROVEMENT_ANTEBELLUM_TN</ImprovementType>
+		  <TechType>TECH_FLIGHT</TechType>
+		  <YieldType>YIELD_GOLD</YieldType>
+		  <Yield>1</Yield>
+		</Row>
+		<Row>
+		  <ImprovementType>IMPROVEMENT_ANTEBELLUM_LA</ImprovementType>
+		  <TechType>TECH_FLIGHT</TechType>
+		  <YieldType>YIELD_GOLD</YieldType>
+		  <Yield>1</Yield>
+		</Row>
+		<Row>
+		  <ImprovementType>IMPROVEMENT_ANTEBELLUM_FL</ImprovementType>
+		  <TechType>TECH_FLIGHT</TechType>
+		  <YieldType>YIELD_GOLD</YieldType>
+		  <Yield>1</Yield>
+		</Row>
+		<Row>
+		  <ImprovementType>IMPROVEMENT_ANTEBELLUM_GA</ImprovementType>
+		  <TechType>TECH_FLIGHT</TechType>
+		  <YieldType>YIELD_GOLD</YieldType>
+		  <Yield>1</Yield>
+		</Row>
+		<Row>
+		  <ImprovementType>IMPROVEMENT_ANTEBELLUM_VA</ImprovementType>
+		  <TechType>TECH_FLIGHT</TechType>
+		  <YieldType>YIELD_GOLD</YieldType>
+		  <Yield>1</Yield>
+		</Row>
+		<Row>
+		  <ImprovementType>IMPROVEMENT_ANTEBELLUM_NC</ImprovementType>
+		  <TechType>TECH_FLIGHT</TechType>
+		  <YieldType>YIELD_GOLD</YieldType>
+		  <Yield>1</Yield>
+		</Row>
+	</Improvement_TechYieldChanges>
 	<Builds>
 		<!-- CSA -->
 		<Row>
