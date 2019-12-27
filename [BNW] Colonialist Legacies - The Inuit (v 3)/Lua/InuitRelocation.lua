@@ -184,7 +184,7 @@ SeaResL[3] = GameInfoTypes.RESOURCE_CORAL
 local function ShuffleTiles(ResourceTable) -- This function brought to you by wikipedia
 	local n = #ResourceTable
 	while n >= 2 do
-		local k = math.random(n)
+		local k = JFD_GetRandom(n)
 	    ResourceTable[n], ResourceTable[k] = ResourceTable[k], ResourceTable[n]
 		n = n - 1
 	end
@@ -196,7 +196,7 @@ end
 
 local function PlaceInuitBonusResource(plot)
 	local n = #ResB
-	local k = math.random(n)
+	local k = JFD_GetRandom(n)
 	if plot:GetPlotType() == PlotTypes.PLOT_OCEAN then
 		print("Can have Fish")
 		plot:SetResourceType(GameInfoTypes.RESOURCE_FISH, 1)
@@ -222,10 +222,10 @@ end
 
 local function PlaceInuitStratResource(plot)
 	local n = #ResS
-	local k = math.random(n)
+	local k = JFD_GetRandom(n)
 	if plot:GetPlotType() == PlotTypes.PLOT_OCEAN then
 		print("This can only be Oil")
-		local dice = math.random(3)
+		local dice = JFD_GetRandom(3)
 		if dice < 3 then
 			plot:SetResourceType(GameInfoTypes.RESOURCE_OIL, 2)
 		else
@@ -234,7 +234,7 @@ local function PlaceInuitStratResource(plot)
 		return true
 	elseif plot:CanHaveResource(ResS[k], false) then
 		print("Can have strategic")
-		local dice = math.random(3)
+		local dice = JFD_GetRandom(3)
 		if dice < 3 then
 			plot:SetResourceType(ResS[k], 2)
 		else
@@ -244,7 +244,7 @@ local function PlaceInuitStratResource(plot)
 	elseif plot:GetTerrainType() == TerrainTypes.TERRAIN_SNOW then
 		print("It's snow.")
 		if ResS[k] ~= GameInfoTypes.RESOURCE_HORSE then
-			local dice = math.random(3)
+			local dice = JFD_GetRandom(3)
 			if dice < 3 then
 				plot:SetResourceType(ResS[k], 2)
 			else
@@ -261,7 +261,7 @@ end
 local function PlaceInuitLuxResource(plot)
 	if plot:GetPlotType() == PlotTypes.PLOT_OCEAN then
 		local n = #SeaResL
-		local k = math.random(n)
+		local k = math.JFD_GetRandom(n)
 		if SeaResL[k] then
 			print("Placing Sea Resource")
 			plot:SetResourceType(SeaResL[k], 1)
