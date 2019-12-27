@@ -96,6 +96,7 @@
 		</Row>
 	</Building_YieldChanges>
 
+	<!--
 	<Civilization_BuildingClassOverrides>
 		<Row>
 			<CivilizationType>CIVILIZATION_WISCONSIN</CivilizationType>
@@ -103,6 +104,7 @@
 			<BuildingType>BUILDING_BREWERY</BuildingType>
 		</Row>
 	</Civilization_BuildingClassOverrides>
+	-->
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_BREWERY">

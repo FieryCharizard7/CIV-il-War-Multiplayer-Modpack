@@ -29,6 +29,12 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_DAIRY_STATE</TraitType>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
 	</Trait_ImprovementYieldChanges>
 
 	<Leader_Traits>
@@ -40,7 +46,7 @@
 
 	<Language_en_US>
 		<Row Tag="TXT_KEY_TRAIT_DAIRY_STATE">
-			<Text>Pastures provide +1 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, and [ICON_GOLD] Gold. Settlers and Workers get +1 [ICON_MOVES] movement.</Text>
+			<Text>Pastures provide +1 [ICON_FOOD] Food, [ICON_CULTURE] Culture, [ICON_PRODUCTION] Production, and [ICON_GOLD] Gold. Settlers and Workers get +1 [ICON_MOVES] movement.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_DAIRY_STATE_SHORT">
 			<Text>The Dairy State</Text>

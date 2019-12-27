@@ -2,6 +2,7 @@
 -- Jackson_Unique_Diplomacy
 
 include("UniqueDiplomacyUtilsV3.lua");
+print("Jackson Unque Diplomacy has loaded. Woo hoo.");
 
 local tNativeLeaders = {
 	["LEADER_BLACKFOOTCROWFOOT"] = true,			-- Crowfoot

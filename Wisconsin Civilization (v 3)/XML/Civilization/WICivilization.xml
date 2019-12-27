@@ -67,6 +67,19 @@
 			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
 		</Row>
 	</Civilization_FreeBuildingClasses>
+	
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_WISCONSIN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+			<BuildingType>BUILDING_AUTO_PLANT</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_WISCONSIN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_EE_TAVERN</BuildingClassType>
+			<BuildingType>BUILDING_BREWERY</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
 
 	<Civilization_FreeTechs>
 		<Row>

@@ -23,6 +23,7 @@
 -- (If you do not pass a targetResposneType OR a targetResponse, nothing will
 -- happen)
 -- Not passing a bias will mean that it will not be changed
+print("Unique Diplomacy has loaded. Woo hoo.");
 function ChangeDiplomacyResponse(leaderType, targetResponseType, newResponse, targetResponse, bias)
 	if (leaderType and (targetResponseType or targetResponse) and newResponse) then
 		local sBiasSection = "";

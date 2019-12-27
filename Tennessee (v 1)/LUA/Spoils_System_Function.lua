@@ -2,6 +2,7 @@
 -- Spoils_System_Function
 
 WARN_NOT_SHARED = false; include( "SaveUtils" ); MY_MOD_NAME = "Jackson";
+print("Loaded Spoils System Function from Line 5!");
 
 local bPostMaster = {
 	GameInfoTypes.BUILDING_JACKSON_PM_1,

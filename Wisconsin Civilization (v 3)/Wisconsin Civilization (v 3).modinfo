@@ -63,7 +63,7 @@ Unique Cultural Influence</Description>
     <File md5="7F2854F181960F32193861E289DB2ADD" import="0">Support/ModSupport1.sql</File>
     <File md5="B9D82AEED29C86195F8D0801265139B9" import="0">Support/SupportText.xml</File>
     <File md5="AFC6F9E1384E3935F8D291726697ED55" import="0">XML/Buildings/Brewery.xml</File>
-    <File md5="E3F736D148BDDFB78D154D2431D22605" import="0">XML/Buildings/Factory.xml</File>
+    <File md5="E3F736D148BDDFB78D154D2431D22605" import="0">XML/Buildings/WisFactory.xml</File>
     <File md5="30FBCD0F8D3AD37AFCD0925C735BD86C" import="1">XML/Civilization/WI_scene_redux.xml</File>
     <File md5="801F5A64CE8FC0A1346D7BC89018D516" import="0">XML/Civilization/Leader.xml</File>
     <File md5="5791B9113C19CD6E53AB296BCF9AE0CE" import="0">XML/Civilization/WICivilization.xml</File>
@@ -79,7 +79,7 @@ Unique Cultural Influence</Description>
       <UpdateDatabase>XML/Civilization/WICivilization.xml</UpdateDatabase>
       <UpdateDatabase>XML/Civilization/Leader.xml</UpdateDatabase>
       <UpdateDatabase>XML/Buildings/Brewery.xml</UpdateDatabase>
-      <UpdateDatabase>XML/Buildings/Factory.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/WisFactory.xml</UpdateDatabase>
       <UpdateDatabase>XML/Traits/Civilians/Settler.xml</UpdateDatabase>
       <UpdateDatabase>XML/Traits/Civilians/Worker.xml</UpdateDatabase>
       <UpdateDatabase>XML/GameInfo/WI_IconAtlas.xml</UpdateDatabase>
