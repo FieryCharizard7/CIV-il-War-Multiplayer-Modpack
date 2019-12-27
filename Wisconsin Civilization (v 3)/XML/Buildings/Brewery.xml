@@ -46,36 +46,26 @@
 	</Buildings>
 
 	<Building_Flavors>
-			<Row>
-				<BuildingType>BUILDING_BREWERY</BuildingType>
-				<FlavorType>FLAVOR_GROWTH</FlavorType>
-				<Flavor>25</Flavor>
-			</Row>
-			<Row>
-				<BuildingType>BUILDING_BREWERY</BuildingType>
-				<FlavorType>FLAVOR_SCIENCE</FlavorType>
-				<Flavor>5</Flavor>
-			</Row>
-			<Row>
-				<BuildingType>BUILDING_BREWERY</BuildingType>
-				<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-				<Flavor>5</Flavor>
-			</Row>
-			<Row>
-				<BuildingType>BUILDING_BREWERY</BuildingType>
-				<FlavorType>FLAVOR_EXPANSION</FlavorType>
-				<Flavor>5</Flavor>
-			</Row>
-			<Row>
-				<BuildingType>BUILDING_BREWERY</BuildingType>
-				<FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
-				<Flavor>5</Flavor>
-			</Row>
-			<Row>
-				<BuildingType>BUILDING_BREWERY</BuildingType>
-				<FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
-				<Flavor>5</Flavor>
-			</Row>
+		<Row>
+			<BuildingType>BUILDING_BREWERY</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BREWERY</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BREWERY</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BREWERY</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
 		<Row>
 			<BuildingType>BUILDING_BREWERY</BuildingType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
